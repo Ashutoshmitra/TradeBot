@@ -8,7 +8,6 @@ import openpyxl
 from datetime import datetime
 import os
 import re
-import subprocess
 
 def get_dropdown_options(driver, input_id):
     """Retrieve all available options from a dropdown."""
@@ -88,36 +87,6 @@ def select_dropdown_option(driver, input_id, option_index, wait, trade_in_data=N
         except Exception as js_error:
             print(f"JavaScript approach failed: {js_error}")
             return False
-
-def commit_changes(brand, model, variant, condition, value):
-    """Commit changes to the repository after each row is added."""
-    try:
-        # Set up git config if running in GitHub Actions
-        if os.environ.get('GITHUB_ACTIONS') == 'true':
-            subprocess.run(["git", "config", "--global", "user.name", "GitHub Action Bot"])
-            subprocess.run(["git", "config", "--global", "user.email", "action@github.com"])
-        
-        # Add the Excel file
-        subprocess.run(["git", "add", "tradein_values.xlsx"])
-        
-        # Commit with a descriptive message
-        commit_message = f"Add trade-in value for {brand} {model} {variant} ({condition}): {value}"
-        result = subprocess.run(["git", "commit", "-m", commit_message], 
-                                capture_output=True, text=True)
-        
-        # Check if commit was successful
-        if "nothing to commit" in result.stdout or "nothing to commit" in result.stderr:
-            print("No changes to commit.")
-            return False
-        
-        # Push the changes
-        subprocess.run(["git", "push"])
-        print(f"Successfully committed and pushed changes: {commit_message}")
-        return True
-    
-    except Exception as e:
-        print(f"Error during git operations: {e}")
-        return False
 
 def navigate_and_complete_form(driver, wait, brand_index, model_index, variant_index, screen_condition):
     """Navigate the website and complete the form for a specific configuration."""
@@ -278,16 +247,6 @@ def navigate_and_complete_form(driver, wait, brand_index, model_index, variant_i
 
             print(f"Extracted trade-in value: {currency} {price_clean}")
             save_to_excel(trade_in_data)
-            
-            # Commit changes to the repository after each successful scrape
-            commit_changes(
-                trade_in_data["Brand"], 
-                trade_in_data["Model"], 
-                trade_in_data["Variant"], 
-                trade_in_data["Front Condition"], 
-                f"{trade_in_data['Currency']} {trade_in_data['Value']}"
-            )
-            
             return True
 
         except Exception as e:
@@ -347,11 +306,8 @@ def save_to_excel(data):
         except:
             print("Could not save Excel file")
 
-def main_loop():
-    """Main loop to iterate through brands, models, variants, and screen conditions."""
-    brands = ["Apple", "Google"]
-    screen_conditions = ["flawless", "minor_scratches", "cracked"]
-
+def test_with_first_five():
+    """Test with just the first 5 configurations."""
     # Setup driver (single browser instance)
     options = webdriver.ChromeOptions()
     options.add_argument("--start-maximized")
@@ -371,79 +327,71 @@ def main_loop():
         )).click()
         time.sleep(2)
 
-        # Get all brand options and find indices for the brands we're interested in
-        brand_options = get_dropdown_options(driver, "react-select-2-input")
-        brand_indices = []
+        # We'll just test with Apple brand (usually index 0)
+        brand_idx = 0
         
-        for brand in brands:
-            try:
-                idx = next((i for i, b in enumerate(brand_options) if b == brand), None)
-                if idx is not None:
-                    brand_indices.append(idx)
-                    print(f"Found {brand} at index {idx}")
-                else:
-                    print(f"Brand {brand} not found in options")
-            except Exception as e:
-                print(f"Error finding brand {brand}: {e}")
-                continue
-
-        # Main loop for all combinations
-        for brand_idx in brand_indices:
-            # Navigate to the main page for each brand
-            driver.get("https://compasiatradeinsg.com/tradein/sell")
-            wait.until(EC.element_to_be_clickable(
-                (By.XPATH, "//div[contains(@class, 'card-button-footer') and text()='Smartphone']")
-            )).click()
+        # Select the brand
+        select_dropdown_option(driver, "react-select-2-input", brand_idx, wait)
+        time.sleep(2)
+        
+        # Get available models for this brand
+        model_options = get_dropdown_options(driver, "react-select-3-input")
+        print(f"Available models: {model_options}")
+        
+        # Just test with first model
+        model_idx = 0
+        
+        # For the model, go back to the main page
+        driver.get("https://compasiatradeinsg.com/tradein/sell")
+        wait.until(EC.element_to_be_clickable(
+            (By.XPATH, "//div[contains(@class, 'card-button-footer') and text()='Smartphone']")
+        )).click()
+        time.sleep(2)
+        
+        # Select brand again
+        select_dropdown_option(driver, "react-select-2-input", brand_idx, wait)
+        time.sleep(2)
+        
+        # Select model
+        select_dropdown_option(driver, "react-select-3-input", model_idx, wait)
+        time.sleep(2)
+        
+        # Get variants for this model
+        variant_options = get_dropdown_options(driver, "react-select-4-input")
+        print(f"Available variants: {variant_options}")
+        
+        # For testing, we'll just do 5 combinations
+        # Let's use first 2 variants with different screen conditions
+        test_combinations = [
+            (0, "flawless"),        # First variant, flawless screen
+            (0, "minor_scratches"), # First variant, minor scratches
+            (1, "flawless"),        # Second variant, flawless screen
+            (1, "minor_scratches"), # Second variant, minor scratches
+            (0, "cracked")          # First variant, cracked screen
+        ]
+        
+        completed = 0
+        for variant_idx, condition in test_combinations:
+            if completed >= 5:
+                break
+                
+            print(f"\nStarting test configuration {completed+1}/5: Brand idx {brand_idx}, Model idx {model_idx}, Variant idx {variant_idx}, Condition: {condition}")
+            result = navigate_and_complete_form(driver, wait, brand_idx, model_idx, variant_idx, condition)
             time.sleep(2)
             
-            # Select the brand
-            select_dropdown_option(driver, "react-select-2-input", brand_idx, wait)
-            time.sleep(2)
+            if result:
+                completed += 1
             
-            # Get available models for this brand
-            model_options = get_dropdown_options(driver, "react-select-3-input")
-            num_models = len(model_options)
-            print(f"Found {num_models} models for brand index {brand_idx}: {model_options}")
-            
-            for model_idx in range(num_models):
-                # For each model, go back to the main page
-                driver.get("https://compasiatradeinsg.com/tradein/sell")
-                wait.until(EC.element_to_be_clickable(
-                    (By.XPATH, "//div[contains(@class, 'card-button-footer') and text()='Smartphone']")
-                )).click()
-                time.sleep(2)
-                
-                # Select brand again
-                select_dropdown_option(driver, "react-select-2-input", brand_idx, wait)
-                time.sleep(2)
-                
-                # Select model
-                select_dropdown_option(driver, "react-select-3-input", model_idx, wait)
-                time.sleep(2)
-                
-                # Get variants for this model
-                variant_options = get_dropdown_options(driver, "react-select-4-input")
-                num_variants = len(variant_options)
-                print(f"Found {num_variants} variants for model index {model_idx}: {variant_options}")
-                
-                for variant_idx in range(num_variants):
-                    for condition in screen_conditions:
-                        print(f"\nStarting new configuration: Brand idx {brand_idx}, Model idx {model_idx}, Variant idx {variant_idx}, Condition: {condition}")
-                        result = navigate_and_complete_form(driver, wait, brand_idx, model_idx, variant_idx, condition)
-                        time.sleep(2)  # Brief pause between iterations
-                        
-                        # If there was an error, retry once
-                        if not result:
-                            print("Retrying after error...")
-                            navigate_and_complete_form(driver, wait, brand_idx, model_idx, variant_idx, condition)
-                            time.sleep(2)
+            # If there was an error, try the next one
+            if not result:
+                print("Error in this configuration, moving to next one")
 
     except Exception as e:
-        print(f"Error in main loop: {e}")
-        driver.save_screenshot("main_loop_error.png")
+        print(f"Error in test run: {e}")
+        driver.save_screenshot("test_run_error.png")
     finally:
         driver.quit()
-        print("Browser closed. Process complete.")
+        print("Test run complete. Processed 5 configurations.")
 
 if __name__ == "__main__":
-    main_loop()
+    test_with_first_five()
