@@ -36,9 +36,10 @@ jobs:
       
       - name: Run scraping script
         run: |
-          python scrape_and_save.py
+          python -u scrape_and_save.py  # Use -u flag for unbuffered output
       
       - name: Send email with Excel file
-        run: python send_email.py
+        run: |
+          python -u send_email.py  # Use -u flag for unbuffered output
         env:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}

@@ -10,6 +10,7 @@ import openpyxl
 from datetime import datetime
 import os
 import re
+import subprocess
 
 def setup_driver():
     """Set up the Chrome WebDriver with appropriate options."""
@@ -111,6 +112,36 @@ def select_dropdown_option(driver, input_id, option_index, wait, trade_in_data=N
         except Exception as js_error:
             print(f"JavaScript approach failed: {js_error}")
             return False
+
+def commit_changes(brand, model, variant, condition, value):
+    """Commit changes to the repository after each row is added."""
+    try:
+        # Set up git config if running in GitHub Actions
+        if os.environ.get('GITHUB_ACTIONS') == 'true':
+            subprocess.run(["git", "config", "--global", "user.name", "GitHub Action Bot"])
+            subprocess.run(["git", "config", "--global", "user.email", "action@github.com"])
+        
+        # Add the Excel file
+        subprocess.run(["git", "add", "tradein_values.xlsx"])
+        
+        # Commit with a descriptive message
+        commit_message = f"Add trade-in value for {brand} {model} {variant} ({condition}): {value}"
+        result = subprocess.run(["git", "commit", "-m", commit_message], 
+                                capture_output=True, text=True)
+        
+        # Check if commit was successful
+        if "nothing to commit" in result.stdout or "nothing to commit" in result.stderr:
+            print("No changes to commit.")
+            return False
+        
+        # Push the changes immediately
+        subprocess.run(["git", "push"])
+        print(f"Successfully committed and pushed changes: {commit_message}")
+        return True
+    
+    except Exception as e:
+        print(f"Error during git operations: {e}")
+        return False
 
 def navigate_and_complete_form(driver, wait, brand_index, model_index, variant_index, screen_condition):
     """Navigate the website and complete the form for a specific configuration."""
@@ -271,6 +302,16 @@ def navigate_and_complete_form(driver, wait, brand_index, model_index, variant_i
 
             print(f"Extracted trade-in value: {currency} {price_clean}")
             save_to_excel(trade_in_data)
+            
+            # Commit changes to the repository after each successful scrape
+            commit_changes(
+                trade_in_data["Brand"], 
+                trade_in_data["Model"], 
+                trade_in_data["Variant"], 
+                trade_in_data["Front Condition"], 
+                f"{trade_in_data['Currency']} {trade_in_data['Value']}"
+            )
+            
             return True
 
         except Exception as e:

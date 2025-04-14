@@ -34,17 +34,10 @@ jobs:
       
       - name: Run test scraping script
         run: |
-          python test_script.py
-      
-      - name: Commit incremental changes
-        run: |
-          git config --global user.name "GitHub Action Bot"
-          git config --global user.email "action@github.com"
-          git add tradein_values.xlsx
-          git commit -m "Test scrape results [skip ci]" || echo "No changes to commit"
-          git push
+          python -u test_script.py  # Use -u flag for unbuffered output
       
       - name: Send email with Excel file
-        run: python send_email.py
+        run: |
+          python -u send_email.py  # Use -u flag for unbuffered output
         env:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}

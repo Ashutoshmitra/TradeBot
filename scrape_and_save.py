@@ -134,7 +134,7 @@ def commit_changes(brand, model, variant, condition, value):
             print("No changes to commit.")
             return False
         
-        # Push the changes
+        # Push the changes immediately
         subprocess.run(["git", "push"])
         print(f"Successfully committed and pushed changes: {commit_message}")
         return True
@@ -180,7 +180,7 @@ def navigate_and_complete_form(driver, wait, brand_index, model_index, variant_i
         # Select model
         select_dropdown_option(driver, "react-select-3-input", model_index, wait, trade_in_data)
         time.sleep(2)
-
+        
         # Select variant
         select_dropdown_option(driver, "react-select-4-input", variant_index, wait, trade_in_data)
         time.sleep(2)
@@ -247,7 +247,7 @@ def navigate_and_complete_form(driver, wait, brand_index, model_index, variant_i
             // None of the above checkbox
             var labels = document.querySelectorAll('label');
             for (var i = 0; i < labels.length; i++) {{
-                if (labels[i].textContent.trim().includes('None of the above')) {{
+                if (labels[i].textContent.trim.includes('None of the above')) {{
                     var checkbox = labels[i].previousElementSibling;
                     if (!checkbox || checkbox.type !== 'checkbox') {{
                         var parent = labels[i].parentElement;
