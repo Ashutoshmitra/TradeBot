@@ -23,10 +23,14 @@ def send_email(send_from='ashutoshmitra7@gmail.com',
         if not password:
             raise ValueError("Email password not provided")
     
+    # Convert send_to to a list if it's a string
+    if isinstance(send_to, str):
+        send_to = [send_to]
+    
     # Setup email
     msg = MIMEMultipart()
     msg['From'] = send_from
-    msg['To'] = send_to
+    msg['To'] = ', '.join(send_to)  # Join the list into a comma-separated string
     msg['Date'] = formatdate(localtime=True)
     msg['Subject'] = subject
     
@@ -66,7 +70,7 @@ def send_email(send_from='ashutoshmitra7@gmail.com',
         smtp.login(username, password)
         smtp.sendmail(send_from, send_to, msg.as_string())
         smtp.close()
-        print(f"Email successfully sent to {send_to}")
+        print(f"Email successfully sent to {', '.join(send_to)}")
     except Exception as e:
         print(f"Failed to send email: {e}")
 
