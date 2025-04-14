@@ -7,14 +7,14 @@ from email.utils import formatdate
 from email import encoders
 from datetime import datetime
 
-def send_email(send_from='github-action-bot@gmail.com', 
-               send_to='ashutoshmitra7@gmail.com', 
+def send_email(send_from='ashutoshmitra7@gmail.com', 
+               send_to=['ashutoshmitra7@gmail.com', 'ashmitra0000007@gmail.com'], 
                subject='Trade-In Values Update', 
                text='Please find attached the latest trade-in values.', 
                files=['tradein_values.xlsx'],
                server='smtp.gmail.com', 
                port=587, 
-               username='github-action-bot@gmail.com', 
+               username='ashutoshmitra7@gmail.com', 
                password=None):
     
     # Get password from environment variable
