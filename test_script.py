@@ -9,6 +9,26 @@ from datetime import datetime
 import os
 import re
 
+def setup_driver():
+    """Set up the Chrome WebDriver with appropriate options."""
+    options = webdriver.ChromeOptions()
+    options.add_argument("--start-maximized")
+    options.add_argument("--disable-extensions")
+    options.add_argument("--disable-popup-blocking")
+    options.add_argument("--disable-infobars")
+    
+    # Add headless mode options when running in GitHub Actions
+    if os.environ.get('GITHUB_ACTIONS') == 'true':
+        print("Running in GitHub Actions - enabling headless mode")
+        options.add_argument('--headless')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.add_argument('--disable-gpu')
+        options.add_argument('--window-size=1920,1080')
+    
+    driver = webdriver.Chrome(options=options)
+    return driver
+
 def get_dropdown_options(driver, input_id):
     """Retrieve all available options from a dropdown."""
     try:
@@ -309,17 +329,16 @@ def save_to_excel(data):
 def test_with_first_five():
     """Test with just the first 5 configurations."""
     # Setup driver (single browser instance)
-    options = webdriver.ChromeOptions()
-    options.add_argument("--start-maximized")
-    options.add_argument("--disable-extensions")
-    options.add_argument("--disable-popup-blocking")
-    options.add_argument("--disable-infobars")
-    driver = webdriver.Chrome(options=options)
+    driver = setup_driver()
     
     ignored_exceptions = (NoSuchElementException, StaleElementReferenceException)
     wait = WebDriverWait(driver, 15, 0.5, ignored_exceptions=ignored_exceptions)
 
     try:
+        # Take screenshot of initial state for debugging
+        if os.environ.get('GITHUB_ACTIONS') == 'true':
+            driver.save_screenshot("initial_page.png")
+            
         # Navigate to website and click on Smartphone
         driver.get("https://compasiatradeinsg.com/tradein/sell")
         wait.until(EC.element_to_be_clickable(
