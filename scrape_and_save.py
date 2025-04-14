@@ -1,14 +1,38 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, StaleElementReferenceException
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 import openpyxl
 from datetime import datetime
 import os
 import re
 import subprocess
+
+def setup_driver():
+    """Set up the Chrome WebDriver with appropriate options."""
+    options = webdriver.ChromeOptions()
+    options.add_argument("--start-maximized")
+    options.add_argument("--disable-extensions")
+    options.add_argument("--disable-popup-blocking")
+    options.add_argument("--disable-infobars")
+    
+    # Add headless mode options when running in GitHub Actions
+    if os.environ.get('GITHUB_ACTIONS') == 'true':
+        print("Running in GitHub Actions - enabling headless mode")
+        options.add_argument('--headless')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.add_argument('--disable-gpu')
+        options.add_argument('--window-size=1920,1080')
+    
+    # Use webdriver-manager to handle ChromeDriver
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options)
+    return driver
 
 def get_dropdown_options(driver, input_id):
     """Retrieve all available options from a dropdown."""
@@ -156,7 +180,7 @@ def navigate_and_complete_form(driver, wait, brand_index, model_index, variant_i
         # Select model
         select_dropdown_option(driver, "react-select-3-input", model_index, wait, trade_in_data)
         time.sleep(2)
-        
+
         # Select variant
         select_dropdown_option(driver, "react-select-4-input", variant_index, wait, trade_in_data)
         time.sleep(2)
@@ -353,17 +377,16 @@ def main_loop():
     screen_conditions = ["flawless", "minor_scratches", "cracked"]
 
     # Setup driver (single browser instance)
-    options = webdriver.ChromeOptions()
-    options.add_argument("--start-maximized")
-    options.add_argument("--disable-extensions")
-    options.add_argument("--disable-popup-blocking")
-    options.add_argument("--disable-infobars")
-    driver = webdriver.Chrome(options=options)
+    driver = setup_driver()
     
     ignored_exceptions = (NoSuchElementException, StaleElementReferenceException)
     wait = WebDriverWait(driver, 15, 0.5, ignored_exceptions=ignored_exceptions)
 
     try:
+        # Take screenshot of initial state for debugging
+        if os.environ.get('GITHUB_ACTIONS') == 'true':
+            driver.save_screenshot("initial_page.png")
+            
         # Navigate to website and click on Smartphone
         driver.get("https://compasiatradeinsg.com/tradein/sell")
         wait.until(EC.element_to_be_clickable(
