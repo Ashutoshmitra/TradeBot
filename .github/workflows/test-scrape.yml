@@ -34,7 +34,7 @@ jobs:
       
       - name: Run test scraping script
         run: |
-          python test_scrape.py
+          python test_script.py
       
       - name: Commit incremental changes
         run: |
