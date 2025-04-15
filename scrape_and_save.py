@@ -247,7 +247,7 @@ def navigate_and_complete_form(driver, wait, brand_index, model_index, variant_i
             // None of the above checkbox
             var labels = document.querySelectorAll('label');
             for (var i = 0; i < labels.length; i++) {{
-                if (labels[i].textContent.trim.includes('None of the above')) {{
+                if (labels[i].textContent.trim().includes('None of the above')) {{
                     var checkbox = labels[i].previousElementSibling;
                     if (!checkbox || checkbox.type !== 'checkbox') {{
                         var parent = labels[i].parentElement;
