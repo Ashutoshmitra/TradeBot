@@ -1,0 +1,418 @@
+#!/usr/bin/env python
+import os
+import time
+import subprocess
+import logging
+import sys
+from datetime import datetime
+import argparse
+import pandas as pd
+from multiprocessing import Process, Queue, Manager
+import threading
+
+# Add the current directory to the path to import modules from scripts
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+# Configure logging
+log_filename = f"scraper_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(log_filename),  # Save logs to file
+        logging.StreamHandler()  # Also output to console
+    ]
+)
+logger = logging.getLogger("scraper_manager")
+
+# Global flag to control the periodic combination thread
+stop_combining = False
+
+def run_script(script_name, n_scrape=None, result_queue=None):
+    """Run a Python script and log the output."""
+    logger.info(f"Starting {script_name}")
+    try:
+        # Get the full path to the script
+        script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), script_name)
+        
+        # Create output directory
+        output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Map script names to their output file names
+        output_files = {
+            "samsung_scrape.py": "Samsung_Trade_In_Values.xlsx",
+            "scrape_and_save.py": "tradein_values.xlsx",
+            "starhub_scrape.py": "starhub_tradein_values.xlsx",
+            "singtel_scrape.py": "singtel_tradein_values.xlsx",
+            "compasia_scraper.py": "CompAsia_Device_Prices.xlsx",
+            "m1tradein_scrape.py": "m1_tradein_values.xlsx",
+            "SG_RV_Source8.py": "reebelo_trade_in_values.xlsx",
+            "SG_SO_Source1.py": "Device_Prices_Carousell.xlsx",
+            "SG_RV_Source6.py": "carousell_trade_in_values.xlsx"
+        }
+        
+        # Set the output path for each script
+        output_file = os.path.join(output_dir, output_files.get(script_name, f"{script_name}_output.xlsx"))
+        
+        # Prepare command with appropriate arguments based on script
+        command = ["python", script_path]
+        
+        # Add number of items to scrape argument if provided
+        if n_scrape is not None:
+            if script_name == "SG_RV_Source6.py":
+                # This script uses --num_devices instead of -n
+                command.extend(["--num_devices", str(n_scrape)])
+            elif script_name == "SG_SO_Source1.py":
+                # This script uses --num_devices instead of -n
+                command.extend(["--num_devices", str(n_scrape)])
+            else:
+                command.extend(["-n", str(n_scrape)])
+        
+        # Add output path argument to scripts that support it
+        # Some scripts rely on environment variables instead
+        if script_name in ["samsung_scrape.py", "compasia_scraper.py", "singtel_scrape.py", "SG_RV_Source8.py"]:
+            command.extend(["-o", output_file])
+        
+        # Run the script
+        env = os.environ.copy()
+        env["PYTHONUNBUFFERED"] = "1"
+        env["OUTPUT_DIR"] = output_dir  # Add environment variable for output directory
+        
+        # For scripts that don't accept output file as parameter, set it as env var
+        if script_name in ["SG_SO_Source1.py", "SG_RV_Source6.py", "scrape_and_save.py", 
+                          "starhub_scrape.py", "m1tradein_scrape.py"]:
+            env["OUTPUT_FILE"] = output_file
+        
+        logger.info(f"Running command: {' '.join(command)}")
+        
+        process = subprocess.Popen(
+            command, 
+            env=env,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            universal_newlines=True
+        )
+        
+        # Stream the output
+        for line in process.stdout:
+            print(f"[{script_name}] {line}", end='')
+            logger.info(f"[{script_name}] {line.strip()}")  # Also log to file
+            
+        process.wait()
+        
+        success = process.returncode == 0
+        if success:
+            logger.info(f"Successfully completed {script_name}")
+        else:
+            logger.error(f"Failed to run {script_name} with return code {process.returncode}")
+        
+        # Add result to queue if provided
+        if result_queue is not None:
+            result_queue.put((script_name, success))
+            
+        return success
+            
+    except Exception as e:
+        logger.error(f"Error running {script_name}: {e}")
+        if result_queue is not None:
+            result_queue.put((script_name, False))
+        return False
+
+def find_excel_files(directory):
+    """Find all Excel files in a directory and return their full paths."""
+    excel_files = []
+    for file in os.listdir(directory):
+        if file.endswith('.xlsx') and not file.startswith('Combined_'):
+            excel_files.append(os.path.join(directory, file))
+    return excel_files
+
+def combine_excel_files(excel_files, output_file="Combined_Trade_In_Values.xlsx"):
+    """Combine multiple Excel files into a single file."""
+    logger.info(f"Combining {len(excel_files)} Excel files into {output_file}")
+    
+    # Create an empty DataFrame to store the combined data
+    combined_df = pd.DataFrame()
+    
+    # Read each Excel file and append to the combined DataFrame
+    for file in excel_files:
+        if os.path.exists(file):
+            try:
+                df = pd.read_excel(file)
+                logger.info(f"Read {len(df)} rows from {file}")
+                combined_df = pd.concat([combined_df, df], ignore_index=True)
+            except Exception as e:
+                logger.error(f"Error reading {file}: {e}")
+        else:
+            logger.warning(f"File not found: {file}")
+    
+    # Save the combined DataFrame to a new Excel file
+    if not combined_df.empty:
+        output_path = os.path.join(os.path.dirname(output_file), output_file)
+        combined_df.to_excel(output_path, index=False)
+        logger.info(f"Saved {len(combined_df)} rows to {output_path}")
+        return output_path
+    else:
+        logger.warning("No data to combine")
+        return None
+
+def periodic_combine(interval_minutes, output_dir, output_file):
+    """Periodically combine Excel files at the specified interval."""
+    global stop_combining
+    
+    logger.info(f"Starting periodic file combination every {interval_minutes} minutes")
+    
+    while not stop_combining:
+        # Sleep for the specified interval
+        time.sleep(interval_minutes * 60)
+        
+        if stop_combining:
+            break
+            
+        try:
+            # Find all Excel files in the output directory
+            excel_files = find_excel_files(output_dir)
+            if excel_files:
+                logger.info(f"Periodic update: Found {len(excel_files)} Excel files to combine")
+                
+                # Combine files with timestamp in filename
+                timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+                combined_path = os.path.join(output_dir, f"Combined_{timestamp}_{output_file}")
+                
+                # Also save to the main combined file
+                main_combined_path = os.path.join(output_dir, output_file)
+                
+                # Combine and save to both files
+                combined_df = pd.DataFrame()
+                
+                # Read each Excel file and append to the combined DataFrame
+                for file in excel_files:
+                    if os.path.exists(file):
+                        try:
+                            df = pd.read_excel(file)
+                            logger.info(f"Periodic update: Read {len(df)} rows from {file}")
+                            combined_df = pd.concat([combined_df, df], ignore_index=True)
+                        except Exception as e:
+                            logger.error(f"Periodic update: Error reading {file}: {e}")
+                
+                # Save the combined DataFrame to both files
+                if not combined_df.empty:
+                    combined_df.to_excel(combined_path, index=False)
+                    combined_df.to_excel(main_combined_path, index=False)
+                    logger.info(f"Periodic update: Saved {len(combined_df)} rows to {combined_path} and {main_combined_path}")
+            else:
+                logger.info("Periodic update: No Excel files found to combine")
+        except Exception as e:
+            logger.error(f"Error in periodic file combination: {e}")
+
+def main():
+    """Run all scrapers in parallel and send email with combined results."""
+    global stop_combining
+    
+    start_time = datetime.now()
+    logger.info(f"Starting parallel scraping job at {start_time}")
+    
+    # Get the number of scrapes from command line arguments
+    parser = argparse.ArgumentParser(description='Run all scrapers in parallel')
+    parser.add_argument('-n', type=int, help='Number of items to scrape (for testing)', default=None)
+    parser.add_argument('-c', '--combined', type=str, help='Name of the combined output file', 
+                       default="Combined_Trade_In_Values.xlsx")
+    parser.add_argument('--no-combine', action='store_true', help='Do not combine results into a single file')
+    parser.add_argument('-i', '--interval', type=int, help='Interval in minutes for periodic file combination', 
+                       default=10)
+    args = parser.parse_args()
+    
+    # Create output directory
+    output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+    os.makedirs(output_dir, exist_ok=True)
+    logger.info(f"Ensuring output directory exists: {output_dir}")
+    
+    # Setup multiprocessing manager for sharing results
+    manager = Manager()
+    result_queue = manager.Queue()
+    
+    # Start periodic file combination thread
+    combine_thread = None
+    if not args.no_combine:
+        stop_combining = False
+        combine_thread = threading.Thread(
+            target=periodic_combine, 
+            args=(args.interval, output_dir, args.combined)
+        )
+        combine_thread.daemon = True
+        combine_thread.start()
+        logger.info(f"Started periodic file combination thread with interval {args.interval} minutes")
+    
+    # Define the first batch of scraper scripts to run in parallel
+    first_batch_scripts = [
+        "samsung_scrape.py",
+        "singtel_scrape.py",
+        "compasia_scraper.py",
+        "m1tradein_scrape.py",
+        "SG_RV_Source8.py",
+        "SG_RV_Source6.py"
+    ]
+    
+    # Define the second batch of scraper scripts to run after the first batch completes
+    second_batch_scripts = [
+        "starhub_scrape.py",
+        "scrape_and_save.py"
+    ]
+    
+    # Create and start processes for first batch
+    logger.info("Starting first batch of scrapers")
+    first_batch_processes = []
+    for script in first_batch_scripts:
+        p = Process(
+            target=run_script, 
+            args=(script, args.n, result_queue)
+        )
+        first_batch_processes.append(p)
+        p.start()
+        logger.info(f"Started process for {script}")
+    
+    # Wait for all first batch processes to complete
+    for p in first_batch_processes:
+        p.join()
+    
+    # Collect results from the first batch
+    first_batch_results = {}
+    while not result_queue.empty():
+        script, success = result_queue.get()
+        first_batch_results[script] = success
+    
+    logger.info("All first batch scraper processes completed")
+    
+    # Start the second batch if not empty
+    if second_batch_scripts:
+        logger.info("Starting second batch of scrapers")
+        second_batch_processes = []
+        for script in second_batch_scripts:
+            p = Process(
+                target=run_script, 
+                args=(script, args.n, result_queue)
+            )
+            second_batch_processes.append(p)
+            p.start()
+            logger.info(f"Started process for {script}")
+        
+        # Wait for all second batch processes to complete
+        for p in second_batch_processes:
+            p.join()
+        
+        # Collect results from the second batch
+        second_batch_results = {}
+        while not result_queue.empty():
+            script, success = result_queue.get()
+            second_batch_results[script] = success
+        
+        logger.info("All second batch scraper processes completed")
+        
+        # Combine all results
+        results = {**first_batch_results, **second_batch_results}
+    else:
+        # If second batch is empty, results are just from the first batch
+        results = first_batch_results
+        logger.info("No second batch of scrapers to run")
+    
+    # Stop the periodic file combination thread
+    if combine_thread is not None:
+        stop_combining = True
+        combine_thread.join(timeout=5)  # Wait for at most 5 seconds
+        logger.info("Stopped periodic file combination thread")
+    
+    # Find all Excel files in the output directory
+    excel_files = find_excel_files(output_dir)
+    logger.info(f"Found {len(excel_files)} Excel files in output directory")
+    
+    # Final combination of files 
+    combined_file = None
+    if not args.no_combine and excel_files:
+        combined_path = os.path.join(output_dir, args.combined)
+        combined_file = combine_excel_files(excel_files, combined_path)
+        files_to_send = [combined_file] if combined_file else []
+        
+        # Also include the latest timestamped combined file in case it has more data
+        latest_combined = None
+        for file in os.listdir(output_dir):
+            if file.startswith('Combined_') and file.endswith('.xlsx') and file != args.combined:
+                if latest_combined is None or file > latest_combined:
+                    latest_combined = os.path.join(output_dir, file)
+        
+        if latest_combined and latest_combined != combined_file:
+            logger.info(f"Also including the latest timestamped combined file: {latest_combined}")
+            files_to_send.append(latest_combined)
+    else:
+        # If not combining, send the individual files
+        files_to_send = excel_files
+    
+    # Add log file to files_to_send
+    if os.path.exists(log_filename):
+        files_to_send.append(log_filename)
+    
+    # Send emails if we have files
+    if files_to_send:
+        logger.info(f"Sending email with {len(files_to_send)} files: {files_to_send}")
+        try:
+            # Import the send_email function from the same directory
+            from send_email import send_email
+            
+            # Calculate runtime
+            end_time = datetime.now()
+            total_time = end_time - start_time
+            runtime_str = f"{int(total_time.total_seconds() // 60)} minutes" if total_time.total_seconds() >= 60 else f"{int(total_time.total_seconds())} seconds"
+            
+            # Build email subject
+            subject = f"Trade-In Values Update - {datetime.now().strftime('%Y-%m-%d')}"
+            
+            # Create message body based on what we're sending
+            if combined_file and not args.no_combine:
+                text = (f"I finished collecting trade-in values on {datetime.now().strftime('%Y-%m-%d')}. "
+                       f"All values are combined into a single file: {os.path.basename(combined_file)}.")
+            else:
+                text = (f"I finished collecting trade-in values on {datetime.now().strftime('%Y-%m-%d')}. "
+                       f"Attached are the following files: {', '.join([os.path.basename(f) for f in files_to_send])}")
+            
+            # Define primary recipient (with log file)
+            primary_recipient = 'ashutoshmitra7@gmail.com'
+            
+            # Send the email with all files including log to the primary recipient
+            send_email(
+                subject=subject,
+                text=text,
+                send_to=primary_recipient,
+                files=files_to_send,
+                runtime=runtime_str
+            )
+            logger.info(f"Email with logs sent to {primary_recipient}")
+            
+            # Define secondary recipient (no log file)
+            secondary_recipient = 'ashmitra0000007@gmail.com'
+            
+            # Create a list without the log file for the secondary recipient
+            files_without_log = [f for f in files_to_send if f != log_filename]
+            
+            # Send simplified email without log file to the secondary recipient
+            if files_without_log:
+                simple_subject = "Excel file"
+                simple_text = "Please find the attached Excel file."
+                send_email(
+                    subject=simple_subject,
+                    text=simple_text,
+                    send_to=secondary_recipient,
+                    files=files_without_log,
+                    runtime=None  # No runtime info for secondary recipient
+                )
+                logger.info(f"Email without logs sent to {secondary_recipient}")
+                
+        except Exception as e:
+            logger.error(f"Failed to send email: {e}")
+    else:
+        logger.warning("No files were generated. Not sending email.")
+    
+    end_time = datetime.now()
+    total_time = end_time - start_time
+    logger.info(f"Completed parallel scraping job at {end_time}. Total runtime: {total_time}")
+
+if __name__ == "__main__":
+    main()
