@@ -11,7 +11,7 @@ import argparse
 from datetime import datetime
 
 
-def scrape_compasia_prices(output_excel_path="CompAsia_Device_Prices.xlsx", n_scrape=None, headless=True, delay=1):
+def scrape_compasia_prices(output_excel_path="SG_RV_Source7.xlsx", n_scrape=None, headless=True, delay=1):
     """
     Scrapes device prices from CompAsia website and saves results to a new Excel file
     
@@ -41,7 +41,7 @@ def scrape_compasia_prices(output_excel_path="CompAsia_Device_Prices.xlsx", n_sc
         # Default values for certain columns to match Samsung scrape format
         defaults = {
             "Country": "Singapore",
-            "Value Type": "Trade-In",
+            "Value Type": "Sell-Off",
             "Currency": "SGD",
             "Source": "SG_RV_Source7",
             "Updated on": datetime.now().strftime("%Y-%m-%d"),
@@ -83,7 +83,7 @@ def scrape_compasia_prices(output_excel_path="CompAsia_Device_Prices.xlsx", n_sc
             print(f"\nProcessing URL ({url_index+1}/{len(urls)}): {url}")
             
             # Set device type based on URL
-            device_type = "Smartphones" if "smartphones" in url else "Tablet"
+            device_type = "SmartPhone" if "smartphone" in url else "Tablet"
             
             try:
                 # Navigate to the collection page
@@ -592,7 +592,7 @@ def scrape_compasia_prices(output_excel_path="CompAsia_Device_Prices.xlsx", n_sc
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Scrape CompAsia device prices')
     parser.add_argument('-n', type=int, help='Number of devices to scrape per page (for testing)', default=None)
-    parser.add_argument('-o', '--output', type=str, help='Output Excel file path', default="CompAsia_Device_Prices.xlsx")
+    parser.add_argument('-o', '--output', type=str, help='Output Excel file path', default="SG_RV_Source7.xlsx")
     parser.add_argument('--no-headless', action='store_true', help='Disable headless mode (show browser)')
     parser.add_argument('-d', '--delay', type=float, help='Delay between actions (lower = faster but may be less reliable)', default=1.0)
     args = parser.parse_args()

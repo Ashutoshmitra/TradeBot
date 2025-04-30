@@ -4,7 +4,7 @@ SG_RV_Source8.py - Efficient script to scrape trade-in values of smartphones and
 Usage: 
   python SG_RV_Source8.py (scrapes all smartphones and tablets)
   python SG_RV_Source8.py -n 3 (scrapes 3 smartphones and 3 tablets)
-  python SG_RV_Source8.py -o output/reebelo_values.xlsx (saves to specified file)
+  python SG_RV_Source8.py -o output/SG_RV_Source8.xlsx (saves to specified file)
 """
 
 import argparse
@@ -227,6 +227,84 @@ def navigate_to_brand_page(driver, device_type, brand):
         logger.warning(f"Could not navigate to {brand} page")
         return False
 
+def extract_price_from_text(text):
+    """Extract price from text using regex patterns, prioritizing the main price display."""
+    logger.debug(f"DEBUG: Starting price extraction from text")
+    
+    # First, try to find price in the best offer card section - this is most reliable
+    best_offer_patterns = [
+        r'vendor-content-price[^>]*vendor-content-price-selected[^>]*><h4>\$(\d+)</h4>',
+        r'best-offer-card[^>]*>.*?vendor-content-price[^>]*><h4>\$(\d+)</h4>',
+        r'best-offer.*?vendor-content-price.*?<h4>\$(\d+)</h4>'
+    ]
+    
+    # Try the best offer patterns first
+    for pattern in best_offer_patterns:
+        logger.debug(f"DEBUG: Trying best offer pattern: {pattern}")
+        matches = re.findall(pattern, text, re.DOTALL)
+        if matches:
+            logger.debug(f"DEBUG: Best offer pattern {pattern} found matches: {matches}")
+            return f"S${matches[0]}"
+    
+    # Fall back to simpler patterns if best offer not found
+    fallback_patterns = [
+        r'<h4>\$(\d+)</h4>',                # Price in h4 tag
+        r'vendor-content-price.*?(\d+)',    # Price near vendor-content-price
+        r'S\$\s*(\d+)',                     # S$ followed by digits
+        r'\$\s*(\d+)',                      # $ followed by digits
+        r'(\d+)\s*SELL',                    # Digits followed by SELL
+        r'vouchers!\s*\$(\d+)',             # Price after "vouchers!"
+        r'offer!.*?(\d+)'                   # Digits after "offer!"
+    ]
+    
+    for pattern in fallback_patterns:
+        logger.debug(f"DEBUG: Trying fallback pattern: {pattern}")
+        matches = re.findall(pattern, text, re.DOTALL)
+        if matches:
+            logger.debug(f"DEBUG: Fallback pattern {pattern} found matches: {matches}")
+            return f"S${matches[0]}"
+    
+    logger.debug(f"DEBUG: No price patterns matched")
+    return None
+
+def save_debug_html(driver, model_name, storage, condition):
+    """Save HTML content for debugging purposes"""
+    try:
+        debug_dir = "debug_html"
+        os.makedirs(debug_dir, exist_ok=True)
+        safe_filename = f"{model_name}_{storage}_{condition}".replace(" ", "_").replace("/", "_")
+        html_path = os.path.join(debug_dir, f"{safe_filename}.html")
+        with open(html_path, "w", encoding="utf-8") as f:
+            f.write(driver.page_source)
+        logger.debug(f"DEBUG: Saved HTML to {html_path}")
+    except Exception as e:
+        logger.debug(f"DEBUG: Failed to save HTML: {e}")
+
+def determine_device_type(model_name):
+    """Determine the device type based on the model name."""
+    model_lower = model_name.lower()
+    
+    if any(keyword in model_lower for keyword in ['watch', 'watch series']):
+        return 'SmartWatch'
+    elif any(keyword in model_lower for keyword in ['macbook', 'mac book']):
+        return 'Laptop'
+    elif any(keyword in model_lower for keyword in ['airpod', 'air pod']):
+        return 'Airpods'
+    
+    return None  # Return None if no specific device type is detected
+
+def standardize_device_type(device_type):
+    """Standardize device type names."""
+    if device_type.lower() in ['phone', 'smartphone', 'smartphones']:
+        return 'SmartPhone'
+    return device_type.capitalize()
+
+def standardize_condition(condition):
+    """Standardize condition names."""
+    if condition.lower() in ['cracked or chipped', 'cracked', 'chipped']:
+        return 'Damaged'
+    return condition
+
 def scrape_models(driver, max_models=None):
     """Scrape model links from the current page."""
     logger.info("Scraping model links...")
@@ -281,41 +359,6 @@ def scrape_models(driver, max_models=None):
     
     return models
 
-def save_debug_html(driver, model_name, storage, condition):
-    """Save HTML content for debugging purposes"""
-    try:
-        debug_dir = "debug_html"
-        os.makedirs(debug_dir, exist_ok=True)
-        safe_filename = f"{model_name}_{storage}_{condition}".replace(" ", "_").replace("/", "_")
-        html_path = os.path.join(debug_dir, f"{safe_filename}.html")
-        with open(html_path, "w", encoding="utf-8") as f:
-            f.write(driver.page_source)
-        logger.debug(f"DEBUG: Saved HTML to {html_path}")
-    except Exception as e:
-        logger.debug(f"DEBUG: Failed to save HTML: {e}")
-
-def extract_price_from_text(text):
-    """Extract price from text using regex patterns."""
-    logger.debug(f"DEBUG: Starting price extraction from text")
-    patterns = [
-        r'S\$\s*(\d+)',       # S$ followed by digits
-        r'\$\s*(\d+)',         # $ followed by digits
-        r'(\d+)\s*SELL',       # Digits followed by SELL
-        r'vouchers!\s*\$(\d+)', # Price after "vouchers!"
-        r'offer!.*?(\d+)'      # Digits after "offer!"
-    ]
-    
-    for pattern in patterns:
-        logger.debug(f"DEBUG: Trying pattern: {pattern}")
-        matches = re.findall(pattern, text)
-        if matches:
-            logger.debug(f"DEBUG: Pattern {pattern} found matches: {matches}")
-            # Return the last match (usually the final price)
-            return f"S${matches[-1]}"
-    
-    logger.debug(f"DEBUG: No price patterns matched")
-    return None
-
 def process_device_condition(driver, model_name, storage_text, condition):
     """Process a specific device condition and extract trade-in value."""
     logger.info(f"Testing condition: {condition}")
@@ -344,6 +387,9 @@ def process_device_condition(driver, model_name, storage_text, condition):
         logger.warning(f"Could not click on {condition} option")
         return None
     
+    # ADD TIMEOUT: Wait after clicking the screen condition
+    time.sleep(2)
+    
     # Find and click "Flawless" for housing - try just once
     housing_selectors = [
         "//div[contains(@id, 'eval-housing-condition')]//p[contains(text(), 'Flawless')]",
@@ -354,21 +400,27 @@ def process_device_condition(driver, model_name, storage_text, condition):
         housing_element = fast_find_element(driver, By.XPATH, selector, timeout=0.5)
         if housing_element:
             safe_click(driver, housing_element)
+            # ADD TIMEOUT: Wait after clicking housing condition
+            time.sleep(2)
             break
     
     # Select Local Singapore Set if available - quick check only
     local_set_element = fast_find_element(driver, By.XPATH, "//li[contains(text(), 'Local')]", timeout=0.5)
     if local_set_element:
         safe_click(driver, local_set_element)
+        # ADD TIMEOUT: Wait after clicking Local Singapore Set
+        time.sleep(2)
     
-    # NEW CODE: Check for warranty question and select "No" if present
+    # Check for warranty question and select "No" if present
     warranty_yes_selector = "//p[contains(text(), 'original warranty')]/ancestor::div[contains(@class, 'cus-yes-no')]/descendant::li[contains(text(), 'No')]"    
     warranty_yes_element = fast_find_element(driver, By.XPATH, warranty_yes_selector, timeout=0.5)
     if warranty_yes_element:
         logger.info("Found warranty question, selecting 'No'")
         safe_click(driver, warranty_yes_element)
+        # ADD TIMEOUT: Wait after clicking warranty option
+        time.sleep(2)
     
-    # NEW CODE: Check if the button is still disabled
+    # Check if the button is still disabled
     disabled_button = fast_find_element(driver, By.XPATH, "//button[@disabled]", timeout=0.5)
     if disabled_button:
         logger.info("Quote button is still disabled, checking for other required fields")
@@ -383,6 +435,8 @@ def process_device_condition(driver, model_name, storage_text, condition):
             if battery_element:
                 logger.info("Found battery health question, selecting highest option")
                 safe_click(driver, battery_element)
+                # ADD TIMEOUT: Wait after clicking battery health option
+                time.sleep(2)
                 break
     
     # Click "Get Your Quote" button - try multiple selectors
@@ -421,7 +475,8 @@ def process_device_condition(driver, model_name, storage_text, condition):
                 if element.is_displayed() and "reb-selected" not in element.get_attribute("class"):
                     logger.info(f"Clicking on unselected option: {element.text}")
                     safe_click(driver, element)
-                    time.sleep(0.2)
+                    # ADD TIMEOUT: Wait after clicking each remaining option
+                    time.sleep(2)
             except:
                 pass
         
@@ -432,25 +487,29 @@ def process_device_condition(driver, model_name, storage_text, condition):
     else:
         safe_click(driver, quote_button)
     
-    time.sleep(1)  # Need a small wait here for price to load
+    # INCREASE TIMEOUT: Increase from 1 to 3 seconds to give more time for price to load
+    time.sleep(3)  # Need a wait here for price to load
     
     # Extract price from page content
     page_text = driver.page_source
     price_value = extract_price_from_text(page_text)
     
+    # Standardize the condition for output
+    standardized_condition = standardize_condition(condition)
+    
     if price_value:
-        logger.info(f"Found trade-in value: {price_value} for {model_name}, {storage_text}, {condition}")
+        logger.info(f"Found trade-in value: {price_value} for {model_name}, {storage_text}, {standardized_condition}")
         numeric_price = re.sub(r'[^0-9]', '', price_value)
         
         return {
             "model": model_name,
             "storage": storage_text,
-            "condition": condition,
+            "condition": standardized_condition,
             "trade_in_value": price_value,
             "numeric_value": numeric_price
         }
     else:
-        logger.warning(f"Could not find price for {model_name}, {storage_text}, {condition}")
+        logger.warning(f"Could not find price for {model_name}, {storage_text}, {standardized_condition}")
         return None
 
 def process_all_conditions_efficiently(driver, model_url, model_name):
@@ -493,6 +552,8 @@ def process_all_conditions_efficiently(driver, model_url, model_name):
             storage_text = storage_element.text.strip()
             logger.info(f"Using storage: {storage_text}")
             if safe_click(driver, storage_element):
+                # ADD TIMEOUT: Wait after clicking storage option
+                time.sleep(2)
                 found_storage = True
                 break
     
@@ -519,6 +580,8 @@ def process_all_conditions_efficiently(driver, model_url, model_name):
                         try:
                             if element.text.strip() == storage_text:
                                 safe_click(driver, element)
+                                # ADD TIMEOUT: Wait after re-selecting storage option
+                                time.sleep(2)
                                 break
                         except StaleElementReferenceException:
                             # Handle stale element - just skip
@@ -561,10 +624,13 @@ def scrape_devices(driver, device_type, max_devices=None, output_file=None):
     """Scrape devices for a given type (smartphone or tablet)."""
     logger.info(f"Starting to scrape {device_type} data...")
     
+    # Standardize device type
+    std_device_type = standardize_device_type(device_type)
+    
     # Focus on top brands first - most valuable data is usually from these
-    priority_brands = ["Apple", "Google"]
-    secondary_brands = ["Samsung", "Huawei", "Xiaomi", "Oppo", "OnePlus", "Sony", "LG", 
-                        "Motorola", "Vivo", "Realme", "Honor", "Nubia", "Nothing"]
+    priority_brands = ["Apple", "Samsung"]
+    # secondary_brands = ["Samsung", "Huawei", "Xiaomi", "Oppo", "OnePlus", "Sony", "LG", 
+    #                     "Motorola", "Vivo", "Realme", "Honor", "Nubia", "Nothing"]
     
     secondary_brands = []
     
@@ -607,6 +673,10 @@ def scrape_devices(driver, device_type, max_devices=None, output_file=None):
                 
             logger.info(f"Processing {company} {model['name']}...")
             
+            # Check if we need to override device type based on model name
+            detected_device_type = determine_device_type(model['name'])
+            final_device_type = detected_device_type if detected_device_type else std_device_type
+            
             # Get trade-in values using efficient method
             trade_in_results = process_all_conditions_efficiently(driver, model["url"], model["name"])
             
@@ -614,7 +684,7 @@ def scrape_devices(driver, device_type, max_devices=None, output_file=None):
             for trade_in in trade_in_results:
                 result = {
                     "Country": "Singapore",
-                    "Device Type": device_type.capitalize(),
+                    "Device Type": final_device_type,
                     "Brand": company,
                     "Model": trade_in.get("model", model["name"]),
                     "Capacity": trade_in.get("storage", "Default"),
@@ -656,7 +726,7 @@ def main():
         output_file = args.output
     else:
         date_str = time.strftime("%Y%m%d")
-        output_file = os.path.join(output_dir, "reebelo_trade_in_values.xlsx")
+        output_file = os.path.join(output_dir, "SG_RV_Source8.xlsx")
     
     logger.info(f"Results will be saved to: {output_file}")
     

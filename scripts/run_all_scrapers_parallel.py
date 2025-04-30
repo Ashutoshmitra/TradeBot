@@ -15,6 +15,12 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 # Configure logging
 log_filename = f"scraper_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+runtime_log_filename = f"scraper_runtime_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+
+# Create runtime log file with header
+with open(runtime_log_filename, 'w') as f:
+    f.write("script_name,start_time,end_time,runtime\n")
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -31,6 +37,10 @@ stop_combining = False
 def run_script(script_name, n_scrape=None, result_queue=None):
     """Run a Python script and log the output."""
     logger.info(f"Starting {script_name}")
+    
+    # Record start time for this scraper
+    start_time = datetime.now()
+    
     try:
         # Get the full path to the script
         script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), script_name)
@@ -41,15 +51,15 @@ def run_script(script_name, n_scrape=None, result_queue=None):
         
         # Map script names to their output file names
         output_files = {
-            "samsung_scrape.py": "Samsung_Trade_In_Values.xlsx",
-            "scrape_and_save.py": "tradein_values.xlsx",
-            "starhub_scrape.py": "starhub_tradein_values.xlsx",
-            "singtel_scrape.py": "singtel_tradein_values.xlsx",
-            "compasia_scraper.py": "CompAsia_Device_Prices.xlsx",
-            "m1tradein_scrape.py": "m1_tradein_values.xlsx",
-            "SG_RV_Source8.py": "reebelo_trade_in_values.xlsx",
-            "SG_SO_Source1.py": "Device_Prices_Carousell.xlsx",
-            "SG_RV_Source6.py": "carousell_trade_in_values.xlsx"
+            "SG_RV_Source2.py": "SG_RV_Source2.xlsx",
+            "SG_RV_Source1.py": "SG_RV_Source1.xlsx",
+            "SG_RV_Source3.py": "SG_RV_Source3.xlsx",
+            "SG_RV_Source4.py": "SG_RV_Source4.xlsx",
+            "SG_SO_Source2.py": "SG_SO_Source2.xlsx",
+            "SG_RV_Source5.py": "SG_RV_Source5.xlsx",
+            "SG_RV_Source8.py": "SG_RV_Source8.xlsx",
+            "SG_RV_Source6.py": "SG_RV_Source6.xlsx",
+            "SG_SO_Source3.py": "SG_SO_Source3.xlsx",
         }
         
         # Set the output path for each script
@@ -71,7 +81,7 @@ def run_script(script_name, n_scrape=None, result_queue=None):
         
         # Add output path argument to scripts that support it
         # Some scripts rely on environment variables instead
-        if script_name in ["samsung_scrape.py", "compasia_scraper.py", "singtel_scrape.py", "SG_RV_Source8.py"]:
+        if script_name in ["SG_RV_Source2.py", "SG_SO_Source2.py", "SG_RV_Source4.py", "SG_RV_Source8.py"]:
             command.extend(["-o", output_file])
         
         # Run the script
@@ -80,8 +90,8 @@ def run_script(script_name, n_scrape=None, result_queue=None):
         env["OUTPUT_DIR"] = output_dir  # Add environment variable for output directory
         
         # For scripts that don't accept output file as parameter, set it as env var
-        if script_name in ["SG_SO_Source1.py", "SG_RV_Source6.py", "scrape_and_save.py", 
-                          "starhub_scrape.py", "m1tradein_scrape.py"]:
+        if script_name in ["SG_SO_Source1.py", "SG_RV_Source6.py", "SG_RV_Source1.py", 
+                          "SG_RV_Source3.py", "SG_RV_Source5.py"]:
             env["OUTPUT_FILE"] = output_file
         
         logger.info(f"Running command: {' '.join(command)}")
@@ -101,6 +111,19 @@ def run_script(script_name, n_scrape=None, result_queue=None):
             
         process.wait()
         
+        # Calculate runtime for this scraper
+        end_time = datetime.now()
+        runtime = end_time - start_time
+        runtime_str = f"{runtime.total_seconds():.2f} seconds"
+        if runtime.total_seconds() >= 60:
+            runtime_str = f"{runtime.total_seconds() / 60:.2f} minutes"
+            
+        # Log runtime to the performance log
+        with open(runtime_log_filename, 'a') as f:
+            f.write(f"{script_name},{start_time.strftime('%Y-%m-%d %H:%M:%S')},{end_time.strftime('%Y-%m-%d %H:%M:%S')},{runtime_str}\n")
+        
+        logger.info(f"Runtime for {script_name}: {runtime_str}")
+        
         success = process.returncode == 0
         if success:
             logger.info(f"Successfully completed {script_name}")
@@ -109,7 +132,7 @@ def run_script(script_name, n_scrape=None, result_queue=None):
         
         # Add result to queue if provided
         if result_queue is not None:
-            result_queue.put((script_name, success))
+            result_queue.put((script_name, success, runtime_str))
             
         return success
             
@@ -205,15 +228,45 @@ def periodic_combine(interval_minutes, output_dir, output_file):
         except Exception as e:
             logger.error(f"Error in periodic file combination: {e}")
 
+def run_batch(scripts, args, result_queue, batch_num):
+    """Run a batch of scraper scripts in parallel."""
+    logger.info(f"Starting batch {batch_num} of scrapers")
+    batch_processes = []
+    
+    for script in scripts:
+        p = Process(
+            target=run_script, 
+            args=(script, args.n, result_queue)
+        )
+        batch_processes.append(p)
+        p.start()
+        logger.info(f"Started process for {script} in batch {batch_num}")
+    
+    # Wait for all processes in this batch to complete
+    for p in batch_processes:
+        p.join()
+    
+    # Collect results from this batch
+    batch_results = {}
+    batch_runtimes = {}
+    while not result_queue.empty():
+        script, success, runtime = result_queue.get()
+        batch_results[script] = success
+        batch_runtimes[script] = runtime
+    
+    logger.info(f"All batch {batch_num} scraper processes completed")
+    logger.info(f"Batch {batch_num} runtimes: {batch_runtimes}")
+    return batch_results
+
 def main():
-    """Run all scrapers in parallel and send email with combined results."""
+    """Run all scrapers in 2 batches, with 5 in the first batch and 4 in the second batch."""
     global stop_combining
     
     start_time = datetime.now()
-    logger.info(f"Starting parallel scraping job at {start_time}")
+    logger.info(f"Starting batch scraping job at {start_time}")
     
     # Get the number of scrapes from command line arguments
-    parser = argparse.ArgumentParser(description='Run all scrapers in parallel')
+    parser = argparse.ArgumentParser(description='Run scrapers in 2 batches, with 5 in the first batch and 4 in the second batch')
     parser.add_argument('-n', type=int, help='Number of items to scrape (for testing)', default=None)
     parser.add_argument('-c', '--combined', type=str, help='Name of the combined output file', 
                        default="Combined_Trade_In_Values.xlsx")
@@ -243,77 +296,19 @@ def main():
         combine_thread.start()
         logger.info(f"Started periodic file combination thread with interval {args.interval} minutes")
     
-    # Define the first batch of scraper scripts to run in parallel
-    first_batch_scripts = [
-        "samsung_scrape.py",
-        "singtel_scrape.py",
-        "compasia_scraper.py",
-        "m1tradein_scrape.py",
-        "SG_RV_Source8.py",
-        "SG_RV_Source6.py"
+    # Define 2 batches: 5 scripts in first batch, 4 in second batch
+    batches = [
+        # Batch 1 (5 scrapers)
+        ["SG_RV_Source1.py", "SG_RV_Source2.py", "SG_RV_Source3.py", "SG_RV_Source4.py", "SG_RV_Source5.py"],
+        # Batch 2 (4 scrapers)
+        ["SG_RV_Source6.py", "SG_SO_Source2.py", "SG_RV_Source8.py", "SG_SO_Source3.py"]
     ]
     
-    # Define the second batch of scraper scripts to run after the first batch completes
-    second_batch_scripts = [
-        "starhub_scrape.py",
-        "scrape_and_save.py"
-    ]
-    
-    # Create and start processes for first batch
-    logger.info("Starting first batch of scrapers")
-    first_batch_processes = []
-    for script in first_batch_scripts:
-        p = Process(
-            target=run_script, 
-            args=(script, args.n, result_queue)
-        )
-        first_batch_processes.append(p)
-        p.start()
-        logger.info(f"Started process for {script}")
-    
-    # Wait for all first batch processes to complete
-    for p in first_batch_processes:
-        p.join()
-    
-    # Collect results from the first batch
-    first_batch_results = {}
-    while not result_queue.empty():
-        script, success = result_queue.get()
-        first_batch_results[script] = success
-    
-    logger.info("All first batch scraper processes completed")
-    
-    # Start the second batch if not empty
-    if second_batch_scripts:
-        logger.info("Starting second batch of scrapers")
-        second_batch_processes = []
-        for script in second_batch_scripts:
-            p = Process(
-                target=run_script, 
-                args=(script, args.n, result_queue)
-            )
-            second_batch_processes.append(p)
-            p.start()
-            logger.info(f"Started process for {script}")
-        
-        # Wait for all second batch processes to complete
-        for p in second_batch_processes:
-            p.join()
-        
-        # Collect results from the second batch
-        second_batch_results = {}
-        while not result_queue.empty():
-            script, success = result_queue.get()
-            second_batch_results[script] = success
-        
-        logger.info("All second batch scraper processes completed")
-        
-        # Combine all results
-        results = {**first_batch_results, **second_batch_results}
-    else:
-        # If second batch is empty, results are just from the first batch
-        results = first_batch_results
-        logger.info("No second batch of scrapers to run")
+    # Run each batch sequentially and collect results
+    all_results = {}
+    for i, batch in enumerate(batches):
+        batch_results = run_batch(batch, args, result_queue, i+1)
+        all_results.update(batch_results)
     
     # Stop the periodic file combination thread
     if combine_thread is not None:
@@ -373,6 +368,11 @@ def main():
                 text = (f"I finished collecting trade-in values on {datetime.now().strftime('%Y-%m-%d')}. "
                        f"Attached are the following files: {', '.join([os.path.basename(f) for f in files_to_send])}")
             
+            # Add runtime log file to files_to_send if it exists
+            if os.path.exists(runtime_log_filename):
+                files_to_send.append(runtime_log_filename)
+                logger.info(f"Adding runtime log file to email attachments: {runtime_log_filename}")
+            
             # Define primary recipient (with log file)
             primary_recipient = 'ashutoshmitra7@gmail.com'
             
@@ -389,18 +389,18 @@ def main():
             # Define secondary recipient (no log file)
             secondary_recipient = 'ashmitra0000007@gmail.com'
             
-            # Create a list without the log file for the secondary recipient
-            files_without_log = [f for f in files_to_send if f != log_filename]
+            # Create a list without the log files for the secondary recipient
+            files_without_logs = [f for f in files_to_send if f != log_filename and f != runtime_log_filename]
             
             # Send simplified email without log file to the secondary recipient
-            if files_without_log:
+            if files_without_logs:
                 simple_subject = "Excel file"
                 simple_text = "Please find the attached Excel file."
                 send_email(
                     subject=simple_subject,
                     text=simple_text,
                     send_to=secondary_recipient,
-                    files=files_without_log,
+                    files=files_without_logs,
                     runtime=None  # No runtime info for secondary recipient
                 )
                 logger.info(f"Email without logs sent to {secondary_recipient}")
@@ -412,7 +412,7 @@ def main():
     
     end_time = datetime.now()
     total_time = end_time - start_time
-    logger.info(f"Completed parallel scraping job at {end_time}. Total runtime: {total_time}")
+    logger.info(f"Completed batch scraping job at {end_time}. Total runtime: {total_time}")
 
 if __name__ == "__main__":
     main()

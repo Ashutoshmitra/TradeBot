@@ -12,7 +12,7 @@ import argparse
 from datetime import datetime
 
 
-def scrape_trade_in_prices(output_excel_path="Samsung_Trade_In_Values.xlsx", n_scrape=None, headless=True, delay=1):
+def scrape_trade_in_prices(output_excel_path="SG_RV_Source2.xlsx", n_scrape=None, headless=True, delay=1):
     """
     Scrapes trade-in prices by company name and saves results to a new Excel file
     
@@ -27,7 +27,8 @@ def scrape_trade_in_prices(output_excel_path="Samsung_Trade_In_Values.xlsx", n_s
     """
     try:
         # List of companies to scrape
-        companies = ["Apple", "Samsung", "Google", "Huawei", "Xiaomi", "Oppo", "OnePlus", "Sony", "LG", "Motorola", "Vivo", "Realme", "Honor", "Nubia", "Nothing"]
+        # companies = ["Apple", "Samsung", "Google", "Huawei", "Xiaomi", "Oppo", "OnePlus", "Sony", "LG", "Motorola", "Vivo", "Realme", "Honor", "Nubia", "Nothing"]
+        companies = ["Apple", "Samsung"]
         
         # Create the results DataFrame with required columns
         results_df = pd.DataFrame(columns=[
@@ -45,7 +46,7 @@ def scrape_trade_in_prices(output_excel_path="Samsung_Trade_In_Values.xlsx", n_s
             "Updated on": datetime.now().strftime("%Y-%m-%d"),
             "Color": "",
             "Launch RRP": "",
-            "Condition": "",
+            "Condition": "Good",
             "Updated by": "",
             "Comments": ""
         }
@@ -207,7 +208,7 @@ def scrape_trade_in_prices(output_excel_path="Samsung_Trade_In_Values.xlsx", n_s
                                     print(f"Found trade-in price: ${price_match.group(1)}")
                                     
                                     # Determine if this is a phone or tablet
-                                    device_type = "Smartphone"  # Default
+                                    device_type = "SmartPhone"  # Default
                                     if "Tab" in model_text or "Tablet" in model_text or "iPad" in model_text:
                                         device_type = "Tablet"
                                     
@@ -300,7 +301,7 @@ def scrape_trade_in_prices(output_excel_path="Samsung_Trade_In_Values.xlsx", n_s
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Scrape Samsung trade-in values by company')
     parser.add_argument('-n', type=int, help='Number of companies/models to scrape (for testing)', default=None)
-    parser.add_argument('-o', '--output', type=str, help='Output Excel file path', default="Samsung_Trade_In_Values.xlsx")
+    parser.add_argument('-o', '--output', type=str, help='Output Excel file path', default="SG_RV_Source2.xlsx")
     parser.add_argument('--no-headless', action='store_true', help='Disable headless mode (show browser)')
     parser.add_argument('-d', '--delay', type=float, help='Delay between actions (lower = faster but may be less reliable)', default=0.5)
     args = parser.parse_args()

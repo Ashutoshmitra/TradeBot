@@ -13,7 +13,7 @@ from datetime import datetime
 import urllib3
 import os
 
-def extract_trade_in_values(output_excel_path="singtel_tradein_values.xlsx", limit=None, headless=True):
+def extract_trade_in_values(output_excel_path="SG_RV_Source4.xlsx", limit=None, headless=True):
     """
     Extracts trade-in values from Singtel website and saves to Excel
     
@@ -142,7 +142,7 @@ def extract_trade_in_values(output_excel_path="singtel_tradein_values.xlsx", lim
                         size_name = "N/A"
                     
                     # Determine device type based on model name
-                    device_type = "Phone"
+                    device_type = "SmartPhone"
                     if any(tablet_term in model_name.lower() for tablet_term in ["tab", "ipad", "pad", "tablet"]):
                         device_type = "Tablet"
                     
@@ -158,7 +158,7 @@ def extract_trade_in_values(output_excel_path="singtel_tradein_values.xlsx", lim
                         "Capacity": size_name,
                         "Color": "",  # Left blank as requested
                         "Launch RRP": "",  # Left blank as requested
-                        "Condition": "Flawless",  # Default to "Flawless" for Singtel
+                        "Condition": "Good",  # Default to "Flawless" for Singtel
                         "Value Type": "Trade-in",
                         "Currency": "SGD",
                         "Value": trade_price_value,
@@ -206,7 +206,7 @@ def extract_trade_in_values(output_excel_path="singtel_tradein_values.xlsx", lim
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Scrape trade-in values from Singtel website")
     parser.add_argument("-n", "--limit", type=int, help="Limit the number of items to extract per brand (for testing)")
-    parser.add_argument("-o", "--output", type=str, help="Output Excel file path", default="singtel_tradein_values.xlsx")
+    parser.add_argument("-o", "--output", type=str, help="Output Excel file path", default="SG_RV_Source4.xlsx")
     parser.add_argument("--no-headless", action="store_true", help="Run without headless mode (shows browser)")
     args = parser.parse_args()
     

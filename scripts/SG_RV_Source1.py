@@ -52,6 +52,16 @@ def setup_driver(headless=True):
     
     return driver
 
+
+def get_condition_mapping(screen_condition):
+    """Map screen condition values to the required conditions."""
+    condition_map = {
+        "flawless": "Flawless",
+        "minor_scratches": "Good",
+        "cracked": "Damaged"
+    }
+    return condition_map.get(screen_condition, screen_condition.replace("_", " ").title())
+
 def get_dropdown_options(driver, input_id):
     """Retrieve all available options from a dropdown."""
     try:
@@ -148,7 +158,7 @@ def navigate_and_complete_form(driver, wait, device_type, brand_index, model_ind
         "Capacity": "",
         "Color": "",  # Left blank as requested
         "Launch RRP": "",  # Left blank as requested
-        "Condition": screen_condition.replace("_", " ").title(),  # Use the screen condition
+        "Condition": get_condition_mapping(screen_condition),  # Use the screen condition
         "Value Type": "Trade-in",
         "Currency": "SGD",
         "Value": "",
@@ -368,7 +378,7 @@ def save_to_excel(data, output_file):
         print(f"Saved data to {output_file}")
     except Exception as e:
         print(f"Error saving Excel file: {e}")
-        alt_file_name = os.path.join(os.path.dirname(output_file), f"tradein_values_{int(time.time())}.xlsx")
+        alt_file_name = os.path.join(os.path.dirname(output_file), f"SG_RV_Source1.xlsx")
         try:
             workbook.save(alt_file_name)
             print(f"Saved to {alt_file_name}")
@@ -377,16 +387,17 @@ def save_to_excel(data, output_file):
 
 def main_loop(n_scrape=None, output_file=None):
     """Main loop to iterate through brands, models, variants, and screen conditions."""
-    brands = ["Apple", "Samsung", "Google", "Huawei", "Xiaomi", "Oppo", "OnePlus", "Sony", "LG", "Motorola", "Vivo", "Realme", "Honor", "Nubia", "Nothing"]
+    # brands = ["Apple", "Samsung", "Google", "Huawei", "Xiaomi", "Oppo", "OnePlus", "Sony", "LG", "Motorola", "Vivo", "Realme", "Honor", "Nubia", "Nothing"]
+    brands = ["Apple", "Samsung"]
     screen_conditions = ["flawless", "minor_scratches", "cracked"]
-    device_types = ["Smartphone", "Tablet"]
+    device_types = ["SmartPhone", "Tablet"]
 
     # Use default output path if not specified
     if output_file is None:
         # Check for environment variable first
         output_dir = os.environ.get("OUTPUT_DIR", "output")
         os.makedirs(output_dir, exist_ok=True)
-        output_file = os.path.join(output_dir, "tradein_values.xlsx")
+        output_file = os.path.join(output_dir, "SG_RV_Source1.xlsx")
     
     print(f"Will save results to: {output_file}")
 

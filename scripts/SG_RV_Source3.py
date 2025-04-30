@@ -147,7 +147,9 @@ def navigate_and_complete_form(driver, wait, brand_index, model_index, variant_i
         "Capacity": "",
         "Color": "",  # Left blank as requested
         "Launch RRP": "",  # Left blank as requested
-        "Condition": screen_condition.replace("_", " ").title(),
+        "Condition": "Good" if screen_condition == "minor_scratches" else
+             "Damaged" if screen_condition == "cracked" else
+             screen_condition.replace("_", " ").title(),
         "Value Type": "Trade-in",
         "Currency": "SGD",
         "Value": "",
@@ -161,7 +163,7 @@ def navigate_and_complete_form(driver, wait, brand_index, model_index, variant_i
         driver.get("https://starhubtradein-sg.compasia.com/")
         
         # Click the appropriate device type button
-        device_button_text = "Smartphone" if device_type == "Phone" else device_type
+        device_button_text = "Smartphone" if device_type in ["Phone", "Smartphone", "SmartPhone"] else device_type
         wait.until(EC.element_to_be_clickable(
             (By.XPATH, f"//div[contains(@class, 'card-button-footer') and text()='{device_button_text}']")
         )).click()
@@ -384,7 +386,7 @@ def save_to_excel(data, output_file):
         print(f"Saved data to {output_file}")
     except Exception as e:
         print(f"Error saving Excel file: {e}")
-        alt_file_name = f"starhub_tradein_values_{int(time.time())}.xlsx"
+        alt_file_name = f"SG_RV_Source3.xlsx"
         try:
             workbook.save(alt_file_name)
             print(f"Saved to {alt_file_name}")
@@ -393,7 +395,7 @@ def save_to_excel(data, output_file):
 
 def process_device_type(driver, wait, device_type, brands, screen_conditions, n_scrape=None, output_file=None):
     """Process a specific device type (Phone or Tablet)."""
-    device_button_text = "Smartphone" if device_type == "Phone" else device_type
+    device_button_text = "Smartphone" if device_type in ["Phone", "Smartphone"] else device_type
     print(f"\n=== Starting {device_type} scraping ===\n")
     
     # Counter for number of scrapes completed for this device type
@@ -492,7 +494,8 @@ def process_device_type(driver, wait, device_type, brands, screen_conditions, n_
 def main_loop(n_scrape=None, output_file=None):
     """Main loop to iterate through device types, brands, models, variants, and screen conditions."""
     # Common brands to check for both phones and tablets
-    brands = ["Apple", "Samsung", "Google", "Huawei", "Xiaomi", "Oppo", "OnePlus", "Sony", "LG", "Motorola", "Vivo", "Realme", "Honor", "Nubia", "Nothing"]
+    # brands = ["Apple", "Samsung", "Google", "Huawei", "Xiaomi", "Oppo", "OnePlus", "Sony", "LG", "Motorola", "Vivo", "Realme", "Honor", "Nubia", "Nothing"]
+    brands = ["Apple", "Samsung"]
     screen_conditions = ["flawless", "minor_scratches", "cracked"]
 
     # Use default output path if not specified
@@ -500,7 +503,7 @@ def main_loop(n_scrape=None, output_file=None):
         # Check for environment variable first
         output_dir = os.environ.get("OUTPUT_DIR", "output")
         os.makedirs(output_dir, exist_ok=True)
-        output_file = os.path.join(output_dir, "starhub_tradein_values.xlsx")
+        output_file = os.path.join(output_dir, "SG_RV_Source3.xlsx")
 
     # Create output directory if it doesn't exist
     os.makedirs(os.path.dirname(output_file) if os.path.dirname(output_file) else ".", exist_ok=True)
@@ -521,7 +524,7 @@ def main_loop(n_scrape=None, output_file=None):
             print(f"Planning to scrape {phones_to_scrape} phones and {tablets_to_scrape} tablets")
         
         # Process smartphones
-        phones_scraped = process_device_type(driver, wait, "Phone", brands, screen_conditions, phones_to_scrape, output_file)
+        phones_scraped = process_device_type(driver, wait, "SmartPhone", brands, screen_conditions, phones_to_scrape, output_file)
         
         # Process tablets
         tablets_scraped = process_device_type(driver, wait, "Tablet", brands, screen_conditions, tablets_to_scrape, output_file)
