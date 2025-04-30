@@ -162,11 +162,39 @@ def navigate_and_complete_form(driver, wait, brand_index, model_index, variant_i
     try:
         driver.get("https://starhubtradein-sg.compasia.com/")
         
-        # Click the appropriate device type button
+        # FIXED: Click the appropriate device type button with better selector
         device_button_text = "Smartphone" if device_type in ["Phone", "Smartphone", "SmartPhone"] else device_type
-        wait.until(EC.element_to_be_clickable(
-            (By.XPATH, f"//div[contains(@class, 'card-button-footer') and text()='{device_button_text}']")
-        )).click()
+        
+        # Try multiple methods to click the device type button
+        try:
+            # Method 1: Try clicking on the parent card button
+            wait.until(EC.element_to_be_clickable(
+                (By.XPATH, f"//div[contains(@class, 'card-button-footer') and contains(text(), '{device_button_text}')]/parent::div")
+            )).click()
+            print(f"Successfully clicked on {device_button_text} using parent card selector")
+        except Exception as e:
+            print(f"First method failed: {e}")
+            try:
+                # Method 2: Try JavaScript approach to click the button
+                script = f"""
+                    var buttons = document.querySelectorAll('.card-button');
+                    for (var i = 0; i < buttons.length; i++) {{
+                        var footer = buttons[i].querySelector('.card-button-footer');
+                        if (footer && footer.textContent.includes('{device_button_text}')) {{
+                            buttons[i].click();
+                            return true;
+                        }}
+                    }}
+                    return false;
+                """
+                clicked = driver.execute_script(script)
+                if clicked:
+                    print(f"Successfully clicked on {device_button_text} using JavaScript")
+                else:
+                    print(f"Could not find {device_button_text} button with JavaScript")
+            except Exception as js_error:
+                print(f"JavaScript approach failed: {js_error}")
+        
         time.sleep(2)
 
         # Select brand
@@ -395,18 +423,46 @@ def save_to_excel(data, output_file):
 
 def process_device_type(driver, wait, device_type, brands, screen_conditions, n_scrape=None, output_file=None):
     """Process a specific device type (Phone or Tablet)."""
-    device_button_text = "Smartphone" if device_type in ["Phone", "Smartphone"] else device_type
+    device_button_text = "Smartphone" if device_type in ["Phone", "Smartphone", "SmartPhone"] else device_type
     print(f"\n=== Starting {device_type} scraping ===\n")
     
     # Counter for number of scrapes completed for this device type
     scrape_count = 0
     
     try:
-        # Navigate to website and click on the device type button
+        # FIXED: Better device selection approach
         driver.get("https://starhubtradein-sg.compasia.com/")
-        wait.until(EC.element_to_be_clickable(
-            (By.XPATH, f"//div[contains(@class, 'card-button-footer') and text()='{device_button_text}']")
-        )).click()
+        
+        # Try multiple methods to click the device type button
+        try:
+            # Method 1: Try clicking on the parent card button
+            wait.until(EC.element_to_be_clickable(
+                (By.XPATH, f"//div[contains(@class, 'card-button-footer') and contains(text(), '{device_button_text}')]/parent::div")
+            )).click()
+            print(f"Successfully clicked on {device_button_text} using parent card selector")
+        except Exception as e:
+            print(f"First method failed: {e}")
+            try:
+                # Method 2: Try JavaScript approach to click the button
+                script = f"""
+                    var buttons = document.querySelectorAll('.card-button');
+                    for (var i = 0; i < buttons.length; i++) {{
+                        var footer = buttons[i].querySelector('.card-button-footer');
+                        if (footer && footer.textContent.includes('{device_button_text}')) {{
+                            buttons[i].click();
+                            return true;
+                        }}
+                    }}
+                    return false;
+                """
+                clicked = driver.execute_script(script)
+                if clicked:
+                    print(f"Successfully clicked on {device_button_text} using JavaScript")
+                else:
+                    print(f"Could not find {device_button_text} button with JavaScript")
+            except Exception as js_error:
+                print(f"JavaScript approach failed: {js_error}")
+        
         time.sleep(2)
 
         # Get all brand options and find indices for the brands we're interested in
@@ -430,9 +486,37 @@ def process_device_type(driver, wait, device_type, brands, screen_conditions, n_
         for brand_idx in brand_indices:
             # Navigate to the main page for each brand
             driver.get("https://starhubtradein-sg.compasia.com/")
-            wait.until(EC.element_to_be_clickable(
-                (By.XPATH, f"//div[contains(@class, 'card-button-footer') and text()='{device_button_text}']")
-            )).click()
+            
+            # FIXED: Better device selection with multiple approaches
+            try:
+                # Method 1: Try clicking on the parent card button
+                wait.until(EC.element_to_be_clickable(
+                    (By.XPATH, f"//div[contains(@class, 'card-button-footer') and contains(text(), '{device_button_text}')]/parent::div")
+                )).click()
+                print(f"Successfully clicked on {device_button_text} using parent card selector")
+            except Exception as e:
+                print(f"First method failed: {e}")
+                try:
+                    # Method 2: Try JavaScript approach to click the button
+                    script = f"""
+                        var buttons = document.querySelectorAll('.card-button');
+                        for (var i = 0; i < buttons.length; i++) {{
+                            var footer = buttons[i].querySelector('.card-button-footer');
+                            if (footer && footer.textContent.includes('{device_button_text}')) {{
+                                buttons[i].click();
+                                return true;
+                            }}
+                        }}
+                        return false;
+                    """
+                    clicked = driver.execute_script(script)
+                    if clicked:
+                        print(f"Successfully clicked on {device_button_text} using JavaScript")
+                    else:
+                        print(f"Could not find {device_button_text} button with JavaScript")
+                except Exception as js_error:
+                    print(f"JavaScript approach failed: {js_error}")
+            
             time.sleep(2)
             
             # Select the brand
@@ -447,9 +531,37 @@ def process_device_type(driver, wait, device_type, brands, screen_conditions, n_
             for model_idx in range(num_models):
                 # For each model, go back to the main page
                 driver.get("https://starhubtradein-sg.compasia.com/")
-                wait.until(EC.element_to_be_clickable(
-                    (By.XPATH, f"//div[contains(@class, 'card-button-footer') and text()='{device_button_text}']")
-                )).click()
+                
+                # FIXED: Better device selection with multiple approaches
+                try:
+                    # Method 1: Try clicking on the parent card button
+                    wait.until(EC.element_to_be_clickable(
+                        (By.XPATH, f"//div[contains(@class, 'card-button-footer') and contains(text(), '{device_button_text}')]/parent::div")
+                    )).click()
+                    print(f"Successfully clicked on {device_button_text} using parent card selector")
+                except Exception as e:
+                    print(f"First method failed: {e}")
+                    try:
+                        # Method 2: Try JavaScript approach to click the button
+                        script = f"""
+                            var buttons = document.querySelectorAll('.card-button');
+                            for (var i = 0; i < buttons.length; i++) {{
+                                var footer = buttons[i].querySelector('.card-button-footer');
+                                if (footer && footer.textContent.includes('{device_button_text}')) {{
+                                    buttons[i].click();
+                                    return true;
+                                }}
+                            }}
+                            return false;
+                        """
+                        clicked = driver.execute_script(script)
+                        if clicked:
+                            print(f"Successfully clicked on {device_button_text} using JavaScript")
+                        else:
+                            print(f"Could not find {device_button_text} button with JavaScript")
+                    except Exception as js_error:
+                        print(f"JavaScript approach failed: {js_error}")
+                
                 time.sleep(2)
                 
                 # Select brand again
