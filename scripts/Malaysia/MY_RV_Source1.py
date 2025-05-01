@@ -64,21 +64,97 @@ def get_condition_mapping(screen_condition):
 
 
 def click_device_type(driver, wait, device_type):
-    """Click on the device type card with multiple fallback methods."""
+    """Click on the device type card with multiple fallback methods for Malaysia website."""
     print(f"Attempting to click on {device_type} card...")
+    
+    # Check for iframes first
+    print("Checking for iframes...")
+    iframes = driver.find_elements(By.TAG_NAME, 'iframe')
+    found_in_iframe = False
+    
+    if iframes:
+        print(f"Found {len(iframes)} iframes")
+        for index, iframe in enumerate(iframes):
+            try:
+                driver.switch_to.frame(iframe)
+                print(f"Switched to iframe {index}")
+                # Check if cards exist in this iframe
+                cards = WebDriverWait(driver, 5).until(
+                    EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.card-button'))
+                )
+                print(f"Found cards in iframe {index}")
+                found_in_iframe = True
+                break
+            except TimeoutException:
+                print(f"No cards found in iframe {index}")
+                driver.switch_to.default_content()
+    
+    if not found_in_iframe:
+        driver.switch_to.default_content()
+        print("No cards found in iframes, proceeding with main content")
     
     # Method 1: Find by card-button-footer text
     try:
+        cards = WebDriverWait(driver, 15).until(
+            EC.visibility_of_all_elements_located((By.CSS_SELECTOR, '.card-button'))
+        )
+        print(f"Found {len(cards)} cards")
+        
+        card = None
+        for c in cards:
+            try:
+                footer = c.find_element(By.CSS_SELECTOR, '.card-button-footer')
+                if footer.text.strip() == device_type:
+                    card = c
+                    break
+            except (StaleElementReferenceException, NoSuchElementException) as e:
+                print(f"Error finding footer text: {e}")
+                continue
+        
+        if card:
+            # Check if card is disabled
+            aria_disabled = card.get_attribute('aria-disabled')
+            print(f"aria-disabled for {device_type}: {aria_disabled}")
+            
+            # Scroll to the card
+            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", card)
+            time.sleep(1)
+            
+            # Try multiple click methods
+            try:
+                card.click()
+                print(f"Clicked {device_type} using standard click")
+            except (ElementClickInterceptedException, StaleElementReferenceException):
+                print(f"Standard click failed for {device_type}, trying ActionChains")
+                ActionChains(driver).move_to_element(card).click().perform()
+                print(f"Clicked {device_type} using ActionChains")
+            except Exception as e:
+                print(f"ActionChains click failed: {e}, trying JavaScript")
+                driver.execute_script("arguments[0].click();", card)
+                print(f"Clicked {device_type} using JavaScript")
+            
+            time.sleep(3)  # Wait for page to update
+            return True
+    except Exception as e:
+        print(f"Method 1 failed: {e}")
+    
+    # Method 2: JavaScript approach
+    try:
         script = f"""
             var cards = document.querySelectorAll('.card-button');
+            var clicked = false;
             for (var i = 0; i < cards.length; i++) {{
                 var footer = cards[i].querySelector('.card-button-footer');
                 if (footer && footer.textContent.trim() === '{device_type}') {{
-                    cards[i].click();
-                    return true;
+                    cards[i].scrollIntoView({{block: 'center'}});
+                    setTimeout(function() {{
+                        cards[i].click();
+                    }}, 500);
+                    clicked = true;
+                    break;
                 }}
             }}
-            return false;
+            return clicked;
         """
         result = driver.execute_script(script)
         if result:
@@ -86,26 +162,14 @@ def click_device_type(driver, wait, device_type):
             time.sleep(3)  # Wait for page to update
             return True
     except Exception as e:
-        print(f"JavaScript click failed: {e}")
+        print(f"JavaScript approach failed: {e}")
     
-    # Method 2: Try to click directly on footer
-    try:
-        elements = driver.find_elements(By.CLASS_NAME, "card-button-footer")
-        for element in elements:
-            if element.text.strip() == device_type:
-                driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
-                driver.execute_script("arguments[0].click();", element)
-                print(f"Successfully clicked on {device_type} footer directly")
-                time.sleep(3)
-                return True
-    except Exception as e:
-        print(f"Direct footer click failed: {e}")
-    
-    # Method 3: Try XPath with parent
+    # Method 3: XPath with parent
     try:
         xpath = f"//div[contains(@class, 'card-button-footer') and text()='{device_type}']/parent::div"
         element = wait.until(EC.element_to_be_clickable((By.XPATH, xpath)))
         driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
+        time.sleep(1)
         driver.execute_script("arguments[0].click();", element)
         print(f"Successfully clicked on {device_type} using XPath with parent")
         time.sleep(3)
@@ -113,9 +177,15 @@ def click_device_type(driver, wait, device_type):
     except Exception as e:
         print(f"XPath parent click failed: {e}")
     
+    # Save screenshot for debugging
+    try:
+        driver.save_screenshot(f"click_failure_{device_type}.png")
+        print(f"Screenshot saved as click_failure_{device_type}.png")
+    except Exception as e:
+        print(f"Failed to save screenshot: {e}")
+    
     print(f"All methods to click {device_type} card failed")
     return False
-
 
 def get_dropdown_options(driver, input_id):
     """Retrieve all available options from a dropdown."""
@@ -347,7 +417,7 @@ def navigate_and_complete_form(driver, wait, device_type, brand_index, model_ind
 
     try:
         # Load the main page
-        driver.get("https://compasiatradeinsg.com/tradein/sell")
+        driver.get("https://compasia.my/pages/sell-your-devices")
         time.sleep(3)
         
         # Click on device type card
@@ -509,7 +579,7 @@ def main_loop(n_scrape=None, output_file=None):
             print(f"\n========== Processing {device_type} ==========\n")
             
             # Navigate to website
-            driver.get("https://compasiatradeinsg.com/tradein/sell")
+            driver.get("https://compasia.my/pages/sell-your-devices")
             time.sleep(3)
             
             # Click on the device type
@@ -536,7 +606,7 @@ def main_loop(n_scrape=None, output_file=None):
             # Process each brand
             for brand_idx in brand_indices:
                 # Navigate to the main page for each brand
-                driver.get("https://compasiatradeinsg.com/tradein/sell")
+                driver.get("https://compasia.my/pages/sell-your-devices")
                 time.sleep(3)
                 
                 if not click_device_type(driver, wait, device_type):
@@ -556,7 +626,7 @@ def main_loop(n_scrape=None, output_file=None):
                 # Process each model
                 for model_idx in range(num_models):
                     # Navigate to main page for each model
-                    driver.get("https://compasiatradeinsg.com/tradein/sell")
+                    driver.get("https://compasia.my/pages/sell-your-devices")
                     time.sleep(3)
                     
                     if not click_device_type(driver, wait, device_type):

@@ -1,3 +1,7 @@
+"""
+This script should be run separately. It has cloudfare protection, so should be run in HEAD mode only and should be checked for
+manual verification at the start of the script
+"""
 import os
 import time
 import random
@@ -69,17 +73,36 @@ except FileNotFoundError:
     print(f"Created new data file at: {excel_file}")
 
 def setup_driver():
-    """Create and return an undetected ChromeDriver instance"""
+    """Create and return an undetected ChromeDriver instance in headless mode"""
     options = uc.ChromeOptions()
     options.add_argument('--enable-javascript')
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
     options.page_load_strategy = 'eager'  # Don't wait for all resources to load
     
-    # Create driver with undetected_chromedriver
-    driver = uc.Chrome(options=options)
-    driver.set_window_size(1280, 900)
+    # Add headless mode options
+    # options.add_argument('--headless=new')  # New headless implementation
+    
+    # When using headless mode, it's good to set a user agent
+    options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36')
+    
+    # Needed for headless mode to work properly with some websites
+    options.add_argument('--window-size=1920,1080')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--disable-extensions')
+    options.add_argument('--disable-infobars')
+    
+    # Create driver with undetected_chromedriver and specify version
+    driver = uc.Chrome(
+        options=options,
+        version_main=135,  # Match your current Chrome version 135
+        headless=False      # Also set the headless parameter here for undetected_chromedriver
+    )
+    
     driver.set_page_load_timeout(30)
+    
+    # Additional settings that help with headless scraping
+    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
     
     return driver
 

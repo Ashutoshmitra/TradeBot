@@ -39,6 +39,72 @@ def get_condition_mapping(screen_condition):
     }
     return condition_map.get(screen_condition, screen_condition.replace("_", " ").title())
 
+def click_device_type(driver, wait, device_type):
+    """Click on the device type card using a simple, reliable method."""
+    print(f"Attempting to click on {device_type} card...")
+    
+    # Wait a good amount of time for the page to fully load
+    time.sleep(5)
+    
+    # Simple position-based method
+    try:
+        # Determine the index based on device type
+        index = 0
+        if device_type.lower() == "smartphone":
+            index = 0
+        elif device_type.lower() == "tablet":
+            index = 1
+        elif device_type.lower() == "watch":
+            index = 2
+            
+        # Use JavaScript to click the appropriate card
+        script = f"""
+            var cards = document.querySelectorAll('.card-button');
+            console.log('Found ' + cards.length + ' cards');
+            if (cards.length > {index}) {{
+                cards[{index}].scrollIntoView({{block: 'center'}});
+                setTimeout(function() {{
+                    cards[{index}].click();
+                }}, 500);
+                return true;
+            }}
+            return false;
+        """
+        result = driver.execute_script(script)
+        if result:
+            print(f"Successfully clicked on {device_type} card at position {index}")
+            time.sleep(3)  # Wait after clicking
+            return True
+        else:
+            print(f"No card found at position {index}")
+    except Exception as e:
+        print(f"Position-based method failed: {e}")
+    
+    # Fallback method - try clicking on any card button
+    try:
+        print("Trying to click on any card button...")
+        script = """
+            var cards = document.querySelectorAll('.card-button');
+            if (cards.length > 0) {
+                cards[0].scrollIntoView({block: 'center'});
+                setTimeout(function() {
+                    cards[0].click();
+                }, 500);
+                return true;
+            }
+            return false;
+        """
+        result = driver.execute_script(script)
+        if result:
+            print(f"Clicked on first available card button as fallback")
+            time.sleep(3)
+            return True
+    except Exception as e:
+        print(f"Fallback method failed: {e}")
+    
+    print(f"All methods to click {device_type} card failed")
+    return False
+
 def get_dropdown_options(driver, input_id):
     """Retrieve all available options from a dropdown."""
     try:
@@ -193,9 +259,7 @@ def navigate_and_complete_form(driver, wait, device_type, brand_index, model_ind
         driver.get("https://m1tradein.compasia.com/?utm_source=website&utm_medium=cta&utm_campaign=new")
         
         # Click device type button
-        wait.until(EC.element_to_be_clickable(
-            (By.XPATH, f"//div[contains(@class, 'card-button-footer') and text()='{device_type}']")
-        )).click()
+        click_device_type(driver, wait, device_type)
         time.sleep(2)
         
         # Handle the terms & conditions popup
@@ -443,10 +507,7 @@ def process_device_type(device_type, n_scrape=None, driver=None, wait=None, outp
     try:
         # Navigate to website and click on device type
         driver.get("https://m1tradein.compasia.com/?utm_source=website&utm_medium=cta&utm_campaign=new")
-        wait.until(EC.element_to_be_clickable(
-            (By.XPATH, f"//div[contains(@class, 'card-button-footer') and text()='{device_type}']")
-        )).click()
-        time.sleep(2)
+        click_device_type(driver, wait, device_type)
         
         # Handle the terms & conditions popup
         handle_popup(driver, wait)
@@ -474,9 +535,7 @@ def process_device_type(device_type, n_scrape=None, driver=None, wait=None, outp
         for brand_idx in brand_indices:
             # Navigate to the main page for each brand
             driver.get("https://m1tradein.compasia.com/?utm_source=website&utm_medium=cta&utm_campaign=new")
-            wait.until(EC.element_to_be_clickable(
-                (By.XPATH, f"//div[contains(@class, 'card-button-footer') and text()='{device_type}']")
-            )).click()
+            click_device_type(driver, wait, device_type)
             time.sleep(2)
             
             # Handle the terms & conditions popup
@@ -494,9 +553,7 @@ def process_device_type(device_type, n_scrape=None, driver=None, wait=None, outp
             for model_idx in range(num_models):
                 # For each model, go back to the main page
                 driver.get("https://m1tradein.compasia.com/?utm_source=website&utm_medium=cta&utm_campaign=new")
-                wait.until(EC.element_to_be_clickable(
-                    (By.XPATH, f"//div[contains(@class, 'card-button-footer') and text()='{device_type}']")
-                )).click()
+                click_device_type(driver, wait, device_type)
                 time.sleep(2)
                 
                 # Handle the terms & conditions popup

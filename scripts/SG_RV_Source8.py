@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+SHOULD BE RUN IN HEAD MODE: UDPATED 1st MAY 2025
 SG_RV_Source8.py - Efficient script to scrape trade-in values of smartphones and tablets from Reebelo
 Usage: 
   python SG_RV_Source8.py (scrapes all smartphones and tablets)
@@ -37,7 +38,7 @@ def setup_driver():
     """Setup an optimized Chrome webdriver."""
     chrome_options = Options()
     # Performance optimizations
-    chrome_options.add_argument('--headless')
+    # chrome_options.add_argument('--headless')
     chrome_options.add_argument("--window-size=1280,720")  # Smaller window = less data to render
     chrome_options.add_argument("--disable-notifications")
     chrome_options.add_argument("--disable-popup-blocking")
@@ -309,6 +310,9 @@ def scrape_models(driver, max_models=None):
     """Scrape model links from the current page."""
     logger.info("Scraping model links...")
     
+    # Wait a bit longer to ensure page is loaded
+    time.sleep(3)
+    
     model_selectors = [
         "//ul[contains(@class, 'flex flex-wrap')]/li/a",
         "//div[contains(@class, 'product-grid')]/a",
@@ -319,7 +323,7 @@ def scrape_models(driver, max_models=None):
     models = []
     elements = []
     for selector in model_selectors:
-        elements = fast_find_elements(driver, By.XPATH, selector)
+        elements = fast_find_elements(driver, By.XPATH, selector, timeout=2)
         if elements:
             logger.info(f"Found {len(elements)} models with selector: {selector}")
             break
@@ -387,7 +391,7 @@ def process_device_condition(driver, model_name, storage_text, condition):
         logger.warning(f"Could not click on {condition} option")
         return None
     
-    # ADD TIMEOUT: Wait after clicking the screen condition
+    # Wait after clicking the screen condition
     time.sleep(2)
     
     # Find and click "Flawless" for housing - try just once
@@ -400,7 +404,7 @@ def process_device_condition(driver, model_name, storage_text, condition):
         housing_element = fast_find_element(driver, By.XPATH, selector, timeout=0.5)
         if housing_element:
             safe_click(driver, housing_element)
-            # ADD TIMEOUT: Wait after clicking housing condition
+            # Wait after clicking housing condition
             time.sleep(2)
             break
     
@@ -408,7 +412,7 @@ def process_device_condition(driver, model_name, storage_text, condition):
     local_set_element = fast_find_element(driver, By.XPATH, "//li[contains(text(), 'Local')]", timeout=0.5)
     if local_set_element:
         safe_click(driver, local_set_element)
-        # ADD TIMEOUT: Wait after clicking Local Singapore Set
+        # Wait after clicking Local Singapore Set
         time.sleep(2)
     
     # Check for warranty question and select "No" if present
@@ -417,7 +421,7 @@ def process_device_condition(driver, model_name, storage_text, condition):
     if warranty_yes_element:
         logger.info("Found warranty question, selecting 'No'")
         safe_click(driver, warranty_yes_element)
-        # ADD TIMEOUT: Wait after clicking warranty option
+        # Wait after clicking warranty option
         time.sleep(2)
     
     # Check if the button is still disabled
@@ -435,7 +439,7 @@ def process_device_condition(driver, model_name, storage_text, condition):
             if battery_element:
                 logger.info("Found battery health question, selecting highest option")
                 safe_click(driver, battery_element)
-                # ADD TIMEOUT: Wait after clicking battery health option
+                # Wait after clicking battery health option
                 time.sleep(2)
                 break
     
@@ -469,26 +473,36 @@ def process_device_condition(driver, model_name, storage_text, condition):
         all_selectable = fast_find_elements(driver, By.XPATH, "//li[contains(@class, 'reb-storage')]")
         logger.info(f"Found {len(all_selectable)} selectable options that may need to be filled")
         
-        # Try clicking on remaining visible selectors
+        # Try clicking on remaining visible selectors ONE AT A TIME
+        # After each click, check if the quote button became enabled
         for element in all_selectable:
             try:
                 if element.is_displayed() and "reb-selected" not in element.get_attribute("class"):
                     logger.info(f"Clicking on unselected option: {element.text}")
                     safe_click(driver, element)
-                    # ADD TIMEOUT: Wait after clicking each remaining option
+                    # Wait after clicking
                     time.sleep(2)
+                    
+                    # Check if the button is now enabled after this click
+                    new_button = fast_find_element(driver, By.XPATH, "//button[contains(text(), 'Get Your Quote')]")
+                    if new_button and not new_button.get_attribute("disabled"):
+                        quote_button = new_button
+                        logger.info(f"Button enabled after selecting: {element.text}")
+                        break
             except:
                 pass
-        
-        # Try clicking the button again after all options are selected
+    
+    # Try clicking the button if it's not disabled
+    if not quote_button.get_attribute("disabled"):
         if not safe_click(driver, quote_button):
             logger.warning("Still cannot click quote button, skipping")
             return None
     else:
-        safe_click(driver, quote_button)
+        logger.warning("Quote button still disabled after trying all options, skipping")
+        return None
     
-    # INCREASE TIMEOUT: Increase from 1 to 3 seconds to give more time for price to load
-    time.sleep(3)  # Need a wait here for price to load
+    # Wait for price to load
+    time.sleep(3)
     
     # Extract price from page content
     page_text = driver.page_source
@@ -542,55 +556,95 @@ def process_all_conditions_efficiently(driver, model_url, model_name):
         "//div[contains(text(), 'storage')]/following-sibling::div//li"
     ]
     
-    storage_text = "Default"
+    storage_text = None
     found_storage = False
+    max_storage_attempts = 3
     
-    for selector in storage_selectors:
-        storage_elements = fast_find_elements(driver, By.XPATH, selector, timeout=0.5)
-        if storage_elements:
-            storage_element = storage_elements[0]  # Just use the first storage option
-            storage_text = storage_element.text.strip()
-            logger.info(f"Using storage: {storage_text}")
-            if safe_click(driver, storage_element):
-                # ADD TIMEOUT: Wait after clicking storage option
-                time.sleep(2)
-                found_storage = True
+    for attempt in range(max_storage_attempts):
+        for selector in storage_selectors:
+            storage_elements = fast_find_elements(driver, By.XPATH, selector, timeout=0.5)
+            if storage_elements:
+                # Try to select the first storage option
+                storage_element = storage_elements[0]
+                storage_text = storage_element.text.strip()
+                logger.info(f"Attempting to select storage: {storage_text} (attempt {attempt+1}/{max_storage_attempts})")
+                
+                if safe_click(driver, storage_element):
+                    # Wait after clicking storage option
+                    time.sleep(2)
+                    found_storage = True
+                    break
+        
+        if found_storage and storage_text:
+            logger.info(f"Successfully selected storage: {storage_text}")
+            break
+            
+        # If we couldn't find or select storage, reload and try again
+        if attempt < max_storage_attempts - 1:
+            logger.warning(f"Failed to select storage, reloading page (attempt {attempt+1}/{max_storage_attempts})")
+            if not safe_get(driver, model_url):
                 break
+            time.sleep(2)  # Wait for page to reload
+    
+    # If we still couldn't find storage after all attempts, log warning and return empty results
+    if not found_storage or not storage_text:
+        logger.warning(f"Could not select any storage option after {max_storage_attempts} attempts, skipping model")
+        return []
     
     results = []
     conditions = ["Flawless", "Minor Scratches", "Cracked or chipped"]
     
-    # Process first condition
-    first_result = process_device_condition(driver, model_name, storage_text, conditions[0])
-    if first_result:
-        results.append(first_result)
-    
-    # For each remaining condition, reload page and process
-    for condition in conditions[1:]:
-        # Quick reload of the page
-        if not safe_get(driver, model_url):
-            continue
+    # Process each condition
+    for condition in conditions:
+        condition_result = None
         
-        # Re-select storage if needed
-        if found_storage:
-            for selector in storage_selectors:
-                elements = fast_find_elements(driver, By.XPATH, selector, timeout=0.5)
-                if elements:
-                    for element in elements:
-                        try:
-                            if element.text.strip() == storage_text:
-                                safe_click(driver, element)
-                                # ADD TIMEOUT: Wait after re-selecting storage option
-                                time.sleep(2)
-                                break
-                        except StaleElementReferenceException:
-                            # Handle stale element - just skip
-                            continue
+        # Try up to 3 times for each condition
+        for attempt in range(3):
+            logger.info(f"Processing condition {condition} (attempt {attempt+1}/3)")
+            
+            # Reload page for each attempt
+            if attempt > 0 or condition != conditions[0]:
+                if not safe_get(driver, model_url):
+                    logger.warning(f"Failed to reload page for {condition}, skipping")
                     break
+                time.sleep(2)  # Wait for page to reload
+                
+                # Re-select storage
+                storage_selected = False
+                for selector in storage_selectors:
+                    elements = fast_find_elements(driver, By.XPATH, selector, timeout=0.5)
+                    if elements:
+                        for element in elements:
+                            try:
+                                if element.text.strip() == storage_text:
+                                    logger.info(f"Re-selecting storage: {storage_text}")
+                                    if safe_click(driver, element):
+                                        time.sleep(2)
+                                        storage_selected = True
+                                        break
+                            except Exception as e:
+                                logger.debug(f"Error re-selecting storage: {e}")
+                                continue
+                    if storage_selected:
+                        break
+                
+                if not storage_selected:
+                    logger.warning(f"Failed to re-select storage {storage_text}, skipping this attempt")
+                    continue
+            
+            # Process the condition
+            condition_result = process_device_condition(driver, model_name, storage_text, condition)
+            
+            # If successful, no need for more attempts
+            if condition_result and condition_result.get("storage") != "Default":
+                # Update storage in result to ensure it matches what we selected
+                condition_result["storage"] = storage_text
+                break
+            
+            logger.warning(f"Failed to get valid result for {condition} (attempt {attempt+1}/3)")
         
-        # Process the condition
-        condition_result = process_device_condition(driver, model_name, storage_text, condition)
-        if condition_result:
+        # Add successful result to list
+        if condition_result and condition_result.get("storage") != "Default":
             results.append(condition_result)
     
     return results
