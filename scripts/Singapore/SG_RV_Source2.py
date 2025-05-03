@@ -211,6 +211,8 @@ def scrape_trade_in_prices(output_excel_path="SG_RV_Source2.xlsx", n_scrape=None
                                     device_type = "SmartPhone"  # Default
                                     if "Tab" in model_text or "Tablet" in model_text or "iPad" in model_text:
                                         device_type = "Tablet"
+                                    elif "Watch" in model_text or "watch" in model_text:
+                                        device_type = "SmartWatch"
                                     
                                     # Extract capacity if available
                                     capacity = ""

@@ -36,7 +36,7 @@ def setup_driver(debug=False):
     return driver
 
 def get_device_list(driver, limit=None):
-    driver.get("https://sellto.carousell.sg/")
+    driver.get("https://sellto.carousell.com.my/")
     time.sleep(3)
     
     try:
@@ -115,7 +115,7 @@ def get_device_list(driver, limit=None):
         return []
 
 def select_device(driver, device):
-    driver.get("https://sellto.carousell.sg/")
+    driver.get("https://sellto.carousell.com.my/")
     time.sleep(3)
     
     try:
@@ -187,7 +187,7 @@ def extract_price_table(driver, device):
                                 storage_text = "Unknown"
                             
                             # Extract min and max prices
-                            price_match = re.search(r'S\$\s*(\d+)\s*-\s*S\$\s*(\d+)', price_range_text)
+                            price_match = re.search(r'RM\s*(\d+)\s*-\s*RM\s*(\d+)', price_range_text)
                             if price_match:
                                 min_price = price_match.group(1)
                                 max_price = price_match.group(2)
@@ -196,7 +196,7 @@ def extract_price_table(driver, device):
                                 
                                 # Add record for low price (Damaged condition)
                                 results.append({
-                                    'Country': 'Singapore',
+                                    'Country': 'Malaysia',
                                     'Device Type': device['type'],
                                     'Brand': device['brand'],
                                     'Model': device['name'],
@@ -205,9 +205,9 @@ def extract_price_table(driver, device):
                                     'Launch RRP': '',
                                     'Condition': 'Damaged',
                                     'Value Type': 'Trade-in',
-                                    'Currency': 'SGD',
+                                    'Currency': 'MYR',
                                     'Value': min_price,
-                                    'Source': 'SG_RV_Source6',
+                                    'Source': 'MY_RV_Source3',
                                     'Updated on': datetime.now().strftime('%Y-%m-%d'),
                                     'Updated by': '',
                                     'Comments': ''
@@ -215,7 +215,7 @@ def extract_price_table(driver, device):
                                 
                                 # Add record for high price (Good condition)
                                 results.append({
-                                    'Country': 'Singapore',
+                                    'Country': 'Malaysia',
                                     'Device Type': device['type'],
                                     'Brand': device['brand'],
                                     'Model': device['name'],
@@ -224,9 +224,9 @@ def extract_price_table(driver, device):
                                     'Launch RRP': '',
                                     'Condition': 'Good',
                                     'Value Type': 'Trade-in',
-                                    'Currency': 'SGD',
+                                    'Currency': 'MYR',
                                     'Value': max_price,
-                                    'Source': 'SG_RV_Source6',
+                                    'Source': 'MY_RV_Source3',
                                     'Updated on': datetime.now().strftime('%Y-%m-%d'),
                                     'Updated by': '',
                                     'Comments': ''
@@ -241,7 +241,7 @@ def extract_price_table(driver, device):
     
     return results
 
-def save_results(results, filename='SG_RV_Source6.xlsx'):
+def save_results(results, filename='MY_RV_Source3.xlsx'):
     if not results:
         return
     

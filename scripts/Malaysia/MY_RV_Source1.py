@@ -369,7 +369,7 @@ def extract_trade_in_value(driver, wait, trade_in_data, output_file):
         # Extract currency using JavaScript
         currency_script = """
             var element = document.querySelector('.price-product-name.currency');
-            return element ? element.textContent.trim() : 'SGD';
+            return element ? element.textContent.trim() : 'MYR';
         """
         currency = driver.execute_script(currency_script)
         trade_in_data["Currency"] = currency
@@ -398,7 +398,7 @@ def navigate_and_complete_form(driver, wait, device_type, brand_index, model_ind
 
     # Initialize data dictionary with the required columns
     trade_in_data = {
-        "Country": "Singapore",
+        "Country": "Malaysia",
         "Device Type": device_type,
         "Brand": "",
         "Model": "",
@@ -407,9 +407,9 @@ def navigate_and_complete_form(driver, wait, device_type, brand_index, model_ind
         "Launch RRP": "",
         "Condition": get_condition_mapping(screen_condition),
         "Value Type": "Trade-in",
-        "Currency": "SGD",
+        "Currency": "MYR",
         "Value": "",
-        "Source": "SG_RV_Source1",
+        "Source": "MY_RV_Source1",
         "Updated on": datetime.now().strftime("%Y-%m-%d"),
         "Updated by": "",
         "Comments": ""
@@ -540,7 +540,7 @@ def save_to_excel(data, output_file):
         print(f"Saved data to {output_file}")
     except Exception as e:
         print(f"Error saving Excel file: {e}")
-        alt_file_name = os.path.join(os.path.dirname(output_file), f"SG_RV_Source1.xlsx")
+        alt_file_name = os.path.join(os.path.dirname(output_file), f"MY_RV_Source1.xlsx")
         try:
             workbook.save(alt_file_name)
             print(f"Saved to {alt_file_name}")
@@ -559,7 +559,7 @@ def main_loop(n_scrape=None, output_file=None):
         # Check for environment variable first
         output_dir = os.environ.get("OUTPUT_DIR", "output")
         os.makedirs(output_dir, exist_ok=True)
-        output_file = os.path.join(output_dir, "SG_RV_Source1.xlsx")
+        output_file = os.path.join(output_dir, "MY_RV_Source1.xlsx")
     
     print(f"Will save results to: {output_file}")
 

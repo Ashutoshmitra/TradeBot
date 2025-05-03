@@ -11,7 +11,7 @@ import argparse
 from datetime import datetime
 
 
-def scrape_compasia_prices(output_excel_path="SG_SO_Source2.xlsx", n_scrape=None, headless=True, delay=1):
+def scrape_compasia_prices(output_excel_path="MY_SO_Source1.xlsx", n_scrape=None, headless=True, delay=1):
     """
     Scrapes device prices from CompAsia website and saves results to a new Excel file
     
@@ -27,8 +27,8 @@ def scrape_compasia_prices(output_excel_path="SG_SO_Source2.xlsx", n_scrape=None
     try:
         # Define URLs to scrape
         urls = [
-            "https://compasia.sg/collections/all-smartphones",
-            "https://compasia.sg/collections/tablets"
+            "https://compasia.my/collections/all-smartphones",
+            "https://compasia.my/collections/tablets"
         ]
         
         # Create the results DataFrame with required columns to match Samsung scrape format
@@ -40,10 +40,10 @@ def scrape_compasia_prices(output_excel_path="SG_SO_Source2.xlsx", n_scrape=None
         
         # Default values for certain columns to match Samsung scrape format
         defaults = {
-            "Country": "Singapore",
+            "Country": "Malaysia",
             "Value Type": "Sell-Off",
-            "Currency": "SGD",
-            "Source": "SG_SO_Source2",
+            "Currency": "MYR",
+            "Source": "MY_SO_Source1",
             "Updated on": datetime.now().strftime("%Y-%m-%d"),
             "Color": "",
             "Launch RRP": "",
@@ -163,8 +163,8 @@ def scrape_compasia_prices(output_excel_path="SG_SO_Source2.xlsx", n_scrape=None
                             try:
                                 price_element = item.find_element(By.CSS_SELECTOR, 'span.price--highlight')
                                 price_text = price_element.text.strip()
-                                # Extract numeric price
-                                price_match = re.search(r'S\$(\d+)', price_text)
+                                # Extract numeric price - UPDATED for RM format
+                                price_match = re.search(r'RM\s*(\d+)', price_text)
                                 if price_match:
                                     base_price = price_match.group(1)
                             except:
@@ -211,7 +211,7 @@ def scrape_compasia_prices(output_excel_path="SG_SO_Source2.xlsx", n_scrape=None
                                 print(f"Error getting product title: {e}, using original title")
                                 
                             # Clean the model name (remove any price information)
-                            model_name = re.sub(r'S\$\d+', '', model_name).strip()
+                            model_name = re.sub(r'RM\s*\d+', '', model_name).strip()
                             
                             # Find capacity options section
                             capacity_option_section = None
@@ -335,9 +335,20 @@ def scrape_compasia_prices(output_excel_path="SG_SO_Source2.xlsx", n_scrape=None
                                                         break
                                                         
                                                 if condition_text:
-                                                    # Try to extract price from the condition block
-                                                    price_match = re.search(r'S\$(\d+)', block_text)
-                                                    price = price_match.group(1) if price_match else ""
+                                                    price = ""
+                                                    # First try to extract price from the cosmetic-grading-price div
+                                                    try:
+                                                        price_div = block.find_element(By.CSS_SELECTOR, 'div.cosmetic-grading-price')
+                                                        price_text = price_div.text.strip()
+                                                        # Extract price from RM format
+                                                        price_match = re.search(r'RM\s*(\d+)', price_text)
+                                                        if price_match:
+                                                            price = price_match.group(1)
+                                                    except:
+                                                        # If specific div not found, try to extract from block text
+                                                        price_match = re.search(r'RM\s*(\d+)', block_text)
+                                                        if price_match:
+                                                            price = price_match.group(1)
                                                     
                                                     # Check if this condition is disabled/sold out
                                                     is_disabled = "disabled" in block.get_attribute("class")
@@ -364,9 +375,20 @@ def scrape_compasia_prices(output_excel_path="SG_SO_Source2.xlsx", n_scrape=None
                                                         break
                                                         
                                                 if condition_text:
-                                                    # Try to extract price from the condition block
-                                                    price_match = re.search(r'S\$(\d+)', block_text)
-                                                    price = price_match.group(1) if price_match else ""
+                                                    price = ""
+                                                    # First try to extract price from the cosmetic-grading-price div
+                                                    try:
+                                                        price_div = block.find_element(By.CSS_SELECTOR, 'div.cosmetic-grading-price')
+                                                        price_text = price_div.text.strip()
+                                                        # Extract price from RM format
+                                                        price_match = re.search(r'RM\s*(\d+)', price_text)
+                                                        if price_match:
+                                                            price = price_match.group(1)
+                                                    except:
+                                                        # If specific div not found, try to extract from block text
+                                                        price_match = re.search(r'RM\s*(\d+)', block_text)
+                                                        if price_match:
+                                                            price = price_match.group(1)
                                                     
                                                     # Check if this condition is disabled/sold out
                                                     is_disabled = "disabled" in block.get_attribute("class")
@@ -592,7 +614,7 @@ def scrape_compasia_prices(output_excel_path="SG_SO_Source2.xlsx", n_scrape=None
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Scrape CompAsia device prices')
     parser.add_argument('-n', type=int, help='Number of devices to scrape per page (for testing)', default=None)
-    parser.add_argument('-o', '--output', type=str, help='Output Excel file path', default="SG_SO_Source2.xlsx")
+    parser.add_argument('-o', '--output', type=str, help='Output Excel file path', default="MY_SO_Source1.xlsx")
     parser.add_argument('--no-headless', action='store_true', help='Disable headless mode (show browser)')
     parser.add_argument('-d', '--delay', type=float, help='Delay between actions (lower = faster but may be less reliable)', default=1.0)
     args = parser.parse_args()

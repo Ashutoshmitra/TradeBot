@@ -9,6 +9,7 @@ import argparse
 import pandas as pd
 from multiprocessing import Process, Queue, Manager
 import threading
+import glob
 
 # Add the current directory to the path to import modules from scripts
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -17,15 +18,19 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 log_filename = f"scraper_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
 runtime_log_filename = f"scraper_runtime_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
 
+# Define output directory - now inside the Singapore folder
+output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+os.makedirs(output_dir, exist_ok=True)
+
 # Create runtime log file with header
-with open(runtime_log_filename, 'w') as f:
+with open(os.path.join(output_dir, runtime_log_filename), 'w') as f:
     f.write("script_name,start_time,end_time,runtime\n")
 
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(log_filename),  # Save logs to file
+        logging.FileHandler(os.path.join(output_dir, log_filename)),  # Save logs to output folder
         logging.StreamHandler()  # Also output to console
     ]
 )
@@ -44,10 +49,6 @@ def run_script(script_name, n_scrape=None, result_queue=None):
     try:
         # Get the full path to the script
         script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), script_name)
-        
-        # Create output directory
-        output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
-        os.makedirs(output_dir, exist_ok=True)
         
         # Map script names to their output file names
         output_files = {
@@ -119,7 +120,7 @@ def run_script(script_name, n_scrape=None, result_queue=None):
             runtime_str = f"{runtime.total_seconds() / 60:.2f} minutes"
             
         # Log runtime to the performance log
-        with open(runtime_log_filename, 'a') as f:
+        with open(os.path.join(output_dir, runtime_log_filename), 'a') as f:
             f.write(f"{script_name},{start_time.strftime('%Y-%m-%d %H:%M:%S')},{end_time.strftime('%Y-%m-%d %H:%M:%S')},{runtime_str}\n")
         
         logger.info(f"Runtime for {script_name}: {runtime_str}")
@@ -139,7 +140,7 @@ def run_script(script_name, n_scrape=None, result_queue=None):
     except Exception as e:
         logger.error(f"Error running {script_name}: {e}")
         if result_queue is not None:
-            result_queue.put((script_name, False))
+            result_queue.put((script_name, False, "N/A"))
         return False
 
 def find_excel_files(directory):
@@ -149,6 +150,19 @@ def find_excel_files(directory):
         if file.endswith('.xlsx') and not file.startswith('Combined_'):
             excel_files.append(os.path.join(directory, file))
     return excel_files
+
+def cleanup_intermediate_files(output_dir, keep_file=None):
+    """Remove old intermediate combined files."""
+    pattern = os.path.join(output_dir, "Combined_*_*.xlsx")
+    for file in glob.glob(pattern):
+        # Skip the file we want to keep
+        if keep_file and os.path.basename(file) == os.path.basename(keep_file):
+            continue
+        try:
+            os.remove(file)
+            logger.info(f"Removed old intermediate file: {file}")
+        except Exception as e:
+            logger.error(f"Failed to remove intermediate file {file}: {e}")
 
 def combine_excel_files(excel_files, output_file="Combined_Trade_In_Values.xlsx"):
     """Combine multiple Excel files into a single file."""
@@ -171,10 +185,9 @@ def combine_excel_files(excel_files, output_file="Combined_Trade_In_Values.xlsx"
     
     # Save the combined DataFrame to a new Excel file
     if not combined_df.empty:
-        output_path = os.path.join(os.path.dirname(output_file), output_file)
-        combined_df.to_excel(output_path, index=False)
-        logger.info(f"Saved {len(combined_df)} rows to {output_path}")
-        return output_path
+        combined_df.to_excel(output_file, index=False)
+        logger.info(f"Saved {len(combined_df)} rows to {output_file}")
+        return output_file
     else:
         logger.warning("No data to combine")
         return None
@@ -200,7 +213,8 @@ def periodic_combine(interval_minutes, output_dir, output_file):
                 
                 # Combine files with timestamp in filename
                 timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-                combined_path = os.path.join(output_dir, f"Combined_{timestamp}_{output_file}")
+                combined_filename = f"Combined_{timestamp}_{output_file}"
+                combined_path = os.path.join(output_dir, combined_filename)
                 
                 # Also save to the main combined file
                 main_combined_path = os.path.join(output_dir, output_file)
@@ -223,6 +237,9 @@ def periodic_combine(interval_minutes, output_dir, output_file):
                     combined_df.to_excel(combined_path, index=False)
                     combined_df.to_excel(main_combined_path, index=False)
                     logger.info(f"Periodic update: Saved {len(combined_df)} rows to {combined_path} and {main_combined_path}")
+                    
+                    # Clean up older intermediate files, keeping only the latest
+                    cleanup_intermediate_files(output_dir, combined_filename)
             else:
                 logger.info("Periodic update: No Excel files found to combine")
         except Exception as e:
@@ -275,11 +292,6 @@ def main():
                        default=10)
     args = parser.parse_args()
     
-    # Create output directory
-    output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
-    os.makedirs(output_dir, exist_ok=True)
-    logger.info(f"Ensuring output directory exists: {output_dir}")
-    
     # Setup multiprocessing manager for sharing results
     manager = Manager()
     result_queue = manager.Queue()
@@ -325,25 +337,25 @@ def main():
     if not args.no_combine and excel_files:
         combined_path = os.path.join(output_dir, args.combined)
         combined_file = combine_excel_files(excel_files, combined_path)
+
+        # Cleanup all intermediate combined files after final combination
+        cleanup_intermediate_files(output_dir)
+        
         files_to_send = [combined_file] if combined_file else []
-        
-        # Also include the latest timestamped combined file in case it has more data
-        latest_combined = None
-        for file in os.listdir(output_dir):
-            if file.startswith('Combined_') and file.endswith('.xlsx') and file != args.combined:
-                if latest_combined is None or file > latest_combined:
-                    latest_combined = os.path.join(output_dir, file)
-        
-        if latest_combined and latest_combined != combined_file:
-            logger.info(f"Also including the latest timestamped combined file: {latest_combined}")
-            files_to_send.append(latest_combined)
     else:
         # If not combining, send the individual files
         files_to_send = excel_files
     
     # Add log file to files_to_send
-    if os.path.exists(log_filename):
-        files_to_send.append(log_filename)
+    log_file_path = os.path.join(output_dir, log_filename)
+    if os.path.exists(log_file_path):
+        files_to_send.append(log_file_path)
+    
+    # Add runtime log file to files_to_send
+    runtime_log_path = os.path.join(output_dir, runtime_log_filename)
+    if os.path.exists(runtime_log_path):
+        files_to_send.append(runtime_log_path)
+        logger.info(f"Adding runtime log file to email attachments: {runtime_log_path}")
     
     # Send emails if we have files
     if files_to_send:
@@ -368,11 +380,6 @@ def main():
                 text = (f"I finished collecting trade-in values on {datetime.now().strftime('%Y-%m-%d')}. "
                        f"Attached are the following files: {', '.join([os.path.basename(f) for f in files_to_send])}")
             
-            # Add runtime log file to files_to_send if it exists
-            if os.path.exists(runtime_log_filename):
-                files_to_send.append(runtime_log_filename)
-                logger.info(f"Adding runtime log file to email attachments: {runtime_log_filename}")
-            
             # Define primary recipient (with log file)
             primary_recipient = 'ashutoshmitra7@gmail.com'
             
@@ -390,7 +397,8 @@ def main():
             secondary_recipient = 'ashmitra0000007@gmail.com'
             
             # Create a list without the log files for the secondary recipient
-            files_without_logs = [f for f in files_to_send if f != log_filename and f != runtime_log_filename]
+            files_without_logs = [f for f in files_to_send 
+                                if f != log_file_path and f != runtime_log_path]
             
             # Send simplified email without log file to the secondary recipient
             if files_without_logs:

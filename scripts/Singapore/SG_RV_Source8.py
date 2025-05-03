@@ -38,7 +38,7 @@ def setup_driver():
     """Setup an optimized Chrome webdriver."""
     chrome_options = Options()
     # Performance optimizations
-    # chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--headless')
     chrome_options.add_argument("--window-size=1280,720")  # Smaller window = less data to render
     chrome_options.add_argument("--disable-notifications")
     chrome_options.add_argument("--disable-popup-blocking")
@@ -90,6 +90,10 @@ def safe_click(driver, element, retry=True):
                 pass
         logger.debug(f"Safe click failed: {e}")
         return False
+
+def is_valid_capacity(storage_text):
+    """Check if the storage text is a valid capacity (contains GB)."""
+    return 'GB' in storage_text or 'TB' in storage_text
 
 def fast_find_element(driver, by, value, timeout=1):
     """Find an element with a very short timeout."""
@@ -304,6 +308,8 @@ def standardize_condition(condition):
     """Standardize condition names."""
     if condition.lower() in ['cracked or chipped', 'cracked', 'chipped']:
         return 'Damaged'
+    elif condition.lower() in ['minor scratches']:
+        return 'Good'
     return condition
 
 def scrape_models(driver, max_models=None):
@@ -527,7 +533,7 @@ def process_device_condition(driver, model_name, storage_text, condition):
         return None
 
 def process_all_conditions_efficiently(driver, model_url, model_name):
-    """Process all conditions without unnecessary page reloads."""
+    """Process all conditions and storage options without unnecessary page reloads."""
     logger.info(f"Navigating to model page: {model_url}")
     
     # Navigate to model page
@@ -549,103 +555,110 @@ def process_all_conditions_efficiently(driver, model_url, model_name):
             model_name = model_url.split('/')[-1].split('?')[0].replace('-', ' ')
     
     logger.info(f"Processing model: {model_name}")
-    
-    # Find storage options - grab the first one only
-    storage_selectors = [
-        "//ul[contains(@class, 'reb-storage-list')]/li[contains(@class, 'reb-storage')]",
-        "//div[contains(text(), 'storage')]/following-sibling::div//li"
-    ]
-    
-    storage_text = None
-    found_storage = False
-    max_storage_attempts = 3
-    
-    for attempt in range(max_storage_attempts):
-        for selector in storage_selectors:
-            storage_elements = fast_find_elements(driver, By.XPATH, selector, timeout=0.5)
-            if storage_elements:
-                # Try to select the first storage option
-                storage_element = storage_elements[0]
-                storage_text = storage_element.text.strip()
-                logger.info(f"Attempting to select storage: {storage_text} (attempt {attempt+1}/{max_storage_attempts})")
-                
-                if safe_click(driver, storage_element):
-                    # Wait after clicking storage option
-                    time.sleep(2)
-                    found_storage = True
-                    break
-        
-        if found_storage and storage_text:
-            logger.info(f"Successfully selected storage: {storage_text}")
-            break
-            
-        # If we couldn't find or select storage, reload and try again
-        if attempt < max_storage_attempts - 1:
-            logger.warning(f"Failed to select storage, reloading page (attempt {attempt+1}/{max_storage_attempts})")
-            if not safe_get(driver, model_url):
-                break
-            time.sleep(2)  # Wait for page to reload
-    
-    # If we still couldn't find storage after all attempts, log warning and return empty results
-    if not found_storage or not storage_text:
-        logger.warning(f"Could not select any storage option after {max_storage_attempts} attempts, skipping model")
-        return []
-    
     results = []
     conditions = ["Flawless", "Minor Scratches", "Cracked or chipped"]
     
-    # Process each condition
-    for condition in conditions:
-        condition_result = None
-        
-        # Try up to 3 times for each condition
-        for attempt in range(3):
-            logger.info(f"Processing condition {condition} (attempt {attempt+1}/3)")
+    # Find only the actual storage options - use more targeted selectors
+    storage_selectors = [
+        "//div[contains(@class, 'cus-device-storage')]//ul[contains(@class, 'reb-storage-list')]/li[contains(@class, 'reb-storage')]",
+        "//p[contains(text(), 'device storage')]/ancestor::div//ul[contains(@class, 'reb-storage-list')]/li",
+        "//div[contains(text(), 'storage')]/following-sibling::div//li"
+    ]
+    
+    # Try to find storage options (only true storage values)
+    storage_texts = []
+    
+    for attempt in range(3):  # Try up to 3 times
+        try:
+            for selector in storage_selectors:
+                storage_elements = fast_find_elements(driver, By.XPATH, selector, timeout=1)
+                if storage_elements:
+                    # Extract only valid storage values (those containing GB or TB)
+                    for element in storage_elements:
+                        try:
+                            text = element.text.strip()
+                            if text and is_valid_capacity(text) and text not in storage_texts:
+                                storage_texts.append(text)
+                        except:
+                            pass
+                    
+                    if storage_texts:  # If we found any valid storage values, break
+                        break
             
-            # Reload page for each attempt
-            if attempt > 0 or condition != conditions[0]:
+            if storage_texts:
+                logger.info(f"Found {len(storage_texts)} storage options: {', '.join(storage_texts)}")
+                break
+            else:
+                # If no storage options found, reload and try again
+                if attempt < 2:  # Don't reload on the last attempt
+                    logger.warning(f"No storage options found, reloading page (attempt {attempt+1}/3)")
+                    if not safe_get(driver, model_url):
+                        break
+                    time.sleep(2)  # Wait for page to reload
+        except Exception as e:
+            logger.error(f"Error finding storage options (attempt {attempt+1}): {e}")
+            if attempt < 2:
                 if not safe_get(driver, model_url):
-                    logger.warning(f"Failed to reload page for {condition}, skipping")
                     break
-                time.sleep(2)  # Wait for page to reload
+                time.sleep(2)
+    
+    # If we still couldn't find any storage options, return empty results
+    if not storage_texts:
+        logger.warning(f"Could not find any valid storage options for {model_name}, skipping model")
+        return []
+    
+    # Process each storage option with a fresh page load each time
+    for storage_index, storage_text in enumerate(storage_texts):
+        logger.info(f"Processing storage option {storage_index + 1}/{len(storage_texts)}: {storage_text}")
+        
+        # Process each condition for this storage option
+        for condition in conditions:
+            try:
+                # Fresh page load for each storage+condition combination
+                if not safe_get(driver, model_url):
+                    logger.warning(f"Failed to load page for {storage_text} + {condition}, skipping")
+                    continue
+                time.sleep(2)  # Wait for page to load
                 
-                # Re-select storage
+                # Select the storage option - using more targeted selector
                 storage_selected = False
                 for selector in storage_selectors:
-                    elements = fast_find_elements(driver, By.XPATH, selector, timeout=0.5)
-                    if elements:
-                        for element in elements:
+                    storage_elements = fast_find_elements(driver, By.XPATH, selector, timeout=1)
+                    if storage_elements:
+                        for element in storage_elements:
                             try:
                                 if element.text.strip() == storage_text:
-                                    logger.info(f"Re-selecting storage: {storage_text}")
+                                    logger.info(f"Selecting storage: {storage_text}")
                                     if safe_click(driver, element):
                                         time.sleep(2)
                                         storage_selected = True
                                         break
                             except Exception as e:
-                                logger.debug(f"Error re-selecting storage: {e}")
+                                logger.debug(f"Error selecting storage: {e}")
                                 continue
                     if storage_selected:
                         break
                 
                 if not storage_selected:
-                    logger.warning(f"Failed to re-select storage {storage_text}, skipping this attempt")
+                    logger.warning(f"Failed to select storage {storage_text}, skipping")
                     continue
+                
+                # Process the condition
+                logger.info(f"Processing condition {condition} for storage {storage_text}")
+                condition_result = process_device_condition(driver, model_name, storage_text, condition)
+                
+                # Add successful result to list
+                if condition_result:
+                    # Ensure the storage matches what we selected
+                    condition_result["storage"] = storage_text
+                    results.append(condition_result)
+                    logger.info(f"Successfully processed {model_name}, {storage_text}, {condition}")
+                else:
+                    logger.warning(f"Failed to get result for {model_name}, {storage_text}, {condition}")
             
-            # Process the condition
-            condition_result = process_device_condition(driver, model_name, storage_text, condition)
-            
-            # If successful, no need for more attempts
-            if condition_result and condition_result.get("storage") != "Default":
-                # Update storage in result to ensure it matches what we selected
-                condition_result["storage"] = storage_text
-                break
-            
-            logger.warning(f"Failed to get valid result for {condition} (attempt {attempt+1}/3)")
-        
-        # Add successful result to list
-        if condition_result and condition_result.get("storage") != "Default":
-            results.append(condition_result)
+            except Exception as e:
+                logger.error(f"Error processing condition {condition} for storage {storage_text}: {e}")
+                continue
     
     return results
 
@@ -736,12 +749,18 @@ def scrape_devices(driver, device_type, max_devices=None, output_file=None):
             
             # Add results to our list and update Excel file immediately
             for trade_in in trade_in_results:
+                # Skip if capacity doesn't contain GB
+                capacity = trade_in.get("storage", "Default")
+                if not is_valid_capacity(capacity):
+                    logger.info(f"Skipping record with invalid capacity: {capacity}")
+                    continue
+                    
                 result = {
                     "Country": "Singapore",
                     "Device Type": final_device_type,
                     "Brand": company,
                     "Model": trade_in.get("model", model["name"]),
-                    "Capacity": trade_in.get("storage", "Default"),
+                    "Capacity": capacity,
                     "Color": "N/A",
                     "Launch RRP": "N/A",
                     "Condition": trade_in.get("condition", "N/A"),

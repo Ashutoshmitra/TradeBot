@@ -102,6 +102,10 @@ def select_dropdown_option(driver, input_id, option_index, wait, trade_in_data=N
                 if capacity_match:
                     all_matches = re.findall(r'\d+\s*(?:GB|TB)', variant_text)
                     trade_in_data["Capacity"] = all_matches[-1] if all_matches else ""
+                    if trade_in_data["Capacity"] == "1024GB":
+                        trade_in_data["Capacity"] = "1TB"
+                    elif trade_in_data["Capacity"] == "2048GB":
+                        trade_in_data["Capacity"] = "2TB"
                 else:
                     trade_in_data["Capacity"] = ""
                 
