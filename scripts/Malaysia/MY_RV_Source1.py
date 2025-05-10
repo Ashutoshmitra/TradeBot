@@ -417,7 +417,7 @@ def navigate_and_complete_form(driver, wait, device_type, brand_index, model_ind
 
     try:
         # Load the main page
-        driver.get("https://compasia.my/pages/sell-your-devices")
+        driver.get("https://my-caecom-microsite-portal.compasia.com/?lang=en")
         time.sleep(3)
         
         # Click on device type card
@@ -579,7 +579,7 @@ def main_loop(n_scrape=None, output_file=None):
             print(f"\n========== Processing {device_type} ==========\n")
             
             # Navigate to website
-            driver.get("https://compasia.my/pages/sell-your-devices")
+            driver.get("https://my-caecom-microsite-portal.compasia.com/?lang=en")
             time.sleep(3)
             
             # Click on the device type
@@ -606,7 +606,7 @@ def main_loop(n_scrape=None, output_file=None):
             # Process each brand
             for brand_idx in brand_indices:
                 # Navigate to the main page for each brand
-                driver.get("https://compasia.my/pages/sell-your-devices")
+                driver.get("https://my-caecom-microsite-portal.compasia.com/?lang=en")
                 time.sleep(3)
                 
                 if not click_device_type(driver, wait, device_type):
@@ -626,7 +626,7 @@ def main_loop(n_scrape=None, output_file=None):
                 # Process each model
                 for model_idx in range(num_models):
                     # Navigate to main page for each model
-                    driver.get("https://compasia.my/pages/sell-your-devices")
+                    driver.get("https://my-caecom-microsite-portal.compasia.com/?lang=en")
                     time.sleep(3)
                     
                     if not click_device_type(driver, wait, device_type):

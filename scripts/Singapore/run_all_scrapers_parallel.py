@@ -338,8 +338,17 @@ def main():
         combined_path = os.path.join(output_dir, args.combined)
         combined_file = combine_excel_files(excel_files, combined_path)
 
-        # Cleanup all intermediate combined files after final combination
-        cleanup_intermediate_files(output_dir)
+        # Cleanup only intermediate combined files, NOT the final combined file
+        # Modified: Only clean up files with timestamp patterns in the name
+        pattern = os.path.join(output_dir, "Combined_*_*.xlsx")
+        for file in glob.glob(pattern):
+            # Don't delete the final combined file
+            if os.path.basename(file) != args.combined:
+                try:
+                    os.remove(file)
+                    logger.info(f"Removed old intermediate file: {file}")
+                except Exception as e:
+                    logger.error(f"Failed to remove intermediate file {file}: {e}")
         
         files_to_send = [combined_file] if combined_file else []
     else:

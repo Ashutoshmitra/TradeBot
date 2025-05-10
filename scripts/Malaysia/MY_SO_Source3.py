@@ -85,7 +85,7 @@ def setup_driver():
     options.page_load_strategy = 'eager'  # Don't wait for all resources to load
     
     # Add headless mode options
-    options.add_argument('--headless=new')  # New headless implementation
+    # options.add_argument('--headless=new')  # New headless implementation
     
     # When using headless mode, it's good to set a user agent
     options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36')

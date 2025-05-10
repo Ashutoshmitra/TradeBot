@@ -1,6 +1,9 @@
 """
-This script should be run separately. It has cloudfare protection, so should be run in HEAD mode only and should be checked for
-manual verification at the start of the script
+Enhanced Carousell scraper with freeze detection, recovery mechanism, and smart skipping.
+- Detects browser freezes and restarts the browser if needed
+- Intelligently skips already processed devices (checks at model level for efficiency)
+- Implements timeout mechanism to prevent hanging
+- Provides detailed statistics on processing results
 """
 import os
 import time
@@ -11,6 +14,8 @@ import sys
 import traceback
 import argparse
 import re
+import threading
+import signal
 from selenium.common.exceptions import TimeoutException, StaleElementReferenceException, NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -20,6 +25,10 @@ from selenium.webdriver.common.by import By
 parser = argparse.ArgumentParser(description='Scrape device prices from Carousell')
 parser.add_argument('-n', '--num_devices', type=int, default=0, 
                     help='Number of devices to scrape. 0 means scrape all devices (default: 0)')
+parser.add_argument('-r', '--resume', action='store_true',
+                    help='Resume from last processed URL if available')
+parser.add_argument('-f', '--force', action='store_true',
+                    help='Force processing all devices even if they already exist in the Excel file')
 args = parser.parse_args()
 
 # First, ensure undetected-chromedriver is installed
@@ -38,39 +47,95 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 output_dir = os.path.join(script_dir, 'output')
 os.makedirs(output_dir, exist_ok=True)
 
+# Resume file to store last processed URL
+resume_file = os.path.join(output_dir, 'resume_state.txt')
+
 # Excel file path
 excel_file = os.path.join(output_dir, f'SG_SO_Source1.xlsx')
 
 # Base URL for Carousell Singapore
 BASE_URL = "https://www.carousell.sg"
 
+# Global variables for timeout handling
+current_operation = "idle"
+operation_start_time = None
+driver = None
+is_frozen = False
+
+# Watchdog timer for detecting freezes
+def watchdog_timer():
+    global is_frozen, current_operation, operation_start_time, driver
+    
+    while True:
+        if current_operation != "idle" and operation_start_time is not None:
+            elapsed_time = time.time() - operation_start_time
+            
+            if elapsed_time > 30:  # 30 seconds timeout
+                print(f"⚠️ TIMEOUT DETECTED: Operation '{current_operation}' is taking too long!")
+                is_frozen = True
+                
+                # Attempt to terminate the driver
+                try:
+                    if driver is not None:
+                        print("Terminating frozen browser...")
+                        driver.quit()
+                        driver = None
+                except:
+                    print("Error terminating driver")
+                
+                # Reset operation state
+                current_operation = "idle"
+                operation_start_time = None
+                
+                # Exit the watchdog loop
+                break
+                
+        time.sleep(1)
+
+# Start a new operation with timeout monitoring
+def start_operation(operation_name):
+    global current_operation, operation_start_time
+    current_operation = operation_name
+    operation_start_time = time.time()
+    print(f"Starting operation: {operation_name}")
+
+# End the current operation
+def end_operation():
+    global current_operation, operation_start_time
+    current_operation = "idle"
+    operation_start_time = None
+
 # Initialize or load Excel file with columns matching CompAsia format
-try:
-    df = pd.read_excel(excel_file)
-    print(f"Loaded existing file: {excel_file}")
-    
-    # Check and add any missing columns to match CompAsia format
-    required_columns = [
-        'Country', 'Device Type', 'Brand', 'Model', 'Capacity', 
-        'Color', 'Launch RRP', 'Condition', 'Value Type', 
-        'Currency', 'Value', 'Source', 'Updated on', 'Updated by', 'Comments'
-    ]
-    
-    for col in required_columns:
-        if col not in df.columns:
-            df[col] = ""
-    
-    # Ensure columns are in the correct order
-    df = df[required_columns]
-    
-except FileNotFoundError:
-    # Create new dataframe with columns matching CompAsia format
-    df = pd.DataFrame(columns=[
-        'Country', 'Device Type', 'Brand', 'Model', 'Capacity', 
-        'Color', 'Launch RRP', 'Condition', 'Value Type', 
-        'Currency', 'Value', 'Source', 'Updated on', 'Updated by', 'Comments'
-    ])
-    print(f"Created new data file at: {excel_file}")
+def load_excel_file():
+    try:
+        df = pd.read_excel(excel_file)
+        print(f"Loaded existing file: {excel_file}")
+        
+        # Check and add any missing columns to match CompAsia format
+        required_columns = [
+            'Country', 'Device Type', 'Brand', 'Model', 'Capacity', 
+            'Color', 'Launch RRP', 'Condition', 'Value Type', 
+            'Currency', 'Value', 'Source', 'Updated on', 'Updated by', 'Comments'
+        ]
+        
+        for col in required_columns:
+            if col not in df.columns:
+                df[col] = ""
+        
+        # Ensure columns are in the correct order
+        df = df[required_columns]
+        
+        return df
+        
+    except FileNotFoundError:
+        # Create new dataframe with columns matching CompAsia format
+        df = pd.DataFrame(columns=[
+            'Country', 'Device Type', 'Brand', 'Model', 'Capacity', 
+            'Color', 'Launch RRP', 'Condition', 'Value Type', 
+            'Currency', 'Value', 'Source', 'Updated on', 'Updated by', 'Comments'
+        ])
+        print(f"Created new data file at: {excel_file}")
+        return df
 
 def setup_driver():
     """Create and return an undetected ChromeDriver instance in headless mode"""
@@ -81,7 +146,7 @@ def setup_driver():
     options.page_load_strategy = 'eager'  # Don't wait for all resources to load
     
     # Add headless mode options
-    # options.add_argument('--headless=new')  # New headless implementation
+    options.add_argument('--headless=new')  # New headless implementation
     
     # When using headless mode, it's good to set a user agent
     options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36')
@@ -164,6 +229,27 @@ def extract_product_id(url):
     if match:
         return match.group(0)
     return None
+
+def check_if_model_exists(df, model):
+    """Check if a specific device model has already been processed"""
+    if df.empty:
+        return False
+    
+    # Clean up the model string for comparison by removing extra spaces and common punctuation
+    clean_model = model.strip().lower()
+    clean_model = re.sub(r'[\s\-\(\)]+', ' ', clean_model).strip()
+    
+    # Compare with each model in the dataframe using a similar cleaning process
+    for existing_model in df['Model'].dropna():
+        clean_existing = existing_model.strip().lower()
+        clean_existing = re.sub(r'[\s\-\(\)]+', ' ', clean_existing).strip()
+        
+        # If there's a match, return True
+        if clean_model == clean_existing:
+            return True
+            
+    # If we reached here, no match was found
+    return False
 
 def safe_find_element(driver, by, value, timeout=5):
     """Safely find an element with timeout"""
@@ -572,8 +658,25 @@ def map_condition_text(condition_text):
     else:
         return condition_text  # Keep original if no mapping found
 
-def process_device_listing(driver, url):
+def save_last_processed_url(url):
+    """Save the last successfully processed URL for resuming later"""
+    with open(resume_file, 'w') as f:
+        f.write(url)
+    print(f"Saved resume state: {url}")
+
+def get_last_processed_url():
+    """Get the last successfully processed URL"""
+    if os.path.exists(resume_file):
+        with open(resume_file, 'r') as f:
+            url = f.read().strip()
+            if url:
+                print(f"Found resume state: {url}")
+                return url
+    return None
+
+def process_device_listing(driver, url, df):
     """Process a device listing page directly"""
+    global is_frozen
     device_data = []
     
     try:
@@ -585,14 +688,32 @@ def process_device_listing(driver, url):
             
         print(f"Navigating to: {full_url}")
         try:
+            start_operation("navigate_to_url")
             driver.get(full_url)
+            end_operation()
+            
+            # If we got here, the browser didn't freeze
             time.sleep(5)  # Wait for page to load
         except TimeoutException:
             print("Page load timed out, but continuing anyway")
             driver.execute_script("window.stop();")  # Stop page loading
+        except Exception as e:
+            print(f"Error navigating to URL: {e}")
+            if is_frozen:
+                print("Browser freeze detected, restarting...")
+                is_frozen = False
+                return []  # Return empty to trigger retry
+        
+        # Check if browser froze during operation
+        if is_frozen:
+            print("Browser freeze detected, restarting...")
+            is_frozen = False
+            return []
         
         # Get device name
+        start_operation("get_page_title")
         device_name = get_page_title(driver)
+        end_operation()
         print(f"Processing device: {device_name}")
         
         # Extract brand from device name
@@ -601,6 +722,14 @@ def process_device_listing(driver, url):
         # Extract model name
         model = extract_model_from_device(device_name, brand)
         
+        # Check if this model already exists in the Excel file (unless force flag is set)
+        if not args.force and check_if_model_exists(df, model):
+            print(f"📋 Model '{model}' already exists in the Excel file. Skipping this device completely.")
+            # Save the URL as processed even though we're skipping it
+            save_last_processed_url(url)
+            # Return a special flag for stats tracking
+            return ["SKIPPED_EXISTING_MODEL"]
+        
         # Determine device type
         device_type = "Tablet" if any(keyword in device_name.lower() for keyword in ["ipad", "tab", "tablet"]) else "SmartPhone"
         
@@ -608,16 +737,29 @@ def process_device_listing(driver, url):
         color = get_device_color(driver)
         
         # Get initial price
+        start_operation("get_initial_price")
         initial_price = get_price(driver)
+        end_operation()
+        
         if not initial_price:
             print("Could not find price. Skipping device.")
             return []
         
         # Get storage options
+        start_operation("find_storage_options")
         storage_options = find_storage_options(driver)
+        end_operation()
         
         # Get condition options
+        start_operation("find_condition_options")
         condition_options = find_condition_options(driver)
+        end_operation()
+        
+        # Check if browser froze during operations
+        if is_frozen:
+            print("Browser freeze detected, restarting...")
+            is_frozen = False
+            return []
         
         # Process all combinations of storage and condition
         for storage_option in storage_options:
@@ -625,19 +767,31 @@ def process_device_listing(driver, url):
             storage_button = storage_option["element"]
             storage_gb = extract_storage_from_text(storage_text)
             
+            # Determine the capacity string format
+            capacity_display = f"{storage_gb}GB"
+            if storage_gb == 1024:
+                capacity_display = "1TB"
+            elif storage_gb == 2048:
+                capacity_display = "2TB"
+            
             # Click on storage button if available
             if storage_button:
                 try:
                     print(f"Clicking on storage: {storage_text}")
+                    start_operation(f"click_storage_{storage_text}")
                     driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", storage_button)
                     time.sleep(0.5)
                     driver.execute_script("arguments[0].click();", storage_button)
+                    end_operation()
                     time.sleep(2)  # Wait for page to update
                 except Exception as e:
                     print(f"Error clicking storage button: {e}")
+                    end_operation()
             
             # Get current price after storage selection (might have changed)
+            start_operation("get_price_after_storage")
             current_price = get_price(driver) or initial_price
+            end_operation()
             
             for condition_option in condition_options:
                 condition_text = condition_option["value"]
@@ -646,19 +800,32 @@ def process_device_listing(driver, url):
                 # Map condition text to CompAsia format
                 mapped_condition = map_condition_text(condition_text)
                 
+                # Since we already checked if the model exists in the Excel file at the beginning,
+                # we don't need to check for each specific configuration here
+                
                 # Click on condition button if available
                 if condition_button:
                     try:
                         print(f"Clicking on condition: {condition_text}")
+                        start_operation(f"click_condition_{condition_text}")
                         driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", condition_button)
                         time.sleep(0.5)
                         driver.execute_script("arguments[0].click();", condition_button)
+                        end_operation()
                         time.sleep(2)  # Wait for page to update
                     except Exception as e:
                         print(f"Error clicking condition button: {e}")
+                        end_operation()
+                        # If we had an error, check if browser froze
+                        if is_frozen:
+                            print("Browser freeze detected, restarting...")
+                            is_frozen = False
+                            return []
                 
                 # Get price after condition selection
+                start_operation("get_final_price")
                 final_price = get_price(driver) or current_price
+                end_operation()
                 
                 # Don't add if we couldn't get a price
                 if not final_price:
@@ -668,7 +835,7 @@ def process_device_listing(driver, url):
                 # Check if this is a duplicate entry
                 is_duplicate = False
                 for entry in device_data:
-                    if (entry['Capacity'] == f"{storage_gb}GB" and 
+                    if (entry['Capacity'] == capacity_display and 
                         entry['Condition'] == mapped_condition):
                         is_duplicate = True
                         break
@@ -677,12 +844,6 @@ def process_device_listing(driver, url):
                     # Get current date
                     today = datetime.now().strftime("%Y-%m-%d")
                     
-                    capacity_display = f"{storage_gb}GB"
-                    if storage_gb == 1024:
-                        capacity_display = "1TB"
-                    elif storage_gb == 2048:
-                        capacity_display = "2TB"
-
                     device_data.append({
                         'Country': 'Singapore',
                         'Device Type': device_type,
@@ -700,69 +861,189 @@ def process_device_listing(driver, url):
                         'Updated by': '',
                         'Comments': ''
                     })
-                    print(f"Extracted: {device_name} - {storage_gb}GB - {mapped_condition} - S${final_price}")
+                    print(f"Extracted: {device_name} - {capacity_display} - {mapped_condition} - S${final_price}")
                 else:
-                    print(f"Skipping duplicate entry: {storage_gb}GB - {mapped_condition}")
+                    print(f"Skipping duplicate entry: {capacity_display} - {mapped_condition}")
+        
+        # Save the last successfully processed URL
+        save_last_processed_url(url)
         
         return device_data
     
     except Exception as e:
         print(f"Error processing device: {e}")
         traceback.print_exc()
+        
+        # Check if the browser froze
+        if is_frozen:
+            print("Browser freeze detected during exception, restarting...")
+            is_frozen = False
+            return []
+            
         return []
+
+def restart_browser():
+    """Restart the browser completely"""
+    global driver
+    
+    print("🔄 Restarting browser...")
+    
+    # Clean up old driver if it exists
+    try:
+        if driver is not None:
+            driver.quit()
+    except:
+        print("Error closing old driver")
+    
+    # Create a new driver
+    try:
+        driver = setup_driver()
+        print("Browser restarted successfully")
+        return driver
+    except Exception as e:
+        print(f"Error restarting browser: {e}")
+        # Emergency sleep to allow system to recover
+        time.sleep(30)
+        driver = setup_driver()
+        return driver
 
 def main():
     """Main function to scrape device prices"""
-    global df
-    max_retries = 3
+    global driver, is_frozen
+    
+    # Load Excel file
+    df = load_excel_file()
     
     # Setup driver
     print("Setting up undetected ChromeDriver...")
     driver = setup_driver()
     
+    # Start the watchdog thread
+    watchdog_thread = threading.Thread(target=watchdog_timer, daemon=True)
+    watchdog_thread.start()
+    
+    # If resume flag is set, try to get last processed URL
+    last_processed_url = None
+    resume_from_index = 0
+    if args.resume:
+        last_processed_url = get_last_processed_url()
+    
+    # Stats tracking
+    skipped_devices = 0
+    processed_devices = 0
+    
     try:
         # Navigate directly to the target page
         print("Navigating to certified mobiles page...")
+        start_operation("navigate_to_main_page")
         driver.get("https://www.carousell.sg/smart_render/?type=market-landing-page&name=ap-certified-mobiles")
+        end_operation()
         
         # Simple wait for page to load
         time.sleep(5)
+        
+        # Check if browser froze
+        if is_frozen:
+            print("Browser froze during initial navigation, restarting...")
+            driver = restart_browser()
+            is_frozen = False
+            
+            # Try again
+            start_operation("navigate_to_main_page_retry")
+            driver.get("https://www.carousell.sg/smart_render/?type=market-landing-page&name=ap-certified-mobiles")
+            end_operation()
+            time.sleep(5)
         
         # Simple Cloudflare handling
         handle_cloudflare(driver)
         
         # Click Load More button to load all listings
         print("Loading all device listings...")
+        start_operation("click_load_more")
         click_load_more_button(driver, max_clicks=30)
+        end_operation()
+        
+        # Check if browser froze
+        if is_frozen:
+            print("Browser froze while loading listings, restarting...")
+            driver = restart_browser()
+            is_frozen = False
+            
+            # Try again
+            start_operation("navigate_to_main_page_after_freeze")
+            driver.get("https://www.carousell.sg/smart_render/?type=market-landing-page&name=ap-certified-mobiles")
+            end_operation()
+            time.sleep(5)
+            
+            # Handle Cloudflare again
+            handle_cloudflare(driver)
+            
+            # Try loading listings again
+            start_operation("click_load_more_retry")
+            click_load_more_button(driver, max_clicks=30)
+            end_operation()
         
         # Find device links using the pattern from scrape.py
         print("Finding device links...")
+        start_operation("find_device_links")
         card_urls = find_device_links(driver)
+        end_operation()
         
         # Remove duplicates
         card_urls = list(set(card_urls))
         print(f"Found {len(card_urls)} unique device links")
         
+        # If resuming, find the index of the last processed URL
+        if last_processed_url and last_processed_url in card_urls:
+            resume_from_index = card_urls.index(last_processed_url) + 1
+            print(f"Resuming from URL index {resume_from_index} of {len(card_urls)}")
+        else:
+            resume_from_index = 0
+        
         # Apply device limit from command-line argument
         if args.num_devices > 0:
-            if len(card_urls) > args.num_devices:
-                print(f"Limiting to first {args.num_devices} devices (of {len(card_urls)}) as specified by -n argument")
-                card_urls = card_urls[:args.num_devices]
+            max_index = resume_from_index + args.num_devices
+            if max_index < len(card_urls):
+                print(f"Limiting to {args.num_devices} devices starting from index {resume_from_index}")
+                card_urls = card_urls[resume_from_index:max_index]
+            else:
+                card_urls = card_urls[resume_from_index:]
+        else:
+            # Just apply the resume index
+            card_urls = card_urls[resume_from_index:]
         
         # Process each device
         for i, card_url in enumerate(card_urls):
-            print(f"\nProcessing device {i+1}/{len(card_urls)}")
+            print(f"\nProcessing device {i+1}/{len(card_urls)} (overall: {resume_from_index + i + 1})")
             print(f"URL: {card_url}")
             
             # Process this device with retries
             device_data = []
             retry_count = 0
+            max_retries = 3
             success = False
             
             while not success and retry_count < max_retries:
                 try:
-                    device_data = process_device_listing(driver, card_url)
-                    if device_data:  # Consider success only if we got data
+                    # Check if browser is still responsive before processing
+                    if driver is None or is_frozen:
+                        print("Browser needs to be restarted before processing")
+                        driver = restart_browser()
+                        is_frozen = False
+                    
+                    # Process the device
+                    device_data = process_device_listing(driver, card_url, df)
+                    
+                    # If browser froze during processing, retry
+                    if is_frozen or driver is None:
+                        print("Browser froze during processing, retrying...")
+                        driver = restart_browser()
+                        is_frozen = False
+                        retry_count += 1
+                        continue
+                    
+                    # Consider success only if we got data and no freeze occurred
+                    if device_data:
                         success = True
                     else:
                         print("No data extracted, considering as failure")
@@ -771,12 +1052,21 @@ def main():
                     retry_count += 1
                     print(f"Error processing device (attempt {retry_count}/{max_retries}): {e}")
                     
+                    # Check if browser froze
+                    if is_frozen or driver is None:
+                        print("Browser froze during exception, restarting...")
+                        driver = restart_browser()
+                        is_frozen = False
+                    
                     if retry_count < max_retries:
                         print("Retrying after a short delay...")
                         time.sleep(5)
                 
+                # Check for our special skipped flag
+                if device_data and device_data[0] == "SKIPPED_EXISTING_MODEL":
+                    skipped_devices += 1
                 # Update Excel file if we got data
-                if device_data:
+                elif device_data:
                     new_rows_df = pd.DataFrame(device_data)
                     
                     # Handle empty df warning
@@ -790,35 +1080,45 @@ def main():
                         
                     df.to_excel(excel_file, index=False)
                     print(f"Updated Excel file with {len(device_data)} new entries")
+                    processed_devices += 1
                 else:
                     print("No data extracted for this device after all retries")
-                    # Add random delay between processing
-                delay = random.uniform(2, 4)
-                print(f"Waiting {delay:.1f} seconds before next device...")
-                time.sleep(delay)
+            
+            # Add random delay between processing
+            delay = random.uniform(2, 4)
+            print(f"Waiting {delay:.1f} seconds before next device...")
+            time.sleep(delay)
         
     except Exception as e:
         print(f"Error in main function: {e}")
         traceback.print_exc()
     
     finally:
+        # End the watchdog operation
+        current_operation = "idle"
+        
         # Save final data
         try:
-            if 'df' in globals() and not df.empty:
+            if 'df' in locals() and not df.empty:
                 df.to_excel(excel_file, index=False)
                 print(f"Final data saved to {excel_file}")
                 
                 # Print summary
-                print("\nData Summary:")
-                print(f"Total devices: {df['Model'].nunique()}")
-                print(f"Total entries: {len(df)}")
+                print("\n📊 DATA SUMMARY:")
+                print(f"Total unique models in database: {df['Model'].nunique()}")
+                print(f"Total entries in database: {len(df)}")
+                print(f"\n📊 SESSION SUMMARY:")
+                print(f"Models processed in this session: {processed_devices}")
+                print(f"Models skipped (already in database): {skipped_devices}")
+                print(f"Total devices examined: {processed_devices + skipped_devices}")
         except Exception as e:
             print(f"Error saving final data: {e}")
         
         # Close driver
         try:
-            driver.quit()
-            print("Driver closed")
+            if driver is not None:
+                driver.quit()
+                print("Driver closed")
         except:
             print("Driver already closed")
 

@@ -88,6 +88,8 @@ def extract_devices_data(driver):
                     brand = "Vivo"
                 elif "zte" in name_lower:
                     brand = "ZTE"
+                elif "nokia" in name_lower:
+                    brand = "Nokia"
                 
                 # Determine device type
                 device_type = "SmartPhone"

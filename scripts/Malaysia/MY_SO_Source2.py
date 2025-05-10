@@ -71,26 +71,25 @@ except FileNotFoundError:
 
 def setup_driver():
     """Create and return a regular Chrome WebDriver instance with headless mode enabled"""
-    options = Options()
+    options = webdriver.ChromeOptions()
     
     # Add headless mode
     options.add_argument('--headless=new')  # Use the new headless implementation
     
-    # Keep the existing options
-    options.add_argument('--enable-javascript')
+    # Core options for stability
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--window-size=1920,1080')
     options.add_argument('--disable-gpu')
     options.add_argument('--disable-extensions')
     options.add_argument('--disable-infobars')
+    options.add_argument('--enable-javascript')
     
-    # Create driver with ChromeDriverManager
-    driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()),
-        options=options
-    )
+    # Add a user agent
+    options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
     
+    # Create driver directly without ChromeDriverManager
+    driver = webdriver.Chrome(options=options)
     driver.set_page_load_timeout(30)
     
     return driver
