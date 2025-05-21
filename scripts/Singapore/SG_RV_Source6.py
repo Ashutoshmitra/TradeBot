@@ -172,6 +172,10 @@ def extract_price_table(driver, device):
                 if not rows:
                     continue
                 
+                # Track storage+connectivity combinations to avoid duplicates
+                # Dictionary to store price ranges for each storage+connectivity combination
+                storage_prices = {}
+                
                 for row in rows:
                     try:
                         cells = row.find_elements(By.TAG_NAME, "td")
@@ -186,53 +190,74 @@ def extract_price_table(driver, device):
                             else:
                                 storage_text = "Unknown"
                             
+                            # Extract connectivity (WiFi-Only or LTE)
+                            connectivity = "Wifi-Only"
+                            if "LTE" in full_storage_text:
+                                connectivity = "LTE"
+                            
+                            # Create a unique storage+connectivity key
+                            storage_conn_key = f"{storage_text}-{connectivity}"
+                            
                             # Extract min and max prices
-                            price_match = re.search(r'S\$\s*(\d+)\s*-\s*S\$\s*(\d+)', price_range_text)
+                            price_match = re.search(r'S\$\s*([\d,]+)\s*-\s*S\$\s*([\d,]+)', price_range_text)
                             if price_match:
-                                min_price = price_match.group(1)
-                                max_price = price_match.group(2)
+                                min_price = price_match.group(1).replace(',', '')
+                                max_price = price_match.group(2).replace(',', '')
                                 
-                                logger.info(f"Extracted: {full_storage_text} - Price range: {min_price} to {max_price}")
-                                
-                                # Add record for low price (Damaged condition)
-                                results.append({
-                                    'Country': 'Singapore',
-                                    'Device Type': device['type'],
-                                    'Brand': device['brand'],
-                                    'Model': device['name'],
-                                    'Capacity': storage_text,
-                                    'Color': '',
-                                    'Launch RRP': '',
-                                    'Condition': 'Damaged',
-                                    'Value Type': 'Trade-in',
-                                    'Currency': 'SGD',
-                                    'Value': min_price,
-                                    'Source': 'SG_RV_Source6',
-                                    'Updated on': datetime.now().strftime('%Y-%m-%d'),
-                                    'Updated by': '',
-                                    'Comments': ''
-                                })
-                                
-                                # Add record for high price (Good condition)
-                                results.append({
-                                    'Country': 'Singapore',
-                                    'Device Type': device['type'],
-                                    'Brand': device['brand'],
-                                    'Model': device['name'],
-                                    'Capacity': storage_text,
-                                    'Color': '',
-                                    'Launch RRP': '',
-                                    'Condition': 'Good',
-                                    'Value Type': 'Trade-in',
-                                    'Currency': 'SGD',
-                                    'Value': max_price,
-                                    'Source': 'SG_RV_Source6',
-                                    'Updated on': datetime.now().strftime('%Y-%m-%d'),
-                                    'Updated by': '',
-                                    'Comments': ''
-                                })
+                                # Store the prices for this storage+connectivity combination
+                                # Only if not already stored
+                                if storage_conn_key not in storage_prices:
+                                    storage_prices[storage_conn_key] = {
+                                        'storage': storage_text,
+                                        'connectivity': connectivity,
+                                        'min_price': min_price,
+                                        'max_price': max_price
+                                    }
                     except Exception as e:
                         logger.error(f"Error processing row: {e}")
+                
+                # Now process each unique storage+connectivity combination
+                for key, price_data in storage_prices.items():
+                    logger.info(f"Extracted: {device['name']} {price_data['storage']} {price_data['connectivity']} - " +
+                               f"Price range: {price_data['min_price']} to {price_data['max_price']}")
+                    
+                    # Add record for low price (Damaged condition)
+                    results.append({
+                        'Country': 'Singapore',
+                        'Device Type': device['type'],
+                        'Brand': device['brand'],
+                        'Model': f"{device['name']} {price_data['storage']} {price_data['connectivity']}",
+                        'Capacity': price_data['storage'],
+                        'Color': '',
+                        'Launch RRP': '',
+                        'Condition': 'Damaged',
+                        'Value Type': 'Trade-in',
+                        'Currency': 'SGD',
+                        'Value': price_data['min_price'],
+                        'Source': 'SG_RV_Source6',
+                        'Updated on': datetime.now().strftime('%Y-%m-%d'),
+                        'Updated by': '',
+                        'Comments': ''
+                    })
+                    
+                    # Add record for high price (Good condition)
+                    results.append({
+                        'Country': 'Singapore',
+                        'Device Type': device['type'],
+                        'Brand': device['brand'],
+                        'Model': f"{device['name']} {price_data['storage']} {price_data['connectivity']}",
+                        'Capacity': price_data['storage'],
+                        'Color': '',
+                        'Launch RRP': '',
+                        'Condition': 'Good',
+                        'Value Type': 'Trade-in',
+                        'Currency': 'SGD',
+                        'Value': price_data['max_price'],
+                        'Source': 'SG_RV_Source6',
+                        'Updated on': datetime.now().strftime('%Y-%m-%d'),
+                        'Updated by': '',
+                        'Comments': ''
+                    })
                 
                 break  # Found the table, no need to check other sections
     

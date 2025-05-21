@@ -124,6 +124,20 @@ def get_condition_mapping(screen_condition):
     return condition_map.get(screen_condition, screen_condition)
 
 
+def detect_device_type(device_name):
+    """Determine if the device is a tablet or smartphone based on the name."""
+    device_name_lower = device_name.lower()
+    
+    # Check for tablet keywords
+    if any(keyword in device_name_lower for keyword in ["ipad", "tab", "tablet", "galaxy tab"]):
+        return "Tablet"
+    elif any(keyword in device_name_lower for keyword in ["watch"]):
+        return "SmartWatch"
+    else:
+        # Default to Smartphone for other devices
+        return "SmartPhone"
+
+
 def click_brand_tab(driver, wait, brand_name):
     """Click on a specific brand tab (Apple or Samsung)."""
     # For Apple, we don't need to click anything as it's displayed by default
@@ -193,20 +207,24 @@ def get_smartphone_cards(driver, wait):
                 else:
                     continue  # Skip if no valid href
                 
+                # Determine device type
+                device_type = detect_device_type(title)
+                
                 smartphone_info.append({
                     "title": title,
-                    "url": full_url
+                    "url": full_url,
+                    "device_type": device_type
                 })
                 
             except Exception as e:
                 print(f"Error extracting card info: {e}")
                 continue
         
-        print(f"Found {len(smartphone_info)} smartphone cards")
+        print(f"Found {len(smartphone_info)} device cards")
         return smartphone_info
         
     except Exception as e:
-        print(f"Error getting smartphone cards: {e}")
+        print(f"Error getting device cards: {e}")
         return []
 
 
@@ -371,14 +389,18 @@ def fill_trade_in_form(driver, wait, smartphone_data, storage, screen_condition,
             thai_screen_conditions = {
                 "No scratches": "ไม่มีรอยขีดข่วน",
                 "There are visible marks but they are not clear.": "มีรอยเห็นได้แต่ไม่ชัด",
-                "There are visible scratches.": "มีรอยขีดข่วนเห็นได้ชัดเจน"
+                "There are visible scratches.": "ไม่มีรอยขีดข่วน"  # Changed to use "No scratches" for damaged
             }
-            
+
             thai_condition = thai_screen_conditions.get(screen_condition, screen_condition)
             print(f"DEBUG: Filling Q4 - Screen condition: {thai_condition}")
             if not click_form_option(driver, wait, thai_condition, 4):
-                # Try English version as fallback
-                if not click_form_option(driver, wait, screen_condition, 4):
+                # For damaged condition with English fallback, use "No scratches"
+                if screen_condition == "There are visible scratches.":
+                    if not click_form_option(driver, wait, "No scratches", 4):
+                        continue
+                # Try original English version as fallback for others
+                elif not click_form_option(driver, wait, screen_condition, 4):
                     continue
             
             # Question 5: Country - Select "Thai"
@@ -387,11 +409,17 @@ def fill_trade_in_form(driver, wait, smartphone_data, storage, screen_condition,
                 if not click_form_option(driver, wait, "Thai", 5):  # Try English version
                     continue
             
-            # Question 6: Phone problems - Select "do not have"
-            print("DEBUG: Filling Q6 - Phone problems: ไม่มี")
-            if not click_form_option(driver, wait, "ไม่มี", 6):
-                if not click_form_option(driver, wait, "do not have", 6):  # Try English version
-                    continue
+            # Question 6: Phone problems - Select "do not have" or "Broken Screen" based on condition
+            if screen_condition == "There are visible scratches." or get_condition_mapping(screen_condition) == "Damaged":
+                print("DEBUG: Filling Q6 - Phone problems: หน้าจอแตก")
+                if not click_form_option(driver, wait, "หน้าจอแตก", 6):
+                    if not click_form_option(driver, wait, "Broken Screen", 6):  # Try English version
+                        continue
+            else:
+                print("DEBUG: Filling Q6 - Phone problems: ไม่มี")
+                if not click_form_option(driver, wait, "ไม่มี", 6):
+                    if not click_form_option(driver, wait, "do not have", 6):  # Try English version
+                        continue
             
             # Question 7: Leave blank (no selection needed)
             print("DEBUG: Skipping Q7 (no selection needed)")
@@ -416,6 +444,10 @@ def fill_trade_in_form(driver, wait, smartphone_data, storage, screen_condition,
             print(f"DEBUG: Error in fill_trade_in_form (attempt {attempt + 1}/{max_retries}): {e}")
             if attempt == max_retries - 1:  # Last attempt
                 print(f"DEBUG: Final attempt failed, giving up on this configuration")
+                # Set condition value even if price extraction failed
+                smartphone_data["Condition"] = get_condition_mapping(screen_condition)
+                smartphone_data["Capacity"] = storage
+                smartphone_data["Value"] = "NA"
                 return False
             else:
                 print(f"DEBUG: Retrying... (attempt {attempt + 2}/{max_retries})")
@@ -495,7 +527,7 @@ def process_smartphone_configuration(driver, wait, smartphone, storage, screen_c
             # Create data dictionary for this configuration
             trade_in_data = {
                 "Country": "Thailand",
-                "Device Type": "Smartphone",
+                "Device Type": smartphone.get("device_type", "SmartPhone"),
                 "Brand": smartphone.get("brand", ""),
                 "Model": smartphone['title'],
                 "Capacity": storage,
@@ -523,7 +555,9 @@ def process_smartphone_configuration(driver, wait, smartphone, storage, screen_c
             else:
                 print(f"Failed to extract trade-in value for {storage} / {screen_condition}")
                 if attempt == max_retries - 1:  # Last attempt
-                    trade_in_data["Comments"] = f"Failed to extract trade-in value after {max_retries} attempts"
+                    # Make sure condition is set even if price extraction failed
+                    trade_in_data["Condition"] = get_condition_mapping(screen_condition)
+                    trade_in_data["Value"] = "NA"
                     save_to_excel(trade_in_data, output_file)
                     return False
         
@@ -531,10 +565,10 @@ def process_smartphone_configuration(driver, wait, smartphone, storage, screen_c
             print(f"ERROR: {e}")
             if attempt == max_retries - 1:  # Last attempt
                 print(f"Final attempt failed for {storage}/{screen_condition}, skipping...")
-                # Save error record
+                # Save error record with condition set and NA for value
                 trade_in_data = {
                     "Country": "Thailand",
-                    "Device Type": "Smartphone",
+                    "Device Type": smartphone.get("device_type", "SmartPhone"),
                     "Brand": smartphone.get("brand", ""),
                     "Model": smartphone['title'],
                     "Capacity": storage,
@@ -543,11 +577,11 @@ def process_smartphone_configuration(driver, wait, smartphone, storage, screen_c
                     "Condition": get_condition_mapping(screen_condition),
                     "Value Type": "Trade-in",
                     "Currency": "THB",
-                    "Value": "",
+                    "Value": "NA",
                     "Source": "TH_RV_Source1",
                     "Updated on": datetime.now().strftime("%Y-%m-%d"),
                     "Updated by": "",
-                    "Comments": f"Error after {max_retries} attempts: {str(e)}"
+                    "Comments": ""
                 }
                 save_to_excel(trade_in_data, output_file)
                 return False
@@ -578,7 +612,7 @@ def main_loop(n_scrape=None, output_file=None):
     print(f"Will save results to: {output_file}")
 
     # Setup driver (single browser instance)
-    driver = setup_driver(headless=True)
+    driver = setup_driver(headless=False)
     
     ignored_exceptions = (NoSuchElementException, StaleElementReferenceException)
     wait = WebDriverWait(driver, 15, 0.5, ignored_exceptions=ignored_exceptions)
@@ -604,12 +638,13 @@ def main_loop(n_scrape=None, output_file=None):
             
             # Get all smartphone cards for this brand
             smartphone_cards = get_smartphone_cards(driver, wait)
-            print(f"Found {len(smartphone_cards)} smartphones for {brand}")
+            print(f"Found {len(smartphone_cards)} devices for {brand}")
             
             # Process each smartphone
             for smartphone in smartphone_cards:
                 print(f"\n=== Processing: {smartphone['title']} ===")
                 print(f"URL: {smartphone['url']}")
+                print(f"Device Type: {smartphone.get('device_type', 'SmartPhone')}")
                 
                 # Add brand to smartphone data
                 smartphone["brand"] = brand
@@ -659,8 +694,8 @@ def main_loop(n_scrape=None, output_file=None):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Scrape trade-in values for smartphones from Thailand Remobie website')
-    parser.add_argument('-n', type=int, help='Number of scrapes to perform (e.g., -n 2 will scrape 2 smartphones)', default=None)
+    parser = argparse.ArgumentParser(description='Scrape trade-in values for devices from Thailand Remobie website')
+    parser.add_argument('-n', type=int, help='Number of scrapes to perform (e.g., -n 2 will scrape 2 devices)', default=None)
     parser.add_argument('-o', '--output', type=str, help='Output Excel file path', default=None)
     args = parser.parse_args()
     
