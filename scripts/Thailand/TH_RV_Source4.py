@@ -12,7 +12,7 @@ import os
 import re
 import argparse
 
-def setup_driver(headless=False):
+def setup_driver(headless=True):
     """Set up the Chrome WebDriver with appropriate options."""
     options = webdriver.ChromeOptions()
     
@@ -653,7 +653,7 @@ def main_loop(n_scrape=None, output_file=None):
     
     print(f"Will save results to: {output_file}")
 
-    driver = setup_driver(headless=False)
+    driver = setup_driver(headless=True)
     wait = WebDriverWait(driver, 15)
 
     total_scrape_count = 0
