@@ -612,7 +612,7 @@ def main_loop(n_scrape=None, output_file=None):
     print(f"Will save results to: {output_file}")
 
     # Setup driver (single browser instance)
-    driver = setup_driver(headless=False)
+    driver = setup_driver(headless=True)
     
     ignored_exceptions = (NoSuchElementException, StaleElementReferenceException)
     wait = WebDriverWait(driver, 15, 0.5, ignored_exceptions=ignored_exceptions)

@@ -172,8 +172,8 @@ def extract_price_table(driver, device):
                 if not rows:
                     continue
                 
-                # Track storage+connectivity combinations to avoid duplicates
-                # Dictionary to store price ranges for each storage+connectivity combination
+                # Track storage combinations to avoid duplicates
+                # Dictionary to store price ranges for each storage combination
                 storage_prices = {}
                 
                 for row in rows:
@@ -190,35 +190,26 @@ def extract_price_table(driver, device):
                             else:
                                 storage_text = "Unknown"
                             
-                            # Extract connectivity (WiFi-Only or LTE)
-                            connectivity = "Wifi-Only"
-                            if "LTE" in full_storage_text:
-                                connectivity = "LTE"
-                            
-                            # Create a unique storage+connectivity key
-                            storage_conn_key = f"{storage_text}-{connectivity}"
-                            
                             # Extract min and max prices
                             price_match = re.search(r'S\$\s*([\d,]+)\s*-\s*S\$\s*([\d,]+)', price_range_text)
                             if price_match:
                                 min_price = price_match.group(1).replace(',', '')
                                 max_price = price_match.group(2).replace(',', '')
                                 
-                                # Store the prices for this storage+connectivity combination
-                                # Only if not already stored
-                                if storage_conn_key not in storage_prices:
-                                    storage_prices[storage_conn_key] = {
+                                # Store the prices for this storage combination
+                                storage_key = storage_text
+                                if storage_key not in storage_prices:
+                                    storage_prices[storage_key] = {
                                         'storage': storage_text,
-                                        'connectivity': connectivity,
                                         'min_price': min_price,
                                         'max_price': max_price
                                     }
                     except Exception as e:
                         logger.error(f"Error processing row: {e}")
                 
-                # Now process each unique storage+connectivity combination
+                # Now process each unique storage combination
                 for key, price_data in storage_prices.items():
-                    logger.info(f"Extracted: {device['name']} {price_data['storage']} {price_data['connectivity']} - " +
+                    logger.info(f"Extracted: {device['name']} {price_data['storage']} - " +
                                f"Price range: {price_data['min_price']} to {price_data['max_price']}")
                     
                     # Add record for low price (Damaged condition)
@@ -226,7 +217,7 @@ def extract_price_table(driver, device):
                         'Country': 'Singapore',
                         'Device Type': device['type'],
                         'Brand': device['brand'],
-                        'Model': f"{device['name']} {price_data['storage']} {price_data['connectivity']}",
+                        'Model': f"{device['name']} {price_data['storage']}",
                         'Capacity': price_data['storage'],
                         'Color': '',
                         'Launch RRP': '',
@@ -245,7 +236,7 @@ def extract_price_table(driver, device):
                         'Country': 'Singapore',
                         'Device Type': device['type'],
                         'Brand': device['brand'],
-                        'Model': f"{device['name']} {price_data['storage']} {price_data['connectivity']}",
+                        'Model': f"{device['name']} {price_data['storage']}",
                         'Capacity': price_data['storage'],
                         'Color': '',
                         'Launch RRP': '',

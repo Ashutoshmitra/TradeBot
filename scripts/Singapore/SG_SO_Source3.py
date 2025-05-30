@@ -172,21 +172,6 @@ def extract_device_info(driver, url):
     all_device_infos = []  # Store all combinations
     
     try:
-        # Extract device name
-        device_name = driver.find_element(By.ID, "e2e-product-name").text
-        print(f"Found device: {device_name}")
-        
-        # Determine if it's a smartphone or tablet based on device name
-        full_name = device_name.strip()
-        if any(tablet_term in full_name.lower() for tablet_term in ["tab", "ipad", "pad", "tablet"]):
-            device_type = "Tablet"
-        else:
-            device_type = "SmartPhone"
-        
-        # Identify the brand using our enhanced method
-        brand = identify_brand(full_name)
-        model = full_name
-        
         # Current date for "Updated on"
         today = datetime.datetime.now().strftime("%Y-%m-%d")
         
@@ -200,6 +185,21 @@ def extract_device_info(driver, url):
                 condition_elements = get_condition_options(driver)
                 if condition_elements:
                     for condition_element in condition_elements:
+                        # Extract device name for this specific combination
+                        device_name = driver.find_element(By.ID, "e2e-product-name").text
+                        print(f"Found device: {device_name}")
+                        
+                        # Determine if it's a smartphone or tablet based on device name
+                        full_name = device_name.strip()
+                        if any(tablet_term in full_name.lower() for tablet_term in ["tab", "ipad", "pad", "tablet"]):
+                            device_type = "Tablet"
+                        else:
+                            device_type = "SmartPhone"
+                        
+                        # Identify the brand using our enhanced method
+                        brand = identify_brand(full_name)
+                        model = full_name
+                        
                         condition_text = condition_element.text.split('\n')[0].strip()
                         price = extract_price_from_condition_element(condition_element)
                         
@@ -230,6 +230,21 @@ def extract_device_info(driver, url):
             except Exception as e:
                 print(f"Error getting condition info in default view: {e}")
                 # Create a basic entry with whatever we've got
+                try:
+                    device_name = driver.find_element(By.ID, "e2e-product-name").text
+                    full_name = device_name.strip()
+                    if any(tablet_term in full_name.lower() for tablet_term in ["tab", "ipad", "pad", "tablet"]):
+                        device_type = "Tablet"
+                    else:
+                        device_type = "SmartPhone"
+                    brand = identify_brand(full_name)
+                    model = full_name
+                except:
+                    device_name = "Unknown Device"
+                    device_type = "SmartPhone"
+                    brand = "Unknown"
+                    model = "Unknown Device"
+                
                 device_info = {
                     "Country": "Singapore",
                     "Device Type": device_type,
@@ -264,6 +279,21 @@ def extract_device_info(driver, url):
                     
                     for condition_element in condition_elements:
                         try:
+                            # Extract device name for this specific combination
+                            device_name = driver.find_element(By.ID, "e2e-product-name").text
+                            print(f"Found device for {storage_value}: {device_name}")
+                            
+                            # Determine if it's a smartphone or tablet based on device name
+                            full_name = device_name.strip()
+                            if any(tablet_term in full_name.lower() for tablet_term in ["tab", "ipad", "pad", "tablet"]):
+                                device_type = "Tablet"
+                            else:
+                                device_type = "SmartPhone"
+                            
+                            # Identify the brand using our enhanced method
+                            brand = identify_brand(full_name)
+                            model = full_name
+                            
                             # Extract condition name (first line of the text)
                             condition_text = condition_element.text.split('\n')[0].strip()
                             
