@@ -1,0 +1,899 @@
+2025-05-30 19:46:29,126 - scraper_manager - INFO - Starting SG_RV_Source2.py
+2025-05-30 19:46:29,145 - scraper_manager - INFO - Running command: C:\projects\TradeBot\venv\Scripts\python.exe C:\projects\TradeBot\scripts\Singapore\SG_RV_Source2.py -o C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 19:46:35,501 - scraper_manager - INFO - [SG_RV_Source2.py] Saving output to: C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 19:46:45,910 - scraper_manager - INFO - [SG_RV_Source2.py] 
+2025-05-30 19:46:47,972 - scraper_manager - INFO - [SG_RV_Source2.py] Processing company (1/2): Apple
+2025-05-30 19:47:05,292 - scraper_manager - INFO - [SG_RV_Source2.py] Navigating to Samsung trade-in website for Apple...
+2025-05-30 19:47:35,118 - scraper_manager - INFO - [SG_RV_Source2.py] Found 278 models for Apple
+2025-05-30 19:47:54,152 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (1/278): Apple iPhone 16 128GB
+2025-05-30 19:47:56,637 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $595
+2025-05-30 19:48:10,820 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (2/278): Apple iPhone 16 256GB
+2025-05-30 19:48:14,953 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $755
+2025-05-30 19:48:39,199 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (3/278): Apple iPhone 16 512GB
+2025-05-30 19:48:40,410 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $845
+2025-05-30 19:48:57,250 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (4/278): Apple iPhone 16 Plus 128GB
+2025-05-30 19:48:58,246 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $700
+2025-05-30 19:49:07,274 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (5/278): Apple iPhone 16 Plus 256GB
+2025-05-30 19:49:08,929 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $820
+2025-05-30 19:49:13,714 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (6/278): Apple iPhone 16 Plus 512GB
+2025-05-30 19:49:14,168 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $925
+2025-05-30 19:49:22,397 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (7/278): Apple iPhone 16 Pro 128GB
+2025-05-30 19:49:23,047 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $820
+2025-05-30 19:49:27,949 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (8/278): Apple iPhone 16 Pro 256GB
+2025-05-30 19:49:28,319 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $935
+2025-05-30 19:49:33,496 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (9/278): Apple iPhone 16 Pro 512GB
+2025-05-30 19:49:35,495 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,115
+2025-05-30 19:49:43,882 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (10/278): Apple iPhone 16 Pro 1TB
+2025-05-30 19:49:44,220 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,285
+2025-05-30 19:49:49,289 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (11/278): Apple iPhone 16 Pro Max 256GB
+2025-05-30 19:49:50,423 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,035
+2025-05-30 19:50:03,074 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (12/278): Apple iPhone 16 Pro Max 512GB
+2025-05-30 19:50:04,566 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,215
+2025-05-30 19:50:11,223 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (13/278): Apple iPhone 16 Pro Max 1TB
+2025-05-30 19:50:12,601 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,315
+2025-05-30 19:50:17,897 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (14/278): Apple iPhone 16e 128GB
+2025-05-30 19:50:20,061 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $410
+2025-05-30 19:50:24,523 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (15/278): Apple iPhone 16e 256GB
+2025-05-30 19:50:25,061 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $495
+2025-05-30 19:50:30,861 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (16/278): Apple iPhone 16e 512GB
+2025-05-30 19:50:32,277 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $580
+2025-05-30 19:50:40,509 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (17/278): Apple iPhone 15 128GB
+2025-05-30 19:50:41,457 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $530
+2025-05-30 19:50:46,887 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (18/278): Apple iPhone 15 256GB
+2025-05-30 19:50:47,893 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $600
+2025-05-30 19:50:56,176 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (19/278): Apple iPhone 15 512GB
+2025-05-30 19:50:57,436 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $670
+2025-05-30 19:51:03,593 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (20/278): Apple iPhone 15 Plus 128GB
+2025-05-30 19:51:05,894 - scraper_manager - INFO - [SG_RV_Source2.py] Price not found in element text: 590^
+2025-05-30 19:51:11,237 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (21/278): Apple iPhone 15 Plus 256GB
+2025-05-30 19:51:12,566 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $680
+2025-05-30 19:51:17,355 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (22/278): Apple iPhone 15 Plus 512GB
+2025-05-30 19:51:18,960 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $755
+2025-05-30 19:51:23,492 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (23/278): Apple iPhone 15 Pro 128GB
+2025-05-30 19:51:23,865 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $695
+2025-05-30 19:51:28,047 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (24/278): Apple iPhone 15 Pro 256GB
+2025-05-30 19:51:28,477 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $755
+2025-05-30 19:51:32,043 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (25/278): Apple iPhone 15 Pro 512GB
+2025-05-30 19:51:33,662 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $870
+2025-05-30 19:51:46,807 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (26/278): Apple iPhone 15 Pro 1TB
+2025-05-30 19:51:48,082 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $970
+2025-05-30 19:51:53,554 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (27/278): Apple iPhone 15 Pro Max 256GB
+2025-05-30 19:51:54,560 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $835
+2025-05-30 19:52:00,256 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (28/278): Apple iPhone 15 Pro Max 512GB
+2025-05-30 19:52:01,908 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $945
+2025-05-30 19:52:06,642 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (29/278): Apple iPhone 15 Pro Max 1TB
+2025-05-30 19:52:07,631 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,015
+2025-05-30 19:52:11,742 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (30/278): Apple iPhone 14 128GB
+2025-05-30 19:52:13,530 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $385
+2025-05-30 19:52:18,182 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (31/278): Apple iPhone 14 256GB
+2025-05-30 19:52:18,527 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $420
+2025-05-30 19:52:23,540 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (32/278): Apple iPhone 14 512GB
+2025-05-30 19:52:24,430 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $470
+2025-05-30 19:52:28,262 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (33/278): Apple iPhone 14 Plus 128GB
+2025-05-30 19:52:29,065 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $435
+2025-05-30 19:52:39,628 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (34/278): Apple iPhone 14 Plus 256GB
+2025-05-30 19:52:40,608 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $475
+2025-05-30 19:52:47,281 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (35/278): Apple iPhone 14 Plus 512GB
+2025-05-30 19:52:48,376 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $515
+2025-05-30 19:52:53,183 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (36/278): Apple iPhone 14 Pro 128GB
+2025-05-30 19:52:54,583 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $520
+2025-05-30 19:52:59,743 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (37/278): Apple iPhone 14 Pro 256GB
+2025-05-30 19:52:59,966 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $565
+2025-05-30 19:53:05,303 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (38/278): Apple iPhone 14 Pro 512GB
+2025-05-30 19:53:05,598 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $620
+2025-05-30 19:53:10,039 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (39/278): Apple iPhone 14 Pro 1TB
+2025-05-30 19:53:10,428 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $640
+2025-05-30 19:53:13,690 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (40/278): Apple iPhone 14 Pro Max 128GB
+2025-05-30 19:53:14,602 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $590
+2025-05-30 19:53:20,046 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (41/278): Apple iPhone 14 Pro Max 256GB
+2025-05-30 19:53:23,538 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $630
+2025-05-30 19:53:28,076 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (42/278): Apple iPhone 14 Pro Max 512GB
+2025-05-30 19:53:29,263 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $690
+2025-05-30 19:53:37,105 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (43/278): Apple iPhone 14 Pro Max 1TB
+2025-05-30 19:53:38,954 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $740
+2025-05-30 19:53:44,146 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (44/278): Apple iPhone 13 mini 128GB
+2025-05-30 19:53:45,882 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $260
+2025-05-30 19:53:51,547 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (45/278): Apple iPhone 13 mini 256GB
+2025-05-30 19:53:52,799 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $310
+2025-05-30 19:53:57,982 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (46/278): Apple iPhone 13 mini 512GB
+2025-05-30 19:53:58,414 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $345
+2025-05-30 19:54:03,654 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (47/278): Apple iPhone 13 128GB
+2025-05-30 19:54:04,812 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $305
+2025-05-30 19:54:07,829 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (48/278): Apple iPhone 13 256GB
+2025-05-30 19:54:08,896 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $345
+2025-05-30 19:54:18,592 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (49/278): Apple iPhone 13 512GB
+2025-05-30 19:54:19,063 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $365
+2025-05-30 19:54:23,765 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (50/278): Apple iPhone 13 Pro 128GB
+2025-05-30 19:54:25,009 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $385
+2025-05-30 19:54:32,226 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (51/278): Apple iPhone 13 Pro 256GB
+2025-05-30 19:54:34,480 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $415
+2025-05-30 19:54:39,440 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (52/278): Apple iPhone 13 Pro 512GB
+2025-05-30 19:54:39,829 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $435
+2025-05-30 19:54:43,652 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (53/278): Apple iPhone 13 Pro 1TB
+2025-05-30 19:54:46,175 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $475
+2025-05-30 19:54:54,292 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (54/278): Apple iPhone 13 Pro Max 128GB
+2025-05-30 19:54:54,729 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $440
+2025-05-30 19:55:00,363 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (55/278): Apple iPhone 13 Pro Max 256GB
+2025-05-30 19:55:03,448 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $485
+2025-05-30 19:55:10,608 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (56/278): Apple iPhone 13 Pro Max 512GB
+2025-05-30 19:55:11,853 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $510
+2025-05-30 19:55:16,595 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (57/278): Apple iPhone 13 Pro Max 1TB
+2025-05-30 19:55:17,553 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $545
+2025-05-30 19:55:21,975 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (58/278): Apple iPhone 12 Pro Max 128GB
+2025-05-30 19:55:23,546 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $350
+2025-05-30 19:55:29,435 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (59/278): Apple iPhone 12 Pro Max 256GB
+2025-05-30 19:55:30,989 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $385
+2025-05-30 19:55:41,392 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (60/278): Apple iPhone 12 Pro Max 512GB
+2025-05-30 19:55:41,870 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $415
+2025-05-30 19:55:46,612 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (61/278): Apple iPhone 12 Pro 128GB
+2025-05-30 19:55:47,110 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $280
+2025-05-30 19:55:52,002 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (62/278): Apple iPhone 12 Pro 256GB
+2025-05-30 19:55:52,702 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $315
+2025-05-30 19:55:59,824 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (63/278): Apple iPhone 12 Pro 512GB
+2025-05-30 19:56:02,322 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $345
+2025-05-30 19:56:07,755 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (64/278): Apple iPhone 12 64GB
+2025-05-30 19:56:08,712 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $220
+2025-05-30 19:56:13,294 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (65/278): Apple iPhone 12 128GB
+2025-05-30 19:56:13,827 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $185
+2025-05-30 19:56:19,207 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (66/278): Apple iPhone 12 256GB
+2025-05-30 19:56:21,539 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $255
+2025-05-30 19:56:26,489 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (67/278): Apple iPhone 12 Mini 64GB
+2025-05-30 19:56:27,454 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $180
+2025-05-30 19:56:32,994 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (68/278): Apple iPhone 12 Mini 128GB
+2025-05-30 19:56:37,072 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $200
+2025-05-30 19:56:42,479 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (69/278): Apple iPhone 12 Mini 256GB
+2025-05-30 19:56:43,107 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $225
+2025-05-30 19:56:49,567 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (70/278): Apple iPhone SE 2020 64GB
+2025-05-30 19:56:50,477 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 19:56:55,321 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (71/278): Apple iPhone SE 2020 128GB
+2025-05-30 19:56:56,543 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $105
+2025-05-30 19:57:00,907 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (72/278): Apple iPhone SE 2020 256GB
+2025-05-30 19:57:02,025 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $130
+2025-05-30 19:57:06,555 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (73/278): Apple iPhone 11 64GB
+2025-05-30 19:57:07,620 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $155
+2025-05-30 19:57:16,271 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (74/278): Apple iPhone 11 128GB
+2025-05-30 19:57:17,443 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $185
+2025-05-30 19:57:21,308 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (75/278): Apple iPhone 11 256GB
+2025-05-30 19:57:21,960 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $200
+2025-05-30 19:57:26,890 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (76/278): Apple iPhone 11 Pro 64GB
+2025-05-30 19:57:27,294 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $200
+2025-05-30 19:57:31,170 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (77/278): Apple iPhone 11 Pro 256GB
+2025-05-30 19:57:32,391 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $225
+2025-05-30 19:57:38,914 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (78/278): Apple iPhone 11 Pro 512GB
+2025-05-30 19:57:39,938 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $255
+2025-05-30 19:57:45,897 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (79/278): Apple iPhone 11 Pro Max 64GB
+2025-05-30 19:57:47,084 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $240
+2025-05-30 19:57:50,849 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (80/278): Apple iPhone 11 Pro Max 256GB
+2025-05-30 19:57:51,375 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $270
+2025-05-30 19:57:56,017 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (81/278): Apple iPhone 11 Pro Max 512GB
+2025-05-30 19:57:57,254 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $295
+2025-05-30 19:58:01,698 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (82/278): Apple iPhone X 64GB
+2025-05-30 19:58:06,432 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $95
+2025-05-30 19:58:10,640 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (83/278): Apple iPhone X 256GB
+2025-05-30 19:58:11,356 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $110
+2025-05-30 19:58:18,647 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (84/278): Apple iPhone SE 2022 (A2783) 64GB
+2025-05-30 19:58:19,333 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $160
+2025-05-30 19:58:23,902 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (85/278): Apple iPhone SE 2022 (A2783) 128GB
+2025-05-30 19:58:25,484 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $195
+2025-05-30 19:58:29,332 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (86/278): Apple iPhone SE 2022 (A2783) 256GB
+2025-05-30 19:58:30,190 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $245
+2025-05-30 19:58:34,723 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (87/278): Apple iPhone XS 64GB
+2025-05-30 19:58:35,157 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $125
+2025-05-30 19:58:38,682 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (88/278): Apple iPhone XS 256GB
+2025-05-30 19:58:39,400 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $145
+2025-05-30 19:58:43,794 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (89/278): Apple iPhone XS 512GB
+2025-05-30 19:58:45,805 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $175
+2025-05-30 19:58:59,740 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (90/278): Apple iPhone XS Max 64GB
+2025-05-30 19:59:00,866 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $155
+2025-05-30 19:59:07,138 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (91/278): Apple iPhone XS Max 256GB
+2025-05-30 19:59:08,787 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $170
+2025-05-30 19:59:14,781 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (92/278): Apple iPhone XS Max 512GB
+2025-05-30 19:59:15,528 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $200
+2025-05-30 19:59:19,207 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (93/278): Apple iPhone XR 64GB
+2025-05-30 19:59:19,719 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $110
+2025-05-30 19:59:24,999 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (94/278): Apple iPhone XR 128GB
+2025-05-30 19:59:26,285 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $130
+2025-05-30 19:59:31,004 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (95/278): Apple iPhone XR 256GB
+2025-05-30 19:59:31,449 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $145
+2025-05-30 19:59:35,827 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (96/278): Apple iPad 10th Gen 10.9 (2022) 64GB WiFi
+2025-05-30 19:59:37,798 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $125
+2025-05-30 19:59:43,613 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (97/278): Apple iPad 10th Gen 10.9 (2022) 64GB Cellular
+2025-05-30 19:59:47,531 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $210
+2025-05-30 19:59:51,897 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (98/278): Apple iPad 10th Gen 10.9 (2022) 256GB WiFi
+2025-05-30 19:59:53,206 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $200
+2025-05-30 19:59:57,708 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (99/278): Apple iPad 10th Gen 10.9 (2022) 256GB Cellular
+2025-05-30 19:59:58,419 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $285
+2025-05-30 20:00:09,733 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (100/278): Apple iPad Air 5th Gen (2022) 10.9 256GB Cellular
+2025-05-30 20:00:10,837 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $430
+2025-05-30 20:00:15,514 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (101/278): Apple iPad Air 5th Gen (2022) 10.9 256GB WiFi
+2025-05-30 20:00:16,035 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $355
+2025-05-30 20:00:20,157 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (102/278): Apple iPad Air 5th Gen (2022) 10.9 64GB Cellular
+2025-05-30 20:00:21,134 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $325
+2025-05-30 20:00:28,084 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (103/278): Apple iPad Pro 11" (2024) 256GB Cellular
+2025-05-30 20:00:28,801 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $855
+2025-05-30 20:00:34,794 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (104/278): Apple iPad Pro 11" (2024) 256GB WiFi
+2025-05-30 20:00:36,386 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $710
+2025-05-30 20:00:41,552 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (105/278): Apple iPad Pro 11" (2024) 512GB Cellular
+2025-05-30 20:00:42,903 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,025
+2025-05-30 20:00:47,429 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (106/278): Apple iPad Pro 11" (2024) 512GB WiFi
+2025-05-30 20:00:48,345 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $845
+2025-05-30 20:00:52,674 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (107/278): Apple iPad Pro 11" (2024) 1TB Cellular
+2025-05-30 20:00:53,318 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,100
+2025-05-30 20:00:59,187 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (108/278): Apple iPad Pro 11" (2024) 1TB WiFi
+2025-05-30 20:01:00,669 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,000
+2025-05-30 20:01:07,694 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (109/278): Apple iPad Pro 11" (2024) 2TB Cellular
+2025-05-30 20:01:09,511 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,530
+2025-05-30 20:01:13,778 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (110/278): Apple iPad Pro 11" (2024) 2TB WiFi
+2025-05-30 20:01:14,168 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,380
+2025-05-30 20:01:18,397 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (111/278): Apple iPad Pro 13" (2024) 256GB Cellular
+2025-05-30 20:01:20,177 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,040
+2025-05-30 20:01:27,281 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (112/278): Apple iPad Pro 13" (2024) 256GB WiFi
+2025-05-30 20:01:27,999 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $965
+2025-05-30 20:01:32,609 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (113/278): Apple iPad Pro 13" (2024) 512GB Cellular
+2025-05-30 20:01:34,344 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,195
+2025-05-30 20:01:39,674 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (114/278): Apple iPad Pro 13" (2024) 512GB WiFi
+2025-05-30 20:01:40,968 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,110
+2025-05-30 20:01:46,947 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (115/278): Apple iPad Pro 13" (2024) 1TB Cellular
+2025-05-30 20:01:47,595 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,280
+2025-05-30 20:01:52,115 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (116/278): Apple iPad Pro 13" (2024) 1TB WiFi
+2025-05-30 20:01:53,393 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,200
+2025-05-30 20:01:57,055 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (117/278): Apple iPad Pro 13" (2024) 2TB Cellular
+2025-05-30 20:01:58,106 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,735
+2025-05-30 20:02:07,112 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (118/278): Apple iPad Pro 13" (2024) 2TB WiFi
+2025-05-30 20:02:07,980 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $1,625
+2025-05-30 20:02:12,271 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (119/278): Apple iPad Air 5th Gen (2022) 10.9 64GB WiFi
+2025-05-30 20:02:15,382 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $255
+2025-05-30 20:02:21,197 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (120/278): Apple iPad Pro 11" 4th Gen (2022) 128GB WiFi
+2025-05-30 20:02:21,610 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $445
+2025-05-30 20:02:26,591 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (121/278): Apple iPad Pro 11" 4th Gen (2022) 256GB Cellular
+2025-05-30 20:02:28,200 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $595
+2025-05-30 20:02:33,487 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (122/278): Apple iPad Pro 11" 4th Gen (2022) 256GB WiFi
+2025-05-30 20:02:34,624 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $525
+2025-05-30 20:02:38,071 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (123/278): Apple iPad Pro 12.9" 6th Gen (2022) 128GB Cellular
+2025-05-30 20:02:38,962 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $595
+2025-05-30 20:02:46,106 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (124/278): Apple iPad Pro 12.9" 6th Gen (2022) 128GB WiFi
+2025-05-30 20:02:47,098 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $530
+2025-05-30 20:02:51,390 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (125/278): Apple iPad Pro 12.9" 6th Gen (2022) 256GB Cellular
+2025-05-30 20:02:51,876 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $655
+2025-05-30 20:02:56,528 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (126/278): Apple iPad Pro 12.9" 6th Gen (2022) 256GB WiFi
+2025-05-30 20:02:58,973 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $615
+2025-05-30 20:03:04,986 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (127/278): Apple iPad Pro 12.9" 6th Gen (2022) 512GB Cellular
+2025-05-30 20:03:06,925 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $695
+2025-05-30 20:03:12,759 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (128/278): Apple iPad Pro 12.9" 6th Gen (2022) 512GB WiFi
+2025-05-30 20:03:13,960 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $655
+2025-05-30 20:03:18,690 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (129/278): Apple iPad Air 2 9.7" (2014) LTE 64GB
+2025-05-30 20:03:21,405 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $75
+2025-05-30 20:03:26,706 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (130/278): Apple iPad Air 2 9.7" (2014) Wi-Fi 64GB
+2025-05-30 20:03:28,109 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $60
+2025-05-30 20:03:31,892 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (131/278): Apple iPad Air 2 9.7" (2014) LTE 128GB
+2025-05-30 20:03:33,095 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $90
+2025-05-30 20:03:36,658 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (132/278): Apple iPad Air 2 9.7" (2014) Wi-Fi 128GB
+2025-05-30 20:03:37,777 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $75
+2025-05-30 20:03:41,685 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (133/278): Apple iPad Air 10.5" (2019) LTE 64GB
+2025-05-30 20:03:42,896 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $160
+2025-05-30 20:03:46,302 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (134/278): Apple iPad Air 10.5" (2019) Wi-Fi 64GB
+2025-05-30 20:03:47,312 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:03:51,827 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (135/278): Apple iPad Air 10.5" (2019) LTE 256GB
+2025-05-30 20:03:52,357 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $195
+2025-05-30 20:04:04,166 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (136/278): Apple iPad Air 10.5" (2019) Wi-Fi 256GB
+2025-05-30 20:04:04,711 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $160
+2025-05-30 20:04:10,201 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (137/278): Apple iPad 9.7 (2017) Wi-Fi 32GB (5th Gen)
+2025-05-30 20:04:11,734 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $60
+2025-05-30 20:04:16,276 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (138/278): Apple iPad 9.7 (2017) Wi-Fi 128GB (5th Gen)
+2025-05-30 20:04:16,792 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $75
+2025-05-30 20:04:21,827 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (139/278): Apple iPad 9.7 (2017) LTE 32GB (5th Gen)
+2025-05-30 20:04:24,342 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:04:28,073 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (140/278): Apple iPad 9.7 (2017) LTE 128GB (5th Gen)
+2025-05-30 20:04:28,795 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:04:36,272 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (141/278): Apple iPad 9.7 (2018) LTE 32GB (6th Gen)
+2025-05-30 20:04:36,742 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $75
+2025-05-30 20:04:41,814 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (142/278): Apple iPad 9.7 (2018) Wi-Fi 32GB (6th Gen)
+2025-05-30 20:04:42,259 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:04:46,727 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (143/278): Apple iPad 9.7 (2018) LTE 128GB (6th Gen)
+2025-05-30 20:04:47,059 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $100
+2025-05-30 20:04:52,328 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (144/278): Apple iPad 9.7 (2018) Wi-Fi 128GB (6th Gen)
+2025-05-30 20:04:53,690 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:04:59,853 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (145/278): Apple iPad 10.2 (2019) LTE 32GB (7th Gen)
+2025-05-30 20:05:00,825 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $110
+2025-05-30 20:05:05,363 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (146/278): Apple iPad 10.2 (2019) Wi-Fi 32GB (7th Gen)
+2025-05-30 20:05:06,258 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:05:13,009 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (147/278): Apple iPad 10.2 (2019) LTE 128GB (7th Gen)
+2025-05-30 20:05:13,691 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $130
+2025-05-30 20:05:19,049 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (148/278): Apple iPad 10.2 (2019) Wi-Fi 128GB (7th Gen)
+2025-05-30 20:05:20,380 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $110
+2025-05-30 20:05:29,289 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (149/278): Apple iPad Air 13" (2024) 128GB Cellular
+2025-05-30 20:05:29,791 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $660
+2025-05-30 20:05:34,439 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (150/278): Apple iPad Air 13" (2024) 128GB WIFI
+2025-05-30 20:05:35,207 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $475
+2025-05-30 20:05:39,818 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (151/278): Apple iPad Air 13" (2024) 256GB Cellular
+2025-05-30 20:05:40,358 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $700
+2025-05-30 20:05:43,780 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (152/278): Apple iPad Air 13" (2024) 256GB WIFI
+2025-05-30 20:05:44,555 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $580
+2025-05-30 20:05:48,086 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (153/278): Apple iPad Air 13" (2024) 512GB Cellular
+2025-05-30 20:05:48,422 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $730
+2025-05-30 20:05:51,547 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (154/278): Apple iPad Air 13" (2024) 512GB WIFI
+2025-05-30 20:05:54,639 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $680
+2025-05-30 20:06:04,651 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (155/278): Apple iPad Air 13" (2024) 1TB Cellular
+2025-05-30 20:06:06,067 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $785
+2025-05-30 20:06:12,063 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (156/278): Apple iPad Air 13" (2024) 1TB WIFI
+2025-05-30 20:06:13,339 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $725
+2025-05-30 20:06:19,222 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (157/278): Apple iPad Air 11" (2024) 128GB Cellular
+2025-05-30 20:06:19,571 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $440
+2025-05-30 20:06:24,446 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (158/278): Apple iPad Air 11" (2024) 128GB WIFI
+2025-05-30 20:06:24,806 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $330
+2025-05-30 20:06:29,433 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (159/278): Apple iPad Air 11" (2024) 256GB Cellular
+2025-05-30 20:06:34,032 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $545
+2025-05-30 20:06:39,737 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (160/278): Apple iPad Air 11" (2024) 256GB WIFI
+2025-05-30 20:06:40,140 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $410
+2025-05-30 20:06:44,473 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (161/278): Apple iPad Air 11" (2024) 512GB Cellular
+2025-05-30 20:06:45,355 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $630
+2025-05-30 20:06:52,623 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (162/278): Apple iPad Air 11" (2024) 512GB WIFI
+2025-05-30 20:06:56,603 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $515
+2025-05-30 20:07:00,318 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (163/278): Apple iPad Air 11" (2024) 1TB Cellular
+2025-05-30 20:07:00,685 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $845
+2025-05-30 20:07:05,097 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (164/278): Apple iPad Air 11" (2024) 1TB WIFI
+2025-05-30 20:07:05,779 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $705
+2025-05-30 20:07:11,044 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (165/278): Apple iPad Pro 9.7" (2016) Wi-Fi 32GB
+2025-05-30 20:07:11,987 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:07:17,886 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (166/278): Apple iPad Pro 9.7" (2016) Wi-Fi 128GB
+2025-05-30 20:07:19,069 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $110
+2025-05-30 20:07:24,878 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (167/278): Apple iPad Pro 9.7" (2016) Wi-Fi 256GB
+2025-05-30 20:07:25,987 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $145
+2025-05-30 20:07:30,545 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (168/278): Apple iPad Pro 9.7" (2016) LTE 32GB
+2025-05-30 20:07:31,841 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $110
+2025-05-30 20:07:36,263 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (169/278): Apple iPad Pro 9.7" (2016) LTE 128GB
+2025-05-30 20:07:36,595 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $130
+2025-05-30 20:07:43,947 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (170/278): Apple iPad Pro 9.7" (2016) LTE 256GB
+2025-05-30 20:07:47,735 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $175
+2025-05-30 20:07:52,453 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (171/278): Apple iPad Pro 10.5" (2017) LTE 64GB
+2025-05-30 20:07:53,002 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $145
+2025-05-30 20:07:58,741 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (172/278): Apple iPad Pro 10.5" (2017) Wi-Fi 64GB
+2025-05-30 20:07:59,627 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $125
+2025-05-30 20:08:04,190 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (173/278): Apple iPad Pro 10.5" (2017) LTE 256GB
+2025-05-30 20:08:04,909 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $185
+2025-05-30 20:08:09,144 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (174/278): Apple iPad Pro 10.5" (2017) Wi-Fi 256GB
+2025-05-30 20:08:10,269 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $160
+2025-05-30 20:08:13,797 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (175/278): Apple iPad Pro 10.5" (2017) LTE 512GB
+2025-05-30 20:08:14,368 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $225
+2025-05-30 20:08:19,481 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (176/278): Apple iPad Pro 10.5" (2017) Wi-Fi 512GB
+2025-05-30 20:08:20,292 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $200
+2025-05-30 20:08:25,235 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (177/278): Apple iPad Pro 11 (2018) LTE 64GB (1st Gen)
+2025-05-30 20:08:26,500 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $215
+2025-05-30 20:08:30,909 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (178/278): Apple iPad Pro 11 (2018) Wi-Fi 64GB (1st Gen)
+2025-05-30 20:08:34,159 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $175
+2025-05-30 20:08:40,114 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (179/278): Apple iPad Pro 11 (2018) LTE 256GB (1st Gen)
+2025-05-30 20:08:41,477 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $255
+2025-05-30 20:08:46,466 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (180/278): Apple iPad Pro 11 (2018) Wi-Fi 256GB (1st Gen)
+2025-05-30 20:08:46,949 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $200
+2025-05-30 20:08:52,184 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (181/278): Apple iPad Pro 11 (2018) LTE 512GB (1st Gen)
+2025-05-30 20:08:53,177 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $330
+2025-05-30 20:08:58,064 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (182/278): Apple iPad Pro 11 (2018) Wi-Fi 512GB (1st Gen)
+2025-05-30 20:08:59,796 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $270
+2025-05-30 20:09:05,221 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (183/278): Apple iPad Pro 11 (2020) LTE 128GB (2nd Gen)
+2025-05-30 20:09:05,660 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $325
+2025-05-30 20:09:10,711 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (184/278): Apple iPad Pro 11 (2020) Wi-Fi 128GB (2nd Gen)
+2025-05-30 20:09:11,416 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $255
+2025-05-30 20:09:16,026 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (185/278): Apple iPad Pro 11 (2020) LTE 256GB (2nd Gen)
+2025-05-30 20:09:17,882 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $400
+2025-05-30 20:09:22,071 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (186/278): Apple iPad Pro 11 (2020) Wi-Fi 256GB (2nd Gen)
+2025-05-30 20:09:24,866 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $325
+2025-05-30 20:09:31,392 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (187/278): Apple iPad Pro 11 (2020) LTE 512GB (2nd Gen)
+2025-05-30 20:09:33,713 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $440
+2025-05-30 20:09:40,182 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (188/278): Apple iPad Pro 11 (2020) Wi-Fi 512GB (2nd Gen)
+2025-05-30 20:09:41,058 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $360
+2025-05-30 20:09:46,354 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (189/278): Apple iPad Pro 11 (2021) 5G 128GB (3rd Gen)
+2025-05-30 20:09:46,799 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $430
+2025-05-30 20:09:51,672 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (190/278): Apple iPad Pro 11 (2021) WiFi 128GB (3rd Gen)
+2025-05-30 20:09:53,003 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $355
+2025-05-30 20:09:57,552 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (191/278): Apple iPad Pro 11 (2021) 5G 256GB (3rd Gen)
+2025-05-30 20:09:58,379 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $510
+2025-05-30 20:10:02,158 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (192/278): Apple iPad Pro 11 (2021) WiFi 256GB (3rd Gen)
+2025-05-30 20:10:03,919 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $430
+2025-05-30 20:10:09,010 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (193/278): Apple iPad Pro 11 (2021) 5G 512GB (3rd Gen)
+2025-05-30 20:10:09,478 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $545
+2025-05-30 20:10:14,219 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (194/278): Apple iPad Pro 11 (2021) WiFi 512GB (3rd Gen)
+2025-05-30 20:10:14,712 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $470
+2025-05-30 20:10:20,588 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (195/278): Apple iPad Pro 12.9 (2015) Wi-Fi 32GB (1st Gen)
+2025-05-30 20:10:23,962 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $140
+2025-05-30 20:10:30,207 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (196/278): Apple iPad Pro 12.9 (2015) Wi-Fi 128GB (1st Gen)
+2025-05-30 20:10:31,571 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $155
+2025-05-30 20:10:36,258 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (197/278): Apple iPad Pro 12.9 (2015) LTE 32GB (1st Gen)
+2025-05-30 20:10:38,119 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $160
+2025-05-30 20:10:42,714 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (198/278): Apple iPad Pro 12.9 (2015) LTE 128GB (1st Gen)
+2025-05-30 20:10:43,356 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $175
+2025-05-30 20:10:48,460 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (199/278): Apple iPad Pro 12.9 (2017) Wi-Fi 64GB (2nd Gen)
+2025-05-30 20:10:49,393 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $160
+2025-05-30 20:10:53,986 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (200/278): Apple iPad Pro 12.9 (2017) Wi-Fi 256GB (2nd Gen)
+2025-05-30 20:10:54,411 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $215
+2025-05-30 20:10:57,705 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (201/278): Apple iPad Pro 12.9 (2017) Wi-Fi 512GB (2nd Gen)
+2025-05-30 20:10:58,027 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $240
+2025-05-30 20:11:04,427 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (202/278): Apple iPad Pro 12.9 (2017) LTE 64GB (2nd Gen)
+2025-05-30 20:11:04,954 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $200
+2025-05-30 20:11:09,904 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (203/278): Apple iPad Pro 12.9 (2017) LTE 256GB (2nd Gen)
+2025-05-30 20:11:12,190 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $240
+2025-05-30 20:11:17,751 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (204/278): Apple iPad Pro 12.9 (2017) LTE 512GB (2nd Gen)
+2025-05-30 20:11:19,637 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $260
+2025-05-30 20:11:24,887 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (205/278): Apple iPad Pro 12.9 (2018) Wi-Fi 64GB (3rd Gen)
+2025-05-30 20:11:26,126 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $200
+2025-05-30 20:11:30,268 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (206/278): Apple iPad Pro 12.9 (2018) Wi-Fi 256GB (3rd Gen)
+2025-05-30 20:11:31,257 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $240
+2025-05-30 20:11:39,271 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (207/278): Apple iPad Pro 12.9 (2018) Wi-Fi 512GB (3rd Gen)
+2025-05-30 20:11:40,812 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $275
+2025-05-30 20:11:45,224 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (208/278): Apple iPad Pro 12.9 (2018) LTE 64GB (3rd Gen)
+2025-05-30 20:11:46,276 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $240
+2025-05-30 20:11:51,007 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (209/278): Apple iPad Pro 12.9 (2018) LTE 256GB (3rd Gen)
+2025-05-30 20:11:51,658 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $300
+2025-05-30 20:11:54,860 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (210/278): Apple iPad Pro 12.9 (2018) LTE 512GB (3rd Gen)
+2025-05-30 20:11:55,707 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $330
+2025-05-30 20:11:59,373 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (211/278): Apple iPad Pro 12.9 (2020) Wi-Fi 128GB (4th Gen)
+2025-05-30 20:12:00,124 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $285
+2025-05-30 20:12:05,667 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (212/278): Apple iPad Pro 12.9 (2020) Wi-Fi 256GB (4th Gen)
+2025-05-30 20:12:07,425 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $360
+2025-05-30 20:12:13,898 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (213/278): Apple iPad Pro 12.9 (2020) Wi-Fi 512GB (4th Gen)
+2025-05-30 20:12:15,391 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $400
+2025-05-30 20:12:22,505 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (214/278): Apple iPad Pro 12.9 (2020) LTE 128GB (4th Gen)
+2025-05-30 20:12:23,135 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $360
+2025-05-30 20:12:28,500 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (215/278): Apple iPad Pro 12.9 (2020) LTE 256GB (4th Gen)
+2025-05-30 20:12:29,791 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $440
+2025-05-30 20:12:35,589 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (216/278): Apple iPad Pro 12.9 (2020) LTE 512GB (4th Gen)
+2025-05-30 20:12:36,669 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $475
+2025-05-30 20:12:42,232 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (217/278): Apple iPad Pro 12.9 (2021) 5G 128GB (5th Gen)
+2025-05-30 20:12:42,682 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $445
+2025-05-30 20:12:48,858 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (218/278): Apple iPad Pro 12.9 (2021) WiFi 128GB (5th Gen)
+2025-05-30 20:12:49,822 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $370
+2025-05-30 20:12:54,773 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (219/278): Apple iPad Pro 12.9 (2021) 5G 1TB (5th Gen)
+2025-05-30 20:12:55,525 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $660
+2025-05-30 20:13:00,451 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (220/278): Apple iPad Pro 12.9 (2021) WiFi 1TB (5th Gen)
+2025-05-30 20:13:01,553 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $600
+2025-05-30 20:13:06,415 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (221/278): Apple iPad Pro 12.9 (2021) 5G 256GB (5th Gen)
+2025-05-30 20:13:07,371 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $500
+2025-05-30 20:13:11,237 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (222/278): Apple iPad Pro 12.9 (2021) WiFi 256GB (5th Gen)
+2025-05-30 20:13:12,173 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $445
+2025-05-30 20:13:16,306 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (223/278): Apple iPad Pro 12.9 (2021) 5G 512GB (5th Gen)
+2025-05-30 20:13:18,613 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $540
+2025-05-30 20:13:28,467 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (224/278): Apple iPad Pro 12.9 (2021) WiFi 512GB (5th Gen)
+2025-05-30 20:13:29,204 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $500
+2025-05-30 20:13:34,249 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (225/278): Apple iPad Air (2020) 4th Gen Cellular (A2072) 256GB
+2025-05-30 20:13:36,251 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $275
+2025-05-30 20:13:40,745 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (226/278): Apple iPad Air (2020) 4th Gen WiFi (A2316) 256GB
+2025-05-30 20:13:42,213 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $210
+2025-05-30 20:13:47,119 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (227/278): Apple iPad Air (2020) 4th Gen Cellular (A2072) 64GB
+2025-05-30 20:13:47,695 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $240
+2025-05-30 20:13:52,001 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (228/278): Apple iPad Air (2020) 4th Gen WiFi (A2316) 64GB
+2025-05-30 20:13:52,843 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $170
+2025-05-30 20:13:58,237 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (229/278): Apple iPad Mini 3 Wi-Fi 64GB
+2025-05-30 20:14:00,272 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $20
+2025-05-30 20:14:04,117 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (230/278): Apple iPad Mini 3 LTE 64GB
+2025-05-30 20:14:04,688 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $20
+2025-05-30 20:14:17,035 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (231/278): Apple iPad Mini 3 Wi-Fi 128GB
+2025-05-30 20:14:20,355 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $25
+2025-05-30 20:14:25,014 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (232/278): Apple iPad Mini 3 LTE 128GB
+2025-05-30 20:14:25,570 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $25
+2025-05-30 20:14:30,796 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (233/278): Apple iPad Mini 4 Wi-Fi 64GB
+2025-05-30 20:14:32,240 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:14:40,153 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (234/278): Apple iPad Mini 4 LTE 64GB
+2025-05-30 20:14:40,727 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:14:45,773 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (235/278): Apple iPad Mini 4 Wi-Fi 128GB
+2025-05-30 20:14:46,965 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:14:52,763 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (236/278): Apple iPad Mini 4 LTE 128GB
+2025-05-30 20:14:53,115 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $90
+2025-05-30 20:14:57,541 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (237/278): Apple iPad Mini 5 LTE 64GB
+2025-05-30 20:14:59,058 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $155
+2025-05-30 20:15:07,334 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (238/278): Apple iPad Mini 5 Wi-Fi 64GB
+2025-05-30 20:15:07,811 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $90
+2025-05-30 20:15:12,900 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (239/278): Apple iPad Mini 5 LTE 256GB
+2025-05-30 20:15:15,442 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $195
+2025-05-30 20:15:20,555 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (240/278): Apple iPad Mini 5 Wi-Fi 256GB
+2025-05-30 20:15:21,508 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $155
+2025-05-30 20:15:25,168 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (241/278): Apple iPad mini 6 5G 64GB
+2025-05-30 20:15:26,718 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $270
+2025-05-30 20:15:31,241 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (242/278): Apple iPad mini 6 WIFI 64GB
+2025-05-30 20:15:31,699 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $195
+2025-05-30 20:15:36,245 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (243/278): Apple iPad mini 6 5G 256GB
+2025-05-30 20:15:37,522 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $340
+2025-05-30 20:15:41,863 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (244/278): Apple iPad mini 6 WIFI 256GB
+2025-05-30 20:15:42,847 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $270
+2025-05-30 20:15:48,853 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (245/278): Apple Watch Series 3, 38mm Bluetooth
+2025-05-30 20:15:53,127 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $10
+2025-05-30 20:16:05,511 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (246/278): Apple Watch Series 3, 42mm Bluetooth
+2025-05-30 20:16:07,216 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $20
+2025-05-30 20:16:17,241 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (247/278): Apple Watch Series 3, 38mm LTE
+2025-05-30 20:16:18,098 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $10
+2025-05-30 20:16:25,503 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (248/278): Apple Watch Series 3, 42mm LTE
+2025-05-30 20:16:26,381 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $25
+2025-05-30 20:16:30,945 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (249/278): Apple Watch Series 4, 40mm Bluetooth
+2025-05-30 20:16:32,458 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $30
+2025-05-30 20:16:40,897 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (250/278): Apple Watch Series 4, 44mm Bluetooth
+2025-05-30 20:16:42,395 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $30
+2025-05-30 20:16:47,744 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (251/278): Apple Watch Series 4, 40mm LTE
+2025-05-30 20:16:50,830 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $30
+2025-05-30 20:17:03,952 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (252/278): Apple Watch Series 4, 44mm LTE
+2025-05-30 20:17:04,829 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $30
+2025-05-30 20:17:13,059 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (253/278): Apple Watch Series 5, 40mm Bluetooth
+2025-05-30 20:17:15,140 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $30
+2025-05-30 20:17:21,802 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (254/278): Apple Watch Series 5, 44mm Bluetooth
+2025-05-30 20:17:22,742 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:17:29,217 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (255/278): Apple Watch Series 5, 40mm LTE
+2025-05-30 20:17:29,751 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:17:33,676 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (256/278): Apple Watch Series 5, 44mm LTE
+2025-05-30 20:17:34,007 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:17:39,312 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (257/278): Apple Watch SE, 40mm Bluetooth
+2025-05-30 20:17:39,804 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $30
+2025-05-30 20:17:44,768 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (258/278): Apple Watch SE, 44mm Bluetooth
+2025-05-30 20:17:46,240 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $40
+2025-05-30 20:17:58,517 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (259/278): Apple Watch SE, 40mm LTE
+2025-05-30 20:17:59,730 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $40
+2025-05-30 20:18:04,852 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (260/278): Apple Watch SE, 44mm LTE
+2025-05-30 20:18:05,487 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:18:10,744 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (261/278): Apple Watch Series 6, 40mm Bluetooth
+2025-05-30 20:18:12,414 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $40
+2025-05-30 20:18:17,799 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (262/278): Apple Watch Series 6, 44mm Bluetooth
+2025-05-30 20:18:19,448 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:18:23,883 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (263/278): Apple Watch Series 6, 40mm LTE
+2025-05-30 20:18:24,619 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:18:28,797 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (264/278): Apple Watch Series 6, 44mm LTE
+2025-05-30 20:18:29,335 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $75
+2025-05-30 20:18:36,202 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (265/278): Apple Watch Series 7 GPS 41mm
+2025-05-30 20:18:36,765 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:18:40,692 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (266/278): Apple Watch Series 7 GPS 45mm
+2025-05-30 20:18:42,229 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $115
+2025-05-30 20:18:47,467 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (267/278): Apple Watch Series 7 GPS + Cellular 41mm
+2025-05-30 20:18:47,995 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:18:55,347 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (268/278): Apple Watch Series 7 GPS + Cellular 45mm
+2025-05-30 20:18:56,549 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $115
+2025-05-30 20:19:00,777 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (269/278): Apple Watch Series 8 GPS 41mm
+2025-05-30 20:19:01,440 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $110
+2025-05-30 20:19:07,690 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (270/278): Apple Watch Series 8 GPS 45mm
+2025-05-30 20:19:08,511 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $140
+2025-05-30 20:19:12,689 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (271/278): Apple Watch Series 8 GPS + Cellular 41mm
+2025-05-30 20:19:14,811 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $110
+2025-05-30 20:19:20,547 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (272/278): Apple Watch Series 8 GPS + Cellular 45mm
+2025-05-30 20:19:23,031 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $140
+2025-05-30 20:19:29,023 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (273/278): Apple Watch Ultra GPS + Cellular 49mm
+2025-05-30 20:19:29,759 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $430
+2025-05-30 20:19:34,798 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (274/278): Apple Watch Series 9 GPS 41mm
+2025-05-30 20:19:35,498 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $170
+2025-05-30 20:19:39,587 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (275/278): Apple Watch Series 9 GPS 45mm
+2025-05-30 20:19:40,926 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $200
+2025-05-30 20:19:44,353 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (276/278): Apple Watch Series 9 GPS + Cellular 41mm
+2025-05-30 20:19:45,913 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $170
+2025-05-30 20:19:51,914 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (277/278): Apple Watch Series 9 GPS + Cellular 45mm
+2025-05-30 20:19:54,106 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $200
+2025-05-30 20:19:57,734 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (278/278): Apple Watch Ultra 2nd Gen GPS + Cellular 49mm
+2025-05-30 20:19:58,277 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $430
+2025-05-30 20:20:01,397 - scraper_manager - INFO - [SG_RV_Source2.py] Progress saved after company Apple: 277 models processed so far
+2025-05-30 20:20:01,407 - scraper_manager - INFO - [SG_RV_Source2.py] 
+2025-05-30 20:20:01,411 - scraper_manager - INFO - [SG_RV_Source2.py] Processing company (2/2): Samsung
+2025-05-30 20:20:04,443 - scraper_manager - INFO - [SG_RV_Source2.py] Navigating to Samsung trade-in website for Samsung...
+2025-05-30 20:20:06,184 - scraper_manager - INFO - [SG_RV_Source2.py] Found 162 models for Samsung
+2025-05-30 20:20:15,707 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (1/162): Samsung Galaxy S24 Ultra 5G 256GB
+2025-05-30 20:20:16,345 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $580
+2025-05-30 20:20:23,069 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (2/162): Samsung Galaxy S24 Ultra 5G 512GB
+2025-05-30 20:20:23,746 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $645
+2025-05-30 20:20:27,820 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (3/162): Samsung Galaxy S24 Ultra 5G 1TB
+2025-05-30 20:20:28,144 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $720
+2025-05-30 20:20:34,319 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (4/162): Samsung Galaxy S24+ 5G 256GB
+2025-05-30 20:20:35,506 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $450
+2025-05-30 20:20:39,566 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (5/162): Samsung Galaxy S24+ 5G 512GB
+2025-05-30 20:20:40,539 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $525
+2025-05-30 20:20:46,873 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (6/162): Samsung Galaxy S24 5G 256GB
+2025-05-30 20:20:47,341 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $385
+2025-05-30 20:20:52,543 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (7/162): Samsung Galaxy S24 5G 512GB
+2025-05-30 20:20:54,209 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $425
+2025-05-30 20:20:59,459 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (8/162): Samsung Galaxy S24 FE 5G 256GB
+2025-05-30 20:21:00,584 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $300
+2025-05-30 20:21:05,654 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (9/162): Samsung Galaxy S24 FE 5G 512GB
+2025-05-30 20:21:06,392 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $350
+2025-05-30 20:21:10,123 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (10/162): Samsung Galaxy S23 Ultra 5G 256GB
+2025-05-30 20:21:10,575 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $360
+2025-05-30 20:21:15,059 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (11/162): Samsung Galaxy S23 Ultra 5G 512GB
+2025-05-30 20:21:15,908 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $460
+2025-05-30 20:21:19,760 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (12/162): Samsung Galaxy S23 Ultra 5G 1TB
+2025-05-30 20:21:20,681 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $510
+2025-05-30 20:21:29,138 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (13/162): Samsung Galaxy S23+ 5G 256GB
+2025-05-30 20:21:30,109 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $300
+2025-05-30 20:21:34,583 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (14/162): Samsung Galaxy S23+ 5G 512GB
+2025-05-30 20:21:36,521 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $330
+2025-05-30 20:21:40,217 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (15/162): Samsung Galaxy S23 5G 128GB
+2025-05-30 20:21:41,021 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $245
+2025-05-30 20:21:49,070 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (16/162): Samsung Galaxy S23 5G 256GB
+2025-05-30 20:21:50,568 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $280
+2025-05-30 20:21:54,456 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (17/162): Samsung Galaxy S23 FE 5G 128GB
+2025-05-30 20:21:55,388 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $210
+2025-05-30 20:21:59,365 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (18/162): Samsung Galaxy S23 FE 5G 256GB
+2025-05-30 20:22:00,537 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $230
+2025-05-30 20:22:04,767 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (19/162): Samsung Galaxy S22 Ultra 5G 512GB
+2025-05-30 20:22:05,787 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $315
+2025-05-30 20:22:12,687 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (20/162): Samsung Galaxy S22 Ultra 5G 256GB
+2025-05-30 20:22:13,754 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $270
+2025-05-30 20:22:20,919 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (21/162): Samsung Galaxy S22 Ultra 5G 128GB
+2025-05-30 20:22:22,163 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $245
+2025-05-30 20:22:26,912 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (22/162): Samsung Galaxy S22+ 5G 256GB
+2025-05-30 20:22:28,186 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $215
+2025-05-30 20:22:33,018 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (23/162): Samsung Galaxy S22+ 5G 128GB
+2025-05-30 20:22:33,945 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $185
+2025-05-30 20:22:37,987 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (24/162): Samsung Galaxy S22 5G 256GB
+2025-05-30 20:22:40,432 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $195
+2025-05-30 20:22:43,832 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (25/162): Samsung Galaxy S22 5G 128GB
+2025-05-30 20:22:45,412 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $170
+2025-05-30 20:22:50,199 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (26/162): Samsung Galaxy S21 Ultra 5G 256GB
+2025-05-30 20:22:51,888 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $195
+2025-05-30 20:22:58,237 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (27/162): Samsung Galaxy S21 Ultra 5G 512GB
+2025-05-30 20:22:59,365 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $215
+2025-05-30 20:23:04,768 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (28/162): Samsung Galaxy S21+ 5G 128GB
+2025-05-30 20:23:06,164 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $130
+2025-05-30 20:23:09,795 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (29/162): Samsung Galaxy S21+ 5G 256GB
+2025-05-30 20:23:11,247 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $155
+2025-05-30 20:23:14,708 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (30/162): Samsung Galaxy S21 5G 128GB
+2025-05-30 20:23:15,125 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:23:18,758 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (31/162): Samsung Galaxy S21 5G 256GB
+2025-05-30 20:23:20,162 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $110
+2025-05-30 20:23:25,111 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (32/162): Samsung Galaxy S21 FE 5G 128GB
+2025-05-30 20:23:26,685 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $110
+2025-05-30 20:23:30,625 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (33/162): Samsung Galaxy S21 FE 5G 256GB
+2025-05-30 20:23:31,301 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $135
+2025-05-30 20:23:37,399 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (34/162): Samsung Galaxy Note 20 Ultra 5G 256GB
+2025-05-30 20:23:38,230 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $200
+2025-05-30 20:23:43,781 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (35/162): Samsung Galaxy Note 20 5G 256GB
+2025-05-30 20:23:45,485 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $140
+2025-05-30 20:23:50,175 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (36/162): Samsung Galaxy Note 20 LTE 256GB
+2025-05-30 20:23:50,760 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $100
+2025-05-30 20:23:55,279 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (37/162): Samsung Galaxy Note10 256GB
+2025-05-30 20:23:56,560 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $100
+2025-05-30 20:24:02,527 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (38/162): Samsung Galaxy Note10+ 256GB
+2025-05-30 20:24:04,057 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $130
+2025-05-30 20:24:08,979 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (39/162): Samsung Galaxy Note10+ 512GB
+2025-05-30 20:24:10,149 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $160
+2025-05-30 20:24:13,644 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (40/162): Samsung Galaxy Note9 128GB
+2025-05-30 20:24:14,092 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:24:17,607 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (41/162): Samsung Galaxy Note9 512GB
+2025-05-30 20:24:18,614 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:24:21,206 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (42/162): Samsung Galaxy Note8 64GB
+2025-05-30 20:24:21,647 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $30
+2025-05-30 20:24:25,795 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (43/162): Samsung Galaxy Z Fold 6 (256GB)
+2025-05-30 20:24:27,325 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $610
+2025-05-30 20:24:37,633 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (44/162): Samsung Galaxy Z Fold 6 (512GB)
+2025-05-30 20:24:39,195 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $690
+2025-05-30 20:24:44,127 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (45/162): Samsung Galaxy Z Fold 6 (1TB)
+2025-05-30 20:24:44,781 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $850
+2025-05-30 20:24:49,358 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (46/162): Samsung Galaxy Z Flip 6 (256GB)
+2025-05-30 20:24:49,797 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $455
+2025-05-30 20:24:53,984 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (47/162): Samsung Galaxy Z Flip 6 (512GB)
+2025-05-30 20:24:55,064 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $535
+2025-05-30 20:24:59,102 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (48/162): Samsung Galaxy Z Fold 5 (256GB)
+2025-05-30 20:25:01,763 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $470
+2025-05-30 20:25:06,094 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (49/162): Samsung Galaxy Z Fold 5 (512GB)
+2025-05-30 20:25:06,445 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $505
+2025-05-30 20:25:11,022 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (50/162): Samsung Galaxy Z Fold 5 (1TB)
+2025-05-30 20:25:12,148 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $540
+2025-05-30 20:25:17,960 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (51/162): Samsung Galaxy Z Flip 5 (256GB)
+2025-05-30 20:25:19,741 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $275
+2025-05-30 20:25:24,194 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (52/162): Samsung Galaxy Z Flip 5 (512GB)
+2025-05-30 20:25:24,596 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $290
+2025-05-30 20:25:28,492 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (53/162): Samsung Galaxy Z Fold 4 (256GB)
+2025-05-30 20:25:30,813 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $310
+2025-05-30 20:25:38,072 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (54/162): Samsung Galaxy Z Fold 4 (512GB)
+2025-05-30 20:25:39,412 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $340
+2025-05-30 20:25:45,024 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (55/162): Samsung Galaxy Z Fold 4 (1TB)
+2025-05-30 20:25:45,994 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $415
+2025-05-30 20:25:50,253 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (56/162): Samsung Galaxy Z Flip 4 (128GB)
+2025-05-30 20:25:50,894 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $210
+2025-05-30 20:25:54,574 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (57/162): Samsung Galaxy Z Flip 4 (256GB)
+2025-05-30 20:25:55,412 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $225
+2025-05-30 20:25:59,159 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (58/162): Samsung Galaxy Z Flip 4 (512GB)
+2025-05-30 20:25:59,892 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $240
+2025-05-30 20:26:08,361 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (59/162): Samsung Galaxy Z Fold 3 (256GB)
+2025-05-30 20:26:10,073 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $260
+2025-05-30 20:26:15,800 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (60/162): Samsung Galaxy Z Fold 3 (512GB)
+2025-05-30 20:26:17,296 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $300
+2025-05-30 20:26:21,822 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (61/162): Samsung Galaxy Z Flip 3 (128GB)
+2025-05-30 20:26:23,408 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $140
+2025-05-30 20:26:27,855 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (62/162): Samsung Galaxy Z Flip 3 (256GB)
+2025-05-30 20:26:28,589 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $175
+2025-05-30 20:26:32,455 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (63/162): Samsung Galaxy Fold 512GB
+2025-05-30 20:26:32,961 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $145
+2025-05-30 20:26:40,671 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (64/162): Samsung Galaxy Z Fold 2 256GB
+2025-05-30 20:26:42,228 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $195
+2025-05-30 20:26:46,792 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (65/162): Samsung Galaxy Z Flip LTE 256GB
+2025-05-30 20:26:47,918 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $100
+2025-05-30 20:26:51,585 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (66/162): Samsung Galaxy Z Flip 5G 256GB
+2025-05-30 20:26:52,758 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $115
+2025-05-30 20:26:56,781 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (67/162): Samsung Galaxy S20 128GB
+2025-05-30 20:26:58,358 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:27:08,342 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (68/162): Samsung Galaxy S20 Plus 128GB
+2025-05-30 20:27:09,972 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:27:15,670 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (69/162): Samsung Galaxy S20 Ultra 5G 128GB
+2025-05-30 20:27:16,454 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $100
+2025-05-30 20:27:20,485 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (70/162): Samsung Galaxy S20 FE 5G 128 GB
+2025-05-30 20:27:21,476 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:27:25,741 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (71/162): Samsung Galaxy S20 FE 5G 256GB
+2025-05-30 20:27:26,322 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $100
+2025-05-30 20:27:30,419 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (72/162): Samsung Galaxy S10e 128GB
+2025-05-30 20:27:32,852 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $60
+2025-05-30 20:27:36,996 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (73/162): Samsung Galaxy S10 128GB
+2025-05-30 20:27:37,555 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $60
+2025-05-30 20:27:41,502 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (74/162): Samsung Galaxy S10 Plus 128GB
+2025-05-30 20:27:42,605 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:27:46,131 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (75/162): Samsung Galaxy S10 Plus 512GB
+2025-05-30 20:27:48,803 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $90
+2025-05-30 20:27:54,682 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (76/162): Samsung Galaxy S10 Plus 1TB
+2025-05-30 20:27:55,407 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $95
+2025-05-30 20:28:01,388 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (77/162): Samsung Galaxy S10 Lite 128GB
+2025-05-30 20:28:03,143 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $60
+2025-05-30 20:28:07,304 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (78/162): Samsung Galaxy M52 5G 128GB
+2025-05-30 20:28:08,923 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $65
+2025-05-30 20:28:15,910 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (79/162): Samsung Galaxy M32 5G 128GB
+2025-05-30 20:28:17,222 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $50
+2025-05-30 20:28:22,249 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (80/162): Samsung Galaxy M22 5G 128GB
+2025-05-30 20:28:23,137 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $60
+2025-05-30 20:28:27,641 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (81/162): Samsung Galaxy A80 128GB
+2025-05-30 20:28:28,114 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:28:32,874 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (82/162): Samsung Galaxy A70 128GB
+2025-05-30 20:28:33,241 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:28:36,428 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (83/162): Samsung Galaxy A55 5G 128GB
+2025-05-30 20:28:37,556 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $170
+2025-05-30 20:28:43,265 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (84/162): Samsung Galaxy A55 5G 256GB
+2025-05-30 20:28:45,223 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $195
+2025-05-30 20:28:49,524 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (85/162): Samsung Galaxy A54 128GB
+2025-05-30 20:28:50,586 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $130
+2025-05-30 20:29:00,583 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (86/162): Samsung Galaxy A54 256GB
+2025-05-30 20:29:01,301 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $160
+2025-05-30 20:29:05,690 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (87/162): Samsung Galaxy A53 128GB
+2025-05-30 20:29:06,023 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $110
+2025-05-30 20:29:10,023 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (88/162): Samsung Galaxy A53 256GB
+2025-05-30 20:29:13,238 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $140
+2025-05-30 20:29:17,450 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (89/162): Samsung Galaxy A52s 5G (128GB)
+2025-05-30 20:29:18,592 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $90
+2025-05-30 20:29:23,389 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (90/162): Samsung Galaxy A52s 5G (256GB)
+2025-05-30 20:29:23,774 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $125
+2025-05-30 20:29:28,284 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (91/162): Samsung Galaxy A52 128GB
+2025-05-30 20:29:28,756 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:29:31,794 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (92/162): Samsung Galaxy A52 256GB
+2025-05-30 20:29:32,223 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $100
+2025-05-30 20:29:36,042 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (93/162): Samsung Galaxy A52 5G 128GB
+2025-05-30 20:29:36,956 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:29:40,258 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (94/162): Samsung Galaxy A52 5G 256GB
+2025-05-30 20:29:40,682 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $100
+2025-05-30 20:29:49,414 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (95/162): Samsung Galaxy A42 5G 128GB
+2025-05-30 20:29:49,801 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:29:55,301 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (96/162): Samsung Galaxy A35 5G 128GB
+2025-05-30 20:29:57,885 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $160
+2025-05-30 20:30:03,668 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (97/162): Samsung Galaxy A34 128GB
+2025-05-30 20:30:04,455 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $115
+2025-05-30 20:30:09,247 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (98/162): Samsung Galaxy A34 256GB
+2025-05-30 20:30:09,892 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $120
+2025-05-30 20:30:13,376 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (99/162): Samsung Galaxy A33 128GB
+2025-05-30 20:30:15,417 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $90
+2025-05-30 20:30:21,208 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (100/162): Samsung Galaxy A32 5G 4/128GB
+2025-05-30 20:30:21,974 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:30:24,926 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (101/162): Samsung Galaxy A32 5G 6/128GB
+2025-05-30 20:30:26,159 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:30:30,412 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (102/162): Samsung Galaxy A32 5G 8/128GB
+2025-05-30 20:30:31,775 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:30:37,369 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (103/162): Samsung Galaxy A25 5G 128GB
+2025-05-30 20:30:38,367 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $95
+2025-05-30 20:30:41,968 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (104/162): Samsung Galaxy A23 5G 128GB
+2025-05-30 20:30:42,324 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:30:45,589 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (105/162): Samsung Galaxy A22 5G 128GB
+2025-05-30 20:30:46,456 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $35
+2025-05-30 20:30:52,454 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (106/162): Samsung Galaxy A20 (32GB)
+2025-05-30 20:30:55,452 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $30
+2025-05-30 20:30:59,635 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (107/162): Samsung Galaxy A16 5G 8+128GB
+2025-05-30 20:31:00,353 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:31:04,784 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (108/162): Samsung Galaxy A16 LTE 8+128GB
+2025-05-30 20:31:05,639 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:31:10,084 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (109/162): Samsung Galaxy A16 LTE 4+128GB
+2025-05-30 20:31:10,870 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:31:13,959 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (110/162): Samsung Galaxy A15 5G 8+128GB
+2025-05-30 20:31:15,389 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $75
+2025-05-30 20:31:20,919 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (111/162): Samsung Galaxy A15 LTE 4+128GB
+2025-05-30 20:31:22,059 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $45
+2025-05-30 20:31:29,573 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (112/162): Samsung Galaxy A14 5G 128GB
+2025-05-30 20:31:31,027 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $60
+2025-05-30 20:31:35,352 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (113/162): Samsung Galaxy A14 128GB
+2025-05-30 20:31:35,740 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $45
+2025-05-30 20:31:40,251 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (114/162): Samsung Galaxy A13 128GB
+2025-05-30 20:31:41,458 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $40
+2025-05-30 20:31:45,276 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (115/162): Samsung Galaxy Tab S5e LTE 128GB
+2025-05-30 20:31:46,969 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $130
+2025-05-30 20:31:50,814 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (116/162): Samsung Galaxy Tab S5e Wi-Fi 128GB
+2025-05-30 20:31:51,809 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $110
+2025-05-30 20:31:57,919 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (117/162): Samsung Galaxy Tab S5e LTE 64GB
+2025-05-30 20:31:58,857 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:32:03,053 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (118/162): Samsung Galaxy Tab S5e Wi-Fi 64GB
+2025-05-30 20:32:03,540 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $75
+2025-05-30 20:32:11,168 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (119/162): Samsung Galaxy Tab S6 Lite 128GB
+2025-05-30 20:32:11,851 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $100
+2025-05-30 20:32:16,825 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (120/162): Samsung Galaxy Tab S6 10.5 LTE 256GB
+2025-05-30 20:32:19,102 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $185
+2025-05-30 20:32:22,518 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (121/162): Samsung Galaxy Tab S6 10.5 LTE 128GB
+2025-05-30 20:32:23,440 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $160
+2025-05-30 20:32:27,638 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (122/162): Samsung Galaxy Tab S6 10.5 Wi-Fi 128GB
+2025-05-30 20:32:28,115 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $130
+2025-05-30 20:32:32,339 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (123/162): Samsung Galaxy Tab S7 LTE 256GB
+2025-05-30 20:32:33,322 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $185
+2025-05-30 20:32:36,063 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (124/162): Samsung Galaxy Tab S7 LTE 128GB
+2025-05-30 20:32:36,575 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $170
+2025-05-30 20:32:40,451 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (125/162): Samsung Galaxy Tab S7 Wi-Fi 128GB
+2025-05-30 20:32:41,891 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $140
+2025-05-30 20:32:46,524 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (126/162): Samsung Galaxy Tab S7+ 5G 256GB
+2025-05-30 20:32:48,885 - scraper_manager - INFO - [SG_RV_Source2.py] Price not found in element text: 255^
+2025-05-30 20:32:54,899 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (127/162): Samsung Galaxy Tab S7+ Wi-Fi 256GB
+2025-05-30 20:32:55,922 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $215
+2025-05-30 20:33:01,398 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (128/162): Samsung Galaxy Tab S7 FE 5G 128GB
+2025-05-30 20:33:02,475 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $130
+2025-05-30 20:33:07,739 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (129/162): Samsung Galaxy Tab S7 FE 5G 64GB
+2025-05-30 20:33:09,049 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $100
+2025-05-30 20:33:13,581 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (130/162): Samsung Galaxy Tab S7 FE Wi-Fi 64GB
+2025-05-30 20:33:14,037 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:33:17,831 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (131/162): Samsung Tab S9 FE+ 5G 8+128GB
+2025-05-30 20:33:19,482 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $315
+2025-05-30 20:33:25,068 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (132/162): Samsung Galaxy Tab S9 FE+ WIFI 8+128GB
+2025-05-30 20:33:25,844 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $240
+2025-05-30 20:33:30,106 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (133/162): Samsung Galaxy Tab S9 FE 5G 6+128GB
+2025-05-30 20:33:30,952 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $225
+2025-05-30 20:33:34,504 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (134/162): Samsung Tab S9 FE WIFI 6+128GB
+2025-05-30 20:33:34,872 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $175
+2025-05-30 20:33:43,116 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (135/162): Samsung Galaxy Tab S4 LTE 64GB
+2025-05-30 20:33:45,784 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $75
+2025-05-30 20:33:49,499 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (136/162): Samsung Galaxy Tab S4 Wi-Fi 64GB
+2025-05-30 20:33:50,948 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:33:57,564 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (137/162): Samsung Galaxy Tab S4 LTE 256GB
+2025-05-30 20:33:58,684 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $100
+2025-05-30 20:34:03,623 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (138/162): Samsung Galaxy Tab S4 Wi-Fi 256GB
+2025-05-30 20:34:04,672 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:34:09,168 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (139/162): Samsung Galaxy Tab S3 9.7 LTE 32GB
+2025-05-30 20:34:10,245 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $60
+2025-05-30 20:34:14,427 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (140/162): Samsung Galaxy Tab S3 9.7 Wi-Fi 32GB
+2025-05-30 20:34:16,150 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:34:18,816 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (141/162): Samsung Galaxy Tab S2 8.0 (2015) LTE 32GB
+2025-05-30 20:34:19,646 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $10
+2025-05-30 20:34:23,610 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (142/162): Samsung Galaxy Tab S2 8.0 (2015) Wi-Fi 32GB
+2025-05-30 20:34:24,364 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $10
+2025-05-30 20:34:29,267 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (143/162): Samsung Galaxy Tab S2 8.0 (2016 ) LTE 32GB
+2025-05-30 20:34:32,035 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $45
+2025-05-30 20:34:37,018 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (144/162): Samsung Galaxy Tab S2 8.0 (2016 ) Wi-Fi 32GB
+2025-05-30 20:34:38,497 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $10
+2025-05-30 20:34:45,339 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (145/162): Samsung Galaxy Tab S2 9.7 (2015) LTE 32GB
+2025-05-30 20:34:45,835 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $10
+2025-05-30 20:34:51,431 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (146/162): Samsung Galaxy Tab S2 9.7 (2015) Wi-Fi 32GB
+2025-05-30 20:34:52,936 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $10
+2025-05-30 20:34:56,921 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (147/162): Samsung Galaxy Tab S2 9.7 (2016 ) LTE 32GB
+2025-05-30 20:34:59,102 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:35:05,135 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (148/162): Samsung Galaxy Tab S2 9.7 (2016 ) Wi-Fi 32GB
+2025-05-30 20:35:06,120 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $45
+2025-05-30 20:35:10,338 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (149/162): Samsung Galaxy Tab A7 Lite LTE 64GB
+2025-05-30 20:35:11,929 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $60
+2025-05-30 20:35:20,211 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (150/162): Samsung Galaxy Tab A7 10.4 (2020) LTE *64GB
+2025-05-30 20:35:21,184 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $75
+2025-05-30 20:35:26,512 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (151/162): Samsung Galaxy Tab A7 10.4 (2020) WiFi *64GB
+2025-05-30 20:35:27,433 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $60
+2025-05-30 20:35:32,057 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (152/162): Samsung Galaxy Tab A 10.1" 2019 LTE 32GB
+2025-05-30 20:35:33,369 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $55
+2025-05-30 20:35:39,057 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (153/162): Samsung Galaxy Tab A 10.1" 2019 Wi-Fi 32GB
+2025-05-30 20:35:39,766 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $30
+2025-05-30 20:35:46,812 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (154/162): SAMSUNG Galaxy Tab A 10.1" with S Pen LTE 32GB
+2025-05-30 20:35:47,578 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $10
+2025-05-30 20:35:52,700 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (155/162): Samsung Galaxy Tab A 10.1" with S Pen Wi-Fi 32GB
+2025-05-30 20:35:53,035 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $10
+2025-05-30 20:35:57,097 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (156/162): Samsung Galaxy Tab A8 10.5 Wi-Fi (2021) 64GB
+2025-05-30 20:35:57,668 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:36:01,958 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (157/162): Samsung Galaxy Tab A9+ 5G 4+64GB
+2025-05-30 20:36:03,041 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $160
+2025-05-30 20:36:11,226 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (158/162): Samsung Galaxy Tab A9+ WIFI 4+64GB
+2025-05-30 20:36:12,582 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $85
+2025-05-30 20:36:17,100 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (159/162): Samsung Galaxy Tab A9 LTE 4+64GB
+2025-05-30 20:36:18,031 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $70
+2025-05-30 20:36:23,897 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (160/162): Samsung Galaxy Tab A9 WIFI 4+64GB
+2025-05-30 20:36:25,748 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $45
+2025-05-30 20:36:29,984 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (161/162): Samsung Galaxy Tab A 8.0 (2019) LTE 32GB
+2025-05-30 20:36:30,751 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $10
+2025-05-30 20:36:35,474 - scraper_manager - INFO - [SG_RV_Source2.py] Processing model (162/162): Samsung Galaxy Tab A 8.0 (2019) Wi-Fi 32GB
+2025-05-30 20:36:37,316 - scraper_manager - INFO - [SG_RV_Source2.py] Found trade-in price: $10
+2025-05-30 20:36:37,548 - scraper_manager - INFO - [SG_RV_Source2.py] Progress saved after company Samsung: 438 models processed so far
+2025-05-30 20:36:38,707 - scraper_manager - INFO - [SG_RV_Source2.py] All companies processed. 438 models found.
+2025-05-30 20:36:38,708 - scraper_manager - INFO - [SG_RV_Source2.py] Results saved to: C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 20:36:44,297 - scraper_manager - INFO - [SG_RV_Source2.py] Browser closed.
+2025-05-30 20:36:44,297 - scraper_manager - INFO - [SG_RV_Source2.py] Script completed. Results have been saved to the Excel file.
+2025-05-30 20:36:45,812 - scraper_manager - INFO - Runtime for SG_RV_Source2.py: 50.28 minutes
+2025-05-30 20:36:45,813 - scraper_manager - INFO - Successfully completed SG_RV_Source2.py

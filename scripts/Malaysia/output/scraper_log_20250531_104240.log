@@ -1,0 +1,1027 @@
+2025-05-31 10:42:40,972 - scraper_manager - INFO - Starting batch scraping job at 2025-05-31 10:42:40.972671
+2025-05-31 10:42:41,914 - scraper_manager - INFO - Starting periodic file combination every 10 minutes
+2025-05-31 10:42:41,914 - scraper_manager - INFO - Started periodic file combination thread with interval 10 minutes
+2025-05-31 10:42:41,914 - scraper_manager - INFO - Starting batch 1 of scrapers
+2025-05-31 10:42:41,920 - scraper_manager - INFO - Started process for MY_RV_Source1.py in batch 1
+2025-05-31 10:42:41,943 - scraper_manager - INFO - Started process for MY_RV_Source3.py in batch 1
+2025-05-31 10:42:41,959 - scraper_manager - INFO - Started process for MY_RV_Source4.py in batch 1
+2025-05-31 10:42:41,969 - scraper_manager - INFO - Started process for MY_RV_Source5.PY in batch 1
+2025-05-31 10:52:41,916 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 10:52:42,475 - scraper_manager - INFO - Periodic update: Read 15 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 10:52:42,647 - scraper_manager - INFO - Periodic update: Read 120 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:52:43,073 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 10:52:43,230 - scraper_manager - INFO - Periodic update: Read 11 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 10:52:44,947 - scraper_manager - INFO - Periodic update: Saved 1513 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_105241_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 10:52:44,949 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:02:44,954 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 11:02:45,479 - scraper_manager - INFO - Periodic update: Read 35 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 11:02:45,765 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 11:02:46,391 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 11:02:46,502 - scraper_manager - INFO - Periodic update: Read 27 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 11:02:48,058 - scraper_manager - INFO - Periodic update: Saved 1637 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_110244_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:02:48,060 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_105241_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:02:48,061 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:12:48,066 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 11:12:48,288 - scraper_manager - INFO - Periodic update: Read 56 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 11:12:48,714 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 11:12:49,097 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 11:12:49,193 - scraper_manager - INFO - Periodic update: Read 47 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 11:12:50,488 - scraper_manager - INFO - Periodic update: Saved 1678 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_111248_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:12:50,492 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_110244_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:12:50,493 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:22:50,506 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 11:22:50,672 - scraper_manager - INFO - Periodic update: Read 77 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 11:22:50,791 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 11:22:51,181 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 11:22:51,283 - scraper_manager - INFO - Periodic update: Read 68 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 11:22:52,686 - scraper_manager - INFO - Periodic update: Saved 1720 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_112250_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:22:52,688 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_111248_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:22:52,689 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:32:52,693 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 11:32:52,843 - scraper_manager - INFO - Periodic update: Read 98 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 11:32:53,135 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 11:32:53,583 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 11:32:53,707 - scraper_manager - INFO - Periodic update: Read 92 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 11:32:54,887 - scraper_manager - INFO - Periodic update: Saved 1765 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_113252_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:32:54,889 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_112250_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:32:54,890 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:42:54,894 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 11:42:55,035 - scraper_manager - INFO - Periodic update: Read 120 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 11:42:55,185 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 11:42:55,591 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 11:42:55,722 - scraper_manager - INFO - Periodic update: Read 111 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 11:42:57,034 - scraper_manager - INFO - Periodic update: Saved 1806 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_114254_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:42:57,036 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_113252_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:42:57,037 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:52:57,040 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 11:52:57,201 - scraper_manager - INFO - Periodic update: Read 141 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 11:52:57,328 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 11:52:57,817 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 11:52:57,946 - scraper_manager - INFO - Periodic update: Read 134 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 11:53:00,122 - scraper_manager - INFO - Periodic update: Saved 1850 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_115257_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:53:00,126 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_114254_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 11:53:00,220 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:03:00,278 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 12:03:00,446 - scraper_manager - INFO - Periodic update: Read 161 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 12:03:00,735 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 12:03:02,483 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 12:03:03,092 - scraper_manager - INFO - Periodic update: Read 155 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 12:03:04,737 - scraper_manager - INFO - Periodic update: Saved 1891 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_120300_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:03:04,738 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_115257_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:03:04,739 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:13:04,963 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 12:13:05,152 - scraper_manager - INFO - Periodic update: Read 183 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 12:13:05,317 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 12:13:05,823 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 12:13:05,977 - scraper_manager - INFO - Periodic update: Read 177 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 12:13:07,289 - scraper_manager - INFO - Periodic update: Saved 1935 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_121304_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:13:07,291 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_120300_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:13:07,292 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:23:07,295 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 12:23:07,521 - scraper_manager - INFO - Periodic update: Read 204 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 12:23:07,854 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 12:23:08,298 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 12:23:08,440 - scraper_manager - INFO - Periodic update: Read 197 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 12:23:10,520 - scraper_manager - INFO - Periodic update: Saved 1976 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_122307_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:23:10,522 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_121304_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:23:10,524 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:33:10,529 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 12:33:10,687 - scraper_manager - INFO - Periodic update: Read 225 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 12:33:10,817 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 12:33:11,423 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 12:33:11,767 - scraper_manager - INFO - Periodic update: Read 217 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 12:33:13,274 - scraper_manager - INFO - Periodic update: Saved 2017 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_123310_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:33:13,276 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_122307_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:33:13,277 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:43:13,282 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 12:43:13,591 - scraper_manager - INFO - Periodic update: Read 247 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 12:43:13,831 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 12:43:14,230 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 12:43:14,375 - scraper_manager - INFO - Periodic update: Read 236 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 12:43:15,793 - scraper_manager - INFO - Periodic update: Saved 2058 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_124313_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:43:15,795 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_123310_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:43:15,796 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:53:15,799 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 12:53:16,025 - scraper_manager - INFO - Periodic update: Read 268 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 12:53:16,150 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 12:53:16,540 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 12:53:16,699 - scraper_manager - INFO - Periodic update: Read 258 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 12:53:18,482 - scraper_manager - INFO - Periodic update: Saved 2101 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_125315_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:53:18,487 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_124313_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 12:53:18,536 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:03:18,572 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 13:03:18,721 - scraper_manager - INFO - Periodic update: Read 290 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 13:03:18,872 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 13:03:19,286 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 13:03:19,465 - scraper_manager - INFO - Periodic update: Read 281 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 13:03:24,153 - scraper_manager - INFO - Periodic update: Saved 2146 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_130318_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:03:24,205 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_125315_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:03:24,318 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:13:24,371 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 13:13:25,163 - scraper_manager - INFO - Periodic update: Read 311 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 13:13:25,402 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 13:13:26,310 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 13:13:26,559 - scraper_manager - INFO - Periodic update: Read 305 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 13:13:28,392 - scraper_manager - INFO - Periodic update: Saved 2191 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_131324_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:13:28,395 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_130318_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:13:28,396 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:23:28,399 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 13:23:28,534 - scraper_manager - INFO - Periodic update: Read 332 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 13:23:28,646 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 13:23:28,973 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 13:23:29,148 - scraper_manager - INFO - Periodic update: Read 324 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 13:23:31,603 - scraper_manager - INFO - Periodic update: Saved 2231 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_132328_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:23:31,620 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_131324_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:23:31,749 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:33:31,865 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 13:33:32,031 - scraper_manager - INFO - Periodic update: Read 354 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 13:33:32,165 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 13:33:32,858 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 13:33:33,281 - scraper_manager - INFO - Periodic update: Read 343 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 13:33:35,418 - scraper_manager - INFO - Periodic update: Saved 2272 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_133331_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:33:35,420 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_132328_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:33:35,420 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:43:35,454 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 13:43:36,322 - scraper_manager - INFO - Periodic update: Read 374 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 13:43:36,512 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 13:43:37,611 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 13:43:37,930 - scraper_manager - INFO - Periodic update: Read 361 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 13:43:39,687 - scraper_manager - INFO - Periodic update: Saved 2310 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_134335_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:43:39,689 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_133331_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:43:39,689 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:53:39,694 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 13:53:39,860 - scraper_manager - INFO - Periodic update: Read 396 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 13:53:39,992 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 13:53:40,589 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 13:53:40,774 - scraper_manager - INFO - Periodic update: Read 382 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 13:53:44,085 - scraper_manager - INFO - Periodic update: Saved 2353 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_135339_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:53:44,087 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_134335_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 13:53:44,088 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:03:44,093 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 14:03:44,276 - scraper_manager - INFO - Periodic update: Read 417 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 14:03:44,444 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 14:03:44,912 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 14:03:45,104 - scraper_manager - INFO - Periodic update: Read 402 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 14:03:47,494 - scraper_manager - INFO - Periodic update: Saved 2394 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_140344_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:03:47,496 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_135339_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:03:47,497 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:13:47,571 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 14:13:47,957 - scraper_manager - INFO - Periodic update: Read 437 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 14:13:48,162 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 14:13:48,701 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 14:13:48,903 - scraper_manager - INFO - Periodic update: Read 418 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 14:13:50,796 - scraper_manager - INFO - Periodic update: Saved 2430 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_141347_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:13:50,802 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_140344_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:13:50,805 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:23:50,927 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 14:23:51,144 - scraper_manager - INFO - Periodic update: Read 459 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 14:23:51,316 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 14:23:51,687 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 14:23:51,863 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 14:23:54,802 - scraper_manager - INFO - Periodic update: Saved 2472 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_142350_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:23:54,807 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_141347_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:23:54,809 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:33:54,822 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 14:33:55,002 - scraper_manager - INFO - Periodic update: Read 480 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 14:33:55,123 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 14:33:55,531 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 14:33:56,070 - scraper_manager - INFO - Periodic update: Read 458 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 14:33:59,543 - scraper_manager - INFO - Periodic update: Saved 2513 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_143354_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:33:59,545 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_142350_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:33:59,546 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:43:59,591 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 14:44:00,082 - scraper_manager - INFO - Periodic update: Read 501 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 14:44:00,424 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 14:44:02,079 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 14:44:02,378 - scraper_manager - INFO - Periodic update: Read 476 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 14:44:05,791 - scraper_manager - INFO - Periodic update: Saved 2552 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_144359_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:44:06,025 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_143354_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:44:06,084 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:54:06,202 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 14:54:06,384 - scraper_manager - INFO - Periodic update: Read 523 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 14:54:06,539 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 14:54:07,209 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 14:54:07,589 - scraper_manager - INFO - Periodic update: Read 495 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 14:54:09,761 - scraper_manager - INFO - Periodic update: Saved 2593 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_145406_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:54:09,763 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_144359_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 14:54:09,765 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:04:09,768 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 15:04:09,982 - scraper_manager - INFO - Periodic update: Read 544 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 15:04:10,171 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 15:04:10,967 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 15:04:11,207 - scraper_manager - INFO - Periodic update: Read 513 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 15:04:12,970 - scraper_manager - INFO - Periodic update: Saved 2632 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_150409_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:04:12,972 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_145406_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:04:12,973 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:14:13,008 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 15:14:13,713 - scraper_manager - INFO - Periodic update: Read 565 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 15:14:14,076 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 15:14:15,001 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 15:14:15,333 - scraper_manager - INFO - Periodic update: Read 534 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 15:14:17,494 - scraper_manager - INFO - Periodic update: Saved 2674 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_151413_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:14:17,504 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_150409_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:14:17,506 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:24:17,670 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 15:24:17,873 - scraper_manager - INFO - Periodic update: Read 586 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 15:24:18,005 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 15:24:18,585 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 15:24:18,791 - scraper_manager - INFO - Periodic update: Read 551 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 15:24:20,990 - scraper_manager - INFO - Periodic update: Saved 2712 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_152417_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:24:20,992 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_151413_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:24:20,993 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:34:20,999 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 15:34:21,321 - scraper_manager - INFO - Periodic update: Read 607 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 15:34:21,467 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 15:34:21,891 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 15:34:22,145 - scraper_manager - INFO - Periodic update: Read 571 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 15:34:24,223 - scraper_manager - INFO - Periodic update: Saved 2753 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_153421_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:34:24,225 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_152417_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:34:24,226 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:44:24,229 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 15:44:24,482 - scraper_manager - INFO - Periodic update: Read 628 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 15:44:24,633 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 15:44:25,253 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 15:44:25,498 - scraper_manager - INFO - Periodic update: Read 587 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 15:44:28,750 - scraper_manager - INFO - Periodic update: Saved 2790 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_154424_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:44:29,111 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_153421_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:44:29,296 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:54:29,772 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 15:54:30,054 - scraper_manager - INFO - Periodic update: Read 650 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 15:54:30,199 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 15:54:30,619 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 15:54:31,025 - scraper_manager - INFO - Periodic update: Read 603 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 15:54:34,367 - scraper_manager - INFO - Periodic update: Saved 2828 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_155429_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:54:34,370 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_154424_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 15:54:34,371 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:04:34,376 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 16:04:34,659 - scraper_manager - INFO - Periodic update: Read 670 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 16:04:34,799 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 16:04:35,211 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 16:04:35,533 - scraper_manager - INFO - Periodic update: Read 619 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 16:04:37,322 - scraper_manager - INFO - Periodic update: Saved 2864 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_160434_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:04:37,329 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_155429_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:04:37,337 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:14:37,353 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 16:14:37,749 - scraper_manager - INFO - Periodic update: Read 691 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 16:14:37,898 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 16:14:38,317 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 16:14:38,567 - scraper_manager - INFO - Periodic update: Read 635 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 16:14:41,191 - scraper_manager - INFO - Periodic update: Saved 2901 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_161437_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:14:41,193 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_160434_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:14:41,194 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:24:41,197 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 16:24:41,427 - scraper_manager - INFO - Periodic update: Read 713 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 16:24:41,558 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 16:24:42,167 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 16:24:42,440 - scraper_manager - INFO - Periodic update: Read 652 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 16:24:47,667 - scraper_manager - INFO - Periodic update: Saved 2940 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_162441_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:24:47,670 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_161437_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:24:47,671 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:34:47,677 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 16:34:47,922 - scraper_manager - INFO - Periodic update: Read 734 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 16:34:48,504 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 16:34:48,929 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 16:34:49,268 - scraper_manager - INFO - Periodic update: Read 673 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 16:34:51,785 - scraper_manager - INFO - Periodic update: Saved 2982 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_163447_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:34:51,789 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_162441_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:34:51,791 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:44:51,795 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 16:44:52,044 - scraper_manager - INFO - Periodic update: Read 755 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 16:44:52,191 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 16:44:52,821 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 16:44:53,499 - scraper_manager - INFO - Periodic update: Read 690 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 16:44:55,834 - scraper_manager - INFO - Periodic update: Saved 3020 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_164451_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:44:55,836 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_163447_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:44:55,837 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:54:55,841 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 16:54:56,196 - scraper_manager - INFO - Periodic update: Read 777 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 16:54:56,356 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 16:54:57,139 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 16:54:57,382 - scraper_manager - INFO - Periodic update: Read 713 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 16:55:01,209 - scraper_manager - INFO - Periodic update: Saved 3065 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_165455_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:55:01,211 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_164451_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 16:55:01,212 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:05:01,289 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 17:05:01,989 - scraper_manager - INFO - Periodic update: Read 796 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 17:05:02,254 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 17:05:03,026 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 17:05:03,368 - scraper_manager - INFO - Periodic update: Read 736 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 17:05:05,763 - scraper_manager - INFO - Periodic update: Saved 3107 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_170501_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:05:05,766 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_165455_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:05:05,768 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:15:05,771 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 17:15:06,038 - scraper_manager - INFO - Periodic update: Read 817 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 17:15:06,189 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 17:15:06,593 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 17:15:06,880 - scraper_manager - INFO - Periodic update: Read 757 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 17:15:12,911 - scraper_manager - INFO - Periodic update: Saved 3149 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_171505_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:15:13,103 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_170501_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:15:13,400 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:25:13,472 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 17:25:13,725 - scraper_manager - INFO - Periodic update: Read 838 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 17:25:13,951 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 17:25:14,363 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 17:25:14,666 - scraper_manager - INFO - Periodic update: Read 778 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 17:25:22,570 - scraper_manager - INFO - Periodic update: Saved 3191 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_172513_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:25:22,573 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_171505_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:25:22,575 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:35:22,743 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 17:35:23,028 - scraper_manager - INFO - Periodic update: Read 859 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 17:35:23,408 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 17:35:23,911 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 17:35:24,294 - scraper_manager - INFO - Periodic update: Read 793 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 17:35:27,016 - scraper_manager - INFO - Periodic update: Saved 3227 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_173522_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:35:27,018 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_172513_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:35:27,020 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:45:27,025 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 17:45:27,273 - scraper_manager - INFO - Periodic update: Read 880 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 17:45:27,384 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 17:45:27,715 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 17:45:27,989 - scraper_manager - INFO - Periodic update: Read 812 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 17:45:33,575 - scraper_manager - INFO - Periodic update: Saved 3267 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_174527_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:45:33,695 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_173522_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:45:33,794 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:55:33,814 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 17:55:34,101 - scraper_manager - INFO - Periodic update: Read 901 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 17:55:34,247 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 17:55:35,623 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 17:55:37,364 - scraper_manager - INFO - Periodic update: Read 833 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 17:55:41,456 - scraper_manager - INFO - Periodic update: Saved 3309 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_175533_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:55:41,458 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_174527_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 17:55:41,459 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:05:41,467 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 18:05:41,577 - scraper_manager - ERROR - Periodic update: Error reading C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx: File is not a zip file
+2025-05-31 18:05:41,686 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 18:05:42,396 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 18:05:42,698 - scraper_manager - INFO - Periodic update: Read 855 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 18:05:44,985 - scraper_manager - INFO - Periodic update: Saved 2430 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_180541_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:05:44,986 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_175533_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:05:44,991 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:15:45,180 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 18:15:45,744 - scraper_manager - INFO - Periodic update: Read 943 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 18:15:45,937 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 18:15:46,603 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 18:15:46,916 - scraper_manager - INFO - Periodic update: Read 872 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 18:15:50,521 - scraper_manager - INFO - Periodic update: Saved 3390 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_181545_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:15:50,524 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_180541_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:15:50,525 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:25:50,527 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 18:25:50,798 - scraper_manager - INFO - Periodic update: Read 965 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 18:25:50,922 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 18:25:51,256 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 18:25:51,630 - scraper_manager - INFO - Periodic update: Read 890 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 18:25:58,169 - scraper_manager - INFO - Periodic update: Saved 3430 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_182550_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:25:58,170 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_181545_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:25:58,172 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:35:58,179 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 18:35:58,471 - scraper_manager - INFO - Periodic update: Read 985 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 18:35:58,583 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 18:35:58,964 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 18:35:59,240 - scraper_manager - INFO - Periodic update: Read 908 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 18:36:03,992 - scraper_manager - INFO - Periodic update: Saved 3468 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_183558_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:36:03,995 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_182550_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:36:04,000 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:46:04,092 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 18:46:04,664 - scraper_manager - INFO - Periodic update: Read 1006 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 18:46:04,790 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 18:46:05,325 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 18:46:05,696 - scraper_manager - INFO - Periodic update: Read 927 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 18:46:08,772 - scraper_manager - INFO - Periodic update: Saved 3508 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_184604_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:46:08,775 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_183558_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:46:08,777 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:56:08,783 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 18:56:09,080 - scraper_manager - INFO - Periodic update: Read 1026 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 18:56:09,217 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 18:56:09,775 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 18:56:10,424 - scraper_manager - INFO - Periodic update: Read 951 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 18:56:14,701 - scraper_manager - INFO - Periodic update: Saved 3552 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_185608_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:56:14,820 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_184604_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 18:56:14,827 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:06:14,846 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 19:06:15,132 - scraper_manager - INFO - Periodic update: Read 1047 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 19:06:15,259 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 19:06:15,639 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 19:06:16,128 - scraper_manager - INFO - Periodic update: Read 972 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 19:06:18,937 - scraper_manager - INFO - Periodic update: Saved 3594 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_190614_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:06:18,939 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_185608_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:06:18,940 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:16:18,944 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 19:16:19,244 - scraper_manager - INFO - Periodic update: Read 1067 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 19:16:19,373 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 19:16:19,718 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 19:16:20,017 - scraper_manager - INFO - Periodic update: Read 992 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 19:16:25,882 - scraper_manager - INFO - Periodic update: Saved 3634 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_191618_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:16:25,902 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_190614_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:16:25,907 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:26:26,068 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 19:26:26,374 - scraper_manager - INFO - Periodic update: Read 1086 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 19:26:26,518 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 19:26:26,923 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 19:26:27,263 - scraper_manager - INFO - Periodic update: Read 1011 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 19:26:34,009 - scraper_manager - INFO - Periodic update: Saved 3672 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_192626_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:26:34,156 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_191618_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:26:34,170 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:36:34,176 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 19:36:34,454 - scraper_manager - INFO - Periodic update: Read 1107 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 19:36:34,570 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 19:36:35,149 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 19:36:35,622 - scraper_manager - INFO - Periodic update: Read 1030 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 19:36:41,270 - scraper_manager - INFO - Periodic update: Saved 3712 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_193634_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:36:41,273 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_192626_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:36:41,274 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:46:41,335 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 19:46:41,811 - scraper_manager - INFO - Periodic update: Read 1127 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 19:46:42,060 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 19:46:42,542 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 19:46:42,850 - scraper_manager - INFO - Periodic update: Read 1046 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 19:46:48,258 - scraper_manager - INFO - Periodic update: Saved 3748 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_194641_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:46:48,260 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_193634_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:46:48,261 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:56:48,267 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 19:56:48,550 - scraper_manager - INFO - Periodic update: Read 1148 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 19:56:48,924 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 19:56:49,512 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 19:56:49,873 - scraper_manager - INFO - Periodic update: Read 1068 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 19:56:53,927 - scraper_manager - INFO - Periodic update: Saved 3791 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_195648_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:56:53,929 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_194641_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 19:56:53,931 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:06:53,940 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 20:06:54,330 - scraper_manager - INFO - Periodic update: Read 1169 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 20:06:54,461 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 20:06:54,832 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 20:06:55,347 - scraper_manager - INFO - Periodic update: Read 1087 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 20:06:58,764 - scraper_manager - INFO - Periodic update: Saved 3831 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_200654_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:06:58,774 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_195648_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:06:58,776 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:16:58,781 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 20:16:59,143 - scraper_manager - INFO - Periodic update: Read 1190 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 20:16:59,283 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 20:16:59,758 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 20:17:00,196 - scraper_manager - ERROR - Periodic update: Error reading C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx: File is not a zip file
+2025-05-31 20:17:06,177 - scraper_manager - INFO - Periodic update: Saved 2765 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_201658_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:17:06,179 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_200654_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:17:06,180 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:27:06,183 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 20:27:07,391 - scraper_manager - INFO - Periodic update: Read 1210 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 20:27:07,578 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 20:27:09,073 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 20:27:09,739 - scraper_manager - INFO - Periodic update: Read 1126 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 20:27:13,139 - scraper_manager - INFO - Periodic update: Saved 3911 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_202706_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:27:13,140 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_201658_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:27:13,141 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:37:13,148 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 20:37:13,488 - scraper_manager - INFO - Periodic update: Read 1231 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 20:37:13,635 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 20:37:14,015 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 20:37:14,670 - scraper_manager - INFO - Periodic update: Read 1144 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 20:37:17,856 - scraper_manager - INFO - Periodic update: Saved 3950 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_203713_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:37:17,864 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_202706_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:37:17,865 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:47:17,870 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 20:47:18,222 - scraper_manager - INFO - Periodic update: Read 1252 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 20:47:18,342 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 20:47:18,876 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 20:47:19,538 - scraper_manager - INFO - Periodic update: Read 1164 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 20:47:22,670 - scraper_manager - INFO - Periodic update: Saved 3991 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_204717_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:47:22,672 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_203713_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:47:22,673 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:57:22,675 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 20:57:22,978 - scraper_manager - INFO - Periodic update: Read 1272 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 20:57:23,116 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 20:57:23,492 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 20:57:23,877 - scraper_manager - INFO - Periodic update: Read 1183 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 20:57:30,822 - scraper_manager - INFO - Periodic update: Saved 4030 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_205722_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:57:30,823 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_204717_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 20:57:30,824 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:07:30,830 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 21:07:30,928 - scraper_manager - ERROR - Periodic update: Error reading C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx: File is not a zip file
+2025-05-31 21:07:31,124 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 21:07:31,874 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 21:07:33,034 - scraper_manager - INFO - Periodic update: Read 1204 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 21:07:36,287 - scraper_manager - INFO - Periodic update: Saved 2779 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_210730_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:07:36,289 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_205722_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:07:36,290 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:17:36,351 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 21:17:36,715 - scraper_manager - INFO - Periodic update: Read 1313 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 21:17:36,829 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 21:17:37,215 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 21:17:37,563 - scraper_manager - INFO - Periodic update: Read 1223 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 21:17:42,012 - scraper_manager - INFO - Periodic update: Saved 4111 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_211736_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:17:42,016 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_210730_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:17:42,026 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:27:42,029 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 21:27:42,636 - scraper_manager - INFO - Periodic update: Read 1333 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 21:27:42,838 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 21:27:43,248 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 21:27:43,886 - scraper_manager - INFO - Periodic update: Read 1241 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 21:27:47,594 - scraper_manager - INFO - Periodic update: Saved 4149 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_212742_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:27:47,595 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_211736_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:27:47,596 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:37:47,610 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 21:37:48,354 - scraper_manager - INFO - Periodic update: Read 1354 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 21:37:48,581 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 21:37:49,147 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 21:37:49,555 - scraper_manager - INFO - Periodic update: Read 1262 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 21:37:53,433 - scraper_manager - INFO - Periodic update: Saved 4191 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_213747_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:37:53,434 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_212742_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:37:53,436 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:47:53,674 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 21:47:54,652 - scraper_manager - INFO - Periodic update: Read 1374 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 21:47:54,834 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 21:47:55,836 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 21:47:56,234 - scraper_manager - INFO - Periodic update: Read 1282 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 21:48:00,110 - scraper_manager - INFO - Periodic update: Saved 4231 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_214753_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:48:00,113 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_213747_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:48:00,114 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:58:00,119 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 21:58:00,507 - scraper_manager - INFO - Periodic update: Read 1395 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 21:58:00,640 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 21:58:00,981 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 21:58:01,360 - scraper_manager - INFO - Periodic update: Read 1298 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 21:58:06,039 - scraper_manager - INFO - Periodic update: Saved 4268 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_215800_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:58:06,041 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_214753_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 21:58:06,043 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:08:06,063 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 22:08:07,541 - scraper_manager - INFO - Periodic update: Read 1416 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 22:08:07,666 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 22:08:08,158 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 22:08:08,732 - scraper_manager - INFO - Periodic update: Read 1319 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 22:08:13,249 - scraper_manager - INFO - Periodic update: Saved 4310 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_220806_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:08:13,252 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_215800_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:08:13,253 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:18:13,401 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 22:18:15,173 - scraper_manager - INFO - Periodic update: Read 1436 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 22:18:15,393 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 22:18:16,394 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 22:18:17,004 - scraper_manager - INFO - Periodic update: Read 1338 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 22:18:21,270 - scraper_manager - INFO - Periodic update: Saved 4349 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_221813_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:18:21,318 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_220806_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:18:21,410 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:28:21,588 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 22:28:22,404 - scraper_manager - INFO - Periodic update: Read 1457 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 22:28:22,532 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 22:28:22,938 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 22:28:23,287 - scraper_manager - INFO - Periodic update: Read 1359 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 22:28:27,792 - scraper_manager - INFO - Periodic update: Saved 4391 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_222821_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:28:27,880 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_221813_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:28:27,967 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:38:27,976 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 22:38:28,329 - scraper_manager - INFO - Periodic update: Read 1478 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 22:38:28,450 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 22:38:28,793 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 22:38:29,163 - scraper_manager - INFO - Periodic update: Read 1378 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 22:38:34,317 - scraper_manager - INFO - Periodic update: Saved 4431 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_223827_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:38:34,337 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_222821_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:38:34,363 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:48:34,546 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 22:48:35,152 - scraper_manager - INFO - Periodic update: Read 1499 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 22:48:35,301 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 22:48:35,828 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 22:48:36,583 - scraper_manager - INFO - Periodic update: Read 1398 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 22:48:41,623 - scraper_manager - INFO - Periodic update: Saved 4472 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_224834_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:48:41,625 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_223827_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:48:41,626 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:58:41,737 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 22:58:42,440 - scraper_manager - INFO - Periodic update: Read 1520 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 22:58:42,804 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 22:58:44,830 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 22:58:45,757 - scraper_manager - INFO - Periodic update: Read 1421 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 22:58:49,880 - scraper_manager - INFO - Periodic update: Saved 4516 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_225841_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:58:49,882 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_224834_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 22:58:49,883 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:08:49,885 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 23:08:50,723 - scraper_manager - INFO - Periodic update: Read 1540 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 23:08:50,870 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 23:08:51,774 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 23:08:53,003 - scraper_manager - INFO - Periodic update: Read 1440 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 23:08:57,855 - scraper_manager - INFO - Periodic update: Saved 4555 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_230849_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:08:57,857 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_225841_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:08:57,858 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:18:57,863 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 23:18:58,471 - scraper_manager - INFO - Periodic update: Read 1560 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 23:18:58,603 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 23:18:59,393 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 23:18:59,831 - scraper_manager - INFO - Periodic update: Read 1461 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 23:19:06,454 - scraper_manager - INFO - Periodic update: Saved 4596 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_231857_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:19:06,459 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_230849_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:19:06,461 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:29:06,466 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 23:29:06,911 - scraper_manager - INFO - Periodic update: Read 1581 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 23:29:07,108 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 23:29:07,766 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 23:29:08,633 - scraper_manager - INFO - Periodic update: Read 1481 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 23:29:13,537 - scraper_manager - INFO - Periodic update: Saved 4637 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_232906_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:29:13,539 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_231857_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:29:13,540 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:39:13,543 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 23:39:14,204 - scraper_manager - INFO - Periodic update: Read 1602 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 23:39:14,413 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 23:39:14,881 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 23:39:15,279 - scraper_manager - INFO - Periodic update: Read 1502 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 23:39:20,739 - scraper_manager - INFO - Periodic update: Saved 4679 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_233913_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:39:20,741 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_232906_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:39:20,743 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:49:20,824 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 23:49:22,900 - scraper_manager - INFO - Periodic update: Read 1622 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 23:49:23,151 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 23:49:24,052 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 23:49:24,548 - scraper_manager - INFO - Periodic update: Read 1523 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 23:49:30,048 - scraper_manager - INFO - Periodic update: Saved 4720 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_234921_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:49:30,051 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_233913_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:49:30,052 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:59:30,055 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-31 23:59:30,463 - scraper_manager - INFO - Periodic update: Read 1642 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-05-31 23:59:30,618 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 23:59:31,437 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-05-31 23:59:33,095 - scraper_manager - INFO - Periodic update: Read 1545 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-05-31 23:59:37,705 - scraper_manager - INFO - Periodic update: Saved 4762 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_235930_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:59:37,707 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_234921_Combined_Malaysian_Trade_In_Values.xlsx
+2025-05-31 23:59:37,709 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:09:37,713 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 00:09:38,527 - scraper_manager - INFO - Periodic update: Read 1662 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 00:09:38,759 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 00:09:39,250 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 00:09:39,813 - scraper_manager - INFO - Periodic update: Read 1564 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 00:09:44,286 - scraper_manager - INFO - Periodic update: Saved 4801 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_000937_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:09:44,400 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250531_235930_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:09:44,416 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:19:44,425 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 00:19:44,906 - scraper_manager - INFO - Periodic update: Read 1682 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 00:19:45,027 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 00:19:45,383 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 00:19:45,805 - scraper_manager - INFO - Periodic update: Read 1581 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 00:19:51,571 - scraper_manager - INFO - Periodic update: Saved 4838 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_001944_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:19:51,573 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_000937_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:19:51,574 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:29:51,826 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 00:29:53,156 - scraper_manager - INFO - Periodic update: Read 1702 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 00:29:53,351 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 00:29:54,052 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 00:29:54,660 - scraper_manager - INFO - Periodic update: Read 1604 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 00:29:59,429 - scraper_manager - INFO - Periodic update: Saved 4881 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_002951_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:29:59,431 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_001944_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:29:59,432 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:39:59,435 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 00:39:59,853 - scraper_manager - INFO - Periodic update: Read 1724 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 00:39:59,965 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 00:40:00,477 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 00:40:01,008 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 00:40:04,913 - scraper_manager - INFO - Periodic update: Saved 4904 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_003959_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:40:04,915 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_002951_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:40:04,916 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:50:04,921 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 00:50:05,341 - scraper_manager - INFO - Periodic update: Read 1746 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 00:50:05,453 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 00:50:05,806 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 00:50:06,215 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 00:50:09,688 - scraper_manager - INFO - Periodic update: Saved 4926 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_005004_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:50:09,690 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_003959_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 00:50:09,691 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:00:09,695 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 01:00:10,096 - scraper_manager - INFO - Periodic update: Read 1768 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 01:00:10,253 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 01:00:10,908 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 01:00:11,400 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 01:00:15,281 - scraper_manager - INFO - Periodic update: Saved 4948 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_010009_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:00:15,283 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_005004_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:00:15,284 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:10:15,288 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 01:10:15,909 - scraper_manager - INFO - Periodic update: Read 1790 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 01:10:16,071 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 01:10:16,432 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 01:10:16,822 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 01:10:20,751 - scraper_manager - INFO - Periodic update: Saved 4970 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_011015_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:10:20,752 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_010009_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:10:20,753 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:20:20,758 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 01:20:21,215 - scraper_manager - INFO - Periodic update: Read 1812 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 01:20:21,325 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 01:20:21,670 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 01:20:22,064 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 01:20:25,052 - scraper_manager - INFO - Periodic update: Saved 4992 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_012020_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:20:25,055 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_011015_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:20:25,056 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:30:25,059 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 01:30:26,286 - scraper_manager - INFO - Periodic update: Read 1835 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 01:30:26,450 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 01:30:26,804 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 01:30:27,397 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 01:30:30,664 - scraper_manager - INFO - Periodic update: Saved 5015 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_013025_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:30:30,665 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_012020_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:30:30,667 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:40:30,670 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 01:40:31,078 - scraper_manager - INFO - Periodic update: Read 1857 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 01:40:31,206 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 01:40:31,550 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 01:40:31,924 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 01:40:35,645 - scraper_manager - INFO - Periodic update: Saved 5037 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_014030_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:40:35,647 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_013025_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:40:35,648 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:50:35,654 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 01:50:36,068 - scraper_manager - INFO - Periodic update: Read 1878 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 01:50:36,198 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 01:50:36,557 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 01:50:37,048 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 01:50:41,501 - scraper_manager - INFO - Periodic update: Saved 5058 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_015035_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:50:41,503 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_014030_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 01:50:41,504 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:00:41,508 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 02:00:42,066 - scraper_manager - INFO - Periodic update: Read 1901 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 02:00:42,208 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 02:00:42,559 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 02:00:42,941 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 02:00:46,687 - scraper_manager - INFO - Periodic update: Saved 5081 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_020041_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:00:46,688 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_015035_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:00:46,690 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:10:46,761 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 02:10:47,528 - scraper_manager - INFO - Periodic update: Read 1923 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 02:10:47,657 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 02:10:48,030 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 02:10:48,447 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 02:10:51,836 - scraper_manager - INFO - Periodic update: Saved 5103 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_021046_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:10:51,837 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_020041_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:10:51,838 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:20:51,841 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 02:20:52,253 - scraper_manager - INFO - Periodic update: Read 1945 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 02:20:52,379 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 02:20:52,739 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 02:20:53,140 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 02:20:57,744 - scraper_manager - INFO - Periodic update: Saved 5125 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_022051_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:20:57,747 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_021046_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:20:57,748 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:30:57,752 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 02:30:58,411 - scraper_manager - INFO - Periodic update: Read 1968 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 02:30:58,531 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 02:30:58,910 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 02:30:59,297 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 02:31:02,830 - scraper_manager - INFO - Periodic update: Saved 5148 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_023057_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:31:02,833 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_022051_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:31:02,834 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:41:02,839 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 02:41:03,533 - scraper_manager - INFO - Periodic update: Read 1991 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 02:41:03,937 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 02:41:04,334 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 02:41:04,730 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 02:41:08,415 - scraper_manager - INFO - Periodic update: Saved 5171 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_024102_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:41:08,514 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_023057_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:41:08,520 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:51:08,532 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 02:51:09,197 - scraper_manager - INFO - Periodic update: Read 2013 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 02:51:09,345 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 02:51:09,817 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 02:51:10,231 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 02:51:14,718 - scraper_manager - INFO - Periodic update: Saved 5193 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_025108_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:51:14,721 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_024102_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 02:51:14,722 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:01:14,726 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 03:01:15,175 - scraper_manager - INFO - Periodic update: Read 2035 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 03:01:15,303 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 03:01:15,661 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 03:01:16,069 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 03:01:19,730 - scraper_manager - INFO - Periodic update: Saved 5215 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_030114_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:01:19,732 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_025108_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:01:19,734 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:11:19,738 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 03:11:20,588 - scraper_manager - INFO - Periodic update: Read 2058 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 03:11:20,726 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 03:11:21,132 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 03:11:21,572 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 03:11:25,186 - scraper_manager - INFO - Periodic update: Saved 5238 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_031119_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:11:25,188 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_030114_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:11:25,189 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:21:25,193 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 03:21:25,689 - scraper_manager - INFO - Periodic update: Read 2080 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 03:21:25,815 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 03:21:26,166 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 03:21:26,567 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 03:21:29,916 - scraper_manager - INFO - Periodic update: Saved 5260 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_032125_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:21:29,918 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_031119_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:21:29,919 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:31:29,923 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 03:31:30,384 - scraper_manager - INFO - Periodic update: Read 2103 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 03:31:30,494 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 03:31:30,935 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 03:31:31,487 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 03:31:34,987 - scraper_manager - INFO - Periodic update: Saved 5283 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_033129_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:31:34,989 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_032125_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:31:34,990 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:41:34,996 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 03:41:35,464 - scraper_manager - INFO - Periodic update: Read 2125 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 03:41:35,588 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 03:41:36,345 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 03:41:36,747 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 03:41:40,829 - scraper_manager - INFO - Periodic update: Saved 5305 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_034134_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:41:40,831 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_033129_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:41:40,832 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:51:40,835 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 03:51:41,340 - scraper_manager - INFO - Periodic update: Read 2147 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 03:51:41,446 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 03:51:41,799 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 03:51:42,290 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 03:51:46,431 - scraper_manager - INFO - Periodic update: Saved 5327 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_035140_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:51:46,434 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_034134_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 03:51:46,435 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:01:46,439 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 04:01:47,192 - scraper_manager - INFO - Periodic update: Read 2169 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 04:01:47,324 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 04:01:47,690 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 04:01:48,122 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 04:01:51,680 - scraper_manager - INFO - Periodic update: Saved 5349 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_040146_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:01:51,681 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_035140_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:01:51,682 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:11:51,686 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 04:11:52,163 - scraper_manager - INFO - Periodic update: Read 2191 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 04:11:52,291 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 04:11:52,649 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 04:11:53,047 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 04:11:56,733 - scraper_manager - INFO - Periodic update: Saved 5371 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_041151_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:11:56,754 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_040146_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:11:56,840 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:21:56,844 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 04:21:57,203 - scraper_manager - ERROR - Periodic update: Error reading C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx: 
+2025-06-01 04:21:57,295 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 04:21:58,089 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 04:21:58,492 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 04:22:00,869 - scraper_manager - INFO - Periodic update: Saved 3180 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_042156_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:22:00,871 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_041151_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:22:00,872 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:32:00,876 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 04:32:01,593 - scraper_manager - INFO - Periodic update: Read 2233 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 04:32:01,912 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 04:32:02,462 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 04:32:02,891 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 04:32:07,189 - scraper_manager - INFO - Periodic update: Saved 5413 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_043200_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:32:07,191 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_042156_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:32:07,192 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:42:07,195 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 04:42:07,956 - scraper_manager - INFO - Periodic update: Read 2253 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 04:42:08,093 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 04:42:08,436 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 04:42:08,831 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 04:42:12,966 - scraper_manager - INFO - Periodic update: Saved 5433 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_044207_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:42:12,968 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_043200_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:42:12,969 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:52:12,974 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 04:52:13,557 - scraper_manager - ERROR - Periodic update: Error reading C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx: 
+2025-06-01 04:52:13,735 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 04:52:14,350 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 04:52:14,852 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 04:52:17,396 - scraper_manager - INFO - Periodic update: Saved 3180 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_045212_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:52:17,398 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_044207_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 04:52:17,399 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:02:17,402 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 05:02:18,087 - scraper_manager - INFO - Periodic update: Read 2296 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 05:02:18,274 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 05:02:19,203 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 05:02:19,604 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 05:02:23,224 - scraper_manager - INFO - Periodic update: Saved 5476 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_050217_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:02:23,232 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_045212_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:02:23,235 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:12:23,485 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 05:12:23,968 - scraper_manager - INFO - Periodic update: Read 2316 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 05:12:24,083 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 05:12:24,415 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 05:12:24,788 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 05:12:28,709 - scraper_manager - INFO - Periodic update: Saved 5496 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_051223_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:12:28,717 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_050217_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:12:28,719 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:22:28,728 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 05:22:29,339 - scraper_manager - INFO - Periodic update: Read 2337 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 05:22:29,468 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 05:22:30,205 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 05:22:30,941 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 05:22:35,012 - scraper_manager - INFO - Periodic update: Saved 5517 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_052228_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:22:35,015 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_051223_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:22:35,016 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:32:35,021 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 05:32:35,513 - scraper_manager - INFO - Periodic update: Read 2359 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 05:32:35,639 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 05:32:35,985 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 05:32:37,014 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 05:32:40,442 - scraper_manager - INFO - Periodic update: Saved 5539 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_053235_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:32:40,444 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_052228_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:32:40,445 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:42:40,448 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 05:42:40,937 - scraper_manager - INFO - Periodic update: Read 2380 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 05:42:41,067 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 05:42:41,410 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 05:42:41,805 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 05:42:46,238 - scraper_manager - INFO - Periodic update: Saved 5560 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_054240_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:42:46,240 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_053235_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:42:46,241 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:52:46,244 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 05:52:46,812 - scraper_manager - INFO - Periodic update: Read 2402 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 05:52:46,863 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 05:52:47,554 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 05:52:48,153 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 05:52:51,642 - scraper_manager - INFO - Periodic update: Saved 5582 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_055246_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:52:51,643 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_054240_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 05:52:51,645 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:02:51,650 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 06:02:52,230 - scraper_manager - INFO - Periodic update: Read 2424 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 06:02:52,356 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 06:02:52,706 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 06:02:53,104 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 06:02:56,582 - scraper_manager - INFO - Periodic update: Saved 5604 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_060251_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:02:56,584 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_055246_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:02:56,585 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:12:56,590 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 06:12:57,085 - scraper_manager - INFO - Periodic update: Read 2446 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 06:12:57,219 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 06:12:58,015 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 06:12:58,688 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 06:13:03,179 - scraper_manager - INFO - Periodic update: Saved 5626 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_061256_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:13:03,181 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_060251_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:13:03,182 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:23:03,186 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 06:23:03,701 - scraper_manager - INFO - Periodic update: Read 2469 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 06:23:03,826 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 06:23:04,178 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 06:23:04,550 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 06:23:08,634 - scraper_manager - INFO - Periodic update: Saved 5649 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_062303_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:23:08,635 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_061256_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:23:08,636 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:33:08,640 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 06:33:09,161 - scraper_manager - INFO - Periodic update: Read 2490 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 06:33:09,387 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 06:33:09,733 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 06:33:10,133 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 06:33:14,459 - scraper_manager - INFO - Periodic update: Saved 5670 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_063308_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:33:14,461 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_062303_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:33:14,462 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:43:14,465 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 06:43:15,356 - scraper_manager - INFO - Periodic update: Read 2512 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 06:43:15,519 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 06:43:15,920 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 06:43:16,325 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 06:43:20,569 - scraper_manager - INFO - Periodic update: Saved 5692 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_064314_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:43:20,571 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_063308_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:43:20,572 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:53:20,575 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 06:53:21,696 - scraper_manager - INFO - Periodic update: Read 2533 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 06:53:21,828 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 06:53:22,193 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 06:53:22,640 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 06:53:26,686 - scraper_manager - INFO - Periodic update: Saved 5713 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_065320_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:53:26,689 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_064314_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 06:53:26,690 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:03:26,693 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-06-01 07:03:27,290 - scraper_manager - INFO - Periodic update: Read 2555 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 07:03:27,442 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 07:03:27,817 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 07:03:28,232 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 07:03:32,083 - scraper_manager - INFO - Periodic update: Saved 5735 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_070326_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:03:32,085 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_065320_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:03:32,086 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:07:15,472 - scraper_manager - INFO - All batch 1 scraper processes completed
+2025-06-01 07:07:15,473 - scraper_manager - INFO - Batch 1 runtimes: {'MY_RV_Source4.py': '4.88 minutes', 'MY_RV_Source3.py': '14.50 minutes', 'MY_RV_Source5.PY': '828.37 minutes', 'MY_RV_Source1.py': '1224.49 minutes'}
+2025-06-01 07:07:15,474 - scraper_manager - INFO - Starting batch 2 of scrapers
+2025-06-01 07:07:15,521 - scraper_manager - INFO - Started process for MY_SO_Source1.py in batch 2
+2025-06-01 07:07:15,572 - scraper_manager - INFO - Started process for MY_SO_Source2.py in batch 2
+2025-06-01 07:07:15,580 - scraper_manager - INFO - Started process for MY_SO_Source3.py in batch 2
+2025-06-01 07:13:32,091 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-06-01 07:13:33,222 - scraper_manager - INFO - Periodic update: Read 2562 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 07:13:33,436 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 07:13:34,336 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 07:13:36,766 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 07:13:40,052 - scraper_manager - INFO - Periodic update: Read 42 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source2.xlsx
+2025-06-01 07:13:59,522 - scraper_manager - INFO - Periodic update: Saved 5784 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_071332_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:13:59,525 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_070326_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:13:59,526 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:23:59,694 - scraper_manager - INFO - Periodic update: Found 6 Excel files to combine
+2025-06-01 07:24:02,828 - scraper_manager - INFO - Periodic update: Read 2562 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 07:24:03,025 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 07:24:04,021 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 07:24:05,299 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 07:24:05,856 - scraper_manager - INFO - Periodic update: Read 277 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source1.xlsx
+2025-06-01 07:24:06,101 - scraper_manager - INFO - Periodic update: Read 119 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source2.xlsx
+2025-06-01 07:24:19,791 - scraper_manager - INFO - Periodic update: Saved 6138 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_072359_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:24:19,792 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_071332_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:24:19,794 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:34:19,799 - scraper_manager - INFO - Periodic update: Found 6 Excel files to combine
+2025-06-01 07:34:20,674 - scraper_manager - INFO - Periodic update: Read 2562 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 07:34:20,812 - scraper_manager - INFO - Periodic update: Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 07:34:21,207 - scraper_manager - INFO - Periodic update: Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 07:34:21,633 - scraper_manager - INFO - Periodic update: Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 07:34:21,853 - scraper_manager - INFO - Periodic update: Read 547 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source1.xlsx
+2025-06-01 07:34:21,992 - scraper_manager - INFO - Periodic update: Read 214 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source2.xlsx
+2025-06-01 07:34:26,607 - scraper_manager - INFO - Periodic update: Saved 6503 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_073419_Combined_Malaysian_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:34:26,609 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_072359_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:34:26,611 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:36:26,969 - scraper_manager - INFO - All batch 2 scraper processes completed
+2025-06-01 07:36:26,970 - scraper_manager - INFO - Batch 2 runtimes: {'MY_SO_Source3.py': '1.16 minutes', 'MY_SO_Source1.py': '20.52 minutes', 'MY_SO_Source2.py': '29.11 minutes'}
+2025-06-01 07:36:31,972 - scraper_manager - INFO - Stopped periodic file combination thread
+2025-06-01 07:36:31,973 - scraper_manager - INFO - Found 6 Excel files in output directory
+2025-06-01 07:36:31,973 - scraper_manager - INFO - Combining 6 Excel files into C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:36:32,554 - scraper_manager - INFO - Read 2562 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source1.xlsx
+2025-06-01 07:36:32,671 - scraper_manager - INFO - Read 208 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-06-01 07:36:32,994 - scraper_manager - INFO - Read 1367 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source4.xlsx
+2025-06-01 07:36:33,381 - scraper_manager - INFO - Read 1605 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source5.xlsx
+2025-06-01 07:36:33,568 - scraper_manager - INFO - Read 547 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source1.xlsx
+2025-06-01 07:36:33,714 - scraper_manager - INFO - Read 240 rows from C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source2.xlsx
+2025-06-01 07:36:35,649 - scraper_manager - INFO - Saved 6529 rows to C:\projects\TradeBot\scripts\Malaysia\output\Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:36:35,655 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Malaysia\output\Combined_20250601_073419_Combined_Malaysian_Trade_In_Values.xlsx
+2025-06-01 07:36:35,657 - scraper_manager - INFO - Adding runtime log file to email attachments: C:\projects\TradeBot\scripts\Malaysia\output\scraper_runtime_20250531_104240.csv
+2025-06-01 07:36:35,659 - scraper_manager - INFO - Sending email with 3 files: ['C:\\projects\\TradeBot\\scripts\\Malaysia\\output\\Combined_Malaysian_Trade_In_Values.xlsx', 'C:\\projects\\TradeBot\\scripts\\Malaysia\\output\\scraper_log_20250531_104240.log', 'C:\\projects\\TradeBot\\scripts\\Malaysia\\output\\scraper_runtime_20250531_104240.csv']
+2025-06-01 07:36:35,662 - scraper_manager - ERROR - Failed to send email: No module named 'send_email'
+2025-06-01 07:36:35,663 - scraper_manager - INFO - Completed batch scraping job at 2025-06-01 07:36:35.663324. Total runtime: 20:53:54.690653

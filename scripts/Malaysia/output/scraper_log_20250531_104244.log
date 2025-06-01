@@ -1,0 +1,306 @@
+2025-05-31 10:42:44,833 - scraper_manager - INFO - Starting MY_RV_Source3.py
+2025-05-31 10:42:44,837 - scraper_manager - INFO - Running command: C:\projects\TradeBot\venv\Scripts\python.exe C:\projects\TradeBot\scripts\Malaysia\MY_RV_Source3.py
+2025-05-31 10:43:13,492 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:13,488 - INFO - Found 39 device options
+2025-05-31 10:43:13,939 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:13,936 - INFO - Found device: Apple Iphone Xs (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:14,061 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:14,060 - INFO - Found device: Apple Iphone Xs Max (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:14,186 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:14,184 - INFO - Found device: Apple Iphone Xr (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:14,313 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:14,309 - INFO - Found device: Apple Iphone 11 (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:14,432 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:14,426 - INFO - Found device: Apple Iphone 11 Pro (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:14,551 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:14,547 - INFO - Found device: Apple Iphone 11 Pro Max (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:14,568 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:14,564 - INFO - Found device: Samsung Galaxy S21 5g (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:14,786 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:14,785 - INFO - Found device: Samsung Galaxy S21 Plus 5g (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:14,895 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:14,893 - INFO - Found device: Samsung Galaxy S21 Ultra 5g (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:15,025 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:15,024 - INFO - Found device: Apple Iphone 12 (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:15,311 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:15,304 - INFO - Found device: Apple Iphone 12 Mini (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:15,673 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:15,665 - INFO - Found device: Apple Iphone 12 Pro (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:15,884 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:15,882 - INFO - Found device: Apple Iphone 12 Pro Max (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:16,024 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:16,022 - INFO - Found device: Apple Iphone 13 (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:16,140 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:16,037 - INFO - Found device: Apple Iphone 13 Mini (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:16,418 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:16,167 - INFO - Found device: Apple Iphone 13 Pro (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:16,634 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:16,630 - INFO - Found device: Apple Iphone 13 Pro Max (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:16,784 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:16,783 - INFO - Found device: Samsung Galaxy S21 Fe 5g (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:16,816 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:16,813 - INFO - Found device: Samsung Galaxy S22 5g (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:16,944 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:16,940 - INFO - Found device: Samsung Galaxy S22 Ultra 5g (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:17,289 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:17,278 - INFO - Found device: Samsung Galaxy S22 Plus 5g (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:17,463 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:17,460 - INFO - Found device: Samsung Galaxy A53 5g (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:17,700 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:17,603 - INFO - Found device: Samsung Galaxy A73 5g (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:17,835 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:17,833 - INFO - Found device: Apple Iphone 14 Plus (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:17,968 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:17,966 - INFO - Found device: Apple Iphone 14 Pro Max (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:18,086 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:18,085 - INFO - Found device: Apple Iphone 14 Pro (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:18,212 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:18,209 - INFO - Found device: Apple Iphone 14 (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:18,426 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:18,423 - INFO - Found device: Samsung Galaxy S23 Ultra 5g (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:18,553 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:18,446 - INFO - Found device: Samsung Galaxy S23 5g (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:18,562 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:18,560 - INFO - Found device: Samsung Galaxy A54 5g (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:19,138 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:19,127 - INFO - Found device: Samsung Galaxy S23 Plus (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:19,161 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:19,159 - INFO - Found device: Apple Iphone 15 Pro Max (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:19,403 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:19,401 - INFO - Found device: Apple Iphone 15 (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:19,620 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:19,618 - INFO - Found device: Apple Iphone 15 Pro (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:20,046 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:20,042 - INFO - Found device: Apple Iphone 15 Plus (Type: SmartPhone, Brand: Apple)
+2025-05-31 10:43:20,774 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:20,668 - INFO - Found device: Samsung Galaxy S23 Fe (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:20,906 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:20,902 - INFO - Found device: Samsung Galaxy S24 (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:21,735 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:21,733 - INFO - Found device: Samsung Galaxy S24 Plus (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:21,858 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:21,856 - INFO - Found device: Samsung Galaxy S24 Ultra (Type: SmartPhone, Brand: Samsung)
+2025-05-31 10:43:21,874 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:21,856 - INFO - Found 39 devices
+2025-05-31 10:43:21,989 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:43:21,856 - INFO - Processing device: Apple Iphone Xs
+2025-05-31 10:44:08,356 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:44:08,354 - INFO - Selected device: Apple Iphone Xs
+2025-05-31 10:44:16,275 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:44:16,272 - INFO - Extracted: Apple Iphone XS 64gb - Price range: 299 to 599
+2025-05-31 10:44:16,507 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:44:16,503 - INFO - Extracted: Apple Iphone XS 256gb - Price range: 499 to 799
+2025-05-31 10:44:16,722 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:44:16,720 - INFO - Extracted: Apple Iphone XS 512gb - Price range: 699 to 999
+2025-05-31 10:44:17,941 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:44:17,939 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:44:17,942 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:44:17,939 - INFO - Collected 6 results for Apple Iphone Xs
+2025-05-31 10:44:19,956 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:44:19,954 - INFO - Processing device: Apple Iphone Xs Max
+2025-05-31 10:44:59,638 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:44:59,536 - INFO - Selected device: Apple Iphone Xs Max
+2025-05-31 10:45:07,258 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:45:07,242 - INFO - Extracted: Apple Iphone XS Max 64gb - Price range: 399 to 699
+2025-05-31 10:45:07,638 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:45:07,623 - INFO - Extracted: Apple Iphone XS Max 256gb - Price range: 599 to 899
+2025-05-31 10:45:08,598 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:45:08,566 - INFO - Extracted: Apple Iphone XS Max 512gb - Price range: 799 to 1,099
+2025-05-31 10:45:08,824 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:45:08,812 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:45:08,830 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:45:08,812 - INFO - Collected 6 results for Apple Iphone Xs Max
+2025-05-31 10:45:10,824 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:45:10,819 - INFO - Processing device: Apple Iphone Xr
+2025-05-31 10:45:53,832 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:45:53,801 - INFO - Selected device: Apple Iphone Xr
+2025-05-31 10:46:02,348 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:46:02,347 - INFO - Extracted: Apple Iphone XR 64gb - Price range: 149 to 449
+2025-05-31 10:46:03,351 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:46:03,350 - INFO - Extracted: Apple iPhone XR 128gb - Price range: 249 to 549
+2025-05-31 10:46:03,628 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:46:03,577 - INFO - Extracted: Apple Iphone XR 256gb - Price range: 349 to 649
+2025-05-31 10:46:03,745 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:46:03,732 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:46:03,747 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:46:03,732 - INFO - Collected 6 results for Apple Iphone Xr
+2025-05-31 10:46:05,759 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:46:05,755 - INFO - Processing device: Apple Iphone 11
+2025-05-31 10:47:03,801 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:03,799 - INFO - Selected device: Apple Iphone 11
+2025-05-31 10:47:14,053 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:13,973 - INFO - Extracted: Apple iPhone 11 64gb - Price range: 600 to 900
+2025-05-31 10:47:14,432 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:14,431 - INFO - Extracted: Apple iPhone 11 128gb - Price range: 620 to 920
+2025-05-31 10:47:14,721 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:14,719 - INFO - Extracted: Apple iPhone 11 256gb - Price range: 700 to 1,000
+2025-05-31 10:47:15,046 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:15,045 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:47:15,047 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:15,045 - INFO - Collected 6 results for Apple Iphone 11
+2025-05-31 10:47:17,113 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:17,054 - INFO - Processing device: Apple Iphone 11 Pro
+2025-05-31 10:47:38,033 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:38,032 - INFO - Selected device: Apple Iphone 11 Pro
+2025-05-31 10:47:44,640 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:44,635 - INFO - Extracted: Apple iPhone 11 Pro 64gb - Price range: 630 to 930
+2025-05-31 10:47:47,144 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:47,142 - INFO - Extracted: Apple iPhone 11 Pro 256gb - Price range: 750 to 1,050
+2025-05-31 10:47:47,373 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:47,372 - INFO - Extracted: Apple iPhone 11 Pro 512gb - Price range: 999 to 1,299
+2025-05-31 10:47:47,526 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:47,511 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:47:47,527 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:47,511 - INFO - Collected 6 results for Apple Iphone 11 Pro
+2025-05-31 10:47:49,513 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:49,512 - INFO - Processing device: Apple Iphone 11 Pro Max
+2025-05-31 10:47:55,563 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:47:55,561 - INFO - Selected device: Apple Iphone 11 Pro Max
+2025-05-31 10:48:02,376 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:02,375 - INFO - Extracted: Apple iPhone 11 Pro Max 64gb - Price range: 720 to 1,020
+2025-05-31 10:48:02,571 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:02,568 - INFO - Extracted: Apple iPhone 11 Pro Max 256gb - Price range: 960 to 1,260
+2025-05-31 10:48:02,706 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:02,699 - INFO - Extracted: Apple iPhone 11 Pro Max 512gb - Price range: 1,099 to 1,399
+2025-05-31 10:48:02,867 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:02,861 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:48:02,868 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:02,861 - INFO - Collected 6 results for Apple Iphone 11 Pro Max
+2025-05-31 10:48:04,863 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:04,862 - INFO - Processing device: Samsung Galaxy S21 5g
+2025-05-31 10:48:12,738 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:12,733 - INFO - Selected device: Samsung Galaxy S21 5g
+2025-05-31 10:48:19,051 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:19,050 - INFO - Extracted: Samsung Galaxy S21 5G 128gb - Price range: 55 to 372
+2025-05-31 10:48:19,236 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:19,235 - INFO - Extracted: Samsung Galaxy S21 5G 256gb - Price range: 66 to 441
+2025-05-31 10:48:19,415 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:19,414 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:48:19,416 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:19,414 - INFO - Collected 4 results for Samsung Galaxy S21 5g
+2025-05-31 10:48:21,415 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:21,414 - INFO - Processing device: Samsung Galaxy S21 Plus 5g
+2025-05-31 10:48:27,634 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:27,632 - INFO - Selected device: Samsung Galaxy S21 Plus 5g
+2025-05-31 10:48:34,195 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:34,193 - INFO - Extracted: Samsung Galaxy S21 Plus 5G 128gb - Price range: 110 to 426
+2025-05-31 10:48:34,457 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:34,455 - INFO - Extracted: Samsung Galaxy S21 Plus 5G 256gb - Price range: 120 to 452
+2025-05-31 10:48:34,612 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:34,571 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:48:34,614 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:34,571 - INFO - Collected 4 results for Samsung Galaxy S21 Plus 5g
+2025-05-31 10:48:36,573 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:36,572 - INFO - Processing device: Samsung Galaxy S21 Ultra 5g
+2025-05-31 10:48:43,526 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:43,526 - INFO - Selected device: Samsung Galaxy S21 Ultra 5g
+2025-05-31 10:48:49,676 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:49,674 - INFO - Extracted: Samsung Galaxy S21 Ultra 5G 256gb - Price range: 185 to 635
+2025-05-31 10:48:49,782 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:49,776 - INFO - Extracted: Samsung Galaxy S21 Ultra 5G 512gb - Price range: 229 to 703
+2025-05-31 10:48:50,052 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:50,050 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:48:50,054 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:50,051 - INFO - Collected 4 results for Samsung Galaxy S21 Ultra 5g
+2025-05-31 10:48:52,068 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:48:52,063 - INFO - Processing device: Apple Iphone 12
+2025-05-31 10:49:02,213 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:02,211 - INFO - Selected device: Apple Iphone 12
+2025-05-31 10:49:08,391 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:08,390 - INFO - Extracted: Apple iPhone 12 64gb - Price range: 699 to 999
+2025-05-31 10:49:08,501 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:08,500 - INFO - Extracted: Apple iPhone 12 128gb - Price range: 760 to 1,060
+2025-05-31 10:49:08,710 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:08,708 - INFO - Extracted: Apple iPhone 12 256gb - Price range: 870 to 1,170
+2025-05-31 10:49:08,977 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:08,973 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:49:08,981 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:08,973 - INFO - Collected 6 results for Apple Iphone 12
+2025-05-31 10:49:10,975 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:10,974 - INFO - Processing device: Apple Iphone 12 Mini
+2025-05-31 10:49:17,308 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:17,307 - INFO - Selected device: Apple Iphone 12 Mini
+2025-05-31 10:49:24,037 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:24,029 - INFO - Extracted: Apple iPhone 12 Mini 128gb - Price range: 699 to 999
+2025-05-31 10:49:24,391 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:24,247 - INFO - Extracted: Apple iPhone 12 Mini 256gb - Price range: 799 to 1,099
+2025-05-31 10:49:24,393 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:24,370 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:49:24,395 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:24,371 - INFO - Collected 4 results for Apple Iphone 12 Mini
+2025-05-31 10:49:26,372 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:26,371 - INFO - Processing device: Apple Iphone 12 Pro
+2025-05-31 10:49:33,813 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:33,812 - INFO - Selected device: Apple Iphone 12 Pro
+2025-05-31 10:49:39,986 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:39,985 - INFO - Extracted: Apple iPhone 12 Pro 128gb - Price range: 860 to 1,160
+2025-05-31 10:49:40,091 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:40,090 - INFO - Extracted: Apple iPhone 12 Pro 256gb - Price range: 970 to 1,270
+2025-05-31 10:49:40,219 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:40,218 - INFO - Extracted: Apple iPhone 12 Pro 512gb - Price range: 1,299 to 1,599
+2025-05-31 10:49:40,502 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:40,497 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:49:40,504 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:40,497 - INFO - Collected 6 results for Apple Iphone 12 Pro
+2025-05-31 10:49:42,500 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:42,498 - INFO - Processing device: Apple Iphone 12 Pro Max
+2025-05-31 10:49:50,086 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:50,085 - INFO - Selected device: Apple Iphone 12 Pro Max
+2025-05-31 10:49:56,477 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:56,476 - INFO - Extracted: Apple iPhone 12 Pro Max 128gb - Price range: 1,200 to 1,500
+2025-05-31 10:49:56,508 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:56,506 - INFO - Extracted: Apple iPhone 12 Pro Max 256gb - Price range: 1,350 to 1,650
+2025-05-31 10:49:56,704 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:56,703 - INFO - Extracted: Apple iPhone 12 Pro Max 512gb - Price range: 1,430 to 1,730
+2025-05-31 10:49:56,871 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:56,833 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:49:56,873 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:56,833 - INFO - Collected 6 results for Apple Iphone 12 Pro Max
+2025-05-31 10:49:58,836 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:49:58,834 - INFO - Processing device: Apple Iphone 13
+2025-05-31 10:50:05,008 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:05,006 - INFO - Selected device: Apple Iphone 13
+2025-05-31 10:50:11,972 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:11,961 - INFO - Extracted: Apple iPhone 13 128gb - Price range: 920 to 1,220
+2025-05-31 10:50:12,106 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:12,095 - INFO - Extracted: Apple iPhone 13 256gb - Price range: 1,170 to 1,470
+2025-05-31 10:50:12,236 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:12,231 - INFO - Extracted: Apple iPhone 13 512gb - Price range: 1,320 to 1,620
+2025-05-31 10:50:12,469 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:12,374 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:50:12,474 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:12,375 - INFO - Collected 6 results for Apple Iphone 13
+2025-05-31 10:50:14,376 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:14,375 - INFO - Processing device: Apple Iphone 13 Mini
+2025-05-31 10:50:21,323 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:21,322 - INFO - Selected device: Apple Iphone 13 Mini
+2025-05-31 10:50:27,485 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:27,483 - INFO - Extracted: Apple iPhone 13 Mini 128gb - Price range: 1,099 to 1,399
+2025-05-31 10:50:27,651 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:27,650 - INFO - Extracted: Apple iPhone 13 Mini 256gb - Price range: 1,299 to 1,599
+2025-05-31 10:50:27,888 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:27,749 - INFO - Extracted: Apple iPhone 13 Mini 512gb - Price range: 1,399 to 1,699
+2025-05-31 10:50:27,890 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:27,850 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:50:27,891 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:27,850 - INFO - Collected 6 results for Apple Iphone 13 Mini
+2025-05-31 10:50:29,852 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:29,851 - INFO - Processing device: Apple Iphone 13 Pro
+2025-05-31 10:50:37,696 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:37,686 - INFO - Selected device: Apple Iphone 13 Pro
+2025-05-31 10:50:44,468 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:44,465 - INFO - Extracted: Apple iPhone 13 Pro 128gb - Price range: 1,430 to 1,730
+2025-05-31 10:50:44,689 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:44,688 - INFO - Extracted: Apple iPhone 13 Pro 256gb - Price range: 1,450 to 1,750
+2025-05-31 10:50:44,813 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:44,812 - INFO - Extracted: Apple iPhone 13 Pro 512gb - Price range: 1,730 to 2,030
+2025-05-31 10:50:45,078 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:45,077 - INFO - Extracted: Apple iPhone 13 Pro 1tb - Price range: 1,900 to 2,200
+2025-05-31 10:50:45,188 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:45,177 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:50:45,189 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:45,177 - INFO - Collected 8 results for Apple Iphone 13 Pro
+2025-05-31 10:50:47,180 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:47,178 - INFO - Processing device: Apple Iphone 13 Pro Max
+2025-05-31 10:50:54,248 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:50:54,246 - INFO - Selected device: Apple Iphone 13 Pro Max
+2025-05-31 10:51:00,821 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:00,819 - INFO - Extracted: Apple iPhone 13 Pro Max 128gb - Price range: 1,600 to 1,900
+2025-05-31 10:51:00,932 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:00,853 - INFO - Extracted: Apple iPhone 13 Pro Max 256gb - Price range: 1,800 to 2,100
+2025-05-31 10:51:01,131 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:01,128 - INFO - Extracted: Apple iPhone 13 Pro Max 512gb - Price range: 1,950 to 2,250
+2025-05-31 10:51:01,359 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:01,357 - INFO - Extracted: Apple iPhone 13 Pro Max 1tb - Price range: 2,130 to 2,430
+2025-05-31 10:51:01,549 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:01,523 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:51:01,550 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:01,523 - INFO - Collected 8 results for Apple Iphone 13 Pro Max
+2025-05-31 10:51:03,525 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:03,523 - INFO - Processing device: Samsung Galaxy S21 Fe 5g
+2025-05-31 10:51:11,735 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:11,638 - INFO - Selected device: Samsung Galaxy S21 Fe 5g
+2025-05-31 10:51:17,811 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:17,809 - INFO - Extracted: Samsung Galaxy S21 FE 5G 128gb - Price range: 12 to 388
+2025-05-31 10:51:18,026 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:17,967 - INFO - Extracted: Samsung Galaxy S21 FE 5G 256gb - Price range: 23 to 429
+2025-05-31 10:51:18,177 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:18,141 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:51:18,178 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:18,141 - INFO - Collected 4 results for Samsung Galaxy S21 Fe 5g
+2025-05-31 10:51:20,144 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:20,143 - INFO - Processing device: Samsung Galaxy S22 5g
+2025-05-31 10:51:27,732 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:27,728 - INFO - Selected device: Samsung Galaxy S22 5g
+2025-05-31 10:51:34,036 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:34,035 - INFO - Extracted: Samsung Galaxy S22 5G 128gb - Price range: 359 to 561
+2025-05-31 10:51:34,247 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:34,245 - INFO - Extracted: Samsung Galaxy S22 5G 256gb - Price range: 404 to 592
+2025-05-31 10:51:34,539 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:34,539 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:51:34,540 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:34,539 - INFO - Collected 4 results for Samsung Galaxy S22 5g
+2025-05-31 10:51:36,549 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:36,547 - INFO - Processing device: Samsung Galaxy S22 Ultra 5g
+2025-05-31 10:51:42,991 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:42,990 - INFO - Selected device: Samsung Galaxy S22 Ultra 5g
+2025-05-31 10:51:50,897 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:50,896 - INFO - Extracted: Samsung Galaxy S22 Ultra 5G 128gb - Price range: 603 to 919
+2025-05-31 10:51:50,997 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:50,994 - INFO - Extracted: Samsung Galaxy S22 Ultra 5G 256gb - Price range: 659 to 974
+2025-05-31 10:51:51,191 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:51,190 - INFO - Extracted: Samsung Galaxy S22 Ultra 5G 512gb - Price range: 725 to 1,005
+2025-05-31 10:51:51,360 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:51,357 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:51:51,361 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:51,357 - INFO - Collected 6 results for Samsung Galaxy S22 Ultra 5g
+2025-05-31 10:51:53,358 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:51:53,357 - INFO - Processing device: Samsung Galaxy S22 Plus 5g
+2025-05-31 10:52:00,211 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:00,210 - INFO - Selected device: Samsung Galaxy S22 Plus 5g
+2025-05-31 10:52:06,367 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:06,366 - INFO - Extracted: Samsung Galaxy S22 Plus 5G 128gb - Price range: 492 to 604
+2025-05-31 10:52:06,547 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:06,545 - INFO - Extracted: Samsung Galaxy S22 Plus 5G 256gb - Price range: 537 to 647
+2025-05-31 10:52:06,737 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:06,733 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:52:06,738 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:06,733 - INFO - Collected 4 results for Samsung Galaxy S22 Plus 5g
+2025-05-31 10:52:08,892 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:08,867 - INFO - Processing device: Samsung Galaxy A53 5g
+2025-05-31 10:52:18,540 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:18,533 - INFO - Selected device: Samsung Galaxy A53 5g
+2025-05-31 10:52:24,710 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:24,709 - INFO - Extracted: Samsung Galaxy A53 5G 128gb - Price range: 10 to 140
+2025-05-31 10:52:24,948 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:24,947 - INFO - Extracted: Samsung Galaxy A53 5G 256gb - Price range: 13 to 156
+2025-05-31 10:52:25,134 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:25,133 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:52:25,136 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:25,133 - INFO - Collected 4 results for Samsung Galaxy A53 5g
+2025-05-31 10:52:27,135 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:27,134 - INFO - Processing device: Samsung Galaxy A73 5g
+2025-05-31 10:52:37,032 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:37,030 - INFO - Selected device: Samsung Galaxy A73 5g
+2025-05-31 10:52:43,384 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:43,383 - INFO - Extracted: Samsung Galaxy A73 5G 128gb - Price range: 10 to 205
+2025-05-31 10:52:43,600 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:43,509 - INFO - Extracted: Samsung Galaxy A73 5G 256gb - Price range: 34 to 230
+2025-05-31 10:52:43,852 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:43,747 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:52:43,856 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:43,747 - INFO - Collected 4 results for Samsung Galaxy A73 5g
+2025-05-31 10:52:45,827 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:45,826 - INFO - Processing device: Apple Iphone 14 Plus
+2025-05-31 10:52:52,390 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:52,388 - INFO - Selected device: Apple Iphone 14 Plus
+2025-05-31 10:52:59,360 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:59,359 - INFO - Extracted: Apple iPhone 14 Plus 128gb - Price range: 1,350 to 1,650
+2025-05-31 10:52:59,673 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:59,656 - INFO - Extracted: Apple iPhone 14 Plus 256gb - Price range: 1,650 to 1,950
+2025-05-31 10:52:59,919 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:52:59,904 - INFO - Extracted: Apple iPhone 14 Plus 512gb - Price range: 1,700 to 2,000
+2025-05-31 10:53:00,131 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:00,117 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:53:00,133 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:00,117 - INFO - Collected 6 results for Apple Iphone 14 Plus
+2025-05-31 10:53:02,120 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:02,119 - INFO - Processing device: Apple Iphone 14 Pro Max
+2025-05-31 10:53:10,522 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:10,521 - INFO - Selected device: Apple Iphone 14 Pro Max
+2025-05-31 10:53:16,655 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:16,654 - INFO - Extracted: Apple iPhone 14 Pro Max 128gb - Price range: 2,280 to 2,580
+2025-05-31 10:53:16,750 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:16,710 - INFO - Extracted: Apple iPhone 14 Pro Max 256gb - Price range: 2,450 to 2,750
+2025-05-31 10:53:16,774 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:16,773 - INFO - Extracted: Apple iPhone 14 Pro Max 512gb - Price range: 2,650 to 2,950
+2025-05-31 10:53:17,034 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:16,881 - INFO - Extracted: Apple iPhone 14 Pro Max 1tb - Price range: 2,850 to 3,150
+2025-05-31 10:53:17,106 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:17,076 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:53:17,157 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:17,076 - INFO - Collected 8 results for Apple Iphone 14 Pro Max
+2025-05-31 10:53:19,078 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:19,077 - INFO - Processing device: Apple Iphone 14 Pro
+2025-05-31 10:53:27,095 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:27,094 - INFO - Selected device: Apple Iphone 14 Pro
+2025-05-31 10:53:33,325 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:33,323 - INFO - Extracted: Apple iPhone 14 Pro Max 128gb - Price range: 2,280 to 2,580
+2025-05-31 10:53:33,494 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:33,492 - INFO - Extracted: Apple iPhone 14 Pro Max 256gb - Price range: 2,450 to 2,750
+2025-05-31 10:53:33,713 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:33,712 - INFO - Extracted: Apple iPhone 14 Pro Max 512gb - Price range: 2,650 to 2,950
+2025-05-31 10:53:33,927 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:33,924 - INFO - Extracted: Apple iPhone 14 Pro Max 1tb - Price range: 2,850 to 3,150
+2025-05-31 10:53:34,134 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:34,132 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:53:34,136 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:34,132 - INFO - Collected 8 results for Apple Iphone 14 Pro
+2025-05-31 10:53:36,144 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:36,134 - INFO - Processing device: Apple Iphone 14
+2025-05-31 10:53:43,148 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:43,146 - INFO - Selected device: Apple Iphone 14
+2025-05-31 10:53:50,090 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:50,088 - INFO - Extracted: Apple iPhone 14 Plus 128gb - Price range: 1,350 to 1,650
+2025-05-31 10:53:50,306 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:50,305 - INFO - Extracted: Apple iPhone 14 Plus 256gb - Price range: 1,650 to 1,950
+2025-05-31 10:53:50,504 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:50,487 - INFO - Extracted: Apple iPhone 14 Plus 512gb - Price range: 1,700 to 2,000
+2025-05-31 10:53:50,706 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:50,686 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:53:50,708 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:50,686 - INFO - Collected 6 results for Apple Iphone 14
+2025-05-31 10:53:52,688 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:53:52,687 - INFO - Processing device: Samsung Galaxy S23 Ultra 5g
+2025-05-31 10:54:00,576 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:00,572 - INFO - Selected device: Samsung Galaxy S23 Ultra 5g
+2025-05-31 10:54:06,725 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:06,724 - INFO - Extracted: Samsung Galaxy S23 Ultra 5G 512gb - Price range: 198 to 1,438
+2025-05-31 10:54:06,911 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:06,910 - INFO - Extracted: Samsung Galaxy S23 Ultra 5G 1tb - Price range: 397 to 1,614
+2025-05-31 10:54:06,942 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:06,941 - INFO - Extracted: Samsung Galaxy S23 Ultra 5G 256gb - Price range: 410 to 1,314
+2025-05-31 10:54:07,292 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:07,291 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:54:07,293 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:07,291 - INFO - Collected 6 results for Samsung Galaxy S23 Ultra 5g
+2025-05-31 10:54:09,292 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:09,291 - INFO - Processing device: Samsung Galaxy S23 5g
+2025-05-31 10:54:18,402 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:18,400 - INFO - Selected device: Samsung Galaxy S23 5g
+2025-05-31 10:54:24,592 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:24,590 - INFO - Extracted: Samsung Galaxy S23 5G 256gb - Price range: 54 to 894
+2025-05-31 10:54:24,714 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:24,713 - INFO - Extracted: Samsung Galaxy S23 5G 128gb - Price range: 625 to 887
+2025-05-31 10:54:25,098 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:25,092 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:54:25,099 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:25,092 - INFO - Collected 4 results for Samsung Galaxy S23 5g
+2025-05-31 10:54:27,094 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:27,093 - INFO - Processing device: Samsung Galaxy A54 5g
+2025-05-31 10:54:34,558 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:34,553 - INFO - Selected device: Samsung Galaxy A54 5g
+2025-05-31 10:54:40,918 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:40,906 - INFO - Extracted: Samsung Galaxy A54 5G 256gb - Price range: 35 to 418
+2025-05-31 10:54:41,192 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:41,191 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:54:41,193 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:41,191 - INFO - Collected 2 results for Samsung Galaxy A54 5g
+2025-05-31 10:54:43,202 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:43,201 - INFO - Processing device: Samsung Galaxy S23 Plus
+2025-05-31 10:54:49,755 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:49,751 - INFO - Selected device: Samsung Galaxy S23 Plus
+2025-05-31 10:54:57,239 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:57,235 - INFO - Extracted: Samsung Galaxy S23 Plus 512gb - Price range: 89 to 1,054
+2025-05-31 10:54:58,062 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:58,059 - INFO - Extracted: Samsung Galaxy S23 Plus 256gb - Price range: 98 to 934
+2025-05-31 10:54:58,684 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:58,683 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:54:58,685 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:54:58,684 - INFO - Collected 4 results for Samsung Galaxy S23 Plus
+2025-05-31 10:55:00,687 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:00,685 - INFO - Processing device: Apple Iphone 15 Pro Max
+2025-05-31 10:55:07,063 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:07,061 - INFO - Selected device: Apple Iphone 15 Pro Max
+2025-05-31 10:55:13,442 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:13,441 - INFO - Extracted: Apple iPhone 15 Pro Max 256gb - Price range: 3,480 to 3,780
+2025-05-31 10:55:13,606 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:13,593 - INFO - Extracted: Apple iPhone 15 Pro Max 512gb - Price range: 3,650 to 3,950
+2025-05-31 10:55:13,739 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:13,645 - INFO - Extracted: Apple iPhone 15 Pro Max 1tb - Price range: 3,880 to 4,180
+2025-05-31 10:55:14,035 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:14,026 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:55:14,145 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:14,026 - INFO - Collected 6 results for Apple Iphone 15 Pro Max
+2025-05-31 10:55:16,028 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:16,027 - INFO - Processing device: Apple Iphone 15
+2025-05-31 10:55:23,307 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:23,305 - INFO - Selected device: Apple Iphone 15
+2025-05-31 10:55:29,711 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:29,709 - INFO - Extracted: Apple iPhone 15 Pro Max 256gb - Price range: 3,480 to 3,780
+2025-05-31 10:55:29,832 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:29,831 - INFO - Extracted: Apple iPhone 15 Pro Max 512gb - Price range: 3,650 to 3,950
+2025-05-31 10:55:29,939 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:29,938 - INFO - Extracted: Apple iPhone 15 Pro Max 1tb - Price range: 3,880 to 4,180
+2025-05-31 10:55:30,179 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:30,156 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:55:30,181 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:30,156 - INFO - Collected 6 results for Apple Iphone 15
+2025-05-31 10:55:32,158 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:32,157 - INFO - Processing device: Apple Iphone 15 Pro
+2025-05-31 10:55:38,715 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:38,713 - INFO - Selected device: Apple Iphone 15 Pro
+2025-05-31 10:55:45,622 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:45,551 - INFO - Extracted: Apple iPhone 15 Pro Max 256gb - Price range: 3,480 to 3,780
+2025-05-31 10:55:45,864 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:45,863 - INFO - Extracted: Apple iPhone 15 Pro Max 512gb - Price range: 3,650 to 3,950
+2025-05-31 10:55:45,993 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:45,992 - INFO - Extracted: Apple iPhone 15 Pro Max 1tb - Price range: 3,880 to 4,180
+2025-05-31 10:55:46,507 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:46,506 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:55:46,508 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:46,506 - INFO - Collected 6 results for Apple Iphone 15 Pro
+2025-05-31 10:55:48,509 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:48,507 - INFO - Processing device: Apple Iphone 15 Plus
+2025-05-31 10:55:54,917 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:55:54,912 - INFO - Selected device: Apple Iphone 15 Plus
+2025-05-31 10:56:01,115 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:01,114 - INFO - Extracted: Apple iPhone 15 Plus 256gb - Price range: 2,430 to 2,730
+2025-05-31 10:56:01,331 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:01,330 - INFO - Extracted: Apple iPhone 15 Plus 128gb - Price range: 2,549 to 2,849
+2025-05-31 10:56:01,575 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:01,566 - INFO - Extracted: Apple iPhone 15 Plus 512gb - Price range: 2,580 to 2,880
+2025-05-31 10:56:01,910 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:01,909 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:56:01,910 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:01,909 - INFO - Collected 6 results for Apple Iphone 15 Plus
+2025-05-31 10:56:03,911 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:03,910 - INFO - Processing device: Samsung Galaxy S23 Fe
+2025-05-31 10:56:14,861 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:14,858 - INFO - Selected device: Samsung Galaxy S23 Fe
+2025-05-31 10:56:21,215 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:21,214 - INFO - Extracted: Samsung Galaxy S23 FE 256gb - Price range: 399 to 742
+2025-05-31 10:56:21,479 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:21,442 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:56:21,480 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:21,442 - INFO - Collected 2 results for Samsung Galaxy S23 Fe
+2025-05-31 10:56:23,453 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:23,448 - INFO - Processing device: Samsung Galaxy S24
+2025-05-31 10:56:29,639 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:29,637 - INFO - Selected device: Samsung Galaxy S24
+2025-05-31 10:56:36,145 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:36,144 - INFO - Extracted: Samsung Galaxy S24 256gb - Price range: 43 to 1,206
+2025-05-31 10:56:36,428 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:36,290 - INFO - Extracted: Samsung Galaxy S24 512gb - Price range: 87 to 1,334
+2025-05-31 10:56:36,441 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:36,437 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:56:36,442 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:36,437 - INFO - Collected 4 results for Samsung Galaxy S24
+2025-05-31 10:56:38,441 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:38,438 - INFO - Processing device: Samsung Galaxy S24 Plus
+2025-05-31 10:56:44,695 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:44,693 - INFO - Selected device: Samsung Galaxy S24 Plus
+2025-05-31 10:56:50,867 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:50,865 - INFO - Extracted: Samsung Galaxy S24 Plus 512gb - Price range: 10 to 1,470
+2025-05-31 10:56:51,028 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:51,027 - INFO - Extracted: Samsung Galaxy S24 Plus 256gb - Price range: 124 to 1,358
+2025-05-31 10:56:51,282 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:51,193 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:56:51,284 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:51,193 - INFO - Collected 4 results for Samsung Galaxy S24 Plus
+2025-05-31 10:56:53,235 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:56:53,225 - INFO - Processing device: Samsung Galaxy S24 Ultra
+2025-05-31 10:57:00,797 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:57:00,796 - INFO - Selected device: Samsung Galaxy S24 Ultra
+2025-05-31 10:57:07,004 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:57:07,003 - INFO - Extracted: Samsung Galaxy S24 Ultra 256gb - Price range: 46 to 1,894
+2025-05-31 10:57:07,206 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:57:07,200 - INFO - Extracted: Samsung Galaxy S24 Ultra 512gb - Price range: 70 to 1,998
+2025-05-31 10:57:07,269 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:57:07,259 - INFO - Extracted: Samsung Galaxy S24 Ultra 1tb - Price range: 89 to 2,254
+2025-05-31 10:57:07,616 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:57:07,613 - INFO - Results saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_RV_Source3.xlsx
+2025-05-31 10:57:07,618 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:57:07,613 - INFO - Collected 6 results for Samsung Galaxy S24 Ultra
+2025-05-31 10:57:14,517 - scraper_manager - INFO - [MY_RV_Source3.py] 2025-05-31 10:57:14,513 - INFO - Driver closed
+2025-05-31 10:57:14,810 - scraper_manager - INFO - Runtime for MY_RV_Source3.py: 14.50 minutes
+2025-05-31 10:57:14,811 - scraper_manager - INFO - Successfully completed MY_RV_Source3.py

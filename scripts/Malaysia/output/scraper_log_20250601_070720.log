@@ -1,0 +1,1501 @@
+2025-06-01 07:07:20,493 - scraper_manager - INFO - Starting MY_SO_Source1.py
+2025-06-01 07:07:20,495 - scraper_manager - INFO - Running command: C:\projects\TradeBot\venv\Scripts\python.exe C:\projects\TradeBot\scripts\Malaysia\MY_SO_Source2.py
+2025-06-01 07:07:20,496 - scraper_manager - INFO - Running command: C:\projects\TradeBot\venv\Scripts\python.exe C:\projects\TradeBot\scripts\Malaysia\MY_SO_Source1.py -o C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source1.xlsx
+2025-06-01 07:07:20,500 - scraper_manager - INFO - Starting MY_SO_Source3.py
+2025-06-01 07:07:20,591 - scraper_manager - INFO - Running command: C:\projects\TradeBot\venv\Scripts\python.exe C:\projects\TradeBot\scripts\Malaysia\MY_SO_Source3.py
+2025-06-01 07:07:23,548 - scraper_manager - INFO - [MY_SO_Source2.py] Created new data file at: C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source2.xlsx
+2025-06-01 07:07:23,550 - scraper_manager - INFO - [MY_SO_Source2.py] Setting up Chrome WebDriver...
+2025-06-01 07:07:24,050 - scraper_manager - INFO - [MY_SO_Source1.py] Saving output to: C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source1.xlsx
+2025-06-01 07:07:24,749 - scraper_manager - INFO - [MY_SO_Source3.py] Using undetected-chromedriver for Cloudflare bypass
+2025-06-01 07:07:24,753 - scraper_manager - INFO - [MY_SO_Source3.py] Created new data file at: C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source3.xlsx
+2025-06-01 07:07:24,754 - scraper_manager - INFO - [MY_SO_Source3.py] Setting up undetected ChromeDriver...
+2025-06-01 07:07:28,987 - scraper_manager - INFO - [MY_SO_Source1.py] 
+2025-06-01 07:07:28,988 - scraper_manager - INFO - [MY_SO_Source1.py] Processing URL (1/2): https://compasia.my/collections/all-smartphones
+2025-06-01 07:07:29,089 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to 3cat.my...
+2025-06-01 07:07:38,061 - scraper_manager - INFO - [MY_SO_Source3.py] Navigating to certified mobiles page...
+2025-06-01 07:07:40,649 - scraper_manager - INFO - [MY_SO_Source1.py] Navigating to CompAsia SmartPhone collection...
+2025-06-01 07:07:41,073 - scraper_manager - INFO - [MY_SO_Source1.py] Processing page 1...
+2025-06-01 07:07:43,737 - scraper_manager - INFO - [MY_SO_Source3.py] Waiting for any Cloudflare checks to complete...
+2025-06-01 07:07:44,771 - scraper_manager - INFO - [MY_SO_Source2.py] Finding product links...
+2025-06-01 07:07:48,345 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (1/24): iPhone 12
+2025-06-01 07:07:48,787 - scraper_manager - INFO - [MY_SO_Source3.py] Loading all device listings...
+2025-06-01 07:07:48,788 - scraper_manager - INFO - [MY_SO_Source3.py] Starting to click 'Load More' button...
+2025-06-01 07:07:51,968 - scraper_manager - INFO - [MY_SO_Source2.py] Found 146 total links on the page
+2025-06-01 07:07:56,033 - scraper_manager - INFO - [MY_SO_Source3.py] Error searching for Load More button: Message:
+2025-06-01 07:07:56,034 - scraper_manager - INFO - [MY_SO_Source3.py] Stacktrace:
+2025-06-01 07:07:57,665 - scraper_manager - INFO - [MY_SO_Source3.py] GetHandleVerifier [0x00E5D363+60275]
+2025-06-01 07:07:58,662 - scraper_manager - INFO - [MY_SO_Source3.py] GetHandleVerifier [0x00E5D3A4+60340]
+2025-06-01 07:07:58,802 - scraper_manager - INFO - [MY_SO_Source3.py] (No symbol) [0x00C906F3]
+2025-06-01 07:07:59,111 - scraper_manager - INFO - [MY_SO_Source3.py] (No symbol) [0x00CD8690]
+2025-06-01 07:07:59,713 - scraper_manager - INFO - [MY_SO_Source3.py] (No symbol) [0x00CD8A2B]
+2025-06-01 07:08:00,433 - scraper_manager - INFO - [MY_SO_Source3.py] (No symbol) [0x00D20EE2]
+2025-06-01 07:08:01,067 - scraper_manager - INFO - [MY_SO_Source3.py] (No symbol) [0x00CFD0D4]
+2025-06-01 07:08:01,287 - scraper_manager - INFO - [MY_SO_Source3.py] (No symbol) [0x00D1E6EB]
+2025-06-01 07:08:01,772 - scraper_manager - INFO - [MY_SO_Source3.py] (No symbol) [0x00CFCE86]
+2025-06-01 07:08:01,831 - scraper_manager - INFO - [MY_SO_Source3.py] (No symbol) [0x00CCC623]
+2025-06-01 07:08:01,839 - scraper_manager - INFO - [MY_SO_Source3.py] (No symbol) [0x00CCD474]
+2025-06-01 07:08:01,948 - scraper_manager - INFO - [MY_SO_Source3.py] GetHandleVerifier [0x010A8FE3+2467827]
+2025-06-01 07:08:02,180 - scraper_manager - INFO - [MY_SO_Source3.py] GetHandleVerifier [0x010A45E6+2448886]
+2025-06-01 07:08:02,528 - scraper_manager - INFO - [MY_SO_Source3.py] GetHandleVerifier [0x010BF80C+2560028]
+2025-06-01 07:08:02,537 - scraper_manager - INFO - [MY_SO_Source3.py] GetHandleVerifier [0x00E73DF5+153093]
+2025-06-01 07:08:02,549 - scraper_manager - INFO - [MY_SO_Source3.py] GetHandleVerifier [0x00E7A3BD+179149]
+2025-06-01 07:08:02,555 - scraper_manager - INFO - [MY_SO_Source3.py] GetHandleVerifier [0x00E64BB8+91080]
+2025-06-01 07:08:02,880 - scraper_manager - INFO - [MY_SO_Source3.py] GetHandleVerifier [0x00E64D60+91504]
+2025-06-01 07:08:02,885 - scraper_manager - INFO - [MY_SO_Source3.py] GetHandleVerifier [0x00E4FA10+4640]
+2025-06-01 07:08:02,895 - scraper_manager - INFO - [MY_SO_Source3.py] BaseThreadInitThunk [0x75BB67F9+25]
+2025-06-01 07:08:02,897 - scraper_manager - INFO - [MY_SO_Source3.py] RtlGetFullPathName_UEx [0x77617F4D+173]
+2025-06-01 07:08:02,898 - scraper_manager - INFO - [MY_SO_Source3.py] RtlGetFullPathName_UEx [0x77617F1B+123]
+2025-06-01 07:08:02,899 - scraper_manager - INFO - [MY_SO_Source3.py] 
+2025-06-01 07:08:02,900 - scraper_manager - INFO - [MY_SO_Source3.py] 'Load More' button not found. Reached the end of listings.
+2025-06-01 07:08:03,130 - scraper_manager - INFO - [MY_SO_Source3.py] Finished clicking 'Load More' button. Total clicks: 0
+2025-06-01 07:08:03,131 - scraper_manager - INFO - [MY_SO_Source3.py] Total unique products found: 0
+2025-06-01 07:08:03,132 - scraper_manager - INFO - [MY_SO_Source3.py] Finding device links...
+2025-06-01 07:08:03,133 - scraper_manager - INFO - [MY_SO_Source3.py] Found 1 total links on the page
+2025-06-01 07:08:03,134 - scraper_manager - INFO - [MY_SO_Source3.py] Found 0 valid device links
+2025-06-01 07:08:03,136 - scraper_manager - INFO - [MY_SO_Source3.py] Found 0 unique device links
+2025-06-01 07:08:03,412 - scraper_manager - INFO - [MY_SO_Source3.py] Driver closed
+2025-06-01 07:08:03,650 - scraper_manager - INFO - [MY_SO_Source3.py] Exception ignored in: <function Chrome.__del__ at 0x0000020E50300680>
+2025-06-01 07:08:03,652 - scraper_manager - INFO - [MY_SO_Source3.py] Traceback (most recent call last):
+2025-06-01 07:08:03,653 - scraper_manager - INFO - [MY_SO_Source3.py] File "C:\projects\TradeBot\venv\Lib\site-packages\undetected_chromedriver\__init__.py", line 843, in __del__
+2025-06-01 07:08:03,699 - scraper_manager - INFO - [MY_SO_Source3.py] self.quit()
+2025-06-01 07:08:03,700 - scraper_manager - INFO - [MY_SO_Source3.py] File "C:\projects\TradeBot\venv\Lib\site-packages\undetected_chromedriver\__init__.py", line 798, in quit
+2025-06-01 07:08:03,701 - scraper_manager - INFO - [MY_SO_Source3.py] time.sleep(0.1)
+2025-06-01 07:08:03,702 - scraper_manager - INFO - [MY_SO_Source3.py] OSError: [WinError 6] The handle is invalid
+2025-06-01 07:08:05,410 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 12
+2025-06-01 07:08:07,133 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:08:10,769 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:08:13,594 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:08:16,621 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (2/24): iPhone 13
+2025-06-01 07:08:30,209 - scraper_manager - INFO - Runtime for MY_SO_Source3.py: 1.16 minutes
+2025-06-01 07:08:30,234 - scraper_manager - INFO - Successfully completed MY_SO_Source3.py
+2025-06-01 07:08:33,409 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 13
+2025-06-01 07:08:33,753 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:08:35,841 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:08:37,698 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:08:39,822 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (3/24): iPhone 11
+2025-06-01 07:08:44,925 - scraper_manager - INFO - [MY_SO_Source2.py] Found 66 valid device links
+2025-06-01 07:08:44,926 - scraper_manager - INFO - [MY_SO_Source2.py] Found 66 unique product links
+2025-06-01 07:08:44,926 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:08:44,927 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 1/66
+2025-06-01 07:08:44,928 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/cat/used-iphone-15/
+2025-06-01 07:08:44,930 - scraper_manager - INFO - [MY_SO_Source2.py] Skipping Mac device
+2025-06-01 07:08:44,931 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:08:44,932 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 2/66
+2025-06-01 07:08:44,933 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-air-6th-gen-13-inch-m2/
+2025-06-01 07:08:44,934 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-air-6th-gen-13-inch-m2/
+2025-06-01 07:08:46,716 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 11
+2025-06-01 07:08:47,481 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:08:51,038 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:08:53,225 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:08:55,228 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (4/24): iPhone 12 Pro
+2025-06-01 07:08:59,877 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Air 6th Gen (13-inch, M2)
+2025-06-01 07:09:01,496 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:09:03,050 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 12 Pro
+2025-06-01 07:09:03,623 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:09:05,537 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3099.0
+2025-06-01 07:09:05,540 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (13-inch, M2) - 128GB - WiFi - RM2499.0
+2025-06-01 07:09:05,542 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (13-inch, M2) - 128GB - WiFi + Cellular - RM3099.0
+2025-06-01 07:09:05,543 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:09:06,022 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:09:08,151 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:09:09,217 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3399.0
+2025-06-01 07:09:09,218 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (13-inch, M2) - 256GB - WiFi - RM2899.0
+2025-06-01 07:09:09,220 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (13-inch, M2) - 256GB - WiFi + Cellular - RM3399.0
+2025-06-01 07:09:09,222 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:09:10,031 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (5/24): iPhone 13 Pro
+2025-06-01 07:09:15,892 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM4099.0
+2025-06-01 07:09:15,893 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (13-inch, M2) - 512GB - WiFi - RM3599.0
+2025-06-01 07:09:15,899 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (13-inch, M2) - 512GB - WiFi + Cellular - RM4099.0
+2025-06-01 07:09:15,901 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:09:17,698 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 13 Pro
+2025-06-01 07:09:18,442 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:09:20,446 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:09:20,446 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM4799.0
+2025-06-01 07:09:20,449 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (13-inch, M2) - 1TB - WiFi - RM4299.0
+2025-06-01 07:09:20,569 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (13-inch, M2) - 1TB - WiFi + Cellular - RM4799.0
+2025-06-01 07:09:20,575 - scraper_manager - INFO - [MY_SO_Source2.py] C:\projects\TradeBot\scripts\Malaysia\MY_SO_Source2.py:1023: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+2025-06-01 07:09:20,580 - scraper_manager - INFO - [MY_SO_Source2.py] df = pd.concat([df, new_rows_df], ignore_index=True)
+2025-06-01 07:09:21,792 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 8 new entries
+2025-06-01 07:09:21,792 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.9 seconds before next device...
+2025-06-01 07:09:23,378 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:09:24,661 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:09:24,662 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 3/66
+2025-06-01 07:09:24,662 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-13-pro-max/
+2025-06-01 07:09:24,665 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-13-pro-max/
+2025-06-01 07:09:26,845 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 1TB
+2025-06-01 07:09:28,662 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (6/24): iPhone 12 Pro Max
+2025-06-01 07:09:34,672 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 13 Pro Max
+2025-06-01 07:09:35,041 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 12 Pro Max
+2025-06-01 07:09:35,714 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:09:36,080 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:09:38,464 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:09:39,517 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 Pro Max - 128GB - RM2259.0
+2025-06-01 07:09:39,521 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:09:40,262 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:09:42,897 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (7/24): iPhone XR
+2025-06-01 07:09:43,352 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 Pro Max - 256GB - RM2459.0
+2025-06-01 07:09:43,354 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:09:48,555 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 Pro Max - 512GB - RM2659.0
+2025-06-01 07:09:48,556 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:09:49,511 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone XR
+2025-06-01 07:09:50,145 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:09:52,511 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:09:53,945 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 Pro Max - 1TB - RM2859.0
+2025-06-01 07:09:53,946 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:09:53,948 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.3 seconds before next device...
+2025-06-01 07:09:54,706 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:09:56,115 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:09:56,116 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 4/66
+2025-06-01 07:09:56,117 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-11-4th/
+2025-06-01 07:09:56,117 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-11-4th/
+2025-06-01 07:09:56,655 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (8/24): iPhone 13 Pro Max
+2025-06-01 07:10:06,485 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 13 Pro Max
+2025-06-01 07:10:06,887 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:10:08,738 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:10:10,748 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro 11 4th
+2025-06-01 07:10:10,961 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:10:11,378 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:10:13,543 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 1TB
+2025-06-01 07:10:14,990 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3099.0
+2025-06-01 07:10:14,990 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 4th - 128GB - WiFi - RM2599.0
+2025-06-01 07:10:14,991 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 4th - 128GB - WiFi + Cellular - RM3099.0
+2025-06-01 07:10:14,992 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:10:15,753 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (9/24): iPhone 11 Pro Max
+2025-06-01 07:10:20,121 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3599.0
+2025-06-01 07:10:20,122 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 4th - 256GB - WiFi - RM3099.0
+2025-06-01 07:10:20,123 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 4th - 256GB - WiFi + Cellular - RM3599.0
+2025-06-01 07:10:20,128 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:10:22,147 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 11 Pro Max
+2025-06-01 07:10:22,645 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:10:24,229 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM4299.0
+2025-06-01 07:10:24,231 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 4th - 512GB - WiFi - RM3599.0
+2025-06-01 07:10:24,232 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 4th - 512GB - WiFi + Cellular - RM4299.0
+2025-06-01 07:10:24,233 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:10:25,437 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:10:27,409 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:10:27,671 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM4499.0
+2025-06-01 07:10:27,673 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 4th - 1TB - WiFi - RM4399.0
+2025-06-01 07:10:27,674 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 4th - 1TB - WiFi + Cellular - RM4499.0
+2025-06-01 07:10:27,675 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 2TB
+2025-06-01 07:10:30,858 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (10/24): iPhone 12 Mini
+2025-06-01 07:10:37,303 - scraper_manager - INFO - [MY_SO_Source2.py] Found large price: RM100.0
+2025-06-01 07:10:37,304 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 4th - 2TB - WiFi - RM4799.0
+2025-06-01 07:10:37,304 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 4th - 2TB - WiFi + Cellular - RM4899.0
+2025-06-01 07:10:37,424 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 10 new entries
+2025-06-01 07:10:37,428 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.8 seconds before next device...
+2025-06-01 07:10:38,910 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 12 Mini
+2025-06-01 07:10:39,543 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:10:41,258 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:10:41,259 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 5/66
+2025-06-01 07:10:41,260 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-air-6th-gen-11-inch-m2/
+2025-06-01 07:10:41,261 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-air-6th-gen-11-inch-m2/
+2025-06-01 07:10:41,553 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:10:43,356 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:10:45,247 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (11/24): iPhone 14 Pro
+2025-06-01 07:10:53,764 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 14 Pro
+2025-06-01 07:10:54,229 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:10:56,174 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:10:56,672 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Air 6th Gen (11-inch, M2)
+2025-06-01 07:10:57,276 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:10:58,394 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:11:00,433 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 1TB
+2025-06-01 07:11:01,167 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2599.0
+2025-06-01 07:11:01,168 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (11-inch, M2) - 128GB - WiFi - RM1999.0
+2025-06-01 07:11:01,169 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (11-inch, M2) - 128GB - WiFi + Cellular - RM2599.0
+2025-06-01 07:11:01,170 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:11:03,314 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (12/24): iPhone 14 Pro Max
+2025-06-01 07:11:07,456 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2899.0
+2025-06-01 07:11:07,456 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (11-inch, M2) - 256GB - WiFi - RM2299.0
+2025-06-01 07:11:07,457 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (11-inch, M2) - 256GB - WiFi + Cellular - RM2899.0
+2025-06-01 07:11:07,458 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:11:09,912 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 14 Pro Max
+2025-06-01 07:11:10,545 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:11:12,264 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3599.0
+2025-06-01 07:11:12,265 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (11-inch, M2) - 512GB - WiFi - RM2999.0
+2025-06-01 07:11:12,266 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (11-inch, M2) - 512GB - WiFi + Cellular - RM3599.0
+2025-06-01 07:11:12,268 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:11:13,336 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:11:15,264 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:11:15,943 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM4299.0
+2025-06-01 07:11:15,944 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (11-inch, M2) - 1TB - WiFi - RM3799.0
+2025-06-01 07:11:15,945 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 6th Gen (11-inch, M2) - 1TB - WiFi + Cellular - RM4299.0
+2025-06-01 07:11:16,247 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 8 new entries
+2025-06-01 07:11:16,248 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.7 seconds before next device...
+2025-06-01 07:11:17,329 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 1TB
+2025-06-01 07:11:18,747 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:11:18,748 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 6/66
+2025-06-01 07:11:18,749 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-129-5th/
+2025-06-01 07:11:18,750 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-129-5th/
+2025-06-01 07:11:19,702 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (13/24): Galaxy S22 Ultra 5G
+2025-06-01 07:11:27,357 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy S22 Ultra 5G
+2025-06-01 07:11:28,008 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:11:30,312 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 12GB
+2025-06-01 07:11:32,246 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro 12.9 5th
+2025-06-01 07:11:32,630 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:11:33,216 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (14/24): iPhone 13 Mini
+2025-06-01 07:11:39,244 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3099.0
+2025-06-01 07:11:39,245 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 5th - 128GB - WiFi - RM3099.0
+2025-06-01 07:11:39,245 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 5th - 128GB - WiFi + Cellular - RM3399.0
+2025-06-01 07:11:39,246 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:11:40,413 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 13 Mini
+2025-06-01 07:11:42,106 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:11:43,052 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3399.0
+2025-06-01 07:11:43,053 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 5th - 256GB - WiFi - RM3399.0
+2025-06-01 07:11:43,054 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 5th - 256GB - WiFi + Cellular - RM3699.0
+2025-06-01 07:11:43,054 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:11:44,266 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:11:46,133 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:11:46,501 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM4199.0
+2025-06-01 07:11:46,502 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 5th - 512GB - WiFi - RM4199.0
+2025-06-01 07:11:46,503 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 5th - 512GB - WiFi + Cellular - RM4499.0
+2025-06-01 07:11:46,504 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:11:48,344 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (15/24): Galaxy S23 Ultra 5G
+2025-06-01 07:11:52,511 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM4999.0
+2025-06-01 07:11:52,512 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 5th - 1TB - WiFi - RM4999.0
+2025-06-01 07:11:52,513 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 5th - 1TB - WiFi + Cellular - RM5299.0
+2025-06-01 07:11:52,515 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 2TB
+2025-06-01 07:11:54,862 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy S23 Ultra 5G
+2025-06-01 07:11:55,537 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:11:57,385 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM5499.0
+2025-06-01 07:11:57,386 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 5th - 2TB - WiFi - RM5499.0
+2025-06-01 07:11:57,387 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 5th - 2TB - WiFi + Cellular - RM5799.0
+2025-06-01 07:11:57,388 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 10 new entries
+2025-06-01 07:11:57,389 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.2 seconds before next device...
+2025-06-01 07:11:58,477 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 12GB
+2025-06-01 07:12:00,497 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (16/24): iPhone 14
+2025-06-01 07:12:00,654 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:12:00,655 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 7/66
+2025-06-01 07:12:00,658 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/cat/used-mac/
+2025-06-01 07:12:00,676 - scraper_manager - INFO - [MY_SO_Source2.py] Skipping Mac device
+2025-06-01 07:12:00,677 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:12:00,770 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 8/66
+2025-06-01 07:12:00,771 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-air-5th/
+2025-06-01 07:12:00,772 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-air-5th/
+2025-06-01 07:12:09,756 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 14
+2025-06-01 07:12:10,114 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:12:12,818 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:12:13,593 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Air 5th
+2025-06-01 07:12:14,037 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:12:14,983 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:12:17,196 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (17/24): Galaxy Z Flip4
+2025-06-01 07:12:20,850 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2199.0
+2025-06-01 07:12:20,850 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 5th - 64GB - WiFi - RM1699.0
+2025-06-01 07:12:20,851 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 5th - 64GB - WiFi + Cellular - RM2199.0
+2025-06-01 07:12:20,852 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:12:23,996 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Z Flip4
+2025-06-01 07:12:24,536 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:12:25,725 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2499.0
+2025-06-01 07:12:25,729 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 5th - 256GB - WiFi - RM1999.0
+2025-06-01 07:12:25,731 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 5th - 256GB - WiFi + Cellular - RM2499.0
+2025-06-01 07:12:25,732 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:12:25,733 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.1 seconds before next device...
+2025-06-01 07:12:26,382 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (18/24): Galaxy S21 5G
+2025-06-01 07:12:27,933 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:12:27,935 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 9/66
+2025-06-01 07:12:27,935 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-11/
+2025-06-01 07:12:27,938 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-11/
+2025-06-01 07:12:32,201 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy S21 5G
+2025-06-01 07:12:33,488 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:12:36,549 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (19/24): Galaxy S23
+2025-06-01 07:12:42,125 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 11
+2025-06-01 07:12:43,541 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy S23
+2025-06-01 07:12:44,342 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:12:45,353 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:12:46,170 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (20/24): iPhone 14 Plus
+2025-06-01 07:12:48,090 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 11 - 64GB - RM899.0
+2025-06-01 07:12:48,091 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:12:52,465 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 14 Plus
+2025-06-01 07:12:52,766 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:12:53,829 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 11 - 128GB - RM999.0
+2025-06-01 07:12:53,830 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:12:56,333 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:12:57,576 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 11 - 256GB - RM1099.0
+2025-06-01 07:12:57,830 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:12:57,832 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.2 seconds before next device...
+2025-06-01 07:12:58,263 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:13:00,439 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (21/24): Galaxy S21+ 5G
+2025-06-01 07:13:00,871 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:13:01,428 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 10/66
+2025-06-01 07:13:01,736 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-13-mini/
+2025-06-01 07:13:02,693 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-13-mini/
+2025-06-01 07:13:07,557 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy S21+ 5G
+2025-06-01 07:13:08,155 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:13:10,158 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (22/24): Galaxy Z Flip5
+2025-06-01 07:13:15,721 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 13 mini
+2025-06-01 07:13:16,343 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:13:17,350 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Z Flip5
+2025-06-01 07:13:18,270 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:13:19,840 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (23/24): iPhone 15
+2025-06-01 07:13:20,017 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 mini - 128GB - RM1399.0
+2025-06-01 07:13:20,019 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:13:25,605 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 mini - 256GB - RM1799.0
+2025-06-01 07:13:25,606 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:13:26,042 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 15
+2025-06-01 07:13:26,635 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:13:29,308 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:13:30,795 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 mini - 512GB - RM1699.0
+2025-06-01 07:13:30,796 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:13:30,797 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.9 seconds before next device...
+2025-06-01 07:13:31,465 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:13:33,895 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (24/24): Galaxy S23+
+2025-06-01 07:13:34,934 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:13:35,234 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 11/66
+2025-06-01 07:13:36,537 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-apple-watch-series-9/
+2025-06-01 07:13:36,921 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-apple-watch-series-9/
+2025-06-01 07:13:45,905 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy S23+
+2025-06-01 07:13:46,311 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:13:46,898 - scraper_manager - INFO - [MY_SO_Source1.py] Navigating back to collection page: https://compasia.my/collections/all-smartphones
+2025-06-01 07:13:51,902 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used Apple Watch Series 9
+2025-06-01 07:13:52,476 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1299.0
+2025-06-01 07:13:52,477 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used Apple Watch Series 9 - RM1299.0
+2025-06-01 07:13:52,478 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 1 new entries
+2025-06-01 07:13:52,489 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.5 seconds before next device...
+2025-06-01 07:13:55,037 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:13:55,051 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 12/66
+2025-06-01 07:13:55,052 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-14/
+2025-06-01 07:13:55,542 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-14/
+2025-06-01 07:13:56,436 - scraper_manager - INFO - [MY_SO_Source1.py] Pagination info:
+2025-06-01 07:13:56,789 - scraper_manager - INFO - [MY_SO_Source1.py] Clicking 'Next' button to navigate to page 2...
+2025-06-01 07:14:00,406 - scraper_manager - INFO - [MY_SO_Source1.py] Successfully navigated to page 2
+2025-06-01 07:14:01,341 - scraper_manager - INFO - [MY_SO_Source1.py] Progress saved after page 2: 24 devices processed so far
+2025-06-01 07:14:01,349 - scraper_manager - INFO - [MY_SO_Source1.py] Processing page 2...
+2025-06-01 07:14:04,627 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (1/24): Galaxy A54 5G (2023)
+2025-06-01 07:14:09,041 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 14
+2025-06-01 07:14:12,057 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:14:13,720 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy A54 5G (2023)
+2025-06-01 07:14:14,700 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 6GB
+2025-06-01 07:14:16,488 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 - 128GB - RM2099.0
+2025-06-01 07:14:16,489 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:14:16,874 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:14:18,499 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (2/24): iPhone 15 Plus
+2025-06-01 07:14:19,643 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 - 256GB - RM2299.0
+2025-06-01 07:14:19,644 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:14:25,166 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPhone 15 Plus
+2025-06-01 07:14:25,619 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 - 512GB - RM2499.0
+2025-06-01 07:14:25,622 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:14:25,623 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.4 seconds before next device...
+2025-06-01 07:14:27,665 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:14:27,895 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:14:27,897 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 13/66
+2025-06-01 07:14:27,897 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-15-plus/
+2025-06-01 07:14:27,898 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-15-plus/
+2025-06-01 07:14:30,809 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:14:33,415 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:14:35,883 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (3/24): Galaxy S20+
+2025-06-01 07:14:41,434 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 15 Plus
+2025-06-01 07:14:42,422 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy S20+
+2025-06-01 07:14:42,901 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:14:43,552 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:14:44,222 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (4/24): Galaxy S24 Ultra 5G
+2025-06-01 07:14:48,169 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 Plus - 128GB - RM2999.0
+2025-06-01 07:14:48,170 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:14:51,178 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy S24 Ultra 5G
+2025-06-01 07:14:51,856 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 12GB
+2025-06-01 07:14:52,596 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 Plus - 256GB - RM3299.0
+2025-06-01 07:14:52,597 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:14:53,620 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (5/24): Huawei P40 Pro
+2025-06-01 07:14:57,789 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 Plus - 512GB - RM3599.0
+2025-06-01 07:14:57,790 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:14:57,799 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.9 seconds before next device...
+2025-06-01 07:15:01,423 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:15:01,425 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 14/66
+2025-06-01 07:15:01,426 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-mini-7-a17-pro/
+2025-06-01 07:15:01,426 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-mini-7-a17-pro/
+2025-06-01 07:15:02,411 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Huawei P40 Pro
+2025-06-01 07:15:03,471 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:15:03,933 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (6/24): Huawei Mate 50 Pro
+2025-06-01 07:15:11,966 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Huawei Mate 50 Pro
+2025-06-01 07:15:12,672 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:15:13,357 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (7/24): Xiaomi Redmi Note 13 4G (2024)
+2025-06-01 07:15:17,013 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad mini 7 (A17 Pro)
+2025-06-01 07:15:19,751 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:15:20,385 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Xiaomi Redmi Note 13 4G (2024)
+2025-06-01 07:15:20,932 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:15:21,851 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (8/24): Google Pixel 6
+2025-06-01 07:15:25,212 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2299.0
+2025-06-01 07:15:25,215 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 7 (A17 Pro) - 128GB - WiFi - RM1799.0
+2025-06-01 07:15:25,217 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 7 (A17 Pro) - 128GB - WiFi + Cellular - RM2299.0
+2025-06-01 07:15:25,218 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:15:28,607 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Google Pixel 6
+2025-06-01 07:15:30,073 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2599.0
+2025-06-01 07:15:30,074 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 7 (A17 Pro) - 256GB - WiFi - RM2099.0
+2025-06-01 07:15:30,103 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 7 (A17 Pro) - 256GB - WiFi + Cellular - RM2599.0
+2025-06-01 07:15:30,636 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:15:30,800 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:15:31,399 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (9/24): Galaxy S24
+2025-06-01 07:15:36,571 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3299.0
+2025-06-01 07:15:36,572 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 7 (A17 Pro) - 512GB - WiFi - RM2799.0
+2025-06-01 07:15:36,573 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 7 (A17 Pro) - 512GB - WiFi + Cellular - RM3299.0
+2025-06-01 07:15:36,576 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 6 new entries
+2025-06-01 07:15:36,577 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.9 seconds before next device...
+2025-06-01 07:15:38,188 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy S24
+2025-06-01 07:15:38,789 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:15:39,251 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (10/24): Galaxy A15 5G (2023)
+2025-06-01 07:15:40,427 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:15:40,428 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 15/66
+2025-06-01 07:15:40,428 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-13/
+2025-06-01 07:15:40,429 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-13/
+2025-06-01 07:15:45,613 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy A15 5G (2023)
+2025-06-01 07:15:46,228 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 4GB
+2025-06-01 07:15:49,811 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 6GB
+2025-06-01 07:15:51,757 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:15:53,420 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (11/24): Huawei P40
+2025-06-01 07:15:57,283 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 13
+2025-06-01 07:16:00,765 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:16:01,466 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Huawei P40
+2025-06-01 07:16:02,291 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:16:03,165 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (12/24): Google Pixel 7
+2025-06-01 07:16:04,729 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 - 128GB - RM1559.0
+2025-06-01 07:16:04,733 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:16:09,628 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 - 256GB - RM1659.0
+2025-06-01 07:16:09,629 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:16:10,097 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Google Pixel 7
+2025-06-01 07:16:12,425 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:16:12,915 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (13/24): Honor 70
+2025-06-01 07:16:14,183 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 - 512GB - RM1859.0
+2025-06-01 07:16:14,285 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:16:14,383 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.2 seconds before next device...
+2025-06-01 07:16:16,499 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:16:16,501 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 16/66
+2025-06-01 07:16:16,502 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/cat/used-ipad/
+2025-06-01 07:16:16,503 - scraper_manager - INFO - [MY_SO_Source2.py] Skipping Mac device
+2025-06-01 07:16:16,504 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:16:16,509 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 17/66
+2025-06-01 07:16:16,511 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-macbook-air-13-inch-2020-m1/
+2025-06-01 07:16:16,512 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-macbook-air-13-inch-2020-m1/
+2025-06-01 07:16:21,336 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Honor 70
+2025-06-01 07:16:22,203 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:16:22,813 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (14/24): Oppo Reno8 5G
+2025-06-01 07:16:31,887 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Oppo Reno8 5G
+2025-06-01 07:16:32,400 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:16:34,403 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 12GB
+2025-06-01 07:16:36,144 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (15/24): Huawei Nova 9 SE
+2025-06-01 07:16:39,765 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used MacBook Air 13-inch 2020 M1
+2025-06-01 07:16:40,329 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:16:42,428 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Huawei Nova 9 SE
+2025-06-01 07:16:42,964 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:16:43,450 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (16/24): Xiaomi 12 Lite
+2025-06-01 07:16:47,968 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2399.0
+2025-06-01 07:16:47,969 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used MacBook Air 13-inch 2020 M1 - 256GB - RM2399.0
+2025-06-01 07:16:47,970 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:16:53,301 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2399.0
+2025-06-01 07:16:53,302 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used MacBook Air 13-inch 2020 M1 - 1TB - RM2399.0
+2025-06-01 07:16:53,383 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 2 new entries
+2025-06-01 07:16:53,642 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.0 seconds before next device...
+2025-06-01 07:16:53,881 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Xiaomi 12 Lite
+2025-06-01 07:16:54,269 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:16:54,761 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (17/24): Oppo Reno8 Z 5G
+2025-06-01 07:16:56,479 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:16:56,480 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 18/66
+2025-06-01 07:16:56,481 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-air-4th/
+2025-06-01 07:16:57,137 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-air-4th/
+2025-06-01 07:17:04,566 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Oppo Reno8 Z 5G
+2025-06-01 07:17:04,988 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:17:05,570 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (18/24): Honor 90 Lite (2023)
+2025-06-01 07:17:10,225 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Air 4th
+2025-06-01 07:17:11,395 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:17:12,200 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Honor 90 Lite (2023)
+2025-06-01 07:17:12,488 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:17:13,279 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (19/24): Galaxy S24+
+2025-06-01 07:17:18,319 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1499.0
+2025-06-01 07:17:18,320 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 4th - 64GB - WiFi - RM1499.0
+2025-06-01 07:17:18,326 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 4th - 64GB - WiFi + Cellular - RM1999.0
+2025-06-01 07:17:18,341 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:17:21,115 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy S24+
+2025-06-01 07:17:21,646 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 12GB
+2025-06-01 07:17:22,337 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (20/24): Oppo Find X5 Pro
+2025-06-01 07:17:25,728 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1799.0
+2025-06-01 07:17:25,729 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 4th - 256GB - WiFi - RM1799.0
+2025-06-01 07:17:25,730 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 4th - 256GB - WiFi + Cellular - RM2299.0
+2025-06-01 07:17:25,731 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:17:25,731 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.2 seconds before next device...
+2025-06-01 07:17:27,960 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:17:27,962 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 19/66
+2025-06-01 07:17:27,965 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-mini-3/
+2025-06-01 07:17:28,193 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-mini-3/
+2025-06-01 07:17:28,941 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Oppo Find X5 Pro
+2025-06-01 07:17:29,799 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 12GB
+2025-06-01 07:17:31,564 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (21/24): Galaxy Z Flip6
+2025-06-01 07:17:39,866 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Z Flip6
+2025-06-01 07:17:40,296 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 12GB
+2025-06-01 07:17:40,755 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (22/24): Vivo Y16
+2025-06-01 07:17:43,934 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad mini 3
+2025-06-01 07:17:45,074 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 16GB
+2025-06-01 07:17:47,396 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Vivo Y16
+2025-06-01 07:17:48,486 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 4GB
+2025-06-01 07:17:49,312 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (23/24): Oppo Reno11 5G
+2025-06-01 07:17:52,119 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM199.0
+2025-06-01 07:17:52,121 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 3 - 16GB - WiFi - RM199.0
+2025-06-01 07:17:52,122 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 3 - 16GB - WiFi + Cellular - RM249.0
+2025-06-01 07:17:52,124 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:17:55,958 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Oppo Reno11 5G
+2025-06-01 07:17:56,363 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:17:59,861 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 12GB
+2025-06-01 07:18:00,238 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM249.0
+2025-06-01 07:18:00,241 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 3 - 64GB - WiFi - RM249.0
+2025-06-01 07:18:00,242 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 3 - 64GB - WiFi + Cellular - RM299.0
+2025-06-01 07:18:00,247 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:18:02,639 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (24/24): Oppo Reno12 (2024)
+2025-06-01 07:18:06,645 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM299.0
+2025-06-01 07:18:06,646 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 3 - 128GB - WiFi - RM299.0
+2025-06-01 07:18:06,648 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 3 - 128GB - WiFi + Cellular - RM349.0
+2025-06-01 07:18:06,648 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 6 new entries
+2025-06-01 07:18:06,649 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.2 seconds before next device...
+2025-06-01 07:18:08,756 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Oppo Reno12 (2024)
+2025-06-01 07:18:09,431 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 12GB
+2025-06-01 07:18:10,143 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:18:10,144 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 20/66
+2025-06-01 07:18:10,144 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-xs/
+2025-06-01 07:18:10,145 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-xs/
+2025-06-01 07:18:10,865 - scraper_manager - INFO - [MY_SO_Source1.py] Navigating back to collection page: https://compasia.my/collections/all-smartphones?page=2
+2025-06-01 07:18:20,945 - scraper_manager - INFO - [MY_SO_Source1.py] Pagination info:
+2025-06-01 07:18:21,214 - scraper_manager - INFO - [MY_SO_Source1.py] Clicking 'Next' button to navigate to page 3...
+2025-06-01 07:18:22,482 - scraper_manager - INFO - [MY_SO_Source1.py] No next button found: Message: element click intercepted: Element <a class="pagination__next link" rel="next" title="Next" data-page="3" href="/collections/all-smartphones?page=3">...</a> is not clickable at point (1469, 965). Other element would receive the click: <div id="crazyrocket-popup-overlay" style="z-index: 2147483647; display: block;"></div>
+2025-06-01 07:18:22,484 - scraper_manager - INFO - [MY_SO_Source1.py] (Session info: chrome=136.0.7103.114)
+2025-06-01 07:18:22,487 - scraper_manager - INFO - [MY_SO_Source1.py] Stacktrace:
+2025-06-01 07:18:22,489 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF67063CF45+75717]
+2025-06-01 07:18:22,489 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF67063CFA0+75808]
+2025-06-01 07:18:22,490 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670408F9A]
+2025-06-01 07:18:22,491 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670467439]
+2025-06-01 07:18:22,491 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670464DF2]
+2025-06-01 07:18:22,492 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670461EA1]
+2025-06-01 07:18:22,493 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670460DA1]
+2025-06-01 07:18:22,494 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670452394]
+2025-06-01 07:18:22,494 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF67048737A]
+2025-06-01 07:18:22,495 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670451C46]
+2025-06-01 07:18:22,495 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670487590]
+2025-06-01 07:18:22,496 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF6704AF39C]
+2025-06-01 07:18:22,497 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670487153]
+2025-06-01 07:18:22,497 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670450421]
+2025-06-01 07:18:22,498 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF6704511B3]
+2025-06-01 07:18:22,499 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF67093D71D+3223453]
+2025-06-01 07:18:22,499 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF670937CC2+3200322]
+2025-06-01 07:18:22,500 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF670955AF3+3322739]
+2025-06-01 07:18:22,504 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF670656A1A+180890]
+2025-06-01 07:18:22,504 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF67065E11F+211359]
+2025-06-01 07:18:22,505 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF670645294+109332]
+2025-06-01 07:18:22,506 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF670645442+109762]
+2025-06-01 07:18:22,506 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF67062BA59+4825]
+2025-06-01 07:18:22,507 - scraper_manager - INFO - [MY_SO_Source1.py] BaseThreadInitThunk [0x00007FFB26964CB0+16]
+2025-06-01 07:18:22,507 - scraper_manager - INFO - [MY_SO_Source1.py] RtlUserThreadStart [0x00007FFB2827EDCB+43]
+2025-06-01 07:18:22,508 - scraper_manager - INFO - [MY_SO_Source1.py] 
+2025-06-01 07:18:22,909 - scraper_manager - INFO - [MY_SO_Source1.py] Progress saved after page 2: 48 devices processed so far
+2025-06-01 07:18:23,110 - scraper_manager - INFO - [MY_SO_Source1.py] 
+2025-06-01 07:18:23,114 - scraper_manager - INFO - [MY_SO_Source1.py] Processing URL (2/2): https://compasia.my/collections/tablets
+2025-06-01 07:18:27,329 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone XS
+2025-06-01 07:18:28,145 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:18:29,486 - scraper_manager - INFO - [MY_SO_Source1.py] Navigating to CompAsia Tablet collection...
+2025-06-01 07:18:29,984 - scraper_manager - INFO - [MY_SO_Source1.py] Processing page 1...
+2025-06-01 07:18:31,891 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone XS - 64GB - RM799.0
+2025-06-01 07:18:31,892 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:18:32,210 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (1/24): iPad 9 (2021) WiFi
+2025-06-01 07:18:36,582 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone XS - 256GB - RM999.0
+2025-06-01 07:18:36,583 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:18:38,883 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad 9 (2021) WiFi
+2025-06-01 07:18:40,758 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone XS - 512GB - RM1199.0
+2025-06-01 07:18:40,927 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:18:40,927 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:18:40,930 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.0 seconds before next device...
+2025-06-01 07:18:42,930 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:18:42,931 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 21/66
+2025-06-01 07:18:42,932 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-129-6th/
+2025-06-01 07:18:42,933 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-129-6th/
+2025-06-01 07:18:43,251 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:18:45,027 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (2/24): iPad Air 4 (2020) WiFi
+2025-06-01 07:18:54,305 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Air 4 (2020) WiFi
+2025-06-01 07:18:54,663 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:18:56,731 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:18:58,548 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro 12.9 6th
+2025-06-01 07:18:58,837 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (3/24): iPad Mini 6 (2021) WiFi
+2025-06-01 07:18:59,070 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:19:07,111 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM4299.0
+2025-06-01 07:19:07,113 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 6th - 128GB - WiFi - RM3799.0
+2025-06-01 07:19:07,114 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 6th - 128GB - WiFi + Cellular - RM4299.0
+2025-06-01 07:19:07,114 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:19:07,782 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Mini 6 (2021) WiFi
+2025-06-01 07:19:08,359 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:19:10,567 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:19:10,941 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM4799.0
+2025-06-01 07:19:10,942 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 6th - 256GB - WiFi - RM4299.0
+2025-06-01 07:19:10,943 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 6th - 256GB - WiFi + Cellular - RM4799.0
+2025-06-01 07:19:10,944 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:19:12,737 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (4/24): iPad Mini 5 (2019) WiFi
+2025-06-01 07:19:19,209 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM5999.0
+2025-06-01 07:19:19,210 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 6th - 512GB - WiFi - RM5499.0
+2025-06-01 07:19:19,211 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 6th - 512GB - WiFi + Cellular - RM5999.0
+2025-06-01 07:19:19,212 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:19:21,777 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Mini 5 (2019) WiFi
+2025-06-01 07:19:22,236 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:19:23,480 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM7199.0
+2025-06-01 07:19:23,482 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 6th - 1TB - WiFi - RM6699.0
+2025-06-01 07:19:23,484 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 6th - 1TB - WiFi + Cellular - RM7199.0
+2025-06-01 07:19:23,485 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 2TB
+2025-06-01 07:19:23,961 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:19:25,791 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (5/24): iPad 8 (2020) WiFi
+2025-06-01 07:19:29,412 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM8399.0
+2025-06-01 07:19:29,414 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 6th - 2TB - WiFi - RM7899.0
+2025-06-01 07:19:29,419 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 6th - 2TB - WiFi + Cellular - RM8399.0
+2025-06-01 07:19:29,420 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 10 new entries
+2025-06-01 07:19:29,421 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.7 seconds before next device...
+2025-06-01 07:19:32,627 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad 8 (2020) WiFi
+2025-06-01 07:19:33,081 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:19:33,082 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 22/66
+2025-06-01 07:19:33,083 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-14-pro-max/
+2025-06-01 07:19:33,083 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-14-pro-max/
+2025-06-01 07:19:34,515 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 32GB
+2025-06-01 07:19:36,878 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:19:38,669 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (6/24): iPad 10 (2022) WiFi
+2025-06-01 07:19:48,330 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad 10 (2022) WiFi
+2025-06-01 07:19:48,712 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:19:50,506 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 14 Pro Max
+2025-06-01 07:19:50,768 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:19:51,872 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:19:53,420 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (7/24): iPad Air 5 (2022) WiFi
+2025-06-01 07:19:54,591 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 Pro Max - 128GB - RM3099.0
+2025-06-01 07:19:54,592 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:20:01,367 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Air 5 (2022) WiFi
+2025-06-01 07:20:02,807 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 Pro Max - 256GB - RM3399.0
+2025-06-01 07:20:02,810 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:20:03,444 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:20:05,618 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:20:06,394 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 Pro Max - 512GB - RM3699.0
+2025-06-01 07:20:06,399 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:20:07,453 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (8/24): iPad 6 (2018) WiFi
+2025-06-01 07:20:10,123 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 Pro Max - 1TB - RM3999.0
+2025-06-01 07:20:10,124 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:20:10,125 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.5 seconds before next device...
+2025-06-01 07:20:13,508 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:20:13,511 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 23/66
+2025-06-01 07:20:13,512 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-12-mini/
+2025-06-01 07:20:13,513 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-12-mini/
+2025-06-01 07:20:14,113 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad 6 (2018) WiFi
+2025-06-01 07:20:15,629 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 32GB
+2025-06-01 07:20:17,777 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:20:21,254 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (9/24): iPad Pro 11" (2021) WiFi
+2025-06-01 07:20:26,215 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 12 mini
+2025-06-01 07:20:27,640 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:20:29,977 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Pro 11" (2021) WiFi
+2025-06-01 07:20:30,610 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:20:31,441 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 12 mini - 64GB - RM999.0
+2025-06-01 07:20:31,442 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:20:32,801 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:20:34,541 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:20:34,784 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 12 mini - 128GB - RM1099.0
+2025-06-01 07:20:34,785 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:20:36,661 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (10/24): iPad Pro 11" (2020) WiFi
+2025-06-01 07:20:38,169 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 12 mini - 256GB - RM1199.0
+2025-06-01 07:20:38,606 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:20:38,607 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.5 seconds before next device...
+2025-06-01 07:20:41,393 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:20:41,394 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 24/66
+2025-06-01 07:20:41,395 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-12/
+2025-06-01 07:20:41,395 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-12/
+2025-06-01 07:20:43,726 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Pro 11" (2020) WiFi
+2025-06-01 07:20:44,208 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:20:46,927 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:20:49,789 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:20:52,140 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 1TB
+2025-06-01 07:20:53,998 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (11/24): iPad Mini 4 (2015) WiFi
+2025-06-01 07:20:54,275 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 12
+2025-06-01 07:20:54,606 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:21:00,629 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 12 - 64GB - RM1159.0
+2025-06-01 07:21:01,262 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:21:02,439 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Mini 4 (2015) WiFi
+2025-06-01 07:21:03,175 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 16GB
+2025-06-01 07:21:05,644 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:21:05,943 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 12 - 128GB - RM1259.0
+2025-06-01 07:21:05,945 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:21:07,752 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:21:09,159 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 12 - 256GB - RM1359.0
+2025-06-01 07:21:09,393 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:21:09,394 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.1 seconds before next device...
+2025-06-01 07:21:09,875 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (12/24): Galaxy Tab S7 FE WiFi (2021)
+2025-06-01 07:21:11,521 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:21:11,522 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 25/66
+2025-06-01 07:21:11,522 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-8th/
+2025-06-01 07:21:11,523 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-8th/
+2025-06-01 07:21:19,237 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab S7 FE WiFi (2021)
+2025-06-01 07:21:20,237 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 4GB
+2025-06-01 07:21:22,206 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 6GB
+2025-06-01 07:21:22,579 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad 8th
+2025-06-01 07:21:22,908 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 32GB
+2025-06-01 07:21:24,772 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:21:26,088 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM699.0
+2025-06-01 07:21:26,089 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 8th - 32GB - WiFi - RM699.0
+2025-06-01 07:21:26,090 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 8th - 32GB - WiFi + Cellular - RM749.0
+2025-06-01 07:21:26,091 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:21:26,574 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (13/24): iPad Pro 11" (2018) WiFi
+2025-06-01 07:21:31,305 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM799.0
+2025-06-01 07:21:31,328 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 8th - 128GB - WiFi - RM799.0
+2025-06-01 07:21:32,585 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 8th - 128GB - WiFi + Cellular - RM849.0
+2025-06-01 07:21:33,046 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:21:33,055 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 4.0 seconds before next device...
+2025-06-01 07:21:34,104 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Pro 11" (2018) WiFi
+2025-06-01 07:21:35,607 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:21:35,608 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 26/66
+2025-06-01 07:21:35,609 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-12-pro-max/
+2025-06-01 07:21:35,610 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-12-pro-max/
+2025-06-01 07:21:36,857 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:21:38,998 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:21:40,778 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:21:42,239 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 12 Pro Max
+2025-06-01 07:21:42,649 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:21:43,291 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (14/24): iPad Air 2 (2014) WiFi & Cellular
+2025-06-01 07:21:46,920 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 12 Pro Max - 128GB - RM1859.0
+2025-06-01 07:21:46,920 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:21:49,460 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Air 2 (2014) WiFi & Cellular
+2025-06-01 07:21:50,158 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 16GB
+2025-06-01 07:21:51,035 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 12 Pro Max - 256GB - RM2059.0
+2025-06-01 07:21:51,036 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:21:52,831 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 32GB
+2025-06-01 07:21:54,764 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:21:55,751 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 12 Pro Max - 512GB - RM2259.0
+2025-06-01 07:21:55,806 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:21:55,870 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.2 seconds before next device...
+2025-06-01 07:21:56,580 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:21:58,384 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (15/24): iPad Pro 11" (2022) WiFi
+2025-06-01 07:21:58,986 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:21:58,986 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 27/66
+2025-06-01 07:21:58,987 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-5th/
+2025-06-01 07:21:58,987 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-5th/
+2025-06-01 07:22:07,769 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Pro 11" (2022) WiFi
+2025-06-01 07:22:08,164 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:22:09,830 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:22:10,636 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad 5th
+2025-06-01 07:22:10,959 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 32GB
+2025-06-01 07:22:11,989 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:22:13,989 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 1TB
+2025-06-01 07:22:14,963 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM449.0
+2025-06-01 07:22:14,963 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 5th - 32GB - WiFi - RM399.0
+2025-06-01 07:22:14,964 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 5th - 32GB - WiFi + Cellular - RM449.0
+2025-06-01 07:22:14,965 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:22:15,711 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (16/24): Galaxy Tab S6 Lite WiFi (2020)
+2025-06-01 07:22:20,753 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM549.0
+2025-06-01 07:22:20,754 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 5th - 128GB - WiFi - RM499.0
+2025-06-01 07:22:20,758 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 5th - 128GB - WiFi + Cellular - RM549.0
+2025-06-01 07:22:20,995 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:22:20,999 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.7 seconds before next device...
+2025-06-01 07:22:22,018 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab S6 Lite WiFi (2020)
+2025-06-01 07:22:22,366 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 4GB
+2025-06-01 07:22:22,871 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (17/24): iPad Pro 12.9" (2020) WiFi
+2025-06-01 07:22:23,719 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:22:23,720 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 28/66
+2025-06-01 07:22:23,720 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-11-1st/
+2025-06-01 07:22:23,722 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-11-1st/
+2025-06-01 07:22:29,879 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Pro 12.9" (2020) WiFi
+2025-06-01 07:22:32,064 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:22:33,915 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:22:35,865 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:22:37,458 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro 11 1st
+2025-06-01 07:22:37,974 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:22:38,253 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 1TB
+2025-06-01 07:22:40,224 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (18/24): iPad Pro 12.9" (2022) WiFi & Cellular
+2025-06-01 07:22:43,729 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1599.0
+2025-06-01 07:22:43,730 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 1st - 64GB - WiFi - RM1599.0
+2025-06-01 07:22:43,731 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 1st - 64GB - WiFi + Cellular - RM1799.0
+2025-06-01 07:22:43,732 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:22:47,322 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Pro 12.9" (2022) WiFi & Cellular
+2025-06-01 07:22:47,953 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:22:49,526 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1899.0
+2025-06-01 07:22:49,531 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 1st - 256GB - WiFi - RM1899.0
+2025-06-01 07:22:49,532 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 1st - 256GB - WiFi + Cellular - RM2099.0
+2025-06-01 07:22:49,537 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:22:50,926 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:22:53,105 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:22:53,533 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2199.0
+2025-06-01 07:22:53,535 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 1st - 512GB - WiFi - RM2199.0
+2025-06-01 07:22:53,535 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 1st - 512GB - WiFi + Cellular - RM2399.0
+2025-06-01 07:22:53,537 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:22:54,934 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 1TB
+2025-06-01 07:22:56,820 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 2TB
+2025-06-01 07:22:57,202 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2499.0
+2025-06-01 07:22:57,203 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 1st - 1TB - WiFi - RM2499.0
+2025-06-01 07:22:57,204 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 1st - 1TB - WiFi + Cellular - RM2699.0
+2025-06-01 07:22:57,208 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 8 new entries
+2025-06-01 07:22:57,220 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.1 seconds before next device...
+2025-06-01 07:22:59,050 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (19/24): Galaxy Tab S8 WiFi (2022)
+2025-06-01 07:23:00,851 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:23:00,852 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 29/66
+2025-06-01 07:23:01,496 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-15-pro-max/
+2025-06-01 07:23:02,168 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-15-pro-max/
+2025-06-01 07:23:07,789 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab S8 WiFi (2022)
+2025-06-01 07:23:09,007 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:23:09,704 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (20/24): iPad 5 (2017) WiFi
+2025-06-01 07:23:14,118 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 15 Pro Max
+2025-06-01 07:23:17,718 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:23:18,656 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad 5 (2017) WiFi
+2025-06-01 07:23:19,291 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 32GB
+2025-06-01 07:23:21,201 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 Pro Max - 256GB - RM4199.0
+2025-06-01 07:23:21,202 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:23:21,584 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:23:23,378 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (21/24): iPad Air 11" M2 (2024) WiFi
+2025-06-01 07:23:24,573 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 Pro Max - 512GB - RM4599.0
+2025-06-01 07:23:24,578 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:23:29,220 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 Pro Max - 1TB - RM4899.0
+2025-06-01 07:23:29,220 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Air 11" M2 (2024) WiFi
+2025-06-01 07:23:29,223 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:23:29,224 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.9 seconds before next device...
+2025-06-01 07:23:29,678 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:23:31,882 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:23:32,139 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:23:32,141 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 30/66
+2025-06-01 07:23:32,142 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-7th/
+2025-06-01 07:23:32,143 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-7th/
+2025-06-01 07:23:34,217 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:23:35,973 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 1TB
+2025-06-01 07:23:38,194 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (22/24): Galaxy Tab A8 10.5" WiFi (2021)
+2025-06-01 07:23:42,624 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad 7th
+2025-06-01 07:23:43,233 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 32GB
+2025-06-01 07:23:44,612 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab A8 10.5" WiFi (2021)
+2025-06-01 07:23:45,367 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 2GB
+2025-06-01 07:23:47,283 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM599.0
+2025-06-01 07:23:47,284 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 7th - 32GB - WiFi - RM599.0
+2025-06-01 07:23:47,285 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 7th - 32GB - WiFi + Cellular - RM649.0
+2025-06-01 07:23:47,286 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:23:48,093 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 3GB
+2025-06-01 07:23:50,001 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (23/24): iPad Air 3 (2019) WiFi
+2025-06-01 07:23:50,478 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM699.0
+2025-06-01 07:23:50,479 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 7th - 128GB - WiFi - RM699.0
+2025-06-01 07:23:50,480 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 7th - 128GB - WiFi + Cellular - RM749.0
+2025-06-01 07:23:50,684 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:23:50,685 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.4 seconds before next device...
+2025-06-01 07:23:53,445 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:23:53,445 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 31/66
+2025-06-01 07:23:55,072 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-129-3rd/
+2025-06-01 07:23:55,370 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-129-3rd/
+2025-06-01 07:23:59,532 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Air 3 (2019) WiFi
+2025-06-01 07:24:01,552 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:24:04,785 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:24:07,000 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (24/24): Galaxy Tab S7 WiFi (2020)
+2025-06-01 07:24:14,390 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro 12.9 3rd
+2025-06-01 07:24:16,480 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:24:17,622 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab S7 WiFi (2020)
+2025-06-01 07:24:18,670 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 6GB
+2025-06-01 07:24:20,458 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:24:21,052 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2099.0
+2025-06-01 07:24:21,053 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 3rd - 64GB - WiFi - RM2099.0
+2025-06-01 07:24:21,054 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 3rd - 64GB - WiFi + Cellular - RM2199.0
+2025-06-01 07:24:21,056 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:24:22,489 - scraper_manager - INFO - [MY_SO_Source1.py] Navigating back to collection page: https://compasia.my/collections/tablets
+2025-06-01 07:24:25,744 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2399.0
+2025-06-01 07:24:25,745 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 3rd - 256GB - WiFi - RM2399.0
+2025-06-01 07:24:25,746 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 3rd - 256GB - WiFi + Cellular - RM2599.0
+2025-06-01 07:24:25,747 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:24:27,803 - scraper_manager - INFO - [MY_SO_Source1.py] Pagination info:
+2025-06-01 07:24:27,933 - scraper_manager - INFO - [MY_SO_Source1.py] Clicking 'Next' button to navigate to page 2...
+2025-06-01 07:24:29,922 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2799.0
+2025-06-01 07:24:29,934 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 3rd - 512GB - WiFi - RM2799.0
+2025-06-01 07:24:29,935 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 3rd - 512GB - WiFi + Cellular - RM2999.0
+2025-06-01 07:24:29,937 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:24:31,121 - scraper_manager - INFO - [MY_SO_Source1.py] Successfully navigated to page 2
+2025-06-01 07:24:31,160 - scraper_manager - INFO - [MY_SO_Source1.py] Progress saved after page 2: 72 devices processed so far
+2025-06-01 07:24:31,260 - scraper_manager - INFO - [MY_SO_Source1.py] Processing page 2...
+2025-06-01 07:24:32,622 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (1/17): Galaxy Tab S9 FE+ WiFi (2023)
+2025-06-01 07:24:38,602 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3199.0
+2025-06-01 07:24:38,603 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 3rd - 1TB - WiFi - RM3199.0
+2025-06-01 07:24:38,613 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 3rd - 1TB - WiFi + Cellular - RM3399.0
+2025-06-01 07:24:38,854 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 8 new entries
+2025-06-01 07:24:38,855 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.5 seconds before next device...
+2025-06-01 07:24:39,458 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab S9 FE+ WiFi (2023)
+2025-06-01 07:24:39,973 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:24:41,184 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:24:41,184 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 32/66
+2025-06-01 07:24:41,185 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-14-pro/
+2025-06-01 07:24:41,186 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-14-pro/
+2025-06-01 07:24:43,673 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 12GB
+2025-06-01 07:24:45,583 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (2/17): Galaxy Tab A 8.0 LTE (2019)
+2025-06-01 07:24:48,741 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 14 Pro
+2025-06-01 07:24:51,030 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:24:51,654 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab A 8.0 LTE (2019)
+2025-06-01 07:24:52,027 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 2GB
+2025-06-01 07:24:53,782 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (3/17): iPad Air 13" M2 (2024) WiFi
+2025-06-01 07:24:54,416 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 Pro - 128GB - RM2799.0
+2025-06-01 07:24:54,417 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:24:59,607 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Air 13" M2 (2024) WiFi
+2025-06-01 07:25:00,097 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 128GB
+2025-06-01 07:25:00,788 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 Pro - 256GB - RM2999.0
+2025-06-01 07:25:00,791 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:25:03,522 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:25:05,273 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 Pro - 512GB - RM3299.0
+2025-06-01 07:25:05,275 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:25:05,625 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:25:07,346 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 1TB
+2025-06-01 07:25:08,556 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 Pro - 1TB - RM3499.0
+2025-06-01 07:25:08,809 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:25:08,810 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.1 seconds before next device...
+2025-06-01 07:25:09,107 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (4/17): iPad Pro 12.9" (2022) WiFi [New - Sealed Box]
+2025-06-01 07:25:12,278 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:25:12,279 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 33/66
+2025-06-01 07:25:12,303 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-15/
+2025-06-01 07:25:12,307 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-15/
+2025-06-01 07:25:14,919 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Pro 12.9" (2022) WiFi [New - Sealed Box]
+2025-06-01 07:25:15,331 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:25:17,495 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:25:19,612 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (5/17): Galaxy Tab S9 FE WiFi (2023)
+2025-06-01 07:25:23,024 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 15
+2025-06-01 07:25:25,279 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:25:26,162 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab S9 FE WiFi (2023)
+2025-06-01 07:25:26,664 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 6GB
+2025-06-01 07:25:28,664 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 - 128GB - RM2599.0
+2025-06-01 07:25:28,819 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:25:29,451 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:25:31,183 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (6/17): iPad Pro 12.9" (2018) WiFi
+2025-06-01 07:25:32,361 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 - 256GB - RM2899.0
+2025-06-01 07:25:33,113 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:25:38,249 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Pro 12.9" (2018) WiFi
+2025-06-01 07:25:39,059 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:25:39,416 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 - 512GB - RM3199.0
+2025-06-01 07:25:39,950 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:25:39,952 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.1 seconds before next device...
+2025-06-01 07:25:42,199 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:25:43,083 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:25:43,084 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 34/66
+2025-06-01 07:25:43,084 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/cat/used-iphone-14/
+2025-06-01 07:25:43,085 - scraper_manager - INFO - [MY_SO_Source2.py] Skipping Mac device
+2025-06-01 07:25:43,086 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:25:43,087 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 35/66
+2025-06-01 07:25:43,088 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-6th/
+2025-06-01 07:25:43,182 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-6th/
+2025-06-01 07:25:43,936 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (7/17): Galaxy Tab S9+ WiFi (2023)
+2025-06-01 07:25:51,398 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab S9+ WiFi (2023)
+2025-06-01 07:25:52,413 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 12GB
+2025-06-01 07:25:53,228 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (8/17): Galaxy Tab A 8.0 (2017) WiFi
+2025-06-01 07:25:58,215 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad 6th
+2025-06-01 07:25:59,322 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab A 8.0 (2017) WiFi
+2025-06-01 07:25:59,325 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 32GB
+2025-06-01 07:26:00,016 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 2GB
+2025-06-01 07:26:00,546 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (9/17): iPad Pro 10.5" (2017) WiFi
+2025-06-01 07:26:06,062 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM549.0
+2025-06-01 07:26:06,080 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 6th - 32GB - WiFi - RM499.0
+2025-06-01 07:26:06,081 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 6th - 32GB - WiFi + Cellular - RM549.0
+2025-06-01 07:26:06,082 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:26:09,055 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Pro 10.5" (2017) WiFi
+2025-06-01 07:26:10,113 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:26:12,422 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:26:13,146 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM649.0
+2025-06-01 07:26:13,148 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 6th - 128GB - WiFi - RM599.0
+2025-06-01 07:26:13,150 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 6th - 128GB - WiFi + Cellular - RM649.0
+2025-06-01 07:26:13,151 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:26:13,153 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.2 seconds before next device...
+2025-06-01 07:26:14,589 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:26:16,145 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:26:16,146 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 36/66
+2025-06-01 07:26:16,146 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-mini-5th/
+2025-06-01 07:26:16,147 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-mini-5th/
+2025-06-01 07:26:16,573 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (10/17): Galaxy Tab S7 (2020) LTE
+2025-06-01 07:26:23,199 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab S7 (2020) LTE
+2025-06-01 07:26:23,619 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 6GB
+2025-06-01 07:26:24,301 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (11/17): Galaxy Tab S4 10.5" (2018) WiFi
+2025-06-01 07:26:27,963 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad mini 5th
+2025-06-01 07:26:30,100 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:26:30,609 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab S4 10.5" (2018) WiFi
+2025-06-01 07:26:30,963 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 4GB
+2025-06-01 07:26:32,885 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (12/17): Huawei MatePad 10.4" LTE (2022)
+2025-06-01 07:26:36,782 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM949.0
+2025-06-01 07:26:36,783 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 5th - 64GB - WiFi - RM899.0
+2025-06-01 07:26:36,784 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 5th - 64GB - WiFi + Cellular - RM949.0
+2025-06-01 07:26:36,788 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:26:39,436 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Huawei MatePad 10.4" LTE (2022)
+2025-06-01 07:26:39,761 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 4GB
+2025-06-01 07:26:41,427 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (13/17): Galaxy Tab S9 FE 5G (2023)
+2025-06-01 07:26:41,880 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1049.0
+2025-06-01 07:26:41,882 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 5th - 256GB - WiFi - RM999.0
+2025-06-01 07:26:41,882 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 5th - 256GB - WiFi + Cellular - RM1049.0
+2025-06-01 07:26:42,110 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:26:42,111 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.8 seconds before next device...
+2025-06-01 07:26:46,013 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:26:46,014 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 37/66
+2025-06-01 07:26:46,015 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-129-2nd/
+2025-06-01 07:26:46,015 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-129-2nd/
+2025-06-01 07:26:48,220 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab S9 FE 5G (2023)
+2025-06-01 07:26:49,158 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 6GB
+2025-06-01 07:26:51,834 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 8GB
+2025-06-01 07:26:55,042 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (14/17): Galaxy Tab S5e WiFi (2019)
+2025-06-01 07:27:00,487 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro 12.9 2nd
+2025-06-01 07:27:01,052 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:27:03,212 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Galaxy Tab S5e WiFi (2019)
+2025-06-01 07:27:03,861 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 4GB
+2025-06-01 07:27:05,030 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1299.0
+2025-06-01 07:27:05,030 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 2nd - 64GB - WiFi - RM1299.0
+2025-06-01 07:27:05,031 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 2nd - 64GB - WiFi + Cellular - RM1399.0
+2025-06-01 07:27:05,032 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:27:05,921 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 6GB
+2025-06-01 07:27:07,665 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (15/17): iPad Pro 12.9" (2022) WiFi & Cellular [New - Sealed Box]
+2025-06-01 07:27:11,832 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1499.0
+2025-06-01 07:27:11,832 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 2nd - 256GB - WiFi - RM1499.0
+2025-06-01 07:27:11,833 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 2nd - 256GB - WiFi + Cellular - RM1599.0
+2025-06-01 07:27:11,835 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:27:14,180 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Pro 12.9" (2022) WiFi & Cellular [New - Sealed Box]
+2025-06-01 07:27:14,649 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:27:16,427 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1699.0
+2025-06-01 07:27:16,428 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 2nd - 512GB - WiFi - RM1699.0
+2025-06-01 07:27:16,432 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 2nd - 512GB - WiFi + Cellular - RM1799.0
+2025-06-01 07:27:16,433 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 6 new entries
+2025-06-01 07:27:16,434 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.2 seconds before next device...
+2025-06-01 07:27:16,795 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:27:18,389 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (16/17): iPad Pro 12.9" (2018) WiFi & Cellular
+2025-06-01 07:27:19,635 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:27:19,636 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 38/66
+2025-06-01 07:27:19,636 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-macbook-pro-13-inch-2020-m1/
+2025-06-01 07:27:19,637 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-macbook-pro-13-inch-2020-m1/
+2025-06-01 07:27:25,548 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: iPad Pro 12.9" (2018) WiFi & Cellular
+2025-06-01 07:27:26,374 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 64GB
+2025-06-01 07:27:28,827 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 256GB
+2025-06-01 07:27:31,710 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 512GB
+2025-06-01 07:27:33,509 - scraper_manager - INFO - [MY_SO_Source1.py] Processing product (17/17): Huawei MatePad 11 LTE (2023)
+2025-06-01 07:27:35,900 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used MacBook Pro 13-inch 2020 M1
+2025-06-01 07:27:36,539 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:27:39,477 - scraper_manager - INFO - [MY_SO_Source1.py] Found product title: Huawei MatePad 11 LTE (2023)
+2025-06-01 07:27:39,843 - scraper_manager - INFO - [MY_SO_Source1.py] Processing capacity: 6GB
+2025-06-01 07:27:40,358 - scraper_manager - INFO - [MY_SO_Source1.py] Navigating back to collection page: https://compasia.my/collections/tablets?page=2
+2025-06-01 07:27:43,309 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2999.0
+2025-06-01 07:27:43,310 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used MacBook Pro 13-inch 2020 M1 - 256GB - RM2999.0
+2025-06-01 07:27:43,312 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:27:46,530 - scraper_manager - INFO - [MY_SO_Source1.py] Pagination info:
+2025-06-01 07:27:46,703 - scraper_manager - INFO - [MY_SO_Source1.py] No next button found: Message: no such element: Unable to locate element: {"method":"css selector","selector":".pagination__next"}
+2025-06-01 07:27:46,704 - scraper_manager - INFO - [MY_SO_Source1.py] (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+2025-06-01 07:27:46,705 - scraper_manager - INFO - [MY_SO_Source1.py] Stacktrace:
+2025-06-01 07:27:46,709 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF67063CF45+75717]
+2025-06-01 07:27:46,710 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF67063CFA0+75808]
+2025-06-01 07:27:46,711 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670408F9A]
+2025-06-01 07:27:46,712 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF67045F4C6]
+2025-06-01 07:27:46,712 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF67045F77C]
+2025-06-01 07:27:46,713 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF6704B2577]
+2025-06-01 07:27:46,714 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF6704873BF]
+2025-06-01 07:27:46,715 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF6704AF39C]
+2025-06-01 07:27:46,715 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670487153]
+2025-06-01 07:27:46,716 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF670450421]
+2025-06-01 07:27:46,717 - scraper_manager - INFO - [MY_SO_Source1.py] (No symbol) [0x00007FF6704511B3]
+2025-06-01 07:27:46,718 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF67093D71D+3223453]
+2025-06-01 07:27:46,718 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF670937CC2+3200322]
+2025-06-01 07:27:46,719 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF670955AF3+3322739]
+2025-06-01 07:27:46,720 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF670656A1A+180890]
+2025-06-01 07:27:46,723 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF67065E11F+211359]
+2025-06-01 07:27:46,724 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF670645294+109332]
+2025-06-01 07:27:46,725 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF670645442+109762]
+2025-06-01 07:27:46,726 - scraper_manager - INFO - [MY_SO_Source1.py] GetHandleVerifier [0x00007FF67062BA59+4825]
+2025-06-01 07:27:46,726 - scraper_manager - INFO - [MY_SO_Source1.py] BaseThreadInitThunk [0x00007FFB26964CB0+16]
+2025-06-01 07:27:46,727 - scraper_manager - INFO - [MY_SO_Source1.py] RtlUserThreadStart [0x00007FFB2827EDCB+43]
+2025-06-01 07:27:46,728 - scraper_manager - INFO - [MY_SO_Source1.py] 
+2025-06-01 07:27:47,045 - scraper_manager - INFO - [MY_SO_Source1.py] Progress saved after page 2: 89 devices processed so far
+2025-06-01 07:27:47,539 - scraper_manager - INFO - [MY_SO_Source1.py] All pages processed. 89 devices found.
+2025-06-01 07:27:47,540 - scraper_manager - INFO - [MY_SO_Source1.py] Results saved to: C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source1.xlsx
+2025-06-01 07:27:48,227 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM4399.0
+2025-06-01 07:27:48,228 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used MacBook Pro 13-inch 2020 M1 - 512GB - RM4399.0
+2025-06-01 07:27:48,371 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 2 new entries
+2025-06-01 07:27:48,372 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.1 seconds before next device...
+2025-06-01 07:27:50,451 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:27:50,451 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 39/66
+2025-06-01 07:27:50,452 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-apple-watch-series-8/
+2025-06-01 07:27:50,452 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-apple-watch-series-8/
+2025-06-01 07:27:51,565 - scraper_manager - INFO - [MY_SO_Source1.py] Browser closed.
+2025-06-01 07:27:51,565 - scraper_manager - INFO - [MY_SO_Source1.py] Script completed. Results have been saved to the Excel file.
+2025-06-01 07:27:51,794 - scraper_manager - INFO - Runtime for MY_SO_Source1.py: 20.52 minutes
+2025-06-01 07:27:51,795 - scraper_manager - INFO - Successfully completed MY_SO_Source1.py
+2025-06-01 07:27:57,355 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used Apple Watch Series 8
+2025-06-01 07:27:57,585 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM899.0
+2025-06-01 07:27:57,586 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used Apple Watch Series 8 - RM899.0
+2025-06-01 07:27:57,692 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 1 new entries
+2025-06-01 07:27:57,693 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.2 seconds before next device...
+2025-06-01 07:28:00,875 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:28:00,876 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 40/66
+2025-06-01 07:28:00,877 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-129-1st/
+2025-06-01 07:28:00,877 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-129-1st/
+2025-06-01 07:28:12,171 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro 12.9 1st
+2025-06-01 07:28:12,471 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 32GB
+2025-06-01 07:28:15,728 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1099.0
+2025-06-01 07:28:15,729 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 1st - 32GB - WiFi - RM1099.0
+2025-06-01 07:28:15,730 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 1st - 32GB - WiFi + Cellular - RM1199.0
+2025-06-01 07:28:15,731 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:28:18,954 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1299.0
+2025-06-01 07:28:18,955 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 1st - 128GB - WiFi - RM1299.0
+2025-06-01 07:28:18,956 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 1st - 128GB - WiFi + Cellular - RM1399.0
+2025-06-01 07:28:18,957 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:28:22,152 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1499.0
+2025-06-01 07:28:22,153 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 1st - 256GB - WiFi - RM1499.0
+2025-06-01 07:28:22,154 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 1st - 256GB - WiFi + Cellular - RM1599.0
+2025-06-01 07:28:22,263 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 6 new entries
+2025-06-01 07:28:22,516 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.5 seconds before next device...
+2025-06-01 07:28:25,757 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:28:25,758 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 41/66
+2025-06-01 07:28:25,758 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-10th/
+2025-06-01 07:28:25,760 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-10th/
+2025-06-01 07:28:35,878 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad 10th
+2025-06-01 07:28:36,159 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:28:39,335 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1299.0
+2025-06-01 07:28:39,336 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 10th - 64GB - WiFi - RM1299.0
+2025-06-01 07:28:39,337 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 10th - 64GB - WiFi + Cellular - RM1899.0
+2025-06-01 07:28:39,338 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:28:42,728 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1899.0
+2025-06-01 07:28:42,728 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 10th - 256GB - WiFi - RM1899.0
+2025-06-01 07:28:42,730 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 10th - 256GB - WiFi + Cellular - RM2399.0
+2025-06-01 07:28:42,731 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:28:42,731 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.5 seconds before next device...
+2025-06-01 07:28:45,187 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:28:45,187 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 42/66
+2025-06-01 07:28:45,188 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-mini-4/
+2025-06-01 07:28:45,191 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-mini-4/
+2025-06-01 07:28:55,948 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad mini 4
+2025-06-01 07:28:56,253 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 16GB
+2025-06-01 07:28:59,405 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM399.0
+2025-06-01 07:28:59,406 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 4 - 16GB - WiFi - RM399.0
+2025-06-01 07:28:59,407 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 4 - 16GB - WiFi + Cellular - RM449.0
+2025-06-01 07:28:59,408 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 32GB
+2025-06-01 07:29:02,854 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM449.0
+2025-06-01 07:29:02,855 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 4 - 32GB - WiFi - RM449.0
+2025-06-01 07:29:02,855 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 4 - 32GB - WiFi + Cellular - RM499.0
+2025-06-01 07:29:02,856 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:29:06,040 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM499.0
+2025-06-01 07:29:06,041 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 4 - 64GB - WiFi - RM499.0
+2025-06-01 07:29:06,042 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 4 - 64GB - WiFi + Cellular - RM549.0
+2025-06-01 07:29:06,043 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:29:09,479 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM549.0
+2025-06-01 07:29:09,482 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 4 - 128GB - WiFi - RM549.0
+2025-06-01 07:29:09,615 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 4 - 128GB - WiFi + Cellular - RM599.0
+2025-06-01 07:29:09,615 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 8 new entries
+2025-06-01 07:29:09,616 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.5 seconds before next device...
+2025-06-01 07:29:13,156 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:29:13,157 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 43/66
+2025-06-01 07:29:13,157 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/cat/used-iphone/
+2025-06-01 07:29:13,165 - scraper_manager - INFO - [MY_SO_Source2.py] Skipping Mac device
+2025-06-01 07:29:13,185 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:29:13,186 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 44/66
+2025-06-01 07:29:13,187 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-air-3rd/
+2025-06-01 07:29:13,188 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-air-3rd/
+2025-06-01 07:29:22,985 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Air 3rd
+2025-06-01 07:29:23,251 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:29:26,442 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM749.0
+2025-06-01 07:29:26,444 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 3rd - 64GB - WiFi - RM699.0
+2025-06-01 07:29:26,444 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 3rd - 64GB - WiFi + Cellular - RM749.0
+2025-06-01 07:29:26,445 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:29:29,673 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM849.0
+2025-06-01 07:29:29,674 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 3rd - 256GB - WiFi - RM799.0
+2025-06-01 07:29:29,675 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 3rd - 256GB - WiFi + Cellular - RM849.0
+2025-06-01 07:29:29,789 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:29:29,790 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.1 seconds before next device...
+2025-06-01 07:29:31,838 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:29:31,839 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 45/66
+2025-06-01 07:29:31,840 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-13-pro/
+2025-06-01 07:29:31,841 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-13-pro/
+2025-06-01 07:29:44,949 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 13 Pro
+2025-06-01 07:29:45,369 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:29:48,504 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 Pro - 128GB - RM2059.0
+2025-06-01 07:29:48,505 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:29:51,743 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 Pro - 256GB - RM2259.0
+2025-06-01 07:29:51,744 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:29:54,920 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 Pro - 512GB - RM2459.0
+2025-06-01 07:29:54,920 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:29:58,088 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 13 Pro - 1TB - RM2659.0
+2025-06-01 07:29:58,159 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:29:58,160 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.6 seconds before next device...
+2025-06-01 07:30:00,715 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:30:00,716 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 46/66
+2025-06-01 07:30:00,717 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-9th/
+2025-06-01 07:30:00,718 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-9th/
+2025-06-01 07:30:06,668 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad 9th
+2025-06-01 07:30:06,944 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:30:10,116 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM899.0
+2025-06-01 07:30:10,118 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 9th - 64GB - WiFi - RM899.0
+2025-06-01 07:30:10,118 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 9th - 64GB - WiFi + Cellular - RM1299.0
+2025-06-01 07:30:10,119 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:30:13,282 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1299.0
+2025-06-01 07:30:13,283 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 9th - 256GB - WiFi - RM1299.0
+2025-06-01 07:30:13,283 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad 9th - 256GB - WiFi + Cellular - RM1799.0
+2025-06-01 07:30:13,400 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:30:13,401 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.1 seconds before next device...
+2025-06-01 07:30:15,530 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:30:15,531 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 47/66
+2025-06-01 07:30:15,542 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-11-pro-max/
+2025-06-01 07:30:15,546 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-11-pro-max/
+2025-06-01 07:30:26,624 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 11 Pro Max
+2025-06-01 07:30:26,895 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:30:30,187 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 11 Pro Max - 64GB - RM1249.0
+2025-06-01 07:30:30,188 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:30:33,556 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 11 Pro Max - 256GB - RM1449.0
+2025-06-01 07:30:33,557 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:30:36,696 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 11 Pro Max - 512GB - RM1649.0
+2025-06-01 07:30:36,813 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:30:36,815 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.0 seconds before next device...
+2025-06-01 07:30:39,837 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:30:39,838 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 48/66
+2025-06-01 07:30:39,838 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-14-plus/
+2025-06-01 07:30:39,839 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-14-plus/
+2025-06-01 07:30:51,250 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 14 Plus
+2025-06-01 07:30:51,542 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:30:54,610 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 Plus - 128GB - RM2299.0
+2025-06-01 07:30:54,612 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:30:57,750 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 Plus - 256GB - RM2499.0
+2025-06-01 07:30:57,751 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:31:00,908 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 14 Plus - 512GB - RM2699.0
+2025-06-01 07:31:01,072 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:31:01,073 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.8 seconds before next device...
+2025-06-01 07:31:04,903 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:31:04,904 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 49/66
+2025-06-01 07:31:04,904 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-15-pro/
+2025-06-01 07:31:04,905 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-15-pro/
+2025-06-01 07:31:18,385 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 15 Pro
+2025-06-01 07:31:18,780 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:31:21,871 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 Pro - 128GB - RM3599.0
+2025-06-01 07:31:21,871 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:31:24,974 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 Pro - 256GB - RM3899.0
+2025-06-01 07:31:24,975 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:31:28,140 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 Pro - 512GB - RM4199.0
+2025-06-01 07:31:28,141 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:31:31,385 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 15 Pro - 1TB - RM4499.0
+2025-06-01 07:31:31,720 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:31:31,721 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.4 seconds before next device...
+2025-06-01 07:31:35,070 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:31:35,071 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 50/66
+2025-06-01 07:31:35,071 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-97-inch/
+2025-06-01 07:31:35,072 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-97-inch/
+2025-06-01 07:31:45,731 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro (9.7-inch)
+2025-06-01 07:31:45,996 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 32GB
+2025-06-01 07:31:49,223 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM649.0
+2025-06-01 07:31:49,224 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro (9.7-inch) - 32GB - WiFi - RM599.0
+2025-06-01 07:31:49,225 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro (9.7-inch) - 32GB - WiFi + Cellular - RM649.0
+2025-06-01 07:31:49,226 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:31:52,454 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM749.0
+2025-06-01 07:31:52,454 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro (9.7-inch) - 128GB - WiFi - RM699.0
+2025-06-01 07:31:52,455 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro (9.7-inch) - 128GB - WiFi + Cellular - RM749.0
+2025-06-01 07:31:52,541 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:31:52,542 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.8 seconds before next device...
+2025-06-01 07:31:56,353 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:31:56,354 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 51/66
+2025-06-01 07:31:56,355 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/cat/used-iphone-13/
+2025-06-01 07:31:56,355 - scraper_manager - INFO - [MY_SO_Source2.py] Skipping Mac device
+2025-06-01 07:31:56,372 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:31:56,373 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 52/66
+2025-06-01 07:31:56,374 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-105-inch/
+2025-06-01 07:31:56,374 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-105-inch/
+2025-06-01 07:32:06,400 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro (10.5-inch)
+2025-06-01 07:32:06,640 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:32:09,796 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM899.0
+2025-06-01 07:32:09,797 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro (10.5-inch) - 64GB - WiFi - RM799.0
+2025-06-01 07:32:09,798 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro (10.5-inch) - 64GB - WiFi + Cellular - RM899.0
+2025-06-01 07:32:09,921 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 2 new entries
+2025-06-01 07:32:09,921 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.3 seconds before next device...
+2025-06-01 07:32:12,249 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:32:12,250 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 53/66
+2025-06-01 07:32:12,250 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-129-4th/
+2025-06-01 07:32:12,251 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-129-4th/
+2025-06-01 07:32:23,536 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro 12.9 4th
+2025-06-01 07:32:23,811 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:32:26,974 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2399.0
+2025-06-01 07:32:26,975 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 4th - 128GB - WiFi - RM2399.0
+2025-06-01 07:32:26,976 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 4th - 128GB - WiFi + Cellular - RM2599.0
+2025-06-01 07:32:26,978 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:32:30,169 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2799.0
+2025-06-01 07:32:30,170 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 4th - 256GB - WiFi - RM2799.0
+2025-06-01 07:32:30,171 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 4th - 256GB - WiFi + Cellular - RM2999.0
+2025-06-01 07:32:30,172 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:32:33,429 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3199.0
+2025-06-01 07:32:33,430 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 4th - 512GB - WiFi - RM3199.0
+2025-06-01 07:32:33,431 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 4th - 512GB - WiFi + Cellular - RM3399.0
+2025-06-01 07:32:33,432 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:32:36,589 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3599.0
+2025-06-01 07:32:36,590 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 4th - 1TB - WiFi - RM3599.0
+2025-06-01 07:32:36,590 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 12.9 4th - 1TB - WiFi + Cellular - RM3799.0
+2025-06-01 07:32:36,668 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 8 new entries
+2025-06-01 07:32:36,669 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.1 seconds before next device...
+2025-06-01 07:32:38,719 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:32:38,720 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 54/66
+2025-06-01 07:32:38,721 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-mini-6th/
+2025-06-01 07:32:38,737 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-mini-6th/
+2025-06-01 07:32:49,312 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad mini 6th
+2025-06-01 07:32:49,564 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:32:52,739 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1899.0
+2025-06-01 07:32:52,740 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 6th - 64GB - WiFi - RM1599.0
+2025-06-01 07:32:52,741 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 6th - 64GB - WiFi + Cellular - RM1899.0
+2025-06-01 07:32:52,742 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:32:55,982 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2299.0
+2025-06-01 07:32:55,983 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 6th - 256GB - WiFi - RM1899.0
+2025-06-01 07:32:55,984 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad mini 6th - 256GB - WiFi + Cellular - RM2299.0
+2025-06-01 07:32:56,152 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 4 new entries
+2025-06-01 07:32:56,187 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.4 seconds before next device...
+2025-06-01 07:32:58,552 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:32:58,553 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 55/66
+2025-06-01 07:32:58,554 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-11-2nd/
+2025-06-01 07:32:58,554 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-11-2nd/
+2025-06-01 07:33:09,170 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro 11 2nd
+2025-06-01 07:33:09,483 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:33:12,722 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM1899.0
+2025-06-01 07:33:12,723 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 2nd - 128GB - WiFi - RM1899.0
+2025-06-01 07:33:12,725 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 2nd - 128GB - WiFi + Cellular - RM2199.0
+2025-06-01 07:33:12,726 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:33:15,971 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2199.0
+2025-06-01 07:33:15,972 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 2nd - 256GB - WiFi - RM2199.0
+2025-06-01 07:33:15,973 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 2nd - 256GB - WiFi + Cellular - RM2499.0
+2025-06-01 07:33:15,975 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:33:19,159 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2599.0
+2025-06-01 07:33:19,160 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 2nd - 512GB - WiFi - RM2599.0
+2025-06-01 07:33:19,161 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 2nd - 512GB - WiFi + Cellular - RM2999.0
+2025-06-01 07:33:19,162 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:33:22,491 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3399.0
+2025-06-01 07:33:22,492 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 2nd - 1TB - WiFi - RM3399.0
+2025-06-01 07:33:22,493 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 2nd - 1TB - WiFi + Cellular - RM3699.0
+2025-06-01 07:33:22,696 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 8 new entries
+2025-06-01 07:33:22,697 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.6 seconds before next device...
+2025-06-01 07:33:26,194 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:33:26,195 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 56/66
+2025-06-01 07:33:26,198 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-apple-watch/
+2025-06-01 07:33:26,298 - scraper_manager - INFO - [MY_SO_Source2.py] Skipping Mac device
+2025-06-01 07:33:26,299 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:33:26,300 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 57/66
+2025-06-01 07:33:26,301 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/cat/used-iphone-11/
+2025-06-01 07:33:26,301 - scraper_manager - INFO - [MY_SO_Source2.py] Skipping Mac device
+2025-06-01 07:33:26,303 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:33:26,303 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 58/66
+2025-06-01 07:33:26,304 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-11-inch-m4/
+2025-06-01 07:33:26,305 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-11-inch-m4/
+2025-06-01 07:33:36,978 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro 11-inch (M4)
+2025-06-01 07:33:37,280 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:33:40,660 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3999.0
+2025-06-01 07:33:40,662 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11-inch (M4) - 256GB - WiFi - RM3299.0
+2025-06-01 07:33:40,662 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11-inch (M4) - 256GB - WiFi + Cellular - RM3999.0
+2025-06-01 07:33:40,664 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:33:43,918 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM4699.0
+2025-06-01 07:33:43,919 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11-inch (M4) - 512GB - WiFi - RM3999.0
+2025-06-01 07:33:43,920 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11-inch (M4) - 512GB - WiFi + Cellular - RM4699.0
+2025-06-01 07:33:43,921 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:33:47,097 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM6199.0
+2025-06-01 07:33:47,098 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11-inch (M4) - 1TB - WiFi - RM5499.0
+2025-06-01 07:33:47,099 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11-inch (M4) - 1TB - WiFi + Cellular - RM6199.0
+2025-06-01 07:33:47,100 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 2TB
+2025-06-01 07:33:50,255 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM7699.0
+2025-06-01 07:33:50,256 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11-inch (M4) - 2TB - WiFi - RM6899.0
+2025-06-01 07:33:50,258 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11-inch (M4) - 2TB - WiFi + Cellular - RM7699.0
+2025-06-01 07:33:50,448 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 8 new entries
+2025-06-01 07:33:50,449 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.4 seconds before next device...
+2025-06-01 07:33:53,857 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:33:53,858 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 59/66
+2025-06-01 07:33:53,859 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-apple-watch-series-7/
+2025-06-01 07:33:53,860 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-apple-watch-series-7/
+2025-06-01 07:34:04,371 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used Apple Watch Series 7
+2025-06-01 07:34:04,619 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM659.0
+2025-06-01 07:34:04,624 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used Apple Watch Series 7 - RM659.0
+2025-06-01 07:34:04,782 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 1 new entries
+2025-06-01 07:34:04,783 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.6 seconds before next device...
+2025-06-01 07:34:07,394 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:34:07,394 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 60/66
+2025-06-01 07:34:07,395 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-11-3rd/
+2025-06-01 07:34:07,396 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-11-3rd/
+2025-06-01 07:34:18,805 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro 11 3rd
+2025-06-01 07:34:19,153 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:34:22,528 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2699.0
+2025-06-01 07:34:22,529 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 3rd - 128GB - WiFi - RM2399.0
+2025-06-01 07:34:22,530 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 3rd - 128GB - WiFi + Cellular - RM2699.0
+2025-06-01 07:34:22,531 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:34:25,982 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM2999.0
+2025-06-01 07:34:25,983 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 3rd - 256GB - WiFi - RM2699.0
+2025-06-01 07:34:25,984 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 3rd - 256GB - WiFi + Cellular - RM2999.0
+2025-06-01 07:34:25,985 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:34:29,261 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3399.0
+2025-06-01 07:34:29,262 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 3rd - 512GB - WiFi - RM2999.0
+2025-06-01 07:34:29,264 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 3rd - 512GB - WiFi + Cellular - RM3399.0
+2025-06-01 07:34:29,266 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:34:32,510 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM3499.0
+2025-06-01 07:34:32,511 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 3rd - 1TB - WiFi - RM3399.0
+2025-06-01 07:34:32,512 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 3rd - 1TB - WiFi + Cellular - RM3499.0
+2025-06-01 07:34:32,513 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 2TB
+2025-06-01 07:34:35,676 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM4499.0
+2025-06-01 07:34:35,677 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 3rd - 2TB - WiFi - RM4399.0
+2025-06-01 07:34:35,678 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 11 3rd - 2TB - WiFi + Cellular - RM4499.0
+2025-06-01 07:34:35,810 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 10 new entries
+2025-06-01 07:34:35,813 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.3 seconds before next device...
+2025-06-01 07:34:39,058 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:34:39,058 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 61/66
+2025-06-01 07:34:39,059 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/cat/used-imac/
+2025-06-01 07:34:39,066 - scraper_manager - INFO - [MY_SO_Source2.py] Skipping Mac device
+2025-06-01 07:34:39,070 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:34:39,081 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 62/66
+2025-06-01 07:34:39,082 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-pro-13-inch-m4/
+2025-06-01 07:34:39,083 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-pro-13-inch-m4/
+2025-06-01 07:34:50,191 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Pro 13-inch (M4)
+2025-06-01 07:34:50,488 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:34:53,770 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM5199.0
+2025-06-01 07:34:53,771 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 13-inch (M4) - 256GB - WiFi - RM4499.0
+2025-06-01 07:34:53,773 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 13-inch (M4) - 256GB - WiFi + Cellular - RM5199.0
+2025-06-01 07:34:53,773 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:34:56,994 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM5899.0
+2025-06-01 07:34:56,995 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 13-inch (M4) - 512GB - WiFi - RM5199.0
+2025-06-01 07:34:56,996 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 13-inch (M4) - 512GB - WiFi + Cellular - RM5899.0
+2025-06-01 07:34:57,003 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 1TB
+2025-06-01 07:35:00,385 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM7399.0
+2025-06-01 07:35:00,386 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 13-inch (M4) - 1TB - WiFi - RM6599.0
+2025-06-01 07:35:00,387 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 13-inch (M4) - 1TB - WiFi + Cellular - RM7399.0
+2025-06-01 07:35:00,388 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 2TB
+2025-06-01 07:35:03,665 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM8799.0
+2025-06-01 07:35:03,666 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 13-inch (M4) - 2TB - WiFi - RM8099.0
+2025-06-01 07:35:03,667 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Pro 13-inch (M4) - 2TB - WiFi + Cellular - RM8799.0
+2025-06-01 07:35:03,864 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 8 new entries
+2025-06-01 07:35:03,865 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.2 seconds before next device...
+2025-06-01 07:35:06,070 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:35:06,071 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 63/66
+2025-06-01 07:35:06,071 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/cat/used-iphone-12/
+2025-06-01 07:35:06,072 - scraper_manager - INFO - [MY_SO_Source2.py] Skipping Mac device
+2025-06-01 07:35:06,072 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:35:06,073 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 64/66
+2025-06-01 07:35:06,073 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-ipad-air-2/
+2025-06-01 07:35:06,074 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-ipad-air-2/
+2025-06-01 07:35:17,189 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPad Air 2
+2025-06-01 07:35:17,459 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 16GB
+2025-06-01 07:35:20,635 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM349.0
+2025-06-01 07:35:20,636 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 2 - 16GB - WiFi - RM349.0
+2025-06-01 07:35:20,637 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 2 - 16GB - WiFi + Cellular - RM349.0
+2025-06-01 07:35:20,638 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 32GB
+2025-06-01 07:35:23,788 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM399.0
+2025-06-01 07:35:23,790 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 2 - 32GB - WiFi - RM399.0
+2025-06-01 07:35:23,791 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 2 - 32GB - WiFi + Cellular - RM399.0
+2025-06-01 07:35:23,792 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:35:26,964 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM499.0
+2025-06-01 07:35:26,964 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 2 - 64GB - WiFi - RM499.0
+2025-06-01 07:35:26,965 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 2 - 64GB - WiFi + Cellular - RM499.0
+2025-06-01 07:35:26,966 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:35:30,131 - scraper_manager - INFO - [MY_SO_Source2.py] Found price in text: RM549.0
+2025-06-01 07:35:30,133 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 2 - 128GB - WiFi - RM549.0
+2025-06-01 07:35:30,134 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPad Air 2 - 128GB - WiFi + Cellular - RM549.0
+2025-06-01 07:35:30,369 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 8 new entries
+2025-06-01 07:35:30,370 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.4 seconds before next device...
+2025-06-01 07:35:33,747 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:35:33,748 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 65/66
+2025-06-01 07:35:33,751 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-11-pro/
+2025-06-01 07:35:33,762 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-11-pro/
+2025-06-01 07:35:44,671 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 11 Pro
+2025-06-01 07:35:45,016 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 64GB
+2025-06-01 07:35:48,079 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 11 Pro - 64GB - RM1199.0
+2025-06-01 07:35:48,080 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:35:51,234 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 11 Pro - 256GB - RM1299.0
+2025-06-01 07:35:51,235 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:35:54,379 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 11 Pro - 512GB - RM1399.0
+2025-06-01 07:35:54,461 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:35:54,462 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 3.9 seconds before next device...
+2025-06-01 07:35:58,321 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:35:58,322 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device 66/66
+2025-06-01 07:35:58,322 - scraper_manager - INFO - [MY_SO_Source2.py] URL: https://3cat.my/used-iphone-12-pro/
+2025-06-01 07:35:58,323 - scraper_manager - INFO - [MY_SO_Source2.py] Navigating to: https://3cat.my/used-iphone-12-pro/
+2025-06-01 07:36:09,602 - scraper_manager - INFO - [MY_SO_Source2.py] Processing device: Used iPhone 12 Pro
+2025-06-01 07:36:09,945 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 128GB
+2025-06-01 07:36:13,453 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 12 Pro - 128GB - RM1559.0
+2025-06-01 07:36:13,454 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 256GB
+2025-06-01 07:36:16,600 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 12 Pro - 256GB - RM1659.0
+2025-06-01 07:36:16,601 - scraper_manager - INFO - [MY_SO_Source2.py] Clicking on storage: 512GB
+2025-06-01 07:36:19,775 - scraper_manager - INFO - [MY_SO_Source2.py] Extracted: Used iPhone 12 Pro - 512GB - RM1859.0
+2025-06-01 07:36:19,866 - scraper_manager - INFO - [MY_SO_Source2.py] Updated Excel file with 3 new entries
+2025-06-01 07:36:19,867 - scraper_manager - INFO - [MY_SO_Source2.py] Waiting 2.5 seconds before next device...
+2025-06-01 07:36:22,491 - scraper_manager - INFO - [MY_SO_Source2.py] Final data saved to C:\projects\TradeBot\scripts\Malaysia\output\MY_SO_Source2.xlsx
+2025-06-01 07:36:22,491 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:36:22,492 - scraper_manager - INFO - [MY_SO_Source2.py] Data Summary:
+2025-06-01 07:36:22,492 - scraper_manager - INFO - [MY_SO_Source2.py] Total devices: 52
+2025-06-01 07:36:22,493 - scraper_manager - INFO - [MY_SO_Source2.py] Total entries: 240
+2025-06-01 07:36:22,502 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:36:22,555 - scraper_manager - INFO - [MY_SO_Source2.py] Device Type Summary:
+2025-06-01 07:36:22,559 - scraper_manager - INFO - [MY_SO_Source2.py] Tablet: 168
+2025-06-01 07:36:22,560 - scraper_manager - INFO - [MY_SO_Source2.py] SmartPhone: 69
+2025-06-01 07:36:22,563 - scraper_manager - INFO - [MY_SO_Source2.py] SmartWatch: 3
+2025-06-01 07:36:22,564 - scraper_manager - INFO - [MY_SO_Source2.py] 
+2025-06-01 07:36:22,564 - scraper_manager - INFO - [MY_SO_Source2.py] Brand Summary:
+2025-06-01 07:36:22,565 - scraper_manager - INFO - [MY_SO_Source2.py] Apple: 236
+2025-06-01 07:36:22,565 - scraper_manager - INFO - [MY_SO_Source2.py] Unknown: 4
+2025-06-01 07:36:26,693 - scraper_manager - INFO - [MY_SO_Source2.py] Driver closed
+2025-06-01 07:36:26,859 - scraper_manager - INFO - Runtime for MY_SO_Source2.py: 29.11 minutes
+2025-06-01 07:36:26,861 - scraper_manager - INFO - Successfully completed MY_SO_Source2.py

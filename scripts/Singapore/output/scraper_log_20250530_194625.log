@@ -1,0 +1,910 @@
+2025-05-30 19:46:25,252 - scraper_manager - INFO - Starting batch scraping job at 2025-05-30 19:46:25.251965
+2025-05-30 19:46:26,199 - scraper_manager - INFO - Starting periodic file combination every 10 minutes
+2025-05-30 19:46:26,199 - scraper_manager - INFO - Started periodic file combination thread with interval 10 minutes
+2025-05-30 19:46:26,199 - scraper_manager - INFO - Starting batch 1 of scrapers
+2025-05-30 19:46:26,204 - scraper_manager - INFO - Started process for SG_RV_Source1.py in batch 1
+2025-05-30 19:46:26,209 - scraper_manager - INFO - Started process for SG_RV_Source2.py in batch 1
+2025-05-30 19:46:26,217 - scraper_manager - INFO - Started process for SG_RV_Source3.py in batch 1
+2025-05-30 19:46:26,225 - scraper_manager - INFO - Started process for SG_RV_Source4.py in batch 1
+2025-05-30 19:46:26,232 - scraper_manager - INFO - Started process for SG_RV_Source5.py in batch 1
+2025-05-30 19:56:26,336 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-30 19:56:27,850 - scraper_manager - INFO - Periodic update: Read 13 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 19:56:28,088 - scraper_manager - INFO - Periodic update: Read 9 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 19:56:29,236 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 19:56:29,460 - scraper_manager - INFO - Periodic update: Read 7 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 19:56:30,010 - scraper_manager - INFO - Periodic update: Saved 304 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_195626_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 19:56:30,017 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 20:06:30,027 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-30 20:06:30,301 - scraper_manager - INFO - Periodic update: Read 30 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 20:06:30,702 - scraper_manager - INFO - Periodic update: Read 20 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 20:06:31,218 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 20:06:31,552 - scraper_manager - INFO - Periodic update: Read 17 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 20:06:32,682 - scraper_manager - INFO - Periodic update: Saved 342 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_200630_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 20:06:33,151 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_195626_Combined_Trade_In_Values.xlsx
+2025-05-30 20:06:33,618 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 20:16:33,613 - scraper_manager - INFO - Periodic update: Found 4 Excel files to combine
+2025-05-30 20:16:34,173 - scraper_manager - INFO - Periodic update: Read 45 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 20:16:34,389 - scraper_manager - INFO - Periodic update: Read 31 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 20:16:34,991 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 20:16:35,154 - scraper_manager - INFO - Periodic update: Read 27 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 20:16:36,389 - scraper_manager - INFO - Periodic update: Saved 378 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_201633_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 20:16:36,397 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_200630_Combined_Trade_In_Values.xlsx
+2025-05-30 20:16:36,661 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 20:26:36,673 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 20:26:36,874 - scraper_manager - INFO - Periodic update: Read 63 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 20:26:37,192 - scraper_manager - INFO - Periodic update: Read 277 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 20:26:37,347 - scraper_manager - INFO - Periodic update: Read 43 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 20:26:37,667 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 20:26:37,866 - scraper_manager - INFO - Periodic update: Read 36 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 20:26:39,428 - scraper_manager - INFO - Periodic update: Saved 694 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_202636_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 20:26:39,475 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_201633_Combined_Trade_In_Values.xlsx
+2025-05-30 20:26:39,684 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 20:36:39,714 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 20:36:39,914 - scraper_manager - INFO - Periodic update: Read 80 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 20:36:40,349 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 20:36:40,540 - scraper_manager - INFO - Periodic update: Read 55 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 20:36:40,742 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 20:36:40,933 - scraper_manager - INFO - Periodic update: Read 46 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 20:36:43,670 - scraper_manager - INFO - Periodic update: Saved 894 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_203639_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 20:36:43,676 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_202636_Combined_Trade_In_Values.xlsx
+2025-05-30 20:36:43,793 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 20:46:43,797 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 20:46:43,996 - scraper_manager - INFO - Periodic update: Read 102 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 20:46:44,313 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 20:46:44,573 - scraper_manager - INFO - Periodic update: Read 71 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 20:46:45,102 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 20:46:45,301 - scraper_manager - INFO - Periodic update: Read 59 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 20:46:46,957 - scraper_manager - INFO - Periodic update: Saved 945 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_204643_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 20:46:46,958 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_203639_Combined_Trade_In_Values.xlsx
+2025-05-30 20:46:46,959 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 20:56:46,960 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 20:56:47,042 - scraper_manager - INFO - Periodic update: Read 125 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 20:56:47,537 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 20:56:47,912 - scraper_manager - INFO - Periodic update: Read 86 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 20:56:48,038 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 20:56:48,470 - scraper_manager - INFO - Periodic update: Read 72 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 20:56:49,426 - scraper_manager - INFO - Periodic update: Saved 996 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_205646_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 20:56:49,428 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_204643_Combined_Trade_In_Values.xlsx
+2025-05-30 20:56:49,428 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 21:06:49,436 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 21:06:49,550 - scraper_manager - INFO - Periodic update: Read 147 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 21:06:49,764 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 21:06:49,896 - scraper_manager - INFO - Periodic update: Read 102 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 21:06:50,423 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 21:06:50,578 - scraper_manager - INFO - Periodic update: Read 84 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 21:06:51,595 - scraper_manager - INFO - Periodic update: Saved 1046 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_210649_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 21:06:51,597 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_205646_Combined_Trade_In_Values.xlsx
+2025-05-30 21:06:51,598 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 21:16:51,600 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 21:16:51,747 - scraper_manager - INFO - Periodic update: Read 170 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 21:16:52,038 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 21:16:52,361 - scraper_manager - INFO - Periodic update: Read 117 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 21:16:52,643 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 21:16:52,811 - scraper_manager - INFO - Periodic update: Read 97 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 21:16:53,830 - scraper_manager - INFO - Periodic update: Saved 1097 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_211651_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 21:16:53,831 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_210649_Combined_Trade_In_Values.xlsx
+2025-05-30 21:16:53,832 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 21:26:53,835 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 21:26:53,969 - scraper_manager - INFO - Periodic update: Read 193 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 21:26:54,151 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 21:26:54,295 - scraper_manager - INFO - Periodic update: Read 133 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 21:26:54,455 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 21:26:54,678 - scraper_manager - INFO - Periodic update: Read 110 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 21:26:55,931 - scraper_manager - INFO - Periodic update: Saved 1149 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_212653_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 21:26:55,933 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_211651_Combined_Trade_In_Values.xlsx
+2025-05-30 21:26:55,934 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 21:36:55,963 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 21:36:56,229 - scraper_manager - INFO - Periodic update: Read 215 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 21:36:56,681 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 21:36:56,895 - scraper_manager - INFO - Periodic update: Read 149 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 21:36:57,163 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 21:36:57,294 - scraper_manager - INFO - Periodic update: Read 123 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 21:36:58,732 - scraper_manager - INFO - Periodic update: Saved 1200 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_213655_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 21:36:58,734 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_212653_Combined_Trade_In_Values.xlsx
+2025-05-30 21:36:58,735 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 21:46:58,742 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 21:46:58,884 - scraper_manager - INFO - Periodic update: Read 238 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 21:46:59,092 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 21:46:59,245 - scraper_manager - INFO - Periodic update: Read 165 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 21:46:59,535 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 21:46:59,762 - scraper_manager - INFO - Periodic update: Read 136 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 21:47:02,362 - scraper_manager - INFO - Periodic update: Saved 1252 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_214658_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 21:47:02,691 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_213655_Combined_Trade_In_Values.xlsx
+2025-05-30 21:47:02,852 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 21:57:02,867 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 21:57:03,063 - scraper_manager - INFO - Periodic update: Read 260 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 21:57:03,290 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 21:57:03,460 - scraper_manager - INFO - Periodic update: Read 180 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 21:57:03,637 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 21:57:03,789 - scraper_manager - INFO - Periodic update: Read 149 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 21:57:04,918 - scraper_manager - INFO - Periodic update: Saved 1302 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_215702_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 21:57:05,128 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_214658_Combined_Trade_In_Values.xlsx
+2025-05-30 21:57:05,130 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 22:07:05,213 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 22:07:05,780 - scraper_manager - INFO - Periodic update: Read 282 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 22:07:06,418 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 22:07:06,664 - scraper_manager - INFO - Periodic update: Read 196 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 22:07:06,947 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 22:07:07,482 - scraper_manager - INFO - Periodic update: Read 162 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 22:07:09,444 - scraper_manager - INFO - Periodic update: Saved 1353 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_220705_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 22:07:09,452 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_215702_Combined_Trade_In_Values.xlsx
+2025-05-30 22:07:09,457 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 22:17:09,555 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 22:17:09,959 - scraper_manager - INFO - Periodic update: Read 305 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 22:17:10,335 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 22:17:11,002 - scraper_manager - INFO - Periodic update: Read 212 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 22:17:11,279 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 22:17:11,528 - scraper_manager - INFO - Periodic update: Read 175 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 22:17:14,791 - scraper_manager - INFO - Periodic update: Saved 1405 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_221709_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 22:17:14,798 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_220705_Combined_Trade_In_Values.xlsx
+2025-05-30 22:17:14,801 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 22:27:14,928 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 22:27:15,095 - scraper_manager - INFO - Periodic update: Read 327 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 22:27:15,294 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 22:27:15,447 - scraper_manager - INFO - Periodic update: Read 227 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 22:27:15,610 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 22:27:15,793 - scraper_manager - INFO - Periodic update: Read 187 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 22:27:17,508 - scraper_manager - INFO - Periodic update: Saved 1454 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_222714_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 22:27:17,510 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_221709_Combined_Trade_In_Values.xlsx
+2025-05-30 22:27:17,511 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 22:37:17,516 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 22:37:17,687 - scraper_manager - INFO - Periodic update: Read 348 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 22:37:18,044 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 22:37:18,192 - scraper_manager - INFO - Periodic update: Read 243 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 22:37:18,352 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 22:37:18,670 - scraper_manager - INFO - Periodic update: Read 200 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 22:37:19,907 - scraper_manager - INFO - Periodic update: Saved 1504 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_223717_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 22:37:19,909 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_222714_Combined_Trade_In_Values.xlsx
+2025-05-30 22:37:19,909 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 22:47:20,022 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 22:47:20,325 - scraper_manager - INFO - Periodic update: Read 370 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 22:47:20,769 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 22:47:20,948 - scraper_manager - INFO - Periodic update: Read 258 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 22:47:21,120 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 22:47:21,289 - scraper_manager - INFO - Periodic update: Read 213 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 22:47:23,172 - scraper_manager - INFO - Periodic update: Saved 1554 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_224720_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 22:47:23,174 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_223717_Combined_Trade_In_Values.xlsx
+2025-05-30 22:47:23,176 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 22:57:23,179 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 22:57:23,380 - scraper_manager - INFO - Periodic update: Read 392 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 22:57:23,585 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 22:57:23,813 - scraper_manager - INFO - Periodic update: Read 274 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 22:57:23,988 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 22:57:24,325 - scraper_manager - INFO - Periodic update: Read 225 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 22:57:25,979 - scraper_manager - INFO - Periodic update: Saved 1604 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_225723_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 22:57:25,981 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_224720_Combined_Trade_In_Values.xlsx
+2025-05-30 22:57:25,982 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 23:07:25,989 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 23:07:26,154 - scraper_manager - INFO - Periodic update: Read 414 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 23:07:26,340 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 23:07:26,990 - scraper_manager - INFO - Periodic update: Read 289 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 23:07:27,410 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 23:07:27,669 - scraper_manager - INFO - Periodic update: Read 238 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 23:07:30,574 - scraper_manager - INFO - Periodic update: Saved 1654 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_230725_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 23:07:30,577 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_225723_Combined_Trade_In_Values.xlsx
+2025-05-30 23:07:30,578 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 23:17:30,582 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 23:17:30,781 - scraper_manager - INFO - Periodic update: Read 435 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 23:17:30,951 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 23:17:31,139 - scraper_manager - INFO - Periodic update: Read 305 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 23:17:31,368 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 23:17:31,581 - scraper_manager - INFO - Periodic update: Read 251 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 23:17:33,363 - scraper_manager - INFO - Periodic update: Saved 1704 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_231730_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 23:17:33,375 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_230725_Combined_Trade_In_Values.xlsx
+2025-05-30 23:17:33,517 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 23:27:33,522 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 23:27:33,699 - scraper_manager - INFO - Periodic update: Read 456 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 23:27:33,866 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 23:27:34,021 - scraper_manager - INFO - Periodic update: Read 319 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 23:27:34,164 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 23:27:34,336 - scraper_manager - INFO - Periodic update: Read 264 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 23:27:36,762 - scraper_manager - INFO - Periodic update: Saved 1752 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_232733_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 23:27:36,769 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_231730_Combined_Trade_In_Values.xlsx
+2025-05-30 23:27:36,771 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 23:37:36,779 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 23:37:36,959 - scraper_manager - INFO - Periodic update: Read 477 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 23:37:37,241 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 23:37:37,830 - scraper_manager - INFO - Periodic update: Read 334 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 23:37:37,991 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 23:37:38,162 - scraper_manager - INFO - Periodic update: Read 276 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 23:37:39,933 - scraper_manager - INFO - Periodic update: Saved 1800 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_233736_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 23:37:40,401 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_232733_Combined_Trade_In_Values.xlsx
+2025-05-30 23:37:40,569 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 23:47:40,804 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 23:47:41,016 - scraper_manager - INFO - Periodic update: Read 499 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 23:47:41,661 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 23:47:41,837 - scraper_manager - INFO - Periodic update: Read 349 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 23:47:41,993 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 23:47:42,178 - scraper_manager - INFO - Periodic update: Read 290 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 23:47:43,778 - scraper_manager - INFO - Periodic update: Saved 1851 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_234740_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 23:47:43,779 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_233736_Combined_Trade_In_Values.xlsx
+2025-05-30 23:47:43,780 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 23:57:43,784 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-30 23:57:43,969 - scraper_manager - INFO - Periodic update: Read 520 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-30 23:57:44,130 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-30 23:57:44,290 - scraper_manager - INFO - Periodic update: Read 364 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-30 23:57:44,445 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-30 23:57:44,612 - scraper_manager - INFO - Periodic update: Read 302 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-30 23:57:46,782 - scraper_manager - INFO - Periodic update: Saved 1899 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_235743_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-30 23:57:46,783 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_234740_Combined_Trade_In_Values.xlsx
+2025-05-30 23:57:46,784 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 00:07:46,788 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 00:07:47,010 - scraper_manager - INFO - Periodic update: Read 543 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 00:07:47,193 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 00:07:47,375 - scraper_manager - INFO - Periodic update: Read 379 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 00:07:47,547 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 00:07:47,837 - scraper_manager - INFO - Periodic update: Read 314 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 00:07:51,890 - scraper_manager - INFO - Periodic update: Saved 1949 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_000746_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 00:07:51,892 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250530_235743_Combined_Trade_In_Values.xlsx
+2025-05-31 00:07:51,893 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 00:17:51,926 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 00:17:52,154 - scraper_manager - INFO - Periodic update: Read 564 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 00:17:52,329 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 00:17:52,522 - scraper_manager - INFO - Periodic update: Read 395 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 00:17:52,680 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 00:17:53,077 - scraper_manager - INFO - Periodic update: Read 327 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 00:17:56,295 - scraper_manager - INFO - Periodic update: Saved 1999 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_001751_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 00:17:56,296 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_000746_Combined_Trade_In_Values.xlsx
+2025-05-31 00:17:56,297 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 00:27:56,299 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 00:27:56,505 - scraper_manager - INFO - Periodic update: Read 586 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 00:27:56,696 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 00:27:57,430 - scraper_manager - INFO - Periodic update: Read 409 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 00:27:57,699 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 00:27:58,022 - scraper_manager - INFO - Periodic update: Read 339 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 00:28:00,108 - scraper_manager - INFO - Periodic update: Saved 2047 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_002756_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 00:28:00,110 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_001751_Combined_Trade_In_Values.xlsx
+2025-05-31 00:28:00,111 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 00:38:00,153 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 00:38:00,526 - scraper_manager - INFO - Periodic update: Read 608 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 00:38:00,728 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 00:38:00,930 - scraper_manager - INFO - Periodic update: Read 425 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 00:38:01,324 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 00:38:01,625 - scraper_manager - INFO - Periodic update: Read 351 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 00:38:07,596 - scraper_manager - INFO - Periodic update: Saved 2097 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_003800_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 00:38:07,601 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_002756_Combined_Trade_In_Values.xlsx
+2025-05-31 00:38:07,603 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 00:48:07,615 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 00:48:07,902 - scraper_manager - INFO - Periodic update: Read 629 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 00:48:08,213 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 00:48:08,691 - scraper_manager - INFO - Periodic update: Read 440 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 00:48:09,005 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 00:48:09,388 - scraper_manager - INFO - Periodic update: Read 364 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 00:48:12,304 - scraper_manager - INFO - Periodic update: Saved 2146 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_004807_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 00:48:12,307 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_003800_Combined_Trade_In_Values.xlsx
+2025-05-31 00:48:12,309 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 00:58:12,315 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 00:58:12,575 - scraper_manager - INFO - Periodic update: Read 652 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 00:58:13,054 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 00:58:13,522 - scraper_manager - INFO - Periodic update: Read 455 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 00:58:13,799 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 00:58:14,351 - scraper_manager - INFO - Periodic update: Read 376 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 00:58:16,554 - scraper_manager - INFO - Periodic update: Saved 2196 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_005812_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 00:58:16,555 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_004807_Combined_Trade_In_Values.xlsx
+2025-05-31 00:58:16,556 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 01:08:16,829 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 01:08:17,512 - scraper_manager - INFO - Periodic update: Read 674 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 01:08:17,792 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 01:08:18,077 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 01:08:18,271 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 01:08:18,468 - scraper_manager - INFO - Periodic update: Read 389 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 01:08:23,519 - scraper_manager - INFO - Periodic update: Saved 2247 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_010816_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 01:08:23,525 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_005812_Combined_Trade_In_Values.xlsx
+2025-05-31 01:08:23,528 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 01:18:23,682 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 01:18:24,434 - scraper_manager - INFO - Periodic update: Read 696 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 01:18:24,710 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 01:18:24,947 - scraper_manager - INFO - Periodic update: Read 486 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 01:18:25,112 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 01:18:25,321 - scraper_manager - INFO - Periodic update: Read 402 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 01:18:28,374 - scraper_manager - INFO - Periodic update: Saved 2297 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_011823_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 01:18:28,376 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_010816_Combined_Trade_In_Values.xlsx
+2025-05-31 01:18:28,377 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 01:28:28,404 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 01:28:29,005 - scraper_manager - INFO - Periodic update: Read 718 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 01:28:29,204 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 01:28:29,683 - scraper_manager - INFO - Periodic update: Read 501 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 01:28:29,826 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 01:28:30,143 - scraper_manager - INFO - Periodic update: Read 414 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 01:28:32,116 - scraper_manager - INFO - Periodic update: Saved 2346 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_012828_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 01:28:32,118 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_011823_Combined_Trade_In_Values.xlsx
+2025-05-31 01:28:32,119 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 01:38:32,134 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 01:38:32,464 - scraper_manager - INFO - Periodic update: Read 740 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 01:38:33,032 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 01:38:33,324 - scraper_manager - INFO - Periodic update: Read 516 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 01:38:33,525 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 01:38:33,965 - scraper_manager - INFO - Periodic update: Read 426 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 01:38:35,768 - scraper_manager - INFO - Periodic update: Saved 2395 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_013832_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 01:38:35,779 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_012828_Combined_Trade_In_Values.xlsx
+2025-05-31 01:38:35,781 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 01:48:35,786 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 01:48:36,207 - scraper_manager - INFO - Periodic update: Read 762 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 01:48:36,974 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 01:48:37,264 - scraper_manager - INFO - Periodic update: Read 532 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 01:48:37,593 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 01:48:37,864 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 01:48:40,934 - scraper_manager - INFO - Periodic update: Saved 2445 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_014835_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 01:48:40,935 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_013832_Combined_Trade_In_Values.xlsx
+2025-05-31 01:48:40,936 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 01:58:40,939 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 01:58:41,197 - scraper_manager - INFO - Periodic update: Read 784 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 01:58:41,405 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 01:58:41,638 - scraper_manager - INFO - Periodic update: Read 547 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 01:58:41,807 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 01:58:42,051 - scraper_manager - INFO - Periodic update: Read 451 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 01:58:47,087 - scraper_manager - INFO - Periodic update: Saved 2495 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_015840_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 01:58:47,089 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_014835_Combined_Trade_In_Values.xlsx
+2025-05-31 01:58:47,090 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 02:08:47,094 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 02:08:47,983 - scraper_manager - INFO - Periodic update: Read 804 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 02:08:48,248 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 02:08:48,545 - scraper_manager - INFO - Periodic update: Read 562 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 02:08:48,734 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 02:08:48,936 - scraper_manager - INFO - Periodic update: Read 464 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 02:08:50,874 - scraper_manager - INFO - Periodic update: Saved 2543 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_020847_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 02:08:50,876 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_015840_Combined_Trade_In_Values.xlsx
+2025-05-31 02:08:50,877 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 02:18:50,883 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 02:18:51,514 - scraper_manager - INFO - Periodic update: Read 826 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 02:18:51,790 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 02:18:52,241 - scraper_manager - INFO - Periodic update: Read 577 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 02:18:52,520 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 02:18:52,878 - scraper_manager - INFO - Periodic update: Read 477 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 02:18:55,720 - scraper_manager - INFO - Periodic update: Saved 2593 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_021850_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 02:18:55,722 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_020847_Combined_Trade_In_Values.xlsx
+2025-05-31 02:18:55,723 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 02:28:55,729 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 02:28:56,266 - scraper_manager - INFO - Periodic update: Read 847 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 02:28:56,675 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 02:28:57,278 - scraper_manager - INFO - Periodic update: Read 592 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 02:28:57,461 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 02:28:57,695 - scraper_manager - INFO - Periodic update: Read 489 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 02:29:01,533 - scraper_manager - INFO - Periodic update: Saved 2641 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_022855_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 02:29:01,536 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_021850_Combined_Trade_In_Values.xlsx
+2025-05-31 02:29:01,537 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 02:39:01,543 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 02:39:02,518 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 02:39:02,890 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 02:39:03,172 - scraper_manager - INFO - Periodic update: Read 607 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 02:39:03,400 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 02:39:03,668 - scraper_manager - INFO - Periodic update: Read 501 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 02:39:06,038 - scraper_manager - INFO - Periodic update: Saved 2691 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_023901_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 02:39:06,040 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_022855_Combined_Trade_In_Values.xlsx
+2025-05-31 02:39:06,041 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 02:49:06,043 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 02:49:06,313 - scraper_manager - INFO - Periodic update: Read 891 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 02:49:06,507 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 02:49:06,779 - scraper_manager - INFO - Periodic update: Read 622 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 02:49:06,916 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 02:49:07,107 - scraper_manager - INFO - Periodic update: Read 514 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 02:49:11,607 - scraper_manager - INFO - Periodic update: Saved 2740 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_024906_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 02:49:11,610 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_023901_Combined_Trade_In_Values.xlsx
+2025-05-31 02:49:11,611 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 02:59:11,614 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 02:59:12,104 - scraper_manager - INFO - Periodic update: Read 912 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 02:59:12,437 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 02:59:13,029 - scraper_manager - INFO - Periodic update: Read 638 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 02:59:13,211 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 02:59:13,545 - scraper_manager - INFO - Periodic update: Read 527 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 02:59:16,555 - scraper_manager - INFO - Periodic update: Saved 2790 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_025911_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 02:59:16,557 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_024906_Combined_Trade_In_Values.xlsx
+2025-05-31 02:59:16,558 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 03:09:16,597 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 03:09:16,983 - scraper_manager - INFO - Periodic update: Read 935 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 03:09:17,199 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 03:09:18,073 - scraper_manager - INFO - Periodic update: Read 653 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 03:09:18,498 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 03:09:19,027 - scraper_manager - INFO - Periodic update: Read 540 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 03:09:23,958 - scraper_manager - INFO - Periodic update: Saved 2841 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_030916_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 03:09:23,960 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_025911_Combined_Trade_In_Values.xlsx
+2025-05-31 03:09:23,961 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 03:19:23,964 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 03:19:24,286 - scraper_manager - INFO - Periodic update: Read 957 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 03:19:24,835 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 03:19:25,716 - scraper_manager - INFO - Periodic update: Read 668 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 03:19:25,862 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 03:19:26,075 - scraper_manager - INFO - Periodic update: Read 553 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 03:19:30,170 - scraper_manager - INFO - Periodic update: Saved 2891 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_031923_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 03:19:30,535 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_030916_Combined_Trade_In_Values.xlsx
+2025-05-31 03:19:30,536 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 03:29:30,540 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 03:29:31,043 - scraper_manager - INFO - Periodic update: Read 979 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 03:29:31,267 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 03:29:31,520 - scraper_manager - INFO - Periodic update: Read 683 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 03:29:31,660 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 03:29:32,008 - scraper_manager - INFO - Periodic update: Read 565 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 03:29:37,006 - scraper_manager - INFO - Periodic update: Saved 2940 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_032930_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 03:29:37,007 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_031923_Combined_Trade_In_Values.xlsx
+2025-05-31 03:29:37,008 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 03:39:37,015 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 03:39:37,335 - scraper_manager - INFO - Periodic update: Read 1000 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 03:39:37,545 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 03:39:37,803 - scraper_manager - INFO - Periodic update: Read 699 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 03:39:37,982 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 03:39:38,351 - scraper_manager - INFO - Periodic update: Read 577 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 03:39:41,789 - scraper_manager - INFO - Periodic update: Saved 2989 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_033937_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 03:39:41,849 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_032930_Combined_Trade_In_Values.xlsx
+2025-05-31 03:39:41,850 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 03:49:41,853 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 03:49:42,209 - scraper_manager - INFO - Periodic update: Read 1023 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 03:49:42,400 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 03:49:42,667 - scraper_manager - INFO - Periodic update: Read 714 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 03:49:42,832 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 03:49:43,048 - scraper_manager - INFO - Periodic update: Read 590 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 03:49:47,098 - scraper_manager - INFO - Periodic update: Saved 3040 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_034941_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 03:49:47,100 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_033937_Combined_Trade_In_Values.xlsx
+2025-05-31 03:49:47,103 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 03:59:47,106 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 03:59:47,560 - scraper_manager - INFO - Periodic update: Read 1045 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 03:59:47,778 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 03:59:48,076 - scraper_manager - INFO - Periodic update: Read 730 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 03:59:48,235 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 03:59:48,588 - scraper_manager - INFO - Periodic update: Read 603 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 03:59:51,725 - scraper_manager - INFO - Periodic update: Saved 3091 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_035947_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 03:59:51,727 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_034941_Combined_Trade_In_Values.xlsx
+2025-05-31 03:59:51,728 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 04:09:51,731 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 04:09:52,061 - scraper_manager - INFO - Periodic update: Read 1068 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 04:09:52,491 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 04:09:52,911 - scraper_manager - INFO - Periodic update: Read 745 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 04:09:53,140 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 04:09:53,488 - scraper_manager - INFO - Periodic update: Read 615 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 04:09:59,915 - scraper_manager - INFO - Periodic update: Saved 3141 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_040951_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 04:09:59,979 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_035947_Combined_Trade_In_Values.xlsx
+2025-05-31 04:09:59,992 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 04:20:00,006 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 04:20:01,083 - scraper_manager - INFO - Periodic update: Read 1090 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 04:20:01,393 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 04:20:02,141 - scraper_manager - INFO - Periodic update: Read 761 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 04:20:02,598 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 04:20:02,836 - scraper_manager - INFO - Periodic update: Read 627 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 04:20:06,214 - scraper_manager - INFO - Periodic update: Saved 3191 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_042000_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 04:20:06,215 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_040951_Combined_Trade_In_Values.xlsx
+2025-05-31 04:20:06,216 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 04:30:06,240 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 04:30:06,675 - scraper_manager - INFO - Periodic update: Read 1113 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 04:30:06,975 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 04:30:07,256 - scraper_manager - INFO - Periodic update: Read 777 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 04:30:07,438 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 04:30:07,764 - scraper_manager - INFO - Periodic update: Read 639 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 04:30:11,120 - scraper_manager - INFO - Periodic update: Saved 3242 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_043006_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 04:30:11,122 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_042000_Combined_Trade_In_Values.xlsx
+2025-05-31 04:30:11,123 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 04:40:11,127 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 04:40:11,450 - scraper_manager - INFO - Periodic update: Read 1135 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 04:40:11,620 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 04:40:11,882 - scraper_manager - INFO - Periodic update: Read 792 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 04:40:12,041 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 04:40:12,593 - scraper_manager - INFO - Periodic update: Read 652 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 04:40:17,131 - scraper_manager - INFO - Periodic update: Saved 3292 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_044011_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 04:40:17,133 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_043006_Combined_Trade_In_Values.xlsx
+2025-05-31 04:40:17,134 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 04:50:17,136 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 04:50:17,646 - scraper_manager - INFO - Periodic update: Read 1157 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 04:50:17,957 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 04:50:18,460 - scraper_manager - INFO - Periodic update: Read 808 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 04:50:18,659 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 04:50:19,182 - scraper_manager - INFO - Periodic update: Read 664 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 04:50:22,980 - scraper_manager - INFO - Periodic update: Saved 3342 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_045017_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 04:50:22,982 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_044011_Combined_Trade_In_Values.xlsx
+2025-05-31 04:50:22,983 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 05:00:22,987 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 05:00:23,434 - scraper_manager - INFO - Periodic update: Read 1179 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 05:00:23,747 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 05:00:24,129 - scraper_manager - INFO - Periodic update: Read 823 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 05:00:24,338 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 05:00:24,890 - scraper_manager - INFO - Periodic update: Read 677 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 05:00:28,704 - scraper_manager - INFO - Periodic update: Saved 3392 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_050022_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 05:00:28,705 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_045017_Combined_Trade_In_Values.xlsx
+2025-05-31 05:00:28,706 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 05:10:28,842 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 05:10:29,904 - scraper_manager - INFO - Periodic update: Read 1201 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 05:10:30,116 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 05:10:30,601 - scraper_manager - INFO - Periodic update: Read 837 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 05:10:30,950 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 05:10:31,289 - scraper_manager - INFO - Periodic update: Read 690 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 05:10:35,780 - scraper_manager - INFO - Periodic update: Saved 3441 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_051028_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 05:10:35,784 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_050022_Combined_Trade_In_Values.xlsx
+2025-05-31 05:10:35,786 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 05:20:36,142 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 05:20:36,772 - scraper_manager - INFO - Periodic update: Read 1223 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 05:20:37,126 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 05:20:38,053 - scraper_manager - INFO - Periodic update: Read 852 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 05:20:38,326 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 05:20:38,862 - scraper_manager - INFO - Periodic update: Read 703 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 05:20:42,309 - scraper_manager - INFO - Periodic update: Saved 3491 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_052036_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 05:20:42,311 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_051028_Combined_Trade_In_Values.xlsx
+2025-05-31 05:20:42,312 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 05:30:42,315 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 05:30:42,736 - scraper_manager - INFO - Periodic update: Read 1246 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 05:30:42,936 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 05:30:43,453 - scraper_manager - INFO - Periodic update: Read 866 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 05:30:43,780 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 05:30:44,117 - scraper_manager - INFO - Periodic update: Read 716 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 05:30:48,682 - scraper_manager - INFO - Periodic update: Saved 3541 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_053042_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 05:30:48,683 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_052036_Combined_Trade_In_Values.xlsx
+2025-05-31 05:30:48,684 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 05:40:48,700 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 05:40:49,855 - scraper_manager - INFO - Periodic update: Read 1268 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 05:40:50,282 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 05:40:50,922 - scraper_manager - INFO - Periodic update: Read 882 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 05:40:51,100 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 05:40:51,697 - scraper_manager - INFO - Periodic update: Read 729 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 05:40:56,025 - scraper_manager - INFO - Periodic update: Saved 3592 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_054048_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 05:40:56,027 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_053042_Combined_Trade_In_Values.xlsx
+2025-05-31 05:40:56,028 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 05:50:56,036 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 05:50:56,382 - scraper_manager - INFO - Periodic update: Read 1290 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 05:50:56,574 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 05:50:56,845 - scraper_manager - INFO - Periodic update: Read 896 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 05:50:57,007 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 05:50:57,416 - scraper_manager - INFO - Periodic update: Read 741 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 05:51:00,889 - scraper_manager - INFO - Periodic update: Saved 3640 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_055056_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 05:51:00,900 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_054048_Combined_Trade_In_Values.xlsx
+2025-05-31 05:51:01,010 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 06:01:01,144 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 06:01:02,511 - scraper_manager - INFO - Periodic update: Read 1314 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 06:01:02,869 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 06:01:03,165 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 06:01:03,337 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 06:01:03,600 - scraper_manager - INFO - Periodic update: Read 754 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 06:01:06,746 - scraper_manager - INFO - Periodic update: Saved 3681 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_060101_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 06:01:06,748 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_055056_Combined_Trade_In_Values.xlsx
+2025-05-31 06:01:06,749 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 06:11:06,752 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 06:11:07,111 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 06:11:07,312 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 06:11:07,583 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 06:11:07,738 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 06:11:08,037 - scraper_manager - INFO - Periodic update: Read 767 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 06:11:10,823 - scraper_manager - INFO - Periodic update: Saved 3703 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_061106_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 06:11:10,825 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_060101_Combined_Trade_In_Values.xlsx
+2025-05-31 06:11:10,826 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 06:21:10,832 - scraper_manager - INFO - Periodic update: Found 5 Excel files to combine
+2025-05-31 06:21:11,162 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 06:21:11,351 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 06:21:11,625 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 06:21:11,785 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 06:21:12,063 - scraper_manager - INFO - Periodic update: Read 780 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 06:21:15,165 - scraper_manager - INFO - Periodic update: Saved 3716 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_062110_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 06:21:15,168 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_061106_Combined_Trade_In_Values.xlsx
+2025-05-31 06:21:15,169 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 06:22:48,673 - scraper_manager - INFO - All batch 1 scraper processes completed
+2025-05-31 06:22:48,673 - scraper_manager - INFO - Batch 1 runtimes: {'SG_RV_Source4.py': '1.94 minutes', 'SG_RV_Source2.py': '50.28 minutes', 'SG_RV_Source3.py': '606.54 minutes', 'SG_RV_Source1.py': '618.63 minutes', 'SG_RV_Source5.py': '636.28 minutes'}
+2025-05-31 06:22:48,674 - scraper_manager - INFO - Starting batch 2 of scrapers
+2025-05-31 06:22:48,682 - scraper_manager - INFO - Started process for SG_RV_Source6.py in batch 2
+2025-05-31 06:22:48,695 - scraper_manager - INFO - Started process for SG_SO_Source2.py in batch 2
+2025-05-31 06:22:48,761 - scraper_manager - INFO - Started process for SG_RV_Source8.py in batch 2
+2025-05-31 06:22:48,773 - scraper_manager - INFO - Started process for SG_SO_Source3.py in batch 2
+2025-05-31 06:31:15,979 - scraper_manager - INFO - Periodic update: Found 8 Excel files to combine
+2025-05-31 06:31:22,127 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 06:31:24,212 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 06:31:27,063 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 06:31:27,724 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 06:31:28,839 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 06:31:29,138 - scraper_manager - INFO - Periodic update: Read 38 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 06:31:29,358 - scraper_manager - INFO - Periodic update: Read 9 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 06:31:29,945 - scraper_manager - INFO - Periodic update: Read 19 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 06:31:49,330 - scraper_manager - INFO - Periodic update: Saved 3785 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_063116_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 06:31:49,376 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_062110_Combined_Trade_In_Values.xlsx
+2025-05-31 06:31:49,580 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 06:41:49,611 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 06:41:51,387 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 06:41:52,057 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 06:41:53,548 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 06:41:53,907 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 06:41:55,268 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 06:41:55,497 - scraper_manager - INFO - Periodic update: Read 100 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 06:41:55,829 - scraper_manager - INFO - Periodic update: Read 18 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 06:41:57,214 - scraper_manager - INFO - Periodic update: Read 173 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 06:41:58,166 - scraper_manager - INFO - Periodic update: Read 68 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 06:42:14,749 - scraper_manager - INFO - Periodic update: Saved 4078 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_064149_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 06:42:15,540 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_063116_Combined_Trade_In_Values.xlsx
+2025-05-31 06:42:15,856 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 06:52:16,128 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 06:52:17,331 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 06:52:17,978 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 06:52:19,046 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 06:52:19,395 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 06:52:20,335 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 06:52:20,795 - scraper_manager - INFO - Periodic update: Read 164 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 06:52:21,032 - scraper_manager - INFO - Periodic update: Read 39 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 06:52:21,644 - scraper_manager - INFO - Periodic update: Read 340 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 06:52:22,065 - scraper_manager - INFO - Periodic update: Read 125 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 06:52:38,202 - scraper_manager - INFO - Periodic update: Saved 4387 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_065216_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 06:52:38,209 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_064149_Combined_Trade_In_Values.xlsx
+2025-05-31 06:52:38,210 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 07:02:38,215 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 07:02:38,824 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 07:02:39,102 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 07:02:40,899 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 07:02:41,307 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 07:02:42,204 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 07:02:42,870 - scraper_manager - INFO - Periodic update: Read 230 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 07:02:43,486 - scraper_manager - INFO - Periodic update: Read 51 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 07:02:44,343 - scraper_manager - INFO - Periodic update: Read 424 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 07:02:44,832 - scraper_manager - INFO - Periodic update: Read 192 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 07:03:00,549 - scraper_manager - INFO - Periodic update: Saved 4616 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_070238_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 07:03:00,565 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_065216_Combined_Trade_In_Values.xlsx
+2025-05-31 07:03:01,147 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 07:13:01,433 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 07:13:02,502 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 07:13:02,875 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 07:13:03,635 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 07:13:04,051 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 07:13:04,559 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 07:13:04,867 - scraper_manager - INFO - Periodic update: Read 282 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 07:13:05,390 - scraper_manager - INFO - Periodic update: Read 69 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 07:13:06,999 - scraper_manager - INFO - Periodic update: Read 532 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 07:13:08,095 - scraper_manager - INFO - Periodic update: Read 271 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 07:13:26,070 - scraper_manager - INFO - Periodic update: Saved 4873 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_071301_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 07:13:26,089 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_070238_Combined_Trade_In_Values.xlsx
+2025-05-31 07:13:26,586 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 07:23:26,605 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 07:23:28,099 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 07:23:28,898 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 07:23:29,545 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 07:23:29,709 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 07:23:30,896 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 07:23:31,333 - scraper_manager - INFO - Periodic update: Read 346 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 07:23:31,559 - scraper_manager - INFO - Periodic update: Read 78 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 07:23:32,778 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 07:23:33,411 - scraper_manager - INFO - Periodic update: Read 334 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 07:23:49,778 - scraper_manager - INFO - Periodic update: Saved 5284 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_072326_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 07:23:49,807 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_071301_Combined_Trade_In_Values.xlsx
+2025-05-31 07:23:49,978 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 07:33:50,588 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 07:33:51,764 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 07:33:52,689 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 07:33:53,547 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 07:33:53,803 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 07:33:54,627 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 07:33:55,845 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 07:33:56,525 - scraper_manager - INFO - Periodic update: Read 102 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 07:33:57,631 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 07:33:58,155 - scraper_manager - INFO - Periodic update: Read 426 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 07:34:10,730 - scraper_manager - INFO - Periodic update: Saved 5492 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_073350_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 07:34:10,877 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_072326_Combined_Trade_In_Values.xlsx
+2025-05-31 07:34:10,883 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 07:44:10,891 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 07:44:11,278 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 07:44:11,501 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 07:44:11,856 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 07:44:12,248 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 07:44:12,909 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 07:44:13,411 - scraper_manager - INFO - Periodic update: Read 556 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 07:44:13,587 - scraper_manager - INFO - Periodic update: Read 129 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 07:44:13,869 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 07:44:14,192 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 07:44:19,364 - scraper_manager - INFO - Periodic update: Saved 5682 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_074410_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 07:44:19,366 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_073350_Combined_Trade_In_Values.xlsx
+2025-05-31 07:44:19,367 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 07:54:19,582 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 07:54:20,058 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 07:54:20,445 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 07:54:21,212 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 07:54:21,393 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 07:54:22,280 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 07:54:23,291 - scraper_manager - INFO - Periodic update: Read 730 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 07:54:23,512 - scraper_manager - INFO - Periodic update: Read 162 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 07:54:23,936 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 07:54:24,722 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 07:54:30,997 - scraper_manager - INFO - Periodic update: Saved 5889 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_075419_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 07:54:30,998 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_074410_Combined_Trade_In_Values.xlsx
+2025-05-31 07:54:31,000 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 08:04:31,004 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 08:04:31,362 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 08:04:31,575 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 08:04:31,880 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 08:04:32,039 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 08:04:32,316 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 08:04:33,081 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 08:04:33,090 - scraper_manager - ERROR - Periodic update: Error reading C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx: Excel file format cannot be determined, you must specify an engine manually.
+2025-05-31 08:04:33,667 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 08:04:33,973 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 08:04:44,660 - scraper_manager - INFO - Periodic update: Saved 5867 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_080431_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 08:04:44,662 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_075419_Combined_Trade_In_Values.xlsx
+2025-05-31 08:04:44,664 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 08:14:44,667 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 08:14:44,989 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 08:14:45,182 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 08:14:45,687 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 08:14:45,837 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 08:14:46,081 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 08:14:46,463 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 08:14:46,620 - scraper_manager - INFO - Periodic update: Read 225 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 08:14:46,894 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 08:14:47,062 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 08:14:51,398 - scraper_manager - INFO - Periodic update: Saved 6092 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_081444_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 08:14:51,400 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_080431_Combined_Trade_In_Values.xlsx
+2025-05-31 08:14:51,401 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 08:24:51,404 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 08:24:51,738 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 08:24:51,921 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 08:24:52,179 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 08:24:52,451 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 08:24:53,315 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 08:24:54,088 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 08:24:54,309 - scraper_manager - INFO - Periodic update: Read 252 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 08:24:55,081 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 08:24:55,468 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 08:25:00,780 - scraper_manager - INFO - Periodic update: Saved 6119 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_082451_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 08:25:00,782 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_081444_Combined_Trade_In_Values.xlsx
+2025-05-31 08:25:00,783 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 08:35:00,789 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 08:35:01,145 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 08:35:01,357 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 08:35:02,093 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 08:35:02,626 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 08:35:02,882 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 08:35:03,187 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 08:35:03,366 - scraper_manager - INFO - Periodic update: Read 279 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 08:35:03,683 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 08:35:03,877 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 08:35:08,400 - scraper_manager - INFO - Periodic update: Saved 6146 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_083500_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 08:35:08,401 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_082451_Combined_Trade_In_Values.xlsx
+2025-05-31 08:35:08,403 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 08:45:08,408 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 08:45:08,858 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 08:45:09,091 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 08:45:09,481 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 08:45:09,646 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 08:45:09,905 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 08:45:10,254 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 08:45:10,431 - scraper_manager - INFO - Periodic update: Read 291 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 08:45:10,710 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 08:45:10,891 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 08:45:17,663 - scraper_manager - INFO - Periodic update: Saved 6158 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_084508_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 08:45:17,665 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_083500_Combined_Trade_In_Values.xlsx
+2025-05-31 08:45:17,666 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 08:55:17,669 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 08:55:18,050 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 08:55:18,260 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 08:55:18,536 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 08:55:18,832 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 08:55:19,138 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 08:55:19,420 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 08:55:19,597 - scraper_manager - INFO - Periodic update: Read 313 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 08:55:19,850 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 08:55:20,041 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 08:55:24,556 - scraper_manager - INFO - Periodic update: Saved 6180 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_085517_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 08:55:24,558 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_084508_Combined_Trade_In_Values.xlsx
+2025-05-31 08:55:24,559 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 09:05:24,563 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 09:05:24,906 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 09:05:25,107 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 09:05:25,382 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 09:05:25,666 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 09:05:26,635 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 09:05:27,467 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 09:05:27,739 - scraper_manager - INFO - Periodic update: Read 319 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 09:05:28,501 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 09:05:28,763 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 09:05:33,922 - scraper_manager - INFO - Periodic update: Saved 6186 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_090524_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 09:05:33,923 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_085517_Combined_Trade_In_Values.xlsx
+2025-05-31 09:05:33,924 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 09:15:33,930 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 09:15:35,068 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 09:15:35,320 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 09:15:35,630 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 09:15:35,922 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 09:15:36,215 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 09:15:36,489 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 09:15:36,675 - scraper_manager - INFO - Periodic update: Read 337 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 09:15:36,933 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 09:15:37,124 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 09:15:41,844 - scraper_manager - INFO - Periodic update: Saved 6204 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_091533_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 09:15:41,846 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_090524_Combined_Trade_In_Values.xlsx
+2025-05-31 09:15:41,848 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 09:25:41,854 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 09:25:42,388 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 09:25:42,576 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 09:25:42,814 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 09:25:42,965 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 09:25:43,205 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 09:25:43,480 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 09:25:43,667 - scraper_manager - INFO - Periodic update: Read 353 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 09:25:43,932 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 09:25:44,121 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 09:25:48,541 - scraper_manager - INFO - Periodic update: Saved 6220 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_092541_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 09:25:48,544 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_091533_Combined_Trade_In_Values.xlsx
+2025-05-31 09:25:48,545 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 09:35:48,550 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 09:35:48,878 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 09:35:49,064 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 09:35:49,330 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 09:35:49,487 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 09:35:49,726 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 09:35:49,972 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 09:35:50,163 - scraper_manager - INFO - Periodic update: Read 373 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 09:35:50,460 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 09:35:50,683 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 09:35:54,946 - scraper_manager - INFO - Periodic update: Saved 6240 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_093548_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 09:35:54,947 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_092541_Combined_Trade_In_Values.xlsx
+2025-05-31 09:35:54,948 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 09:45:54,952 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 09:45:55,330 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 09:45:55,784 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 09:45:56,061 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 09:45:56,210 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 09:45:56,464 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 09:45:57,656 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 09:45:58,199 - scraper_manager - INFO - Periodic update: Read 391 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 09:45:58,677 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 09:45:59,345 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 09:46:04,955 - scraper_manager - INFO - Periodic update: Saved 6258 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_094554_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 09:46:04,957 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_093548_Combined_Trade_In_Values.xlsx
+2025-05-31 09:46:04,958 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 09:56:04,960 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 09:56:05,303 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 09:56:05,484 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 09:56:05,764 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 09:56:05,917 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 09:56:06,169 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 09:56:06,435 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 09:56:06,635 - scraper_manager - INFO - Periodic update: Read 417 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 09:56:07,143 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 09:56:07,334 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 09:56:11,715 - scraper_manager - INFO - Periodic update: Saved 6284 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_095604_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 09:56:11,717 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_094554_Combined_Trade_In_Values.xlsx
+2025-05-31 09:56:11,718 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 10:06:11,725 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 10:06:12,238 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 10:06:12,417 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 10:06:12,685 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 10:06:12,835 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 10:06:13,075 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 10:06:13,619 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 10:06:13,818 - scraper_manager - INFO - Periodic update: Read 433 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 10:06:14,087 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 10:06:14,280 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 10:06:18,821 - scraper_manager - INFO - Periodic update: Saved 6300 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_100611_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 10:06:18,823 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_095604_Combined_Trade_In_Values.xlsx
+2025-05-31 10:06:18,824 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 10:16:18,829 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 10:16:19,196 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 10:16:19,397 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 10:16:19,673 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 10:16:19,824 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 10:16:20,242 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 10:16:20,633 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 10:16:20,981 - scraper_manager - INFO - Periodic update: Read 455 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 10:16:21,298 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 10:16:21,630 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 10:16:28,673 - scraper_manager - INFO - Periodic update: Saved 6322 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_101618_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 10:16:28,675 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_100611_Combined_Trade_In_Values.xlsx
+2025-05-31 10:16:28,676 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 10:26:28,680 - scraper_manager - INFO - Periodic update: Found 9 Excel files to combine
+2025-05-31 10:26:29,010 - scraper_manager - INFO - Periodic update: Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 10:26:29,205 - scraper_manager - INFO - Periodic update: Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 10:26:29,488 - scraper_manager - INFO - Periodic update: Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 10:26:29,642 - scraper_manager - INFO - Periodic update: Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 10:26:29,887 - scraper_manager - INFO - Periodic update: Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 10:26:30,259 - scraper_manager - INFO - Periodic update: Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 10:26:30,469 - scraper_manager - INFO - Periodic update: Read 469 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 10:26:30,743 - scraper_manager - INFO - Periodic update: Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 10:26:30,930 - scraper_manager - INFO - Periodic update: Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 10:26:37,912 - scraper_manager - INFO - Periodic update: Saved 6336 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_102628_Combined_Trade_In_Values.xlsx and C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 10:26:37,914 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_101618_Combined_Trade_In_Values.xlsx
+2025-05-31 10:26:37,916 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 10:34:42,678 - scraper_manager - INFO - All batch 2 scraper processes completed
+2025-05-31 10:34:42,679 - scraper_manager - INFO - Batch 2 runtimes: {'SG_SO_Source2.py': '58.97 minutes', 'SG_SO_Source3.py': '76.23 minutes', 'SG_RV_Source6.py': '95.98 minutes', 'SG_RV_Source8.py': '251.80 minutes'}
+2025-05-31 10:34:47,690 - scraper_manager - INFO - Stopped periodic file combination thread
+2025-05-31 10:34:47,691 - scraper_manager - INFO - Found 9 Excel files in output directory
+2025-05-31 10:34:47,691 - scraper_manager - INFO - Combining 9 Excel files into C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 10:34:47,995 - scraper_manager - INFO - Read 1323 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source1.xlsx
+2025-05-31 10:34:48,160 - scraper_manager - INFO - Read 438 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source2.xlsx
+2025-05-31 10:34:48,412 - scraper_manager - INFO - Read 900 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source3.xlsx
+2025-05-31 10:34:48,559 - scraper_manager - INFO - Read 275 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source4.xlsx
+2025-05-31 10:34:48,801 - scraper_manager - INFO - Read 783 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source5.xlsx
+2025-05-31 10:34:49,072 - scraper_manager - INFO - Read 870 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source6.xlsx
+2025-05-31 10:34:49,267 - scraper_manager - INFO - Read 469 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_RV_Source8.xlsx
+2025-05-31 10:34:49,523 - scraper_manager - INFO - Read 807 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source2.xlsx
+2025-05-31 10:34:49,715 - scraper_manager - INFO - Read 471 rows from C:\projects\TradeBot\scripts\Singapore\output\SG_SO_Source3.xlsx
+2025-05-31 10:34:51,739 - scraper_manager - INFO - Saved 6336 rows to C:\projects\TradeBot\scripts\Singapore\output\Combined_Trade_In_Values.xlsx
+2025-05-31 10:34:51,741 - scraper_manager - INFO - Removed old intermediate file: C:\projects\TradeBot\scripts\Singapore\output\Combined_20250531_102628_Combined_Trade_In_Values.xlsx
+2025-05-31 10:34:51,742 - scraper_manager - INFO - Adding runtime log file to email attachments: C:\projects\TradeBot\scripts\Singapore\output\scraper_runtime_20250530_194625.csv
+2025-05-31 10:34:51,743 - scraper_manager - INFO - Sending email with 3 files: ['C:\\projects\\TradeBot\\scripts\\Singapore\\output\\Combined_Trade_In_Values.xlsx', 'C:\\projects\\TradeBot\\scripts\\Singapore\\output\\scraper_log_20250530_194625.log', 'C:\\projects\\TradeBot\\scripts\\Singapore\\output\\scraper_runtime_20250530_194625.csv']
+2025-05-31 10:34:52,336 - scraper_manager - ERROR - Failed to send email: Email password not provided
+2025-05-31 10:34:52,336 - scraper_manager - INFO - Completed batch scraping job at 2025-05-31 10:34:52.336624. Total runtime: 14:48:27.084659
