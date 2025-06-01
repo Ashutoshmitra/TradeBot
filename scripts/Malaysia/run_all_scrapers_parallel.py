@@ -65,7 +65,7 @@ def run_script(script_name, n_scrape=None, result_queue=None):
         output_file = os.path.join(output_dir, output_files.get(script_name, f"{script_name}_output.xlsx"))
         
         # Prepare command with appropriate arguments based on script
-        command = ["python", script_path]
+        command = [r"C:\projects\TradeBot\venv\Scripts\python.exe", script_path]
         
         # Add number of items to scrape argument if provided
         if n_scrape is not None:
